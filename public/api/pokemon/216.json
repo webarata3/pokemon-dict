@@ -1,0 +1,13 @@
+{
+  "no": 216,
+  "form": null,
+  "name": "ヒメグマ",
+  "formName": null,
+  "hp": 60,
+  "attack": 80,
+  "defence": 50,
+  "spAttack": 50,
+  "spDefence": 50,
+  "speed": 40,
+  "evolution": [216]
+}

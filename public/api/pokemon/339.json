@@ -1,0 +1,13 @@
+{
+  "no": 339,
+  "form": null,
+  "name": "ドジョッチ",
+  "formName": null,
+  "hp": 50,
+  "attack": 48,
+  "defence": 43,
+  "spAttack": 46,
+  "spDefence": 41,
+  "speed": 60,
+  "evolution": [339]
+}

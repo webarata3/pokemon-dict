@@ -1,0 +1,13 @@
+{
+  "no": 680,
+  "form": null,
+  "name": "ニダンギル",
+  "formName": null,
+  "hp": 59,
+  "attack": 110,
+  "defence": 150,
+  "spAttack": 45,
+  "spDefence": 49,
+  "speed": 35,
+  "evolution": [680]
+}

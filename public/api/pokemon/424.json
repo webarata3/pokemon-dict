@@ -1,0 +1,13 @@
+{
+  "no": 424,
+  "form": null,
+  "name": "エテボース",
+  "formName": null,
+  "hp": 75,
+  "attack": 100,
+  "defence": 66,
+  "spAttack": 60,
+  "spDefence": 66,
+  "speed": 115,
+  "evolution": [424]
+}

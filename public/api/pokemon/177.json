@@ -1,0 +1,13 @@
+{
+  "no": 177,
+  "form": null,
+  "name": "ネイティ",
+  "formName": null,
+  "hp": 40,
+  "attack": 50,
+  "defence": 45,
+  "spAttack": 70,
+  "spDefence": 45,
+  "speed": 70,
+  "evolution": [177]
+}

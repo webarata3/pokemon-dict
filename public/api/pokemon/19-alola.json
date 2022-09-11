@@ -1,0 +1,13 @@
+{
+  "no": 19,
+  "form": "alola",
+  "name": "コラッタ",
+  "formName": "アローラのすがた",
+  "hp": 30,
+  "attack": 56,
+  "defence": 35,
+  "spAttack": 25,
+  "spDefence": 35,
+  "speed": 72
+  "evolution": [19-alola]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 875,
+  "form": "ice",
+  "name": "コオリッポ",
+  "formName": "アイスフェイス",
+  "hp": 75,
+  "attack": 80,
+  "defence": 110,
+  "spAttack": 65,
+  "spDefence": 90,
+  "speed": 50
+  "evolution": [875-ice]
+}

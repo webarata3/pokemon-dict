@@ -1,0 +1,13 @@
+{
+  "no": 375,
+  "form": null,
+  "name": "メタング",
+  "formName": null,
+  "hp": 60,
+  "attack": 75,
+  "defence": 100,
+  "spAttack": 55,
+  "spDefence": 80,
+  "speed": 50,
+  "evolution": [375]
+}

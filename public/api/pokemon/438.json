@@ -1,0 +1,13 @@
+{
+  "no": 438,
+  "form": null,
+  "name": "ウソハチ",
+  "formName": null,
+  "hp": 50,
+  "attack": 80,
+  "defence": 95,
+  "spAttack": 10,
+  "spDefence": 45,
+  "speed": 10,
+  "evolution": [438]
+}

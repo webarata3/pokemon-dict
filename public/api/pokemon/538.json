@@ -1,0 +1,13 @@
+{
+  "no": 538,
+  "form": null,
+  "name": "ナゲキ",
+  "formName": null,
+  "hp": 120,
+  "attack": 100,
+  "defence": 85,
+  "spAttack": 30,
+  "spDefence": 85,
+  "speed": 45,
+  "evolution": [538]
+}

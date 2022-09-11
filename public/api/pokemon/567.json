@@ -1,0 +1,13 @@
+{
+  "no": 567,
+  "form": null,
+  "name": "アーケオス",
+  "formName": null,
+  "hp": 75,
+  "attack": 140,
+  "defence": 65,
+  "spAttack": 112,
+  "spDefence": 65,
+  "speed": 110,
+  "evolution": [567]
+}

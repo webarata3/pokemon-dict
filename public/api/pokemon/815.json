@@ -1,0 +1,13 @@
+{
+  "no": 815,
+  "form": null,
+  "name": "エースバーン",
+  "formName": null,
+  "hp": 80,
+  "attack": 116,
+  "defence": 75,
+  "spAttack": 65,
+  "spDefence": 75,
+  "speed": 119,
+  "evolution": [815]
+}

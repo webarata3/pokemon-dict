@@ -1,0 +1,13 @@
+{
+  "no": 95,
+  "form": null,
+  "name": "イワーク",
+  "formName": null,
+  "hp": 35,
+  "attack": 45,
+  "defence": 160,
+  "spAttack": 30,
+  "spDefence": 45,
+  "speed": 70,
+  "evolution": ["95", "208"]
+}

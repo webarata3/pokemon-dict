@@ -1,0 +1,13 @@
+{
+  "no": 466,
+  "form": null,
+  "name": "エレキブル",
+  "formName": null,
+  "hp": 75,
+  "attack": 123,
+  "defence": 67,
+  "spAttack": 95,
+  "spDefence": 85,
+  "speed": 95,
+  "evolution": [466]
+}

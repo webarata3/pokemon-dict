@@ -1,0 +1,13 @@
+{
+  "no": 90,
+  "form": null,
+  "name": "シェルダー",
+  "formName": null,
+  "hp": 30,
+  "attack": 65,
+  "defence": 100,
+  "spAttack": 45,
+  "spDefence": 25,
+  "speed": 40,
+  "evolution": ["90", "91"]
+}

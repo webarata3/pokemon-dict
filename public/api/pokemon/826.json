@@ -1,0 +1,13 @@
+{
+  "no": 826,
+  "form": null,
+  "name": "イオルブ",
+  "formName": null,
+  "hp": 60,
+  "attack": 45,
+  "defence": 110,
+  "spAttack": 80,
+  "spDefence": 120,
+  "speed": 90,
+  "evolution": [826]
+}

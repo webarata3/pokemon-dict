@@ -1,0 +1,13 @@
+{
+  "no": 893,
+  "form": null,
+  "name": "ザルード",
+  "formName": null,
+  "hp": 105,
+  "attack": 120,
+  "defence": 105,
+  "spAttack": 70,
+  "spDefence": 95,
+  "speed": 105,
+  "evolution": [893]
+}

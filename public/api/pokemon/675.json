@@ -1,0 +1,13 @@
+{
+  "no": 675,
+  "form": null,
+  "name": "ゴロンダ",
+  "formName": null,
+  "hp": 95,
+  "attack": 124,
+  "defence": 78,
+  "spAttack": 69,
+  "spDefence": 71,
+  "speed": 58,
+  "evolution": [675]
+}

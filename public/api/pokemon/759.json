@@ -1,0 +1,13 @@
+{
+  "no": 759,
+  "form": null,
+  "name": "ヌイコグマ",
+  "formName": null,
+  "hp": 70,
+  "attack": 75,
+  "defence": 50,
+  "spAttack": 45,
+  "spDefence": 50,
+  "speed": 50,
+  "evolution": [759]
+}

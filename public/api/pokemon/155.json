@@ -1,0 +1,13 @@
+{
+  "no": 155,
+  "form": null,
+  "name": "ヒノアラシ",
+  "formName": null,
+  "hp": 39,
+  "attack": 52,
+  "defence": 43,
+  "spAttack": 60,
+  "spDefence": 50,
+  "speed": 65,
+  "evolution": [155]
+}

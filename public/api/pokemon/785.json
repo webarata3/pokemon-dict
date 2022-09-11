@@ -1,0 +1,13 @@
+{
+  "no": 785,
+  "form": null,
+  "name": "カプ・コケコ",
+  "formName": null,
+  "hp": 70,
+  "attack": 115,
+  "defence": 85,
+  "spAttack": 95,
+  "spDefence": 75,
+  "speed": 130,
+  "evolution": [785]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 419,
+  "form": null,
+  "name": "フローゼル",
+  "formName": null,
+  "hp": 85,
+  "attack": 105,
+  "defence": 55,
+  "spAttack": 85,
+  "spDefence": 50,
+  "speed": 115,
+  "evolution": [419]
+}

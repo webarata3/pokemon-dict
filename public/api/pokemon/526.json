@@ -1,0 +1,13 @@
+{
+  "no": 526,
+  "form": null,
+  "name": "ギガイアス",
+  "formName": null,
+  "hp": 85,
+  "attack": 135,
+  "defence": 130,
+  "spAttack": 60,
+  "spDefence": 80,
+  "speed": 25,
+  "evolution": [526]
+}

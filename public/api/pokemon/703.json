@@ -1,0 +1,13 @@
+{
+  "no": 703,
+  "form": null,
+  "name": "メレシー",
+  "formName": null,
+  "hp": 50,
+  "attack": 50,
+  "defence": 150,
+  "spAttack": 50,
+  "spDefence": 150,
+  "speed": 50,
+  "evolution": [703]
+}

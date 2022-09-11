@@ -1,0 +1,13 @@
+{
+  "no": 359,
+  "form": null,
+  "name": "アブソル",
+  "formName": null,
+  "hp": 65,
+  "attack": 130,
+  "defence": 60,
+  "spAttack": 75,
+  "spDefence": 60,
+  "speed": 75,
+  "evolution": [359]
+}

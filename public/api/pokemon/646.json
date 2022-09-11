@@ -1,0 +1,13 @@
+{
+  "no": 646,
+  "form": null,
+  "name": "キュレム",
+  "formName": null,
+  "hp": 125,
+  "attack": 130,
+  "defence": 90,
+  "spAttack": 130,
+  "spDefence": 90,
+  "speed": 95,
+  "evolution": [646]
+}

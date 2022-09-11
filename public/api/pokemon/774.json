@@ -1,0 +1,13 @@
+{
+  "no": 774,
+  "form": null,
+  "name": "メテノ",
+  "formName": りゅうせいのすがた,
+  "hp": 60,
+  "attack": 60,
+  "defence": 100,
+  "spAttack": 60,
+  "spDefence": 100,
+  "speed": 60,
+  "evolution": [774]
+}

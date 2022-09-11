@@ -1,0 +1,13 @@
+{
+  "no": 402,
+  "form": null,
+  "name": "コロトック",
+  "formName": null,
+  "hp": 77,
+  "attack": 85,
+  "defence": 51,
+  "spAttack": 55,
+  "spDefence": 51,
+  "speed": 65,
+  "evolution": [402]
+}

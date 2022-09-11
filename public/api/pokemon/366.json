@@ -1,0 +1,13 @@
+{
+  "no": 366,
+  "form": null,
+  "name": "パールル",
+  "formName": null,
+  "hp": 35,
+  "attack": 64,
+  "defence": 85,
+  "spAttack": 74,
+  "spDefence": 55,
+  "speed": 32,
+  "evolution": [366]
+}

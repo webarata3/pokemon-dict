@@ -1,0 +1,13 @@
+{
+  "no": 143,
+  "form": null,
+  "name": "カビゴン",
+  "formName": null,
+  "hp": 160,
+  "attack": 110,
+  "defence": 65,
+  "spAttack": 65,
+  "spDefence": 110,
+  "speed": 30,
+  "evolution": [143]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 704,
+  "form": null,
+  "name": "ヌメラ",
+  "formName": null,
+  "hp": 45,
+  "attack": 50,
+  "defence": 35,
+  "spAttack": 55,
+  "spDefence": 75,
+  "speed": 40,
+  "evolution": [704]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 185,
+  "form": null,
+  "name": "ウソッキー",
+  "formName": null,
+  "hp": 70,
+  "attack": 100,
+  "defence": 115,
+  "spAttack": 30,
+  "spDefence": 65,
+  "speed": 30,
+  "evolution": [185]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 420,
+  "form": null,
+  "name": "チェリンボ",
+  "formName": null,
+  "hp": 45,
+  "attack": 35,
+  "defence": 45,
+  "spAttack": 62,
+  "spDefence": 53,
+  "speed": 35,
+  "evolution": [420]
+}

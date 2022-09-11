@@ -1,0 +1,13 @@
+{
+  "no": 607,
+  "form": null,
+  "name": "ヒトモシ",
+  "formName": null,
+  "hp": 50,
+  "attack": 30,
+  "defence": 55,
+  "spAttack": 65,
+  "spDefence": 55,
+  "speed": 20,
+  "evolution": [607]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 175,
+  "form": null,
+  "name": "トゲピー",
+  "formName": null,
+  "hp": 35,
+  "attack": 20,
+  "defence": 65,
+  "spAttack": 40,
+  "spDefence": 65,
+  "speed": 20,
+  "evolution": [175]
+}

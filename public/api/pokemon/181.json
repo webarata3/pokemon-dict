@@ -1,0 +1,13 @@
+{
+  "no": 181,
+  "form": null,
+  "name": "デンリュウ",
+  "formName": null,
+  "hp": 90,
+  "attack": 75,
+  "defence": 85,
+  "spAttack": 115,
+  "spDefence": 90,
+  "speed": 55,
+  "evolution": [181]
+}

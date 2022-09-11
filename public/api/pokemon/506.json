@@ -1,0 +1,13 @@
+{
+  "no": 506,
+  "form": null,
+  "name": "ヨーテリー",
+  "formName": null,
+  "hp": 45,
+  "attack": 60,
+  "defence": 45,
+  "spAttack": 25,
+  "spDefence": 45,
+  "speed": 55,
+  "evolution": [506]
+}

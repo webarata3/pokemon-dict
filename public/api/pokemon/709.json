@@ -1,0 +1,13 @@
+{
+  "no": 709,
+  "form": null,
+  "name": "オーロット",
+  "formName": null,
+  "hp": 85,
+  "attack": 110,
+  "defence": 76,
+  "spAttack": 65,
+  "spDefence": 82,
+  "speed": 56,
+  "evolution": [709]
+}

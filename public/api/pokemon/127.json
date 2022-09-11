@@ -1,0 +1,13 @@
+{
+  "no": 127,
+  "form": null,
+  "name": "カイロス",
+  "formName": null,
+  "hp": 65,
+  "attack": 125,
+  "defence": 100,
+  "spAttack": 55,
+  "spDefence": 70,
+  "speed": 85,
+  "evolution": ["127"]
+}

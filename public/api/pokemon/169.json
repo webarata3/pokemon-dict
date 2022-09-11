@@ -1,0 +1,13 @@
+{
+  "no": 169,
+  "form": null,
+  "name": "クロバット",
+  "formName": null,
+  "hp": 85,
+  "attack": 90,
+  "defence": 80,
+  "spAttack": 70,
+  "spDefence": 80,
+  "speed": 130,
+  "evolution": ["41", "42", "169"]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 322,
+  "form": null,
+  "name": "ドンメル",
+  "formName": null,
+  "hp": 60,
+  "attack": 60,
+  "defence": 40,
+  "spAttack": 65,
+  "spDefence": 45,
+  "speed": 35,
+  "evolution": [322]
+}

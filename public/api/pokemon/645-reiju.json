@@ -1,0 +1,13 @@
+{
+  "no": 645,
+  "form": "reiju",
+  "name": "ランドロス",
+  "formName": "れいじゅうフォルム",
+  "hp": 89,
+  "attack": 145,
+  "defence": 90,
+  "spAttack": 105,
+  "spDefence": 80,
+  "speed": 91
+  "evolution": [645-reiju]
+}

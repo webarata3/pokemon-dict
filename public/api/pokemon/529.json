@@ -1,0 +1,13 @@
+{
+  "no": 529,
+  "form": null,
+  "name": "モグリュー",
+  "formName": null,
+  "hp": 60,
+  "attack": 85,
+  "defence": 40,
+  "spAttack": 30,
+  "spDefence": 45,
+  "speed": 68,
+  "evolution": [529]
+}

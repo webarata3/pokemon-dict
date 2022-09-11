@@ -1,0 +1,13 @@
+{
+  "no": 183,
+  "form": null,
+  "name": "マリル",
+  "formName": null,
+  "hp": 70,
+  "attack": 20,
+  "defence": 50,
+  "spAttack": 20,
+  "spDefence": 50,
+  "speed": 40,
+  "evolution": [183]
+}

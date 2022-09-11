@@ -1,0 +1,13 @@
+{
+  "no": 681,
+  "form": "blade",
+  "name": "ギルガルド",
+  "formName": "ブレードフォルム",
+  "hp": 60,
+  "attack": 140,
+  "defence": 50,
+  "spAttack": 140,
+  "spDefence": 50,
+  "speed": 60
+  "evolution": [681-blade]
+}

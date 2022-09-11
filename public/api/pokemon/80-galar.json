@@ -1,0 +1,13 @@
+{
+  "no": 80,
+  "form": "galar",
+  "name": "ヤドラン",
+  "formName": "ガラルのすがた",
+  "hp": 95,
+  "attack": 100,
+  "defence": 95,
+  "spAttack": 100,
+  "spDefence": 70,
+  "speed": 30
+  "evolution": [80-galar]
+}

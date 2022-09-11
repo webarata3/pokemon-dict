@@ -1,0 +1,13 @@
+{
+  "no": 423,
+  "form": null,
+  "name": "トリトドン",
+  "formName": null,
+  "hp": 111,
+  "attack": 83,
+  "defence": 68,
+  "spAttack": 92,
+  "spDefence": 82,
+  "speed": 39,
+  "evolution": [423]
+}

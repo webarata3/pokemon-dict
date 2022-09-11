@@ -1,0 +1,13 @@
+{
+  "no": 101,
+  "form": null,
+  "name": "マルマイン",
+  "formName": null,
+  "hp": 60,
+  "attack": 50,
+  "defence": 70,
+  "spAttack": 80,
+  "spDefence": 80,
+  "speed": 150,
+  "evolution": ["100", "101"]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 780,
+  "form": null,
+  "name": "ジジーロン",
+  "formName": null,
+  "hp": 78,
+  "attack": 60,
+  "defence": 85,
+  "spAttack": 135,
+  "spDefence": 91,
+  "speed": 36,
+  "evolution": [780]
+}

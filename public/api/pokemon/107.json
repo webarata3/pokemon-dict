@@ -1,0 +1,13 @@
+{
+  "no": 107,
+  "form": null,
+  "name": "エビワラー",
+  "formName": null,
+  "hp": 50,
+  "attack": 105,
+  "defence": 79,
+  "spAttack": 35,
+  "spDefence": 110,
+  "speed": 76,
+  "evolution": ["107"]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 483,
+  "form": null,
+  "name": "ディアルガ",
+  "formName": null,
+  "hp": 100,
+  "attack": 120,
+  "defence": 120,
+  "spAttack": 150,
+  "spDefence": 100,
+  "speed": 90,
+  "evolution": [483]
+}

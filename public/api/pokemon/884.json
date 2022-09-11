@@ -1,0 +1,13 @@
+{
+  "no": 884,
+  "form": null,
+  "name": "ジュラルドン",
+  "formName": null,
+  "hp": 70,
+  "attack": 95,
+  "defence": 115,
+  "spAttack": 120,
+  "spDefence": 50,
+  "speed": 85,
+  "evolution": [884]
+}

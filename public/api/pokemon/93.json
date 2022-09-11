@@ -1,0 +1,13 @@
+{
+  "no": 93,
+  "form": null,
+  "name": "ゴースト",
+  "formName": null,
+  "hp": 45,
+  "attack": 50,
+  "defence": 45,
+  "spAttack": 115,
+  "spDefence": 55,
+  "speed": 95,
+  "evolution": ["92", "93", "94"]
+}

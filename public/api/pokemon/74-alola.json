@@ -1,0 +1,13 @@
+{
+  "no": 74,
+  "form": "alola",
+  "name": "イシツブテ",
+  "formName": "アローラのすがた",
+  "hp": 40,
+  "attack": 80,
+  "defence": 100,
+  "spAttack": 30,
+  "spDefence": 30,
+  "speed": 20
+  "evolution": [74-alola]
+}

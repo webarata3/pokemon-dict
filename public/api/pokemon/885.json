@@ -1,0 +1,13 @@
+{
+  "no": 885,
+  "form": null,
+  "name": "ドラメシヤ",
+  "formName": null,
+  "hp": 28,
+  "attack": 60,
+  "defence": 30,
+  "spAttack": 40,
+  "spDefence": 30,
+  "speed": 82,
+  "evolution": [885]
+}

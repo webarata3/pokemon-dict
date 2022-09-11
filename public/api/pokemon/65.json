@@ -1,0 +1,13 @@
+{
+  "no": 65,
+  "form": null,
+  "name": "フーディン",
+  "formName": null,
+  "hp": 55,
+  "attack": 50,
+  "defence": 45,
+  "spAttack": 135,
+  "spDefence": 95,
+  "speed": 120,
+  "evolution": ["63", "64", "65"]
+}

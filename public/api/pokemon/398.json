@@ -1,0 +1,13 @@
+{
+  "no": 398,
+  "form": null,
+  "name": "ムクホーク",
+  "formName": null,
+  "hp": 85,
+  "attack": 120,
+  "defence": 70,
+  "spAttack": 50,
+  "spDefence": 60,
+  "speed": 100,
+  "evolution": [398]
+}

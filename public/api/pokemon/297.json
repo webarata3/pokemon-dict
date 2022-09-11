@@ -1,0 +1,13 @@
+{
+  "no": 297,
+  "form": null,
+  "name": "ハリテヤマ",
+  "formName": null,
+  "hp": 144,
+  "attack": 120,
+  "defence": 60,
+  "spAttack": 40,
+  "spDefence": 60,
+  "speed": 50,
+  "evolution": [297]
+}

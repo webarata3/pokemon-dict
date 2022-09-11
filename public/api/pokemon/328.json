@@ -1,0 +1,13 @@
+{
+  "no": 328,
+  "form": null,
+  "name": "ナックラー",
+  "formName": null,
+  "hp": 45,
+  "attack": 100,
+  "defence": 45,
+  "spAttack": 45,
+  "spDefence": 45,
+  "speed": 10,
+  "evolution": [328]
+}

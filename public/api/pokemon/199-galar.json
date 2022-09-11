@@ -1,0 +1,13 @@
+{
+  "no": 199,
+  "form": "galar",
+  "name": "ヤドキング",
+  "formName": "ガラルのすがた",
+  "hp": 95,
+  "attack": 65,
+  "defence": 80,
+  "spAttack": 110,
+  "spDefence": 110,
+  "speed": 30
+  "evolution": [199-galar]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 472,
+  "form": null,
+  "name": "グライオン",
+  "formName": null,
+  "hp": 75,
+  "attack": 95,
+  "defence": 125,
+  "spAttack": 45,
+  "spDefence": 75,
+  "speed": 95,
+  "evolution": [472]
+}

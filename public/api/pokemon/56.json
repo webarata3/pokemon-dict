@@ -1,0 +1,13 @@
+{
+  "no": 56,
+  "form": null,
+  "name": "マンキー",
+  "formName": null,
+  "hp": 40,
+  "attack": 80,
+  "defence": 35,
+  "spAttack": 35,
+  "spDefence": 45,
+  "speed": 70,
+  "evolution": ["56", "57"]
+}

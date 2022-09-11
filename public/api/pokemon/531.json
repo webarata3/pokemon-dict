@@ -1,0 +1,13 @@
+{
+  "no": 531,
+  "form": null,
+  "name": "タブンネ",
+  "formName": null,
+  "hp": 103,
+  "attack": 60,
+  "defence": 86,
+  "spAttack": 60,
+  "spDefence": 86,
+  "speed": 50,
+  "evolution": [531]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 746,
+  "form": "tandoku",
+  "name": "ヨワシ",
+  "formName": "たんどくのすがた",
+  "hp": 45,
+  "attack": 20,
+  "defence": 20,
+  "spAttack": 25,
+  "spDefence": 25,
+  "speed": 40
+  "evolution": [746-tandoku]
+}

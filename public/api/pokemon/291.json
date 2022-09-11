@@ -1,0 +1,13 @@
+{
+  "no": 291,
+  "form": null,
+  "name": "テッカニン",
+  "formName": null,
+  "hp": 61,
+  "attack": 90,
+  "defence": 45,
+  "spAttack": 50,
+  "spDefence": 50,
+  "speed": 160,
+  "evolution": [291]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 97,
+  "form": null,
+  "name": "スリーパー",
+  "formName": null,
+  "hp": 85,
+  "attack": 73,
+  "defence": 70,
+  "spAttack": 73,
+  "spDefence": 115,
+  "speed": 67,
+  "evolution": ["96", "97"]
+}

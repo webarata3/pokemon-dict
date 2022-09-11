@@ -1,0 +1,4 @@
+python -m SimpleHTTPServer 8000
+python -m http.server 8000
+
+elm make elm/Pokemon.elm --output=public/js/pokemon.js --optimize

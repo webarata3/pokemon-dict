@@ -1,0 +1,13 @@
+{
+  "no": 110,
+  "form": null,
+  "name": "マタドガス",
+  "formName": null,
+  "hp": 65,
+  "attack": 90,
+  "defence": 120,
+  "spAttack": 85,
+  "spDefence": 70,
+  "speed": 60,
+  "evolution": ["109", "110", "110-galar"]
+}

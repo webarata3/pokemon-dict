@@ -1,0 +1,13 @@
+{
+  "no": 129,
+  "form": null,
+  "name": "コイキング",
+  "formName": null,
+  "hp": 20,
+  "attack": 10,
+  "defence": 55,
+  "spAttack": 15,
+  "spDefence": 20,
+  "speed": 80,
+  "evolution": ["129", "130"]
+}

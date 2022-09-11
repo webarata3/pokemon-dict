@@ -1,0 +1,13 @@
+{
+  "no": 17,
+  "form": null,
+  "name": "ピジョン",
+  "formName": null,
+  "hp": 63,
+  "attack": 60,
+  "defence": 55,
+  "spAttack": 50,
+  "spDefence": 50,
+  "speed": 71,
+  "evolution": ["16", "17", "18"]
+}

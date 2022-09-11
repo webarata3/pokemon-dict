@@ -1,0 +1,13 @@
+{
+  "no": 639,
+  "form": null,
+  "name": "テラキオン",
+  "formName": null,
+  "hp": 91,
+  "attack": 129,
+  "defence": 90,
+  "spAttack": 72,
+  "spDefence": 90,
+  "speed": 108,
+  "evolution": [639]
+}

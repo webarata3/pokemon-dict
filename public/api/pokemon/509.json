@@ -1,0 +1,13 @@
+{
+  "no": 509,
+  "form": null,
+  "name": "チョロネコ",
+  "formName": null,
+  "hp": 41,
+  "attack": 50,
+  "defence": 37,
+  "spAttack": 50,
+  "spDefence": 37,
+  "speed": 66,
+  "evolution": [509]
+}

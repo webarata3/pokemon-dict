@@ -1,0 +1,13 @@
+{
+  "no": 856,
+  "form": null,
+  "name": "ミブリム",
+  "formName": null,
+  "hp": 42,
+  "attack": 30,
+  "defence": 45,
+  "spAttack": 56,
+  "spDefence": 53,
+  "speed": 39,
+  "evolution": [856]
+}

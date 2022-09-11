@@ -1,0 +1,13 @@
+{
+  "no": 498,
+  "form": null,
+  "name": "ポカブ",
+  "formName": null,
+  "hp": 65,
+  "attack": 63,
+  "defence": 45,
+  "spAttack": 45,
+  "spDefence": 45,
+  "speed": 45,
+  "evolution": [498]
+}

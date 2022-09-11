@@ -1,0 +1,13 @@
+{
+  "no": 44,
+  "form": null,
+  "name": "クサイハナ",
+  "formName": null,
+  "hp": 60,
+  "attack": 65,
+  "defence": 70,
+  "spAttack": 85,
+  "spDefence": 75,
+  "speed": 40,
+  "evolution": ["43", "44", "45", "182"]
+}

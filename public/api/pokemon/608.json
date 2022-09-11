@@ -1,0 +1,13 @@
+{
+  "no": 608,
+  "form": null,
+  "name": "ランプラー",
+  "formName": null,
+  "hp": 60,
+  "attack": 40,
+  "defence": 60,
+  "spAttack": 95,
+  "spDefence": 60,
+  "speed": 55,
+  "evolution": [608]
+}

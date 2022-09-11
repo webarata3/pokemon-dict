@@ -1,0 +1,13 @@
+{
+  "no": 644,
+  "form": null,
+  "name": "ゼクロム",
+  "formName": null,
+  "hp": 100,
+  "attack": 150,
+  "defence": 120,
+  "spAttack": 120,
+  "spDefence": 100,
+  "speed": 90,
+  "evolution": [644]
+}

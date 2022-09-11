@@ -1,0 +1,13 @@
+{
+  "no": 627,
+  "form": null,
+  "name": "ワシボン",
+  "formName": null,
+  "hp": 70,
+  "attack": 83,
+  "defence": 50,
+  "spAttack": 37,
+  "spDefence": 50,
+  "speed": 60,
+  "evolution": [627]
+}

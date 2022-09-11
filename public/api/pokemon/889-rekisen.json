@@ -1,0 +1,13 @@
+{
+  "no": 889,
+  "form": "rekisen",
+  "name": "ザマゼンタ",
+  "formName": "れきせんのゆうしゃ",
+  "hp": 92,
+  "attack": 130,
+  "defence": 115,
+  "spAttack": 80,
+  "spDefence": 115,
+  "speed": 138
+  "evolution": [889-rekisen]
+}

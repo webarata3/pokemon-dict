@@ -1,0 +1,13 @@
+{
+  "no": 395,
+  "form": null,
+  "name": "エンペルト",
+  "formName": null,
+  "hp": 84,
+  "attack": 86,
+  "defence": 88,
+  "spAttack": 111,
+  "spDefence": 101,
+  "speed": 60,
+  "evolution": [395]
+}

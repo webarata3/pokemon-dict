@@ -1,0 +1,13 @@
+{
+  "no": 3,
+  "form": null,
+  "name": "フシギバナ",
+  "formName": null,
+  "hp": 80,
+  "attack": 82,
+  "defence": 83,
+  "spAttack": 100,
+  "spDefence": 100,
+  "speed": 80,
+  "evolution": ["1", "2", "3"]
+}

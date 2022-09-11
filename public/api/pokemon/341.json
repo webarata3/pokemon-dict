@@ -1,0 +1,13 @@
+{
+  "no": 341,
+  "form": null,
+  "name": "ヘイガニ",
+  "formName": null,
+  "hp": 43,
+  "attack": 80,
+  "defence": 65,
+  "spAttack": 50,
+  "spDefence": 35,
+  "speed": 35,
+  "evolution": [341]
+}

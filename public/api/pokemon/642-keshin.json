@@ -1,0 +1,13 @@
+{
+  "no": 642,
+  "form": "keshin",
+  "name": "ボルトロス",
+  "formName": "けしんフォルム",
+  "hp": 79,
+  "attack": 115,
+  "defence": 70,
+  "spAttack": 125,
+  "spDefence": 80,
+  "speed": 111
+  "evolution": [642-keshin]
+}

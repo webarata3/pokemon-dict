@@ -1,0 +1,13 @@
+{
+  "no": 249,
+  "form": null,
+  "name": "ルギア",
+  "formName": null,
+  "hp": 106,
+  "attack": 90,
+  "defence": 130,
+  "spAttack": 90,
+  "spDefence": 154,
+  "speed": 110,
+  "evolution": [249]
+}

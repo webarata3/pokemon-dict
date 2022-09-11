@@ -1,0 +1,13 @@
+{
+  "no": 89,
+  "form": null,
+  "name": "ベトベトン",
+  "formName": null,
+  "hp": 105,
+  "attack": 105,
+  "defence": 75,
+  "spAttack": 65,
+  "spDefence": 100,
+  "speed": 50,
+  "evolution": ["88", "89"]
+}

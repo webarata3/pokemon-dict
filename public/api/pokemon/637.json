@@ -1,0 +1,13 @@
+{
+  "no": 637,
+  "form": null,
+  "name": "ウルガモス",
+  "formName": null,
+  "hp": 85,
+  "attack": 60,
+  "defence": 65,
+  "spAttack": 135,
+  "spDefence": 105,
+  "speed": 100,
+  "evolution": [637]
+}

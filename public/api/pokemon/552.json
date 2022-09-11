@@ -1,0 +1,13 @@
+{
+  "no": 552,
+  "form": null,
+  "name": "ワルビル",
+  "formName": null,
+  "hp": 60,
+  "attack": 82,
+  "defence": 45,
+  "spAttack": 45,
+  "spDefence": 45,
+  "speed": 74,
+  "evolution": [552]
+}

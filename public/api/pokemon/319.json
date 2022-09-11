@@ -1,0 +1,13 @@
+{
+  "no": 319,
+  "form": null,
+  "name": "サメハダー",
+  "formName": null,
+  "hp": 70,
+  "attack": 120,
+  "defence": 40,
+  "spAttack": 95,
+  "spDefence": 40,
+  "speed": 95,
+  "evolution": [319]
+}

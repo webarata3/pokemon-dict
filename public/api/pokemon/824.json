@@ -1,0 +1,13 @@
+{
+  "no": 824,
+  "form": null,
+  "name": "サッチムシ",
+  "formName": null,
+  "hp": 25,
+  "attack": 20,
+  "defence": 20,
+  "spAttack": 25,
+  "spDefence": 45,
+  "speed": 45,
+  "evolution": [824]
+}

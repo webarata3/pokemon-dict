@@ -1,0 +1,13 @@
+{
+  "no": 453,
+  "form": null,
+  "name": "グレッグル",
+  "formName": null,
+  "hp": 48,
+  "attack": 61,
+  "defence": 40,
+  "spAttack": 61,
+  "spDefence": 40,
+  "speed": 50,
+  "evolution": [453]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 570,
+  "form": null,
+  "name": "ゾロア",
+  "formName": null,
+  "hp": 40,
+  "attack": 65,
+  "defence": 40,
+  "spAttack": 80,
+  "spDefence": 40,
+  "speed": 65,
+  "evolution": [570]
+}

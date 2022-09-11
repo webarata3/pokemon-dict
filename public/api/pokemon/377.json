@@ -1,0 +1,13 @@
+{
+  "no": 377,
+  "form": null,
+  "name": "レジロック",
+  "formName": null,
+  "hp": 80,
+  "attack": 100,
+  "defence": 200,
+  "spAttack": 50,
+  "spDefence": 100,
+  "speed": 50,
+  "evolution": [377]
+}

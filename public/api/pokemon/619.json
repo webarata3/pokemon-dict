@@ -1,0 +1,13 @@
+{
+  "no": 619,
+  "form": null,
+  "name": "コジョフー",
+  "formName": null,
+  "hp": 45,
+  "attack": 85,
+  "defence": 50,
+  "spAttack": 55,
+  "spDefence": 50,
+  "speed": 65,
+  "evolution": [619]
+}

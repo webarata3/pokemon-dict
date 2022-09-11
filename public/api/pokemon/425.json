@@ -1,0 +1,13 @@
+{
+  "no": 425,
+  "form": null,
+  "name": "フワンテ",
+  "formName": null,
+  "hp": 90,
+  "attack": 50,
+  "defence": 34,
+  "spAttack": 60,
+  "spDefence": 44,
+  "speed": 70,
+  "evolution": [425]
+}

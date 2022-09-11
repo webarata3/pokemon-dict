@@ -1,0 +1,13 @@
+{
+  "no": 848,
+  "form": null,
+  "name": "エレズン",
+  "formName": null,
+  "hp": 40,
+  "attack": 38,
+  "defence": 35,
+  "spAttack": 54,
+  "spDefence": 35,
+  "speed": 40,
+  "evolution": [848]
+}

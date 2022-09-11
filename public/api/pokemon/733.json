@@ -1,0 +1,13 @@
+{
+  "no": 733,
+  "form": null,
+  "name": "ドデカバシ",
+  "formName": null,
+  "hp": 80,
+  "attack": 120,
+  "defence": 75,
+  "spAttack": 75,
+  "spDefence": 75,
+  "speed": 60,
+  "evolution": [733]
+}

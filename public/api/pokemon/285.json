@@ -1,0 +1,13 @@
+{
+  "no": 285,
+  "form": null,
+  "name": "キノココ",
+  "formName": null,
+  "hp": 60,
+  "attack": 40,
+  "defence": 60,
+  "spAttack": 40,
+  "spDefence": 60,
+  "speed": 35,
+  "evolution": [285]
+}

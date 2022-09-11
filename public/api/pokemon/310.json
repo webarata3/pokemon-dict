@@ -1,0 +1,13 @@
+{
+  "no": 310,
+  "form": null,
+  "name": "ライボルト",
+  "formName": null,
+  "hp": 70,
+  "attack": 75,
+  "defence": 60,
+  "spAttack": 105,
+  "spDefence": 60,
+  "speed": 105,
+  "evolution": [310]
+}

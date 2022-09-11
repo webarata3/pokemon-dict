@@ -1,0 +1,13 @@
+{
+  "no": 324,
+  "form": null,
+  "name": "コータス",
+  "formName": null,
+  "hp": 70,
+  "attack": 85,
+  "defence": 140,
+  "spAttack": 85,
+  "spDefence": 70,
+  "speed": 20,
+  "evolution": [324]
+}

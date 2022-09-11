@@ -1,0 +1,13 @@
+{
+  "no": 308,
+  "form": null,
+  "name": "チャーレム",
+  "formName": null,
+  "hp": 60,
+  "attack": 60,
+  "defence": 75,
+  "spAttack": 60,
+  "spDefence": 75,
+  "speed": 80,
+  "evolution": [308]
+}

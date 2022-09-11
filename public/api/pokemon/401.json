@@ -1,0 +1,13 @@
+{
+  "no": 401,
+  "form": null,
+  "name": "コロボーシ",
+  "formName": null,
+  "hp": 37,
+  "attack": 25,
+  "defence": 41,
+  "spAttack": 25,
+  "spDefence": 41,
+  "speed": 25,
+  "evolution": [401]
+}

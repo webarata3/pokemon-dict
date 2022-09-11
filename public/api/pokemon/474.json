@@ -1,0 +1,13 @@
+{
+  "no": 474,
+  "form": null,
+  "name": "ポリゴンZ",
+  "formName": null,
+  "hp": 85,
+  "attack": 80,
+  "defence": 70,
+  "spAttack": 135,
+  "spDefence": 75,
+  "speed": 90,
+  "evolution": ["137", "233", "474"]
+}

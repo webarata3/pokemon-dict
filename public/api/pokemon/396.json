@@ -1,0 +1,13 @@
+{
+  "no": 396,
+  "form": null,
+  "name": "ムックル",
+  "formName": null,
+  "hp": 40,
+  "attack": 55,
+  "defence": 30,
+  "spAttack": 30,
+  "spDefence": 30,
+  "speed": 60,
+  "evolution": [396]
+}

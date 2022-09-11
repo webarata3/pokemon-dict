@@ -1,0 +1,13 @@
+{
+  "no": 664,
+  "form": null,
+  "name": "コフキムシ",
+  "formName": null,
+  "hp": 38,
+  "attack": 35,
+  "defence": 40,
+  "spAttack": 27,
+  "spDefence": 25,
+  "speed": 35,
+  "evolution": [664]
+}

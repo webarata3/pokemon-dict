@@ -1,0 +1,13 @@
+{
+  "no": 568,
+  "form": null,
+  "name": "ヤブクロン",
+  "formName": null,
+  "hp": 50,
+  "attack": 50,
+  "defence": 62,
+  "spAttack": 40,
+  "spDefence": 62,
+  "speed": 65,
+  "evolution": [568]
+}

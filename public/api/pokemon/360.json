@@ -1,0 +1,13 @@
+{
+  "no": 360,
+  "form": null,
+  "name": "ソーナノ",
+  "formName": null,
+  "hp": 95,
+  "attack": 23,
+  "defence": 48,
+  "spAttack": 23,
+  "spDefence": 48,
+  "speed": 23,
+  "evolution": [360]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 840,
+  "form": null,
+  "name": "カジッチュ",
+  "formName": null,
+  "hp": 40,
+  "attack": 40,
+  "defence": 80,
+  "spAttack": 40,
+  "spDefence": 40,
+  "speed": 20,
+  "evolution": [840]
+}

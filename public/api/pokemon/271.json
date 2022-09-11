@@ -1,0 +1,13 @@
+{
+  "no": 271,
+  "form": null,
+  "name": "ハスブレロ",
+  "formName": null,
+  "hp": 60,
+  "attack": 50,
+  "defence": 50,
+  "spAttack": 60,
+  "spDefence": 70,
+  "speed": 50,
+  "evolution": [271]
+}

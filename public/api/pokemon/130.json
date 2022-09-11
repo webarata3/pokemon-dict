@@ -1,0 +1,13 @@
+{
+  "no": 130,
+  "form": null,
+  "name": "ギャラドス",
+  "formName": null,
+  "hp": 95,
+  "attack": 125,
+  "defence": 79,
+  "spAttack": 60,
+  "spDefence": 100,
+  "speed": 81,
+  "evolution": ["129", "130"]
+}

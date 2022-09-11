@@ -1,0 +1,13 @@
+{
+  "no": 162,
+  "form": null,
+  "name": "オオタチ",
+  "formName": null,
+  "hp": 85,
+  "attack": 76,
+  "defence": 64,
+  "spAttack": 45,
+  "spDefence": 55,
+  "speed": 90,
+  "evolution": [162]
+}

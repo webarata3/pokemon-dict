@@ -1,0 +1,13 @@
+{
+  "no": 621,
+  "form": null,
+  "name": "クリムガン",
+  "formName": null,
+  "hp": 77,
+  "attack": 120,
+  "defence": 90,
+  "spAttack": 60,
+  "spDefence": 90,
+  "speed": 48,
+  "evolution": [621]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 27,
+  "form": "alola",
+  "name": "サンド",
+  "formName": "アローラのすがた",
+  "hp": 50,
+  "attack": 75,
+  "defence": 90,
+  "spAttack": 10,
+  "spDefence": 35,
+  "speed": 40
+  "evolution": [27-alola]
+}

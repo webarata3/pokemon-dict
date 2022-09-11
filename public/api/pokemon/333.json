@@ -1,0 +1,13 @@
+{
+  "no": 333,
+  "form": null,
+  "name": "チルット",
+  "formName": null,
+  "hp": 45,
+  "attack": 40,
+  "defence": 60,
+  "spAttack": 40,
+  "spDefence": 75,
+  "speed": 50,
+  "evolution": [333]
+}

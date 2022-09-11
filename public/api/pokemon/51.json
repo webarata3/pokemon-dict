@@ -1,0 +1,13 @@
+{
+  "no": 51,
+  "form": null,
+  "name": "ダグトリオ",
+  "formName": null,
+  "hp": 35,
+  "attack": 100,
+  "defence": 50,
+  "spAttack": 50,
+  "spDefence": 70,
+  "speed": 120,
+  "evolution": ["50", "51"]
+}

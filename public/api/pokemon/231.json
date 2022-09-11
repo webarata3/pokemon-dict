@@ -1,0 +1,13 @@
+{
+  "no": 231,
+  "form": null,
+  "name": "ゴマゾウ",
+  "formName": null,
+  "hp": 90,
+  "attack": 60,
+  "defence": 60,
+  "spAttack": 40,
+  "spDefence": 40,
+  "speed": 40,
+  "evolution": [231]
+}

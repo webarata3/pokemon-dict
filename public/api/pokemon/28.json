@@ -1,0 +1,13 @@
+{
+  "no": 28,
+  "form": null,
+  "name": "サンドパン",
+  "formName": null,
+  "hp": 75,
+  "attack": 100,
+  "defence": 110,
+  "spAttack": 45,
+  "spDefence": 55,
+  "speed": 65,
+  "evolution": ["27", "28"]
+}

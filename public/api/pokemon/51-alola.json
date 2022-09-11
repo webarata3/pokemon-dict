@@ -1,0 +1,13 @@
+{
+  "no": 51,
+  "form": "alola",
+  "name": "ダグトリオ",
+  "formName": "アローラのすがた",
+  "hp": 35,
+  "attack": 100,
+  "defence": 60,
+  "spAttack": 50,
+  "spDefence": 70,
+  "speed": 110
+  "evolution": [51-alola]
+}

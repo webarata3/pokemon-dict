@@ -1,0 +1,13 @@
+{
+  "no": 505,
+  "form": null,
+  "name": "ミルホッグ",
+  "formName": null,
+  "hp": 60,
+  "attack": 85,
+  "defence": 69,
+  "spAttack": 60,
+  "spDefence": 69,
+  "speed": 77,
+  "evolution": [505]
+}

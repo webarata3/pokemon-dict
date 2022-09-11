@@ -1,0 +1,13 @@
+{
+  "no": 207,
+  "form": null,
+  "name": "グライガー",
+  "formName": null,
+  "hp": 65,
+  "attack": 75,
+  "defence": 105,
+  "spAttack": 35,
+  "spDefence": 65,
+  "speed": 85,
+  "evolution": [207]
+}

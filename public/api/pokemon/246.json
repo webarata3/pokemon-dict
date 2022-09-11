@@ -1,0 +1,13 @@
+{
+  "no": 246,
+  "form": null,
+  "name": "ヨーギラス",
+  "formName": null,
+  "hp": 50,
+  "attack": 64,
+  "defence": 50,
+  "spAttack": 45,
+  "spDefence": 50,
+  "speed": 41,
+  "evolution": [246]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 9,
+  "form": null,
+  "name": "カメックス",
+  "formName": null,
+  "hp": 79,
+  "attack": 83,
+  "defence": 100,
+  "spAttack": 85,
+  "spDefence": 105,
+  "speed": 78,
+  "evolution": ["7", "8", "9"]
+}

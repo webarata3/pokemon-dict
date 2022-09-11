@@ -1,0 +1,13 @@
+{
+  "no": 38,
+  "form": "alola",
+  "name": "キュウコン",
+  "formName": "アローラのすがた",
+  "hp": 73,
+  "attack": 67,
+  "defence": 75,
+  "spAttack": 81,
+  "spDefence": 100,
+  "speed": 109
+  "evolution": [38-alola]
+}

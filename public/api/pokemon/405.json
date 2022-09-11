@@ -1,0 +1,13 @@
+{
+  "no": 405,
+  "form": null,
+  "name": "レントラー",
+  "formName": null,
+  "hp": 80,
+  "attack": 120,
+  "defence": 79,
+  "spAttack": 95,
+  "spDefence": 79,
+  "speed": 70,
+  "evolution": [405]
+}

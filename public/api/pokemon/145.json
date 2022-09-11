@@ -1,0 +1,13 @@
+{
+  "no": 145,
+  "form": null,
+  "name": "サンダー",
+  "formName": null,
+  "hp": 90,
+  "attack": 90,
+  "defence": 85,
+  "spAttack": 125,
+  "spDefence": 90,
+  "speed": 100,
+  "evolution": ["145"]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 835,
+  "form": null,
+  "name": "ワンパチ",
+  "formName": null,
+  "hp": 59,
+  "attack": 45,
+  "defence": 50,
+  "spAttack": 40,
+  "spDefence": 50,
+  "speed": 26,
+  "evolution": [835]
+}

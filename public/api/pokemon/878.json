@@ -1,0 +1,13 @@
+{
+  "no": 878,
+  "form": null,
+  "name": "ゾウドウ",
+  "formName": null,
+  "hp": 72,
+  "attack": 80,
+  "defence": 49,
+  "spAttack": 40,
+  "spDefence": 49,
+  "speed": 40,
+  "evolution": [878]
+}

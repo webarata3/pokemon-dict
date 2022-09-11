@@ -1,0 +1,13 @@
+{
+  "no": 673,
+  "form": null,
+  "name": "ゴーゴート",
+  "formName": null,
+  "hp": 123,
+  "attack": 100,
+  "defence": 62,
+  "spAttack": 97,
+  "spDefence": 81,
+  "speed": 68,
+  "evolution": [673]
+}

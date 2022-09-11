@@ -1,0 +1,13 @@
+{
+  "no": 280,
+  "form": null,
+  "name": "ラルトス",
+  "formName": null,
+  "hp": 28,
+  "attack": 25,
+  "defence": 25,
+  "spAttack": 45,
+  "spDefence": 35,
+  "speed": 40,
+  "evolution": [280]
+}

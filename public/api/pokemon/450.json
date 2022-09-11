@@ -1,0 +1,13 @@
+{
+  "no": 450,
+  "form": null,
+  "name": "カバルドン",
+  "formName": null,
+  "hp": 108,
+  "attack": 112,
+  "defence": 118,
+  "spAttack": 68,
+  "spDefence": 72,
+  "speed": 47,
+  "evolution": [450]
+}

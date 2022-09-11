@@ -1,0 +1,13 @@
+{
+  "no": 52,
+  "form": "galar",
+  "name": "ニャース",
+  "formName": "ガラルのすがた",
+  "hp": 50,
+  "attack": 65,
+  "defence": 55,
+  "spAttack": 40,
+  "spDefence": 40,
+  "speed": 40
+  "evolution": [52-galar]
+}

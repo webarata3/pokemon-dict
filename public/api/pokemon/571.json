@@ -1,0 +1,13 @@
+{
+  "no": 571,
+  "form": null,
+  "name": "ゾロアーク",
+  "formName": null,
+  "hp": 60,
+  "attack": 105,
+  "defence": 60,
+  "spAttack": 120,
+  "spDefence": 60,
+  "speed": 105,
+  "evolution": [571]
+}

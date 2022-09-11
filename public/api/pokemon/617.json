@@ -1,0 +1,13 @@
+{
+  "no": 617,
+  "form": null,
+  "name": "アギルダー",
+  "formName": null,
+  "hp": 80,
+  "attack": 70,
+  "defence": 40,
+  "spAttack": 100,
+  "spDefence": 60,
+  "speed": 145,
+  "evolution": [617]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 891,
+  "form": null,
+  "name": "ダクマ",
+  "formName": null,
+  "hp": 60,
+  "attack": 90,
+  "defence": 60,
+  "spAttack": 53,
+  "spDefence": 50,
+  "speed": 72,
+  "evolution": [891]
+}

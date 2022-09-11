@@ -1,0 +1,13 @@
+{
+  "no": 616,
+  "form": null,
+  "name": "チョボマキ",
+  "formName": null,
+  "hp": 50,
+  "attack": 40,
+  "defence": 85,
+  "spAttack": 40,
+  "spDefence": 65,
+  "speed": 25,
+  "evolution": [616]
+}

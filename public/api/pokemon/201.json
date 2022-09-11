@@ -1,0 +1,13 @@
+{
+  "no": 201,
+  "form": null,
+  "name": "アンノーン",
+  "formName": null,
+  "hp": 48,
+  "attack": 72,
+  "defence": 48,
+  "spAttack": 72,
+  "spDefence": 48,
+  "speed": 48,
+  "evolution": [201]
+}

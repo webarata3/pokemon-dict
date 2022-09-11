@@ -1,0 +1,13 @@
+{
+  "no": 491,
+  "form": null,
+  "name": "ダークライ",
+  "formName": null,
+  "hp": 70,
+  "attack": 90,
+  "defence": 90,
+  "spAttack": 135,
+  "spDefence": 90,
+  "speed": 125,
+  "evolution": [491]
+}

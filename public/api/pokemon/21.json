@@ -1,0 +1,13 @@
+{
+  "no": 21,
+  "form": null,
+  "name": "オニスズメ",
+  "formName": null,
+  "hp": 40,
+  "attack": 60,
+  "defence": 30,
+  "spAttack": 31,
+  "spDefence": 31,
+  "speed": 70,
+  "evolution": ["21", "22"]
+}

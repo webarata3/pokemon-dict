@@ -1,0 +1,13 @@
+{
+  "no": 727,
+  "form": null,
+  "name": "ガオガエン",
+  "formName": null,
+  "hp": 95,
+  "attack": 115,
+  "defence": 90,
+  "spAttack": 80,
+  "spDefence": 90,
+  "speed": 60,
+  "evolution": [727]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 230,
+  "form": null,
+  "name": "キングドラ",
+  "formName": null,
+  "hp": 75,
+  "attack": 95,
+  "defence": 95,
+  "spAttack": 95,
+  "spDefence": 95,
+  "speed": 85,
+  "evolution": ["116", "117", "230"]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 653,
+  "form": null,
+  "name": "フォッコ",
+  "formName": null,
+  "hp": 40,
+  "attack": 45,
+  "defence": 40,
+  "spAttack": 62,
+  "spDefence": 60,
+  "speed": 60,
+  "evolution": [653]
+}

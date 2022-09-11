@@ -1,0 +1,13 @@
+{
+  "no": 8,
+  "form": null,
+  "name": "カメール",
+  "formName": null,
+  "hp": 59,
+  "attack": 63,
+  "defence": 80,
+  "spAttack": 65,
+  "spDefence": 80,
+  "speed": 58,
+  "evolution": ["7", "8", "9"]
+}

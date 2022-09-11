@@ -1,0 +1,13 @@
+{
+  "no": 718,
+  "form": "10",
+  "name": "ジガルデ",
+  "formName": "10%フォルム",
+  "hp": 54,
+  "attack": 100,
+  "defence": 71,
+  "spAttack": 61,
+  "spDefence": 85,
+  "speed": 115
+  "evolution": [718-10]
+}

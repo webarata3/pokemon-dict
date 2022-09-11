@@ -1,0 +1,13 @@
+{
+  "no": 467,
+  "form": null,
+  "name": "ブーバーン",
+  "formName": null,
+  "hp": 75,
+  "attack": 95,
+  "defence": 67,
+  "spAttack": 125,
+  "spDefence": 95,
+  "speed": 83,
+  "evolution": [467]
+}

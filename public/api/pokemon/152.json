@@ -1,0 +1,13 @@
+{
+  "no": 152,
+  "form": null,
+  "name": "チコリータ",
+  "formName": null,
+  "hp": 45,
+  "attack": 49,
+  "defence": 65,
+  "spAttack": 49,
+  "spDefence": 65,
+  "speed": 45,
+  "evolution": [152]
+}

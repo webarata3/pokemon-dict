@@ -1,0 +1,13 @@
+{
+  "no": 861,
+  "form": null,
+  "name": "オーロンゲ",
+  "formName": null,
+  "hp": 95,
+  "attack": 120,
+  "defence": 65,
+  "spAttack": 95,
+  "spDefence": 75,
+  "speed": 60,
+  "evolution": [861]
+}

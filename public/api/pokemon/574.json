@@ -1,0 +1,13 @@
+{
+  "no": 574,
+  "form": null,
+  "name": "ゴチム",
+  "formName": null,
+  "hp": 45,
+  "attack": 30,
+  "defence": 50,
+  "spAttack": 55,
+  "spDefence": 65,
+  "speed": 45,
+  "evolution": [574]
+}

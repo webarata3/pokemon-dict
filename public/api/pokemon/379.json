@@ -1,0 +1,13 @@
+{
+  "no": 379,
+  "form": null,
+  "name": "レジスチル",
+  "formName": null,
+  "hp": 80,
+  "attack": 75,
+  "defence": 150,
+  "spAttack": 75,
+  "spDefence": 150,
+  "speed": 50,
+  "evolution": [379]
+}

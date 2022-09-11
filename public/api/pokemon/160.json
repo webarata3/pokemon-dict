@@ -1,0 +1,13 @@
+{
+  "no": 160,
+  "form": null,
+  "name": "オーダイル",
+  "formName": null,
+  "hp": 85,
+  "attack": 105,
+  "defence": 100,
+  "spAttack": 79,
+  "spDefence": 83,
+  "speed": 78,
+  "evolution": [160]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 849,
+  "form": null,
+  "name": "ストリンダー",
+  "formName": null,
+  "hp": 75,
+  "attack": 98,
+  "defence": 70,
+  "spAttack": 114,
+  "spDefence": 70,
+  "speed": 75,
+  "evolution": [849]
+}

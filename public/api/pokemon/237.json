@@ -1,0 +1,13 @@
+{
+  "no": 237,
+  "form": null,
+  "name": "カポエラー",
+  "formName": null,
+  "hp": 50,
+  "attack": 95,
+  "defence": 95,
+  "spAttack": 35,
+  "spDefence": 110,
+  "speed": 70,
+  "evolution": [237]
+}

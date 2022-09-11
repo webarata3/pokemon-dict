@@ -1,0 +1,13 @@
+{
+  "no": 448,
+  "form": null,
+  "name": "ルカリオ",
+  "formName": null,
+  "hp": 70,
+  "attack": 110,
+  "defence": 70,
+  "spAttack": 115,
+  "spDefence": 70,
+  "speed": 90,
+  "evolution": [448]
+}

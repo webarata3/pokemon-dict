@@ -1,0 +1,13 @@
+{
+  "no": 281,
+  "form": null,
+  "name": "キルリア",
+  "formName": null,
+  "hp": 38,
+  "attack": 35,
+  "defence": 35,
+  "spAttack": 65,
+  "spDefence": 55,
+  "speed": 50,
+  "evolution": [281]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 729,
+  "form": null,
+  "name": "オシャマリ",
+  "formName": null,
+  "hp": 60,
+  "attack": 69,
+  "defence": 69,
+  "spAttack": 91,
+  "spDefence": 81,
+  "speed": 50,
+  "evolution": [729]
+}

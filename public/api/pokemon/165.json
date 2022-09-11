@@ -1,0 +1,13 @@
+{
+  "no": 165,
+  "form": null,
+  "name": "レディバ",
+  "formName": null,
+  "hp": 40,
+  "attack": 20,
+  "defence": 30,
+  "spAttack": 40,
+  "spDefence": 80,
+  "speed": 55,
+  "evolution": [165]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 390,
+  "form": null,
+  "name": "ヒコザル",
+  "formName": null,
+  "hp": 44,
+  "attack": 58,
+  "defence": 44,
+  "spAttack": 58,
+  "spDefence": 44,
+  "speed": 61,
+  "evolution": [390]
+}

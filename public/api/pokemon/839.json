@@ -1,0 +1,13 @@
+{
+  "no": 839,
+  "form": null,
+  "name": "セキタンザン",
+  "formName": null,
+  "hp": 110,
+  "attack": 80,
+  "defence": 120,
+  "spAttack": 80,
+  "spDefence": 90,
+  "speed": 30,
+  "evolution": [839]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 228,
+  "form": null,
+  "name": "デルビル",
+  "formName": null,
+  "hp": 45,
+  "attack": 60,
+  "defence": 30,
+  "spAttack": 80,
+  "spDefence": 50,
+  "speed": 65,
+  "evolution": [228]
+}

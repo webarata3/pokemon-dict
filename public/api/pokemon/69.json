@@ -1,0 +1,13 @@
+{
+  "no": 69,
+  "form": null,
+  "name": "マダツボミ",
+  "formName": null,
+  "hp": 50,
+  "attack": 75,
+  "defence": 35,
+  "spAttack": 70,
+  "spDefence": 30,
+  "speed": 40,
+  "evolution": ["69", "70", "71"]
+}

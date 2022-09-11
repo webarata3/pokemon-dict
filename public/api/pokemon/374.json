@@ -1,0 +1,13 @@
+{
+  "no": 374,
+  "form": null,
+  "name": "ダンバル",
+  "formName": null,
+  "hp": 40,
+  "attack": 55,
+  "defence": 80,
+  "spAttack": 35,
+  "spDefence": 60,
+  "speed": 30,
+  "evolution": [374]
+}

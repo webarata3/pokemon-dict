@@ -1,0 +1,13 @@
+{
+  "no": 132,
+  "form": null,
+  "name": "メタモン",
+  "formName": null,
+  "hp": 48,
+  "attack": 48,
+  "defence": 48,
+  "spAttack": 48,
+  "spDefence": 48,
+  "speed": 48,
+  "evolution": ["132"]
+}

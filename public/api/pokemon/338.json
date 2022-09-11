@@ -1,0 +1,13 @@
+{
+  "no": 338,
+  "form": null,
+  "name": "ソルロック",
+  "formName": null,
+  "hp": 90,
+  "attack": 95,
+  "defence": 85,
+  "spAttack": 55,
+  "spDefence": 65,
+  "speed": 70,
+  "evolution": [338]
+}

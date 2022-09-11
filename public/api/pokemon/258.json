@@ -1,0 +1,13 @@
+{
+  "no": 258,
+  "form": null,
+  "name": "ミズゴロウ",
+  "formName": null,
+  "hp": 50,
+  "attack": 70,
+  "defence": 50,
+  "spAttack": 50,
+  "spDefence": 50,
+  "speed": 40,
+  "evolution": [258]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 809,
+  "form": null,
+  "name": "メルメタル",
+  "formName": null,
+  "hp": 135,
+  "attack": 143,
+  "defence": 143,
+  "spAttack": 80,
+  "spDefence": 65,
+  "speed": 34,
+  "evolution": [809]
+}

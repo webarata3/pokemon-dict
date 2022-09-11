@@ -1,0 +1,13 @@
+{
+  "no": 83,
+  "form": null,
+  "name": "カモネギ",
+  "formName": null,
+  "hp": 52,
+  "attack": 90,
+  "defence": 55,
+  "spAttack": 58,
+  "spDefence": 62,
+  "speed": 60,
+  "evolution": ["83"]
+}

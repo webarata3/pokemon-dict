@@ -1,0 +1,13 @@
+{
+  "no": 376,
+  "form": null,
+  "name": "メタグロス",
+  "formName": null,
+  "hp": 80,
+  "attack": 135,
+  "defence": 130,
+  "spAttack": 95,
+  "spDefence": 90,
+  "speed": 70,
+  "evolution": [376]
+}

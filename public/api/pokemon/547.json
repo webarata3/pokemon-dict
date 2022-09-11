@@ -1,0 +1,13 @@
+{
+  "no": 547,
+  "form": null,
+  "name": "エルフーン",
+  "formName": null,
+  "hp": 60,
+  "attack": 67,
+  "defence": 85,
+  "spAttack": 77,
+  "spDefence": 75,
+  "speed": 116,
+  "evolution": [547]
+}

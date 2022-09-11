@@ -1,0 +1,13 @@
+{
+  "no": 834,
+  "form": null,
+  "name": "カジリガメ",
+  "formName": null,
+  "hp": 90,
+  "attack": 115,
+  "defence": 90,
+  "spAttack": 48,
+  "spDefence": 68,
+  "speed": 74,
+  "evolution": [834]
+}

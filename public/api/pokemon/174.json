@@ -1,0 +1,13 @@
+{
+  "no": 174,
+  "form": null,
+  "name": "ププリン",
+  "formName": null,
+  "hp": 90,
+  "attack": 30,
+  "defence": 15,
+  "spAttack": 40,
+  "spDefence": 20,
+  "speed": 15,
+  "evolution": [174]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 882,
+  "form": null,
+  "name": "ウオノラゴン",
+  "formName": null,
+  "hp": 90,
+  "attack": 90,
+  "defence": 100,
+  "spAttack": 70,
+  "spDefence": 80,
+  "speed": 75,
+  "evolution": [882]
+}

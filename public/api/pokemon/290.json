@@ -1,0 +1,13 @@
+{
+  "no": 290,
+  "form": null,
+  "name": "ツチニン",
+  "formName": null,
+  "hp": 31,
+  "attack": 45,
+  "defence": 90,
+  "spAttack": 30,
+  "spDefence": 30,
+  "speed": 40,
+  "evolution": [290]
+}

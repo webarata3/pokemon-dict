@@ -1,0 +1,13 @@
+{
+  "no": 326,
+  "form": null,
+  "name": "ブーピッグ",
+  "formName": null,
+  "hp": 80,
+  "attack": 45,
+  "defence": 65,
+  "spAttack": 90,
+  "spDefence": 110,
+  "speed": 80,
+  "evolution": [326]
+}

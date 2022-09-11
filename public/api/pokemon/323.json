@@ -1,0 +1,13 @@
+{
+  "no": 323,
+  "form": null,
+  "name": "バクーダ",
+  "formName": null,
+  "hp": 70,
+  "attack": 100,
+  "defence": 70,
+  "spAttack": 105,
+  "spDefence": 75,
+  "speed": 40,
+  "evolution": [323]
+}

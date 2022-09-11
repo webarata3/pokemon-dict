@@ -1,0 +1,13 @@
+{
+  "no": 255,
+  "form": null,
+  "name": "アチャモ",
+  "formName": null,
+  "hp": 45,
+  "attack": 60,
+  "defence": 40,
+  "spAttack": 70,
+  "spDefence": 50,
+  "speed": 45,
+  "evolution": [255]
+}

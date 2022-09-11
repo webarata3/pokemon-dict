@@ -1,0 +1,13 @@
+{
+  "no": 411,
+  "form": null,
+  "name": "トリデプス",
+  "formName": null,
+  "hp": 60,
+  "attack": 52,
+  "defence": 168,
+  "spAttack": 47,
+  "spDefence": 138,
+  "speed": 30,
+  "evolution": [411]
+}

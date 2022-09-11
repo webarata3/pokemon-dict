@@ -1,0 +1,13 @@
+{
+  "no": 800,
+  "form": "tasogare",
+  "name": "ネクロズマ",
+  "formName": "たそがれのたてがみ(日食)",
+  "hp": 97,
+  "attack": 157,
+  "defence": 127,
+  "spAttack": 113,
+  "spDefence": 109,
+  "speed": 77
+  "evolution": [800-tasogare]
+}

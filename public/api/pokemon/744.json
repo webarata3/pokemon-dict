@@ -1,0 +1,13 @@
+{
+  "no": 744,
+  "form": null,
+  "name": "イワンコ",
+  "formName": null,
+  "hp": 45,
+  "attack": 65,
+  "defence": 40,
+  "spAttack": 30,
+  "spDefence": 40,
+  "speed": 60,
+  "evolution": [744]
+}

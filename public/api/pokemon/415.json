@@ -1,0 +1,13 @@
+{
+  "no": 415,
+  "form": null,
+  "name": "ミツハニー",
+  "formName": null,
+  "hp": 30,
+  "attack": 30,
+  "defence": 42,
+  "spAttack": 30,
+  "spDefence": 42,
+  "speed": 70,
+  "evolution": [415]
+}

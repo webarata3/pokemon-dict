@@ -1,0 +1,13 @@
+{
+  "no": 864,
+  "form": null,
+  "name": "サニゴーン",
+  "formName": null,
+  "hp": 60,
+  "attack": 95,
+  "defence": 50,
+  "spAttack": 145,
+  "spDefence": 130,
+  "speed": 30,
+  "evolution": [864]
+}

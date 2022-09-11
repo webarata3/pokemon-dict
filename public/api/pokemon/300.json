@@ -1,0 +1,13 @@
+{
+  "no": 300,
+  "form": null,
+  "name": "エネコ",
+  "formName": null,
+  "hp": 50,
+  "attack": 45,
+  "defence": 45,
+  "spAttack": 35,
+  "spDefence": 35,
+  "speed": 50,
+  "evolution": [300]
+}

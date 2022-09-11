@@ -1,0 +1,13 @@
+{
+  "no": 660,
+  "form": null,
+  "name": "ホルード",
+  "formName": null,
+  "hp": 85,
+  "attack": 56,
+  "defence": 77,
+  "spAttack": 50,
+  "spDefence": 77,
+  "speed": 78,
+  "evolution": [660]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 220,
+  "form": null,
+  "name": "ウリムー",
+  "formName": null,
+  "hp": 50,
+  "attack": 50,
+  "defence": 40,
+  "spAttack": 30,
+  "spDefence": 30,
+  "speed": 50,
+  "evolution": [220]
+}

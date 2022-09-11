@@ -1,0 +1,13 @@
+{
+  "no": 690,
+  "form": null,
+  "name": "クズモー",
+  "formName": null,
+  "hp": 50,
+  "attack": 60,
+  "defence": 60,
+  "spAttack": 60,
+  "spDefence": 60,
+  "speed": 30,
+  "evolution": [690]
+}

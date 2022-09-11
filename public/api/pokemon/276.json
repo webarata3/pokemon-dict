@@ -1,0 +1,13 @@
+{
+  "no": 276,
+  "form": null,
+  "name": "スバメ",
+  "formName": null,
+  "hp": 40,
+  "attack": 55,
+  "defence": 30,
+  "spAttack": 30,
+  "spDefence": 30,
+  "speed": 85,
+  "evolution": [276]
+}

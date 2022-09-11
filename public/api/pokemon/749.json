@@ -1,0 +1,13 @@
+{
+  "no": 749,
+  "form": null,
+  "name": "ドロバンコ",
+  "formName": null,
+  "hp": 70,
+  "attack": 100,
+  "defence": 70,
+  "spAttack": 45,
+  "spDefence": 55,
+  "speed": 45,
+  "evolution": [749]
+}

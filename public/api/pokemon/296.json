@@ -1,0 +1,13 @@
+{
+  "no": 296,
+  "form": null,
+  "name": "マクノシタ",
+  "formName": null,
+  "hp": 72,
+  "attack": 60,
+  "defence": 30,
+  "spAttack": 20,
+  "spDefence": 30,
+  "speed": 25,
+  "evolution": [296]
+}

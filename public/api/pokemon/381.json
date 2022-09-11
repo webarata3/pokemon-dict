@@ -1,0 +1,13 @@
+{
+  "no": 381,
+  "form": null,
+  "name": "ラティオス",
+  "formName": null,
+  "hp": 80,
+  "attack": 90,
+  "defence": 80,
+  "spAttack": 130,
+  "spDefence": 110,
+  "speed": 110,
+  "evolution": [381]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 153,
+  "form": null,
+  "name": "ベイリーフ",
+  "formName": null,
+  "hp": 60,
+  "attack": 62,
+  "defence": 80,
+  "spAttack": 63,
+  "spDefence": 80,
+  "speed": 60,
+  "evolution": [153]
+}

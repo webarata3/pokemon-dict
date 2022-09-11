@@ -1,0 +1,13 @@
+{
+  "no": 715,
+  "form": null,
+  "name": "オンバーン",
+  "formName": null,
+  "hp": 85,
+  "attack": 70,
+  "defence": 80,
+  "spAttack": 97,
+  "spDefence": 80,
+  "speed": 123,
+  "evolution": [715]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 549,
+  "form": null,
+  "name": "ドレディア",
+  "formName": null,
+  "hp": 70,
+  "attack": 60,
+  "defence": 75,
+  "spAttack": 110,
+  "spDefence": 75,
+  "speed": 90,
+  "evolution": [549]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 533,
+  "form": null,
+  "name": "ドテッコツ",
+  "formName": null,
+  "hp": 85,
+  "attack": 105,
+  "defence": 85,
+  "spAttack": 40,
+  "spDefence": 50,
+  "speed": 40,
+  "evolution": [533]
+}

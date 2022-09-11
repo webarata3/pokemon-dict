@@ -1,0 +1,13 @@
+{
+  "no": 555,
+  "form": null,
+  "name": "ヒヒダルマ",
+  "formName": null,
+  "hp": 105,
+  "attack": 140,
+  "defence": 55,
+  "spAttack": 30,
+  "spDefence": 55,
+  "speed": 95,
+  "evolution": [555]
+}

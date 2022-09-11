@@ -1,0 +1,13 @@
+{
+  "no": 418,
+  "form": null,
+  "name": "ブイゼル",
+  "formName": null,
+  "hp": 55,
+  "attack": 65,
+  "defence": 35,
+  "spAttack": 60,
+  "spDefence": 30,
+  "speed": 85,
+  "evolution": [418]
+}

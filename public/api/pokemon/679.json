@@ -1,0 +1,13 @@
+{
+  "no": 679,
+  "form": null,
+  "name": "ヒトツキ",
+  "formName": null,
+  "hp": 45,
+  "attack": 80,
+  "defence": 100,
+  "spAttack": 35,
+  "spDefence": 37,
+  "speed": 28,
+  "evolution": [679]
+}

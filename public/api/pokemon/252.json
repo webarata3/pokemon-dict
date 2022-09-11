@@ -1,0 +1,13 @@
+{
+  "no": 252,
+  "form": null,
+  "name": "キモリ",
+  "formName": null,
+  "hp": 40,
+  "attack": 45,
+  "defence": 35,
+  "spAttack": 65,
+  "spDefence": 55,
+  "speed": 70,
+  "evolution": [252]
+}

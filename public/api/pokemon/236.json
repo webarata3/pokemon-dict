@@ -1,0 +1,13 @@
+{
+  "no": 236,
+  "form": null,
+  "name": "バルキー",
+  "formName": null,
+  "hp": 35,
+  "attack": 35,
+  "defence": 35,
+  "spAttack": 35,
+  "spDefence": 35,
+  "speed": 35,
+  "evolution": [236]
+}

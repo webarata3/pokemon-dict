@@ -1,0 +1,13 @@
+{
+  "no": 546,
+  "form": null,
+  "name": "モンメン",
+  "formName": null,
+  "hp": 40,
+  "attack": 27,
+  "defence": 60,
+  "spAttack": 37,
+  "spDefence": 50,
+  "speed": 66,
+  "evolution": [546]
+}

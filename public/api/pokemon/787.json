@@ -1,0 +1,13 @@
+{
+  "no": 787,
+  "form": null,
+  "name": "カプ・ブルル",
+  "formName": null,
+  "hp": 70,
+  "attack": 130,
+  "defence": 115,
+  "spAttack": 85,
+  "spDefence": 95,
+  "speed": 75,
+  "evolution": [787]
+}

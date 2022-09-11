@@ -1,0 +1,13 @@
+{
+  "no": 121,
+  "form": null,
+  "name": "スターミー",
+  "formName": null,
+  "hp": 60,
+  "attack": 75,
+  "defence": 85,
+  "spAttack": 100,
+  "spDefence": 85,
+  "speed": 115,
+  "evolution": ["120", "121"]
+}

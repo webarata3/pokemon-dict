@@ -1,0 +1,13 @@
+{
+  "no": 710,
+  "form": "x-large",
+  "name": "バケッチャ",
+  "formName": "とくだいサイズ",
+  "hp": 59,
+  "attack": 66,
+  "defence": 70,
+  "spAttack": 44,
+  "spDefence": 55,
+  "speed": 41
+  "evolution": [710-x-large]
+}

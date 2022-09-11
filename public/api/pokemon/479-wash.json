@@ -1,0 +1,13 @@
+{
+  "no": 479,
+  "form": "wash",
+  "name": "ロトム",
+  "formName": "ウォッシュロトム",
+  "hp": 50,
+  "attack": 65,
+  "defence": 107,
+  "spAttack": 105,
+  "spDefence": 107,
+  "speed": 86
+  "evolution": [479-wash]
+}

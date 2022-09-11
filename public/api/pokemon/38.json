@@ -1,0 +1,13 @@
+{
+  "no": 38,
+  "form": null,
+  "name": "キュウコン",
+  "formName": null,
+  "hp": 73,
+  "attack": 76,
+  "defence": 75,
+  "spAttack": 81,
+  "spDefence": 100,
+  "speed": 100,
+  "evolution": ["37", "38"]
+}

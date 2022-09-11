@@ -1,0 +1,13 @@
+{
+  "no": 548,
+  "form": null,
+  "name": "チュリネ",
+  "formName": null,
+  "hp": 45,
+  "attack": 35,
+  "defence": 50,
+  "spAttack": 70,
+  "spDefence": 50,
+  "speed": 30,
+  "evolution": [548]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 484,
+  "form": null,
+  "name": "パルキア",
+  "formName": null,
+  "hp": 90,
+  "attack": 120,
+  "defence": 100,
+  "spAttack": 150,
+  "spDefence": 120,
+  "speed": 100,
+  "evolution": [484]
+}

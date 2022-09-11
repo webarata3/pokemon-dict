@@ -1,0 +1,13 @@
+{
+  "no": 407,
+  "form": null,
+  "name": "ロズレイド",
+  "formName": null,
+  "hp": 60,
+  "attack": 70,
+  "defence": 65,
+  "spAttack": 125,
+  "spDefence": 105,
+  "speed": 90,
+  "evolution": [407]
+}

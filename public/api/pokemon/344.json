@@ -1,0 +1,13 @@
+{
+  "no": 344,
+  "form": null,
+  "name": "ネンドール",
+  "formName": null,
+  "hp": 60,
+  "attack": 70,
+  "defence": 105,
+  "spAttack": 70,
+  "spDefence": 120,
+  "speed": 75,
+  "evolution": [344]
+}

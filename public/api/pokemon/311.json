@@ -1,0 +1,13 @@
+{
+  "no": 311,
+  "form": null,
+  "name": "プラスル",
+  "formName": null,
+  "hp": 60,
+  "attack": 50,
+  "defence": 40,
+  "spAttack": 85,
+  "spDefence": 75,
+  "speed": 95,
+  "evolution": [311]
+}

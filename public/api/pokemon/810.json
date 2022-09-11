@@ -1,0 +1,13 @@
+{
+  "no": 810,
+  "form": null,
+  "name": "サルノリ",
+  "formName": null,
+  "hp": 50,
+  "attack": 65,
+  "defence": 50,
+  "spAttack": 40,
+  "spDefence": 40,
+  "speed": 65,
+  "evolution": [810]
+}

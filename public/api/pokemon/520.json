@@ -1,0 +1,13 @@
+{
+  "no": 520,
+  "form": null,
+  "name": "ハトーボー",
+  "formName": null,
+  "hp": 62,
+  "attack": 77,
+  "defence": 62,
+  "spAttack": 50,
+  "spDefence": 42,
+  "speed": 65,
+  "evolution": [520]
+}

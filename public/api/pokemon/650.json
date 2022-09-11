@@ -1,0 +1,13 @@
+{
+  "no": 650,
+  "form": null,
+  "name": "ハリマロン",
+  "formName": null,
+  "hp": 56,
+  "attack": 61,
+  "defence": 65,
+  "spAttack": 48,
+  "spDefence": 45,
+  "speed": 38,
+  "evolution": [650]
+}

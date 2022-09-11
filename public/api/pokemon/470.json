@@ -1,0 +1,13 @@
+{
+  "no": 470,
+  "form": null,
+  "name": "リーフィア",
+  "formName": null,
+  "hp": 65,
+  "attack": 110,
+  "defence": 130,
+  "spAttack": 60,
+  "spDefence": 65,
+  "speed": 95,
+  "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
+}

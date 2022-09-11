@@ -1,0 +1,13 @@
+{
+  "no": 77,
+  "form": null,
+  "name": "ポニータ",
+  "formName": null,
+  "hp": 50,
+  "attack": 85,
+  "defence": 55,
+  "spAttack": 65,
+  "spDefence": 65,
+  "speed": 90,
+  "evolution": ["77", "78"]
+}

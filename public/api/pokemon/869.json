@@ -1,0 +1,13 @@
+{
+  "no": 869,
+  "form": null,
+  "name": "マホイップ",
+  "formName": null,
+  "hp": 65,
+  "attack": 60,
+  "defence": 75,
+  "spAttack": 110,
+  "spDefence": 121,
+  "speed": 64,
+  "evolution": [869]
+}

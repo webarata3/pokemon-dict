@@ -1,0 +1,13 @@
+{
+  "no": 223,
+  "form": null,
+  "name": "テッポウオ",
+  "formName": null,
+  "hp": 35,
+  "attack": 65,
+  "defence": 35,
+  "spAttack": 65,
+  "spDefence": 35,
+  "speed": 65,
+  "evolution": [223]
+}

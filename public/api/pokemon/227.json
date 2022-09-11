@@ -1,0 +1,13 @@
+{
+  "no": 227,
+  "form": null,
+  "name": "エアームド",
+  "formName": null,
+  "hp": 65,
+  "attack": 80,
+  "defence": 140,
+  "spAttack": 40,
+  "spDefence": 70,
+  "speed": 70,
+  "evolution": [227]
+}

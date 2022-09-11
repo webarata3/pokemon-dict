@@ -1,0 +1,13 @@
+{
+  "no": 371,
+  "form": null,
+  "name": "タツベイ",
+  "formName": null,
+  "hp": 45,
+  "attack": 75,
+  "defence": 60,
+  "spAttack": 40,
+  "spDefence": 30,
+  "speed": 50,
+  "evolution": [371]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 393,
+  "form": null,
+  "name": "ポッチャマ",
+  "formName": null,
+  "hp": 53,
+  "attack": 51,
+  "defence": 53,
+  "spAttack": 61,
+  "spDefence": 56,
+  "speed": 40,
+  "evolution": [393]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 364,
+  "form": null,
+  "name": "トドグラー",
+  "formName": null,
+  "hp": 90,
+  "attack": 60,
+  "defence": 70,
+  "spAttack": 75,
+  "spDefence": 70,
+  "speed": 45,
+  "evolution": [364]
+}

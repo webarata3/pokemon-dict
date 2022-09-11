@@ -1,0 +1,13 @@
+{
+  "no": 421,
+  "form": null,
+  "name": "チェリム",
+  "formName": null,
+  "hp": 70,
+  "attack": 60,
+  "defence": 70,
+  "spAttack": 87,
+  "spDefence": 78,
+  "speed": 85,
+  "evolution": [421]
+}

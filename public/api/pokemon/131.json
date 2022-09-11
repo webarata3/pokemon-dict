@@ -1,0 +1,13 @@
+{
+  "no": 131,
+  "form": null,
+  "name": "ラプラス",
+  "formName": null,
+  "hp": 130,
+  "attack": 85,
+  "defence": 80,
+  "spAttack": 85,
+  "spDefence": 95,
+  "speed": 60,
+  "evolution": ["131"]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 555,
+  "form": "daruma",
+  "name": "ヒヒダルマ",
+  "formName": "ダルマモード",
+  "hp": 105,
+  "attack": 30,
+  "defence": 105,
+  "spAttack": 140,
+  "spDefence": 105,
+  "speed": 55
+  "evolution": [555-daruma]
+}

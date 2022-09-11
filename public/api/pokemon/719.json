@@ -1,0 +1,13 @@
+{
+  "no": 719,
+  "form": null,
+  "name": "ディアンシー",
+  "formName": null,
+  "hp": 50,
+  "attack": 100,
+  "defence": 150,
+  "spAttack": 100,
+  "spDefence": 150,
+  "speed": 50,
+  "evolution": [719]
+}

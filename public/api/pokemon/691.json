@@ -1,0 +1,13 @@
+{
+  "no": 691,
+  "form": null,
+  "name": "ドラミドロ",
+  "formName": null,
+  "hp": 65,
+  "attack": 75,
+  "defence": 90,
+  "spAttack": 97,
+  "spDefence": 123,
+  "speed": 44,
+  "evolution": [691]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 388,
+  "form": null,
+  "name": "ハヤシガメ",
+  "formName": null,
+  "hp": 75,
+  "attack": 89,
+  "defence": 85,
+  "spAttack": 55,
+  "spDefence": 65,
+  "speed": 36,
+  "evolution": [388]
+}

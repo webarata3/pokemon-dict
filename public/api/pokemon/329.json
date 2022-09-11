@@ -1,0 +1,13 @@
+{
+  "no": 329,
+  "form": null,
+  "name": "ビブラーバ",
+  "formName": null,
+  "hp": 50,
+  "attack": 70,
+  "defence": 50,
+  "spAttack": 50,
+  "spDefence": 50,
+  "speed": 70,
+  "evolution": [329]
+}

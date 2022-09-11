@@ -1,0 +1,13 @@
+{
+  "no": 515,
+  "form": null,
+  "name": "ヒヤップ",
+  "formName": null,
+  "hp": 50,
+  "attack": 53,
+  "defence": 48,
+  "spAttack": 53,
+  "spDefence": 48,
+  "speed": 64,
+  "evolution": [515]
+}

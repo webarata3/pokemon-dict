@@ -1,0 +1,13 @@
+{
+  "no": 577,
+  "form": null,
+  "name": "ユニラン",
+  "formName": null,
+  "hp": 45,
+  "attack": 30,
+  "defence": 40,
+  "spAttack": 105,
+  "spDefence": 50,
+  "speed": 20,
+  "evolution": [577]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 625,
+  "form": null,
+  "name": "キリキザン",
+  "formName": null,
+  "hp": 65,
+  "attack": 125,
+  "defence": 100,
+  "spAttack": 60,
+  "spDefence": 70,
+  "speed": 70,
+  "evolution": [625]
+}

@@ -1,0 +1,13 @@
+{
+  "no": 53,
+  "form": null,
+  "name": "ペルシアン",
+  "formName": null,
+  "hp": 65,
+  "attack": 70,
+  "defence": 60,
+  "spAttack": 65,
+  "spDefence": 65,
+  "speed": 115,
+  "evolution": ["52", "53"]
+}

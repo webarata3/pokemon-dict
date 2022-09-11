@@ -1,0 +1,13 @@
+{
+  "no": 288,
+  "form": null,
+  "name": "ヤルキモノ",
+  "formName": null,
+  "hp": 80,
+  "attack": 80,
+  "defence": 80,
+  "spAttack": 55,
+  "spDefence": 55,
+  "speed": 90,
+  "evolution": [288]
+}

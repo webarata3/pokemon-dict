@@ -1,0 +1,13 @@
+{
+  "no": 555,
+  "form": "daruma-galar",
+  "name": "ヒヒダルマ",
+  "formName": "ダルマモード(ガラルのすがた)",
+  "hp": 105,
+  "attack": 160,
+  "defence": 55,
+  "spAttack": 30,
+  "spDefence": 55,
+  "speed": 135
+  "evolution": [555-daruma-galar]
+}

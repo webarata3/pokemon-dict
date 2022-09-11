@@ -1,0 +1,13 @@
+{
+  "no": 681,
+  "form": "shield",
+  "name": "ギルガルド",
+  "formName": "シールドフォルム",
+  "hp": 60,
+  "attack": 50,
+  "defence": 140,
+  "spAttack": 50,
+  "spDefence": 140,
+  "speed": 60
+  "evolution": [681-shield]
+}

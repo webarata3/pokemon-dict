@@ -1,0 +1,13 @@
+{
+  "no": 860,
+  "form": null,
+  "name": "ギモー",
+  "formName": null,
+  "hp": 65,
+  "attack": 60,
+  "defence": 45,
+  "spAttack": 75,
+  "spDefence": 55,
+  "speed": 70,
+  "evolution": [860]
+}

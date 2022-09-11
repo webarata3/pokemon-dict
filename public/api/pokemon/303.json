@@ -1,0 +1,13 @@
+{
+  "no": 303,
+  "form": null,
+  "name": "クチート",
+  "formName": null,
+  "hp": 50,
+  "attack": 85,
+  "defence": 85,
+  "spAttack": 55,
+  "spDefence": 55,
+  "speed": 50,
+  "evolution": [303]
+}

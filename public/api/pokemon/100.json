@@ -1,0 +1,13 @@
+{
+  "no": 100,
+  "form": null,
+  "name": "ビリリダマ",
+  "formName": null,
+  "hp": 40,
+  "attack": 30,
+  "defence": 50,
+  "spAttack": 55,
+  "spDefence": 55,
+  "speed": 100,
+  "evolution": ["100", "101"]
+}

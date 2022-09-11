@@ -1,0 +1,13 @@
+{
+  "no": 28,
+  "form": "alola",
+  "name": "サンドパン",
+  "formName": "アローラのすがた",
+  "hp": 75,
+  "attack": 100,
+  "defence": 120,
+  "spAttack": 25,
+  "spDefence": 65,
+  "speed": 65
+  "evolution": [28-alola]
+}

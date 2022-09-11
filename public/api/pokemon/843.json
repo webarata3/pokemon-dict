@@ -1,0 +1,13 @@
+{
+  "no": 843,
+  "form": null,
+  "name": "スナヘビ",
+  "formName": null,
+  "hp": 52,
+  "attack": 57,
+  "defence": 75,
+  "spAttack": 35,
+  "spDefence": 50,
+  "speed": 46,
+  "evolution": [843]
+}

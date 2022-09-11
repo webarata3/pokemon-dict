@@ -1,0 +1,13 @@
+{
+  "no": 106,
+  "form": null,
+  "name": "サワムラー",
+  "formName": null,
+  "hp": 50,
+  "attack": 120,
+  "defence": 53,
+  "spAttack": 35,
+  "spDefence": 110,
+  "speed": 87,
+  "evolution": ["106"]
+}

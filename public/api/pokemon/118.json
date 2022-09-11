@@ -1,0 +1,13 @@
+{
+  "no": 118,
+  "form": null,
+  "name": "トサキント",
+  "formName": null,
+  "hp": 45,
+  "attack": 67,
+  "defence": 60,
+  "spAttack": 35,
+  "spDefence": 50,
+  "speed": 63,
+  "evolution": ["118"]
+}

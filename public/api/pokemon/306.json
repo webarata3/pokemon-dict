@@ -1,0 +1,13 @@
+{
+  "no": 306,
+  "form": null,
+  "name": "ボスゴドラ",
+  "formName": null,
+  "hp": 70,
+  "attack": 110,
+  "defence": 180,
+  "spAttack": 60,
+  "spDefence": 60,
+  "speed": 50,
+  "evolution": [306]
+}

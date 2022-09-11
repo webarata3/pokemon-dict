@@ -1,0 +1,13 @@
+{
+  "no": 601,
+  "form": null,
+  "name": "ギギギアル",
+  "formName": null,
+  "hp": 60,
+  "attack": 100,
+  "defence": 115,
+  "spAttack": 70,
+  "spDefence": 85,
+  "speed": 90,
+  "evolution": [601]
+}

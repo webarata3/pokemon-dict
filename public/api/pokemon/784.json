@@ -1,0 +1,13 @@
+{
+  "no": 784,
+  "form": null,
+  "name": "ジャラランガ",
+  "formName": null,
+  "hp": 75,
+  "attack": 110,
+  "defence": 125,
+  "spAttack": 100,
+  "spDefence": 105,
+  "speed": 85,
+  "evolution": [784]
+}

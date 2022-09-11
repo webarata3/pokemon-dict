@@ -1,0 +1,13 @@
+{
+  "no": 676,
+  "form": null,
+  "name": "トリミアン",
+  "formName": null,
+  "hp": 75,
+  "attack": 80,
+  "defence": 60,
+  "spAttack": 65,
+  "spDefence": 90,
+  "speed": 102,
+  "evolution": [676]
+}

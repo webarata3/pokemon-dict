@@ -1,0 +1,13 @@
+{
+  "no": 855,
+  "form": null,
+  "name": "ポットデス",
+  "formName": null,
+  "hp": 60,
+  "attack": 65,
+  "defence": 65,
+  "spAttack": 134,
+  "spDefence": 114,
+  "speed": 70,
+  "evolution": [855]
+}

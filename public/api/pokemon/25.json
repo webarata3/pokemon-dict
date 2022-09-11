@@ -1,0 +1,13 @@
+{
+  "no": 25,
+  "form": null,
+  "name": "ピカチュウ",
+  "formName": null,
+  "hp": 35,
+  "attack": 55,
+  "defence": 40,
+  "spAttack": 50,
+  "spDefence": 50,
+  "speed": 90,
+  "evolution": ["25"]
+}
