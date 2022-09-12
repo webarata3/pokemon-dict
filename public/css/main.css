@@ -246,3 +246,17 @@ body {
   border: 1px solid var(--accent-color);
   background-color: var(--selected-color);
 }
+
+.main__link-button {
+  padding: var(--basic-padding-small) var(--basic-padding);
+  border-radius: var(--basic-padding);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  margin-left: var(--basic-margin);
+}
+
+.main__link-button:hover,
+.main__link-button:active {
+  background-color: var(--accent-color);
+  color: #fff;
+}

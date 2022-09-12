@@ -87,14 +87,14 @@ type alias Correction =
 routeParser : Parser.Parser (Route -> a) a
 routeParser =
     Parser.oneOf
-        [ Parser.map Pokemon
-            (Parser.s "pokemon.html"
-                <?> Query.int "no"
-            )
-        , Parser.map PokemonForm
+        [ Parser.map PokemonForm
             (Parser.s "pokemon.html"
                 <?> Query.int "no"
                 <?> Query.string "form"
+            )
+        , Parser.map Pokemon
+            (Parser.s "pokemon.html"
+                <?> Query.int "no"
             )
         ]
 
@@ -244,9 +244,6 @@ update msg model =
 
         GotPokemonStatus (Ok resp) ->
             let
-                a =
-                    Debug.log "" resp
-
                 pokemonDataResult =
                     decodeString decodePokemonData resp
             in
@@ -316,9 +313,17 @@ getPokemonData pokemonNo =
     let
         no =
             getPokemonNoString pokemonNo
+
+        formS =
+            case Tuple.second pokemonNo of
+                Just form ->
+                    "-" ++ form
+
+                _ ->
+                    ""
     in
     Http.get
-        { url = getBaseUrl <| "/api/pokemon/" ++ no ++ ".json"
+        { url = getBaseUrl <| "/api/pokemon/" ++ no ++ formS ++ ".json"
         , expect = Http.expectString GotPokemonData
         }
 
@@ -582,21 +587,37 @@ viewEvoHeaderImage : Dict String PokemonData -> String -> String -> Html Msg
 viewEvoHeaderImage pokemonStatusDict no pokemonId =
     case Dict.get pokemonId pokemonStatusDict of
         Just pokemonStatus ->
+            let
+                formString =
+                    case pokemonStatus.maybeForm of
+                        Just form ->
+                            "&form=" ++ form
+
+                        _ ->
+                            ""
+            in
             td
                 [ classList
                     [ ( "main__td", True )
                     , ( "main__td-selected main__td-selected-top", no == pokemonId )
                     ]
                 ]
-                [ img
-                    [ src
-                        ("/image/pokemon/"
-                            ++ pokemonDataToNo pokemonStatus
-                            ++ ".png"
-                        )
-                    , class "pokemon__image-evo"
+                [ a
+                    [ href <|
+                        "pokemon.html?no="
+                            ++ String.fromInt pokemonStatus.no
+                            ++ formString
                     ]
-                    []
+                    [ img
+                        [ src
+                            ("/image/pokemon/"
+                                ++ pokemonDataToNo pokemonStatus
+                                ++ ".png"
+                            )
+                        , class "pokemon__image-evo"
+                        ]
+                        []
+                    ]
                 ]
 
         _ ->
@@ -660,6 +681,9 @@ viewIndividualValue pokemonData model =
                 , class "main__input-level"
                 ]
                 []
+            , a [ class "main__link-button" ] [ text "1" ]
+            , a [ class "main__link-button" ] [ text "50" ]
+            , a [ class "main__link-button" ] [ text "100" ]
             , viewIndividual pokemonData model
             ]
         ]

@@ -8,6 +8,6 @@
   "defence": 35,
   "spAttack": 25,
   "spDefence": 35,
-  "speed": 72
-  "evolution": [19-alola]
+  "speed": 72,
+  "evolution": ["19-alola", "20-alola"]
 }

@@ -6291,12 +6291,25 @@ var $author$project$Pokemon$getPokemonNoString = function (pokemonNo) {
 	return $elm$core$String$fromInt(
 		A2($elm$core$Maybe$withDefault, -1, pokemonNo.a));
 };
+var $elm$core$Tuple$second = function (_v0) {
+	var y = _v0.b;
+	return y;
+};
 var $author$project$Pokemon$getPokemonData = function (pokemonNo) {
 	var no = $author$project$Pokemon$getPokemonNoString(pokemonNo);
+	var formS = function () {
+		var _v0 = pokemonNo.b;
+		if (_v0.$ === 'Just') {
+			var form = _v0.a;
+			return '-' + form;
+		} else {
+			return '';
+		}
+	}();
 	return $elm$http$Http$get(
 		{
 			expect: $elm$http$Http$expectString($author$project$Pokemon$GotPokemonData),
-			url: $author$project$Pokemon$getBaseUrl('/api/pokemon/' + (no + '.json'))
+			url: $author$project$Pokemon$getBaseUrl('/api/pokemon/' + (no + (formS + '.json')))
 		});
 };
 var $author$project$Pokemon$GotPokemonStatus = function (a) {
@@ -6310,7 +6323,6 @@ var $author$project$Pokemon$getPokemonStatus = function (pokemon) {
 		});
 };
 var $elm$browser$Browser$Navigation$load = _Browser_load;
-var $elm$core$Debug$log = _Debug_log;
 var $elm$core$Platform$Cmd$none = $elm$core$Platform$Cmd$batch(_List_Nil);
 var $author$project$Pokemon$pokemonDataToNo = function (pokemonData) {
 	var no = $elm$core$String$fromInt(pokemonData.no);
@@ -6661,13 +6673,6 @@ var $author$project$Pokemon$routeParser = $elm$url$Url$Parser$oneOf(
 		[
 			A2(
 			$elm$url$Url$Parser$map,
-			$author$project$Pokemon$Pokemon,
-			A2(
-				$elm$url$Url$Parser$questionMark,
-				$elm$url$Url$Parser$s('pokemon.html'),
-				$elm$url$Url$Parser$Query$int('no'))),
-			A2(
-			$elm$url$Url$Parser$map,
 			$author$project$Pokemon$PokemonForm,
 			A2(
 				$elm$url$Url$Parser$questionMark,
@@ -6675,7 +6680,14 @@ var $author$project$Pokemon$routeParser = $elm$url$Url$Parser$oneOf(
 					$elm$url$Url$Parser$questionMark,
 					$elm$url$Url$Parser$s('pokemon.html'),
 					$elm$url$Url$Parser$Query$int('no')),
-				$elm$url$Url$Parser$Query$string('form')))
+				$elm$url$Url$Parser$Query$string('form'))),
+			A2(
+			$elm$url$Url$Parser$map,
+			$author$project$Pokemon$Pokemon,
+			A2(
+				$elm$url$Url$Parser$questionMark,
+				$elm$url$Url$Parser$s('pokemon.html'),
+				$elm$url$Url$Parser$Query$int('no')))
 		]));
 var $author$project$Pokemon$urlToRoute = function (url) {
 	return A2(
@@ -6778,7 +6790,6 @@ var $author$project$Pokemon$update = F2(
 				if (msg.a.$ === 'Ok') {
 					var resp = msg.a.a;
 					var pokemonDataResult = A2($elm$json$Json$Decode$decodeString, $author$project$Pokemon$decodePokemonData, resp);
-					var a = A2($elm$core$Debug$log, '', resp);
 					if (pokemonDataResult.$ === 'Ok') {
 						var pokemonData = pokemonDataResult.a;
 						return _Utils_Tuple2(
@@ -6908,10 +6919,6 @@ var $elm$core$Maybe$map = F2(
 			return $elm$core$Maybe$Nothing;
 		}
 	});
-var $elm$core$Tuple$second = function (_v0) {
-	var y = _v0.b;
-	return y;
-};
 var $author$project$Pokemon$viewPokemonImage = function (pokemonNo) {
 	var no = A2($elm$core$Maybe$withDefault, -1, pokemonNo.a);
 	var form = A2(
@@ -7539,6 +7546,36 @@ var $author$project$Pokemon$viewIndividualValue = F2(
 									$elm$html$Html$Attributes$class('main__input-level')
 								]),
 							_List_Nil),
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('main__link-button')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('1')
+								])),
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('main__link-button')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('50')
+								])),
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('main__link-button')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('100')
+								])),
 							A2($author$project$Pokemon$viewIndividual, pokemonData, model)
 						]))
 				]));
@@ -7569,6 +7606,15 @@ var $author$project$Pokemon$viewEvoHeaderImage = F3(
 		var _v0 = A2($elm$core$Dict$get, pokemonId, pokemonStatusDict);
 		if (_v0.$ === 'Just') {
 			var pokemonStatus = _v0.a;
+			var formString = function () {
+				var _v1 = pokemonStatus.maybeForm;
+				if (_v1.$ === 'Just') {
+					var form = _v1.a;
+					return '&form=' + form;
+				} else {
+					return '';
+				}
+			}();
 			return A2(
 				$elm$html$Html$td,
 				_List_fromArray(
@@ -7585,14 +7631,24 @@ var $author$project$Pokemon$viewEvoHeaderImage = F3(
 				_List_fromArray(
 					[
 						A2(
-						$elm$html$Html$img,
+						$elm$html$Html$a,
 						_List_fromArray(
 							[
-								$elm$html$Html$Attributes$src(
-								'/image/pokemon/' + ($author$project$Pokemon$pokemonDataToNo(pokemonStatus) + '.png')),
-								$elm$html$Html$Attributes$class('pokemon__image-evo')
+								$elm$html$Html$Attributes$href(
+								'pokemon.html?no=' + ($elm$core$String$fromInt(pokemonStatus.no) + formString))
 							]),
-						_List_Nil)
+						_List_fromArray(
+							[
+								A2(
+								$elm$html$Html$img,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$src(
+										'/image/pokemon/' + ($author$project$Pokemon$pokemonDataToNo(pokemonStatus) + '.png')),
+										$elm$html$Html$Attributes$class('pokemon__image-evo')
+									]),
+								_List_Nil)
+							]))
 					]));
 		} else {
 			return A2(
