@@ -784,11 +784,11 @@ function _Debug_crash_UNUSED(identifier, fact1, fact2, fact3, fact4)
 
 function _Debug_regionToString(region)
 {
-	if (region.Y.K === region.ac.K)
+	if (region.Y.I === region.ac.I)
 	{
-		return 'on line ' + region.Y.K;
+		return 'on line ' + region.Y.I;
 	}
-	return 'on lines ' + region.Y.K + ' through ' + region.ac.K;
+	return 'on lines ' + region.Y.I + ' through ' + region.ac.I;
 }
 
 
@@ -2704,7 +2704,7 @@ var _VirtualDom_mapEventTuple = F2(function(func, tuple)
 var _VirtualDom_mapEventRecord = F2(function(func, record)
 {
 	return {
-		p: func(record.p),
+		o: func(record.o),
 		Z: record.Z,
 		W: record.W
 	}
@@ -2974,7 +2974,7 @@ function _VirtualDom_makeCallback(eventNode, initialHandler)
 		// 3 = Custom
 
 		var value = result.a;
-		var message = !tag ? value : tag < 3 ? value.a : value.p;
+		var message = !tag ? value : tag < 3 ? value.a : value.o;
 		var stopPropagation = tag == 1 ? value.b : tag == 3 && value.Z;
 		var currentEventNode = (
 			stopPropagation && event.stopPropagation(),
@@ -4375,9 +4375,9 @@ var _Http_toTask = F3(function(router, toTask, request)
 		$elm$core$Maybe$isJust(request.aH) && _Http_track(router, xhr, request.aH.a);
 
 		try {
-			xhr.open(request.a6, request.F, true);
+			xhr.open(request.a6, request.D, true);
 		} catch (e) {
-			return done($elm$http$Http$BadUrl_(request.F));
+			return done($elm$http$Http$BadUrl_(request.D));
 		}
 
 		_Http_configureRequest(xhr, request);
@@ -4421,7 +4421,7 @@ function _Http_toResponse(toBody, xhr)
 function _Http_toMetadata(xhr)
 {
 	return {
-		F: xhr.responseURL,
+		D: xhr.responseURL,
 		bi: xhr.status,
 		bj: xhr.statusText,
 		ag: _Http_parseHeaders(xhr.getAllResponseHeaders())
@@ -6099,7 +6099,7 @@ var $elm$http$Http$cmdMap = F2(
 					a6: r.a6,
 					bm: r.bm,
 					aH: r.aH,
-					F: r.F
+					D: r.D
 				});
 		}
 	});
@@ -6122,11 +6122,11 @@ var $elm$http$Http$subscription = _Platform_leaf('Http');
 var $elm$http$Http$request = function (r) {
 	return $elm$http$Http$command(
 		$elm$http$Http$Request(
-			{aN: false, aQ: r.aQ, ae: r.ae, ag: r.ag, a6: r.a6, bm: r.bm, aH: r.aH, F: r.F}));
+			{aN: false, aQ: r.aQ, ae: r.ae, ag: r.ag, a6: r.a6, bm: r.bm, aH: r.aH, D: r.D}));
 };
 var $elm$http$Http$get = function (r) {
 	return $elm$http$Http$request(
-		{aQ: $elm$http$Http$emptyBody, ae: r.ae, ag: _List_Nil, a6: 'GET', bm: $elm$core$Maybe$Nothing, aH: $elm$core$Maybe$Nothing, F: r.F});
+		{aQ: $elm$http$Http$emptyBody, ae: r.ae, ag: _List_Nil, a6: 'GET', bm: $elm$core$Maybe$Nothing, aH: $elm$core$Maybe$Nothing, D: r.D});
 };
 var $author$project$AppConfig$getBaseUrl = function (suffix) {
 	return suffix;
@@ -6134,22 +6134,22 @@ var $author$project$AppConfig$getBaseUrl = function (suffix) {
 var $author$project$Toc$getPokemonList = $elm$http$Http$get(
 	{
 		ae: $elm$http$Http$expectString($elm$core$Basics$identity),
-		F: $author$project$AppConfig$getBaseUrl('/api/pokemon-list.json')
+		D: $author$project$AppConfig$getBaseUrl('/api/pokemon-list.json')
 	});
 var $elm$core$Platform$Cmd$map = _Platform_map;
 var $author$project$Pokemon$init = F3(
 	function (_v0, url, key) {
 		return _Utils_Tuple2(
 			{
-				s: {I: 252, J: 31, P: 50, B: 0, ao: $elm$core$Maybe$Nothing},
-				z: $author$project$Pokemon$Pokemon(
+				r: {G: 252, H: 31, P: 50, A: 0, ao: $elm$core$Maybe$Nothing},
+				O: $author$project$Pokemon$Pokemon(
 					$elm$core$Maybe$Just(1)),
-				o: {am: $elm$core$Maybe$Nothing, S: $elm$core$Dict$empty},
+				t: {am: $elm$core$Maybe$Nothing, S: $elm$core$Dict$empty},
 				T: key,
 				Q: {an: $elm$core$Maybe$Nothing},
 				R: $elm$core$Maybe$Nothing,
-				E: {a2: _List_Nil},
-				F: url
+				L: {a2: _List_Nil},
+				D: url
 			},
 			$elm$core$Platform$Cmd$batch(
 				_List_fromArray(
@@ -6284,7 +6284,7 @@ var $author$project$Pokemon$getPokemonData = function (pokemonNo) {
 	return $elm$http$Http$get(
 		{
 			ae: $elm$http$Http$expectString($author$project$Pokemon$GotPokemonData),
-			F: $author$project$AppConfig$getBaseUrl('/api/pokemon/' + (no + (form + '.json')))
+			D: $author$project$AppConfig$getBaseUrl('/api/pokemon/' + (no + (form + '.json')))
 		});
 };
 var $author$project$Pokemon$GotPokemonStatus = function (a) {
@@ -6294,7 +6294,7 @@ var $author$project$Pokemon$getPokemonStatus = function (pokemon) {
 	return $elm$http$Http$get(
 		{
 			ae: $elm$http$Http$expectString($author$project$Pokemon$GotPokemonStatus),
-			F: $author$project$AppConfig$getBaseUrl('/api/pokemon/' + (pokemon + '.json'))
+			D: $author$project$AppConfig$getBaseUrl('/api/pokemon/' + (pokemon + '.json'))
 		});
 };
 var $elm$browser$Browser$Navigation$load = _Browser_load;
@@ -6386,21 +6386,21 @@ var $author$project$ActualStatus$update = F2(
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{J: individualValue}),
+						{H: individualValue}),
 					$elm$core$Platform$Cmd$none);
 			case 2:
 				var effortValue = msg.a;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{I: effortValue}),
+						{G: effortValue}),
 					$elm$core$Platform$Cmd$none);
 			default:
 				var nature = msg.a;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{B: nature}),
+						{A: nature}),
 					$elm$core$Platform$Cmd$none);
 		}
 	});
@@ -6437,7 +6437,7 @@ var $author$project$Toc$update = F2(
 	});
 var $elm$url$Url$Parser$State = F5(
 	function (visited, unvisited, params, frag, value) {
-		return {u: frag, w: params, r: unvisited, m: value, y: visited};
+		return {u: frag, w: params, q: unvisited, m: value, y: visited};
 	});
 var $elm$url$Url$Parser$getFirstMatch = function (states) {
 	getFirstMatch:
@@ -6447,7 +6447,7 @@ var $elm$url$Url$Parser$getFirstMatch = function (states) {
 		} else {
 			var state = states.a;
 			var rest = states.b;
-			var _v1 = state.r;
+			var _v1 = state.q;
 			if (!_v1.b) {
 				return $elm$core$Maybe$Just(state.m);
 			} else {
@@ -6582,7 +6582,7 @@ var $elm$url$Url$Parser$Parser = $elm$core$Basics$identity;
 var $elm$url$Url$Parser$mapState = F2(
 	function (func, _v0) {
 		var visited = _v0.y;
-		var unvisited = _v0.r;
+		var unvisited = _v0.q;
 		var params = _v0.w;
 		var frag = _v0.u;
 		var value = _v0.m;
@@ -6599,7 +6599,7 @@ var $elm$url$Url$Parser$map = F2(
 		var parseArg = _v0;
 		return function (_v1) {
 			var visited = _v1.y;
-			var unvisited = _v1.r;
+			var unvisited = _v1.q;
 			var params = _v1.w;
 			var frag = _v1.u;
 			var value = _v1.m;
@@ -6641,7 +6641,7 @@ var $elm$url$Url$Parser$query = function (_v0) {
 	var queryParser = _v0;
 	return function (_v1) {
 		var visited = _v1.y;
-		var unvisited = _v1.r;
+		var unvisited = _v1.q;
 		var params = _v1.w;
 		var frag = _v1.u;
 		var value = _v1.m;
@@ -6679,7 +6679,7 @@ var $elm$url$Url$Parser$questionMark = F2(
 var $elm$url$Url$Parser$s = function (str) {
 	return function (_v0) {
 		var visited = _v0.y;
-		var unvisited = _v0.r;
+		var unvisited = _v0.q;
 		var params = _v0.w;
 		var frag = _v0.u;
 		var value = _v0.m;
@@ -6770,10 +6770,10 @@ var $author$project$Pokemon$update = F2(
 						_Utils_update(
 							model,
 							{
-								z: $author$project$Pokemon$Pokemon(no),
+								O: $author$project$Pokemon$Pokemon(no),
 								R: $elm$core$Maybe$Just(
 									_Utils_Tuple2(no, $elm$core$Maybe$Nothing)),
-								F: url
+								D: url
 							}),
 						$author$project$Pokemon$getPokemonData(
 							_Utils_Tuple2(no, $elm$core$Maybe$Nothing)));
@@ -6784,10 +6784,10 @@ var $author$project$Pokemon$update = F2(
 						_Utils_update(
 							model,
 							{
-								z: A2($author$project$Pokemon$PokemonForm, no, form),
+								O: A2($author$project$Pokemon$PokemonForm, no, form),
 								R: $elm$core$Maybe$Just(
 									_Utils_Tuple2(no, form)),
-								F: url
+								D: url
 							}),
 						$author$project$Pokemon$getPokemonData(
 							_Utils_Tuple2(no, form)));
@@ -6798,13 +6798,13 @@ var $author$project$Pokemon$update = F2(
 					var pokemonDataResult = A2($elm$json$Json$Decode$decodeString, $author$project$Pokemon$decodePokemonData, resp);
 					if (!pokemonDataResult.$) {
 						var pokemonData = pokemonDataResult.a;
-						var evolutionModel = model.o;
+						var evolutionModel = model.t;
 						var newEvolutionModel = _Utils_update(
 							evolutionModel,
 							{
 								am: $elm$core$Maybe$Just(pokemonData)
 							});
-						var actualStatusModel = model.s;
+						var actualStatusModel = model.r;
 						var newActualStatusModel = _Utils_update(
 							actualStatusModel,
 							{
@@ -6814,8 +6814,8 @@ var $author$project$Pokemon$update = F2(
 							_Utils_update(
 								model,
 								{
-									s: newActualStatusModel,
-									o: newEvolutionModel,
+									r: newActualStatusModel,
+									t: newEvolutionModel,
 									Q: {
 										an: $elm$core$Maybe$Just(
 											$author$project$Pokemon$pokemonDataToId(pokemonData))
@@ -6835,7 +6835,7 @@ var $author$project$Pokemon$update = F2(
 					var pokemonDataResult = A2($elm$json$Json$Decode$decodeString, $author$project$Pokemon$decodePokemonData, resp);
 					if (!pokemonDataResult.$) {
 						var pokemonData = pokemonDataResult.a;
-						var evolutionModel = model.o;
+						var evolutionModel = model.t;
 						var newEvolutionModel = _Utils_update(
 							evolutionModel,
 							{
@@ -6848,7 +6848,7 @@ var $author$project$Pokemon$update = F2(
 						return _Utils_Tuple2(
 							_Utils_update(
 								model,
-								{o: newEvolutionModel}),
+								{t: newEvolutionModel}),
 							$elm$core$Platform$Cmd$none);
 					} else {
 						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
@@ -6858,23 +6858,23 @@ var $author$project$Pokemon$update = F2(
 				}
 			case 4:
 				var msg_ = msg.a;
-				var _v5 = A2($author$project$Toc$update, msg_, model.E);
+				var _v5 = A2($author$project$Toc$update, msg_, model.L);
 				var m_ = _v5.a;
 				var cmd = _v5.b;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{E: m_}),
+						{L: m_}),
 					A2($elm$core$Platform$Cmd$map, $author$project$Pokemon$TocMsg, cmd));
 			default:
 				var msg_ = msg.a;
-				var _v6 = A2($author$project$ActualStatus$update, msg_, model.s);
+				var _v6 = A2($author$project$ActualStatus$update, msg_, model.r);
 				var m_ = _v6.a;
 				var cmd = _v6.b;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{s: m_}),
+						{r: m_}),
 					A2($elm$core$Platform$Cmd$map, $author$project$Pokemon$ActualStatusMsg, cmd));
 		}
 	});
@@ -6887,10 +6887,10 @@ var $elm$html$Html$Attributes$stringProperty = F2(
 			$elm$json$Json$Encode$string(string));
 	});
 var $elm$html$Html$Attributes$class = $elm$html$Html$Attributes$stringProperty('className');
-var $elm$html$Html$div = _VirtualDom_node('div');
 var $elm$html$Html$main_ = _VirtualDom_node('main');
 var $elm$virtual_dom$VirtualDom$map = _VirtualDom_map;
 var $elm$html$Html$map = $elm$virtual_dom$VirtualDom$map;
+var $elm$html$Html$div = _VirtualDom_node('div');
 var $elm$html$Html$a = _VirtualDom_node('a');
 var $elm$virtual_dom$VirtualDom$attribute = F2(
 	function (key, value) {
@@ -7201,15 +7201,15 @@ var $author$project$ActualStatus$viewCalcStatus = F5(
 				$author$project$ActualStatus$calcHp,
 				f(status),
 				correction.v,
-				correction.t,
+				correction.s,
 				inputLevel)) : $elm$core$String$fromInt(
 			A5(
 				$author$project$ActualStatus$calcParam,
 				f(status),
 				correction.v,
-				correction.t,
+				correction.s,
 				inputLevel,
-				correction.C));
+				correction.B));
 		return A2(
 			$elm$html$Html$td,
 			_List_fromArray(
@@ -7331,7 +7331,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 										$elm$html$Html$Attributes$id('kotai-max'),
 										$elm$html$Html$Attributes$name('kotai'),
 										$elm$html$Html$Attributes$class('main__radio'),
-										$elm$html$Html$Attributes$checked(model.J === 31),
+										$elm$html$Html$Attributes$checked(model.H === 31),
 										$elm$html$Html$Events$onClick(
 										$author$project$ActualStatus$ClickIndividualValue(31))
 									]),
@@ -7355,7 +7355,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 										$elm$html$Html$Attributes$id('kotai-min'),
 										$elm$html$Html$Attributes$name('kotai'),
 										$elm$html$Html$Attributes$class('main__radio'),
-										$elm$html$Html$Attributes$checked(!model.J),
+										$elm$html$Html$Attributes$checked(!model.H),
 										$elm$html$Html$Events$onClick(
 										$author$project$ActualStatus$ClickIndividualValue(0))
 									]),
@@ -7434,7 +7434,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 										$elm$html$Html$Attributes$id('doryoku-max'),
 										$elm$html$Html$Attributes$name('doryoku'),
 										$elm$html$Html$Attributes$class('main__radio'),
-										$elm$html$Html$Attributes$checked(model.I === 252),
+										$elm$html$Html$Attributes$checked(model.G === 252),
 										$elm$html$Html$Events$onClick(
 										$author$project$ActualStatus$ClickEffortValue(252))
 									]),
@@ -7458,7 +7458,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 										$elm$html$Html$Attributes$id('doryoku-min'),
 										$elm$html$Html$Attributes$name('doryoku'),
 										$elm$html$Html$Attributes$class('main__radio'),
-										$elm$html$Html$Attributes$checked(!model.I),
+										$elm$html$Html$Attributes$checked(!model.G),
 										$elm$html$Html$Events$onClick(
 										$author$project$ActualStatus$ClickEffortValue(0))
 									]),
@@ -7537,7 +7537,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 										$elm$html$Html$Attributes$id('nature-max'),
 										$elm$html$Html$Attributes$name('nature'),
 										$elm$html$Html$Attributes$class('main__radio'),
-										$elm$html$Html$Attributes$checked(!model.B),
+										$elm$html$Html$Attributes$checked(!model.A),
 										$elm$html$Html$Events$onClick(
 										$author$project$ActualStatus$ClickNature(0))
 									]),
@@ -7561,7 +7561,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 										$elm$html$Html$Attributes$id('nature-zero'),
 										$elm$html$Html$Attributes$name('nature'),
 										$elm$html$Html$Attributes$class('main__radio'),
-										$elm$html$Html$Attributes$checked(model.B === 1),
+										$elm$html$Html$Attributes$checked(model.A === 1),
 										$elm$html$Html$Events$onClick(
 										$author$project$ActualStatus$ClickNature(1))
 									]),
@@ -7585,7 +7585,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 										$elm$html$Html$Attributes$id('nature-min'),
 										$elm$html$Html$Attributes$name('nature'),
 										$elm$html$Html$Attributes$class('main__radio'),
-										$elm$html$Html$Attributes$checked(model.B === 2),
+										$elm$html$Html$Attributes$checked(model.A === 2),
 										$elm$html$Html$Events$onClick(
 										$author$project$ActualStatus$ClickNature(2))
 									]),
@@ -7623,10 +7623,10 @@ var $author$project$ActualStatus$viewIndividual = F2(
 							status,
 							_List_fromArray(
 								[
-									{t: 252, v: 31, C: 0},
-									{t: 0, v: 31, C: 0},
-									{t: 0, v: 31, C: 1},
-									{t: model.I, v: model.J, C: model.B}
+									{s: 252, v: 31, B: 0},
+									{s: 0, v: 31, B: 0},
+									{s: 0, v: 31, B: 1},
+									{s: model.G, v: model.H, B: model.A}
 								]),
 							model.P),
 						_List_fromArray(
@@ -8067,97 +8067,54 @@ var $author$project$Evolution$viewPokemonEvolution = function (model) {
 			_List_Nil);
 	}
 };
-var $author$project$Pokemon$viewStatusInfo = F2(
-	function (pokemonData, model) {
-		return A2(
-			$elm$html$Html$div,
-			_List_fromArray(
-				[
-					$elm$html$Html$Attributes$class('pokemon__detail')
-				]),
-			_List_fromArray(
-				[
-					$author$project$Evolution$viewPokemonEvolution(model.o),
-					A2(
-					$elm$html$Html$map,
-					$author$project$Pokemon$ActualStatusMsg,
-					$author$project$ActualStatus$viewActualStatus(model.s))
-				]));
-	});
-var $author$project$Pokemon$viewPokemonMain = F3(
-	function (model, pokemonNo, pokemonData) {
-		return A2(
-			$elm$html$Html$div,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$author$project$MainPic$viewPokemonMainPic(model.Q),
-					A2($author$project$Pokemon$viewStatusInfo, pokemonData, model)
-				]));
-	});
-var $author$project$Pokemon$viewMain = F2(
-	function (model, pokemonNo) {
-		var _v0 = model.o.am;
-		if (!_v0.$) {
-			var pokemonData = _v0.a;
-			return A2(
-				$elm$html$Html$main_,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$class('main')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$map,
-						$author$project$Pokemon$TocMsg,
-						$author$project$Toc$viewPokemonList(model.E)),
-						A3($author$project$Pokemon$viewPokemonMain, model, pokemonNo, pokemonData)
-					]));
-		} else {
-			return A2(
-				$elm$html$Html$main_,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$class('main')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$map,
-						$author$project$Pokemon$TocMsg,
-						$author$project$Toc$viewPokemonList(model.E)),
-						A2($elm$html$Html$div, _List_Nil, _List_Nil)
-					]));
-		}
-	});
+var $author$project$Pokemon$viewStatusInfo = function (model) {
+	return A2(
+		$elm$html$Html$div,
+		_List_fromArray(
+			[
+				$elm$html$Html$Attributes$class('pokemon__detail')
+			]),
+		_List_fromArray(
+			[
+				$author$project$Evolution$viewPokemonEvolution(model.t),
+				A2(
+				$elm$html$Html$map,
+				$author$project$Pokemon$ActualStatusMsg,
+				$author$project$ActualStatus$viewActualStatus(model.r))
+			]));
+};
+var $author$project$Pokemon$viewPokemonMain = function (model) {
+	return A2(
+		$elm$html$Html$div,
+		_List_Nil,
+		_List_fromArray(
+			[
+				$author$project$MainPic$viewPokemonMainPic(model.Q),
+				$author$project$Pokemon$viewStatusInfo(model)
+			]));
+};
+var $author$project$Pokemon$viewMain = function (model) {
+	return A2(
+		$elm$html$Html$main_,
+		_List_fromArray(
+			[
+				$elm$html$Html$Attributes$class('main')
+			]),
+		_List_fromArray(
+			[
+				A2(
+				$elm$html$Html$map,
+				$author$project$Pokemon$TocMsg,
+				$author$project$Toc$viewPokemonList(model.L)),
+				$author$project$Pokemon$viewPokemonMain(model)
+			]));
+};
 var $author$project$Pokemon$view = function (model) {
-	var pokemonNo = function () {
-		var _v1 = model.z;
-		if (!_v1.$) {
-			var maybeNo = _v1.a;
-			return _Utils_Tuple2(maybeNo, $elm$core$Maybe$Nothing);
-		} else {
-			var maybeNo = _v1.a;
-			var maybeForm = _v1.b;
-			return _Utils_Tuple2(maybeNo, maybeForm);
-		}
-	}();
-	var pageTitle = function () {
-		var _v0 = model.z;
-		if (!_v0.$) {
-			var no = _v0.a;
-			return 'pokemon';
-		} else {
-			var no = _v0.a;
-			var form = _v0.b;
-			return 'no';
-		}
-	}();
+	var pageTitle = 'ポケモン図鑑';
 	return {
 		aQ: _List_fromArray(
 			[
-				A2($author$project$Pokemon$viewMain, model, pokemonNo)
+				$author$project$Pokemon$viewMain(model)
 			]),
 		bn: pageTitle
 	};

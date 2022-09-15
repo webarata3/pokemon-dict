@@ -2,17 +2,16 @@ module Pokemon exposing (..)
 
 import ActualStatus as AS
 import AppConfig as AC
-import Array
 import Browser exposing (Document)
 import Browser.Navigation as Nav
-import Dict exposing (Dict)
+import Dict
 import Evolution as Evo
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 import Http exposing (..)
 import Json.Decode as JD exposing (Decoder, decodeString, field, int, nullable, string)
-import Json.Decode.Pipeline as JDP exposing (required)
+import Json.Decode.Pipeline as JDP
 import MainPic
 import Task
 import Toc
@@ -324,54 +323,32 @@ view : Model -> Document Msg
 view model =
     let
         pageTitle =
-            case model.currentPage of
-                Pokemon no ->
-                    "pokemon"
-
-                PokemonForm no form ->
-                    "no"
-
-        pokemonNo =
-            case model.currentPage of
-                Pokemon maybeNo ->
-                    ( maybeNo, Nothing )
-
-                PokemonForm maybeNo maybeForm ->
-                    ( maybeNo, maybeForm )
+            "ポケモン図鑑"
     in
     { title = pageTitle
     , body =
-        [ viewMain model pokemonNo
-        ]
+        [ viewMain model ]
     }
 
 
-viewMain : Model -> PokemonNo -> Html Msg
-viewMain model pokemonNo =
-    case model.evolutionModel.maybePokemonData of
-        Just pokemonData ->
-            main_ [ class "main" ]
-                [ Toc.viewPokemonList model.tocModel |> Html.map TocMsg
-                , viewPokemonMain model pokemonNo pokemonData
-                ]
-
-        _ ->
-            main_ [ class "main" ]
-                [ Toc.viewPokemonList model.tocModel |> Html.map TocMsg
-                , div [] []
-                ]
-
-
-viewPokemonMain : Model -> PokemonNo -> AC.PokemonData -> Html Msg
-viewPokemonMain model pokemonNo pokemonData =
-    div []
-        [ MainPic.viewPokemonMainPic model.mainPicModel
-        , viewStatusInfo pokemonData model
+viewMain : Model -> Html Msg
+viewMain model =
+    main_ [ class "main" ]
+        [ Toc.viewPokemonList model.tocModel |> Html.map TocMsg
+        , viewPokemonMain model
         ]
 
 
-viewStatusInfo : AC.PokemonData -> Model -> Html Msg
-viewStatusInfo pokemonData model =
+viewPokemonMain : Model -> Html Msg
+viewPokemonMain model =
+    div []
+        [ MainPic.viewPokemonMainPic model.mainPicModel
+        , viewStatusInfo model
+        ]
+
+
+viewStatusInfo : Model -> Html Msg
+viewStatusInfo model =
     div [ class "pokemon__detail" ]
         [ Evo.viewPokemonEvolution model.evolutionModel
         , AS.viewActualStatus model.actualStatusModel
