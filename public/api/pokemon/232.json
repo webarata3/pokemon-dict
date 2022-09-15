@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドンファン",
   "formName": null,
-  "hp": 90,
-  "attack": 120,
-  "defence": 120,
-  "spAttack": 60,
-  "spDefence": 60,
-  "speed": 50,
+  "status": {
+    "hp": 90,
+    "attack": 120,
+    "defence": 120,
+    "spAttack": 60,
+    "spDefence": 60,
+    "speed": 50
+  },
   "evolution": [232]
 }

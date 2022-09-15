@@ -3,11 +3,13 @@
   "form": null,
   "name": "フラベベ",
   "formName": null,
-  "hp": 44,
-  "attack": 38,
-  "defence": 39,
-  "spAttack": 61,
-  "spDefence": 79,
-  "speed": 42,
+  "status": {
+    "hp": 44,
+    "attack": 38,
+    "defence": 39,
+    "spAttack": 61,
+    "spDefence": 79,
+    "speed": 42
+  },
   "evolution": [669]
 }

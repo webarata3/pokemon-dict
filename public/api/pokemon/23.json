@@ -3,11 +3,13 @@
   "form": null,
   "name": "アーボ",
   "formName": null,
-  "hp": 35,
-  "attack": 60,
-  "defence": 44,
-  "spAttack": 40,
-  "spDefence": 54,
-  "speed": 55,
+  "status": {
+    "hp": 35,
+    "attack": 60,
+    "defence": 44,
+    "spAttack": 40,
+    "spDefence": 54,
+    "speed": 55
+  },
   "evolution": ["23", "24"]
 }

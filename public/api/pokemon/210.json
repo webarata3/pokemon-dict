@@ -3,11 +3,13 @@
   "form": null,
   "name": "グランブル",
   "formName": null,
-  "hp": 90,
-  "attack": 120,
-  "defence": 75,
-  "spAttack": 60,
-  "spDefence": 60,
-  "speed": 45,
+  "status": {
+    "hp": 90,
+    "attack": 120,
+    "defence": 75,
+    "spAttack": 60,
+    "spDefence": 60,
+    "speed": 45
+  },
   "evolution": [210]
 }

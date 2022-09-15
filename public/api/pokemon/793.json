@@ -3,11 +3,13 @@
   "form": null,
   "name": "ウツロイド",
   "formName": null,
-  "hp": 109,
-  "attack": 53,
-  "defence": 47,
-  "spAttack": 127,
-  "spDefence": 131,
-  "speed": 103,
+  "status": {
+    "hp": 109,
+    "attack": 53,
+    "defence": 47,
+    "spAttack": 127,
+    "spDefence": 131,
+    "speed": 103
+  },
   "evolution": [793]
 }

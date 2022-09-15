@@ -3,11 +3,13 @@
   "form": null,
   "name": "プルリル",
   "formName": null,
-  "hp": 55,
-  "attack": 40,
-  "defence": 50,
-  "spAttack": 65,
-  "spDefence": 85,
-  "speed": 40,
+  "status": {
+    "hp": 55,
+    "attack": 40,
+    "defence": 50,
+    "spAttack": 65,
+    "spDefence": 85,
+    "speed": 40
+  },
   "evolution": [592]
 }

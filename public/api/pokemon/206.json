@@ -3,11 +3,13 @@
   "form": null,
   "name": "ノコッチ",
   "formName": null,
-  "hp": 100,
-  "attack": 70,
-  "defence": 70,
-  "spAttack": 65,
-  "spDefence": 65,
-  "speed": 45,
+  "status": {
+    "hp": 100,
+    "attack": 70,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 65,
+    "speed": 45
+  },
   "evolution": [206]
 }

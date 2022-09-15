@@ -3,11 +3,13 @@
   "form": null,
   "name": "ママンボウ",
   "formName": null,
-  "hp": 165,
-  "attack": 75,
-  "defence": 80,
-  "spAttack": 40,
-  "spDefence": 45,
-  "speed": 65,
+  "status": {
+    "hp": 165,
+    "attack": 75,
+    "defence": 80,
+    "spAttack": 40,
+    "spDefence": 45,
+    "speed": 65
+  },
   "evolution": [594]
 }

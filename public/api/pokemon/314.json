@@ -3,11 +3,13 @@
   "form": null,
   "name": "イルミーゼ",
   "formName": null,
-  "hp": 65,
-  "attack": 47,
-  "defence": 75,
-  "spAttack": 73,
-  "spDefence": 85,
-  "speed": 85,
+  "status": {
+    "hp": 65,
+    "attack": 47,
+    "defence": 75,
+    "spAttack": 73,
+    "spDefence": 85,
+    "speed": 85
+  },
   "evolution": [314]
 }

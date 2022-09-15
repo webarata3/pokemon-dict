@@ -3,11 +3,13 @@
   "form": null,
   "name": "カチコール",
   "formName": null,
-  "hp": 55,
-  "attack": 69,
-  "defence": 85,
-  "spAttack": 32,
-  "spDefence": 35,
-  "speed": 28,
+  "status": {
+    "hp": 55,
+    "attack": 69,
+    "defence": 85,
+    "spAttack": 32,
+    "spDefence": 35,
+    "speed": 28
+  },
   "evolution": [712]
 }

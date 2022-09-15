@@ -3,11 +3,13 @@
   "form": null,
   "name": "ルチャブル",
   "formName": null,
-  "hp": 78,
-  "attack": 92,
-  "defence": 75,
-  "spAttack": 74,
-  "spDefence": 63,
-  "speed": 118,
+  "status": {
+    "hp": 78,
+    "attack": 92,
+    "defence": 75,
+    "spAttack": 74,
+    "spDefence": 63,
+    "speed": 118
+  },
   "evolution": [701]
 }

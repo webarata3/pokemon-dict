@@ -3,11 +3,13 @@
   "form": null,
   "name": "ハッサム",
   "formName": null,
-  "hp": 70,
-  "attack": 130,
-  "defence": 100,
-  "spAttack": 55,
-  "spDefence": 80,
-  "speed": 65,
+  "status": {
+    "hp": 70,
+    "attack": 130,
+    "defence": 100,
+    "spAttack": 55,
+    "spDefence": 80,
+    "speed": 65
+  },
   "evolution": ["123", "212", "900"]
 }

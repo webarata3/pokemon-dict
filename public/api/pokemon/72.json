@@ -3,11 +3,13 @@
   "form": null,
   "name": "メノクラゲ",
   "formName": null,
-  "hp": 40,
-  "attack": 40,
-  "defence": 35,
-  "spAttack": 50,
-  "spDefence": 100,
-  "speed": 70,
+  "status": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 35,
+    "spAttack": 50,
+    "spDefence": 100,
+    "speed": 70
+  },
   "evolution": ["72", "73"]
 }

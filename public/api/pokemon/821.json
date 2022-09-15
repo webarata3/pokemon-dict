@@ -3,11 +3,13 @@
   "form": null,
   "name": "ココガラ",
   "formName": null,
-  "hp": 38,
-  "attack": 47,
-  "defence": 35,
-  "spAttack": 33,
-  "spDefence": 35,
-  "speed": 57,
+  "status": {
+    "hp": 38,
+    "attack": 47,
+    "defence": 35,
+    "spAttack": 33,
+    "spDefence": 35,
+    "speed": 57
+  },
   "evolution": [821]
 }

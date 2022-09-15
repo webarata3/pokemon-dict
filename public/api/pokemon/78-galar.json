@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "ギャロップ",
   "formName": "ガラルのすがた",
-  "hp": 65,
-  "attack": 100,
-  "defence": 70,
-  "spAttack": 80,
-  "spDefence": 80,
-  "speed": 105,
+  "status": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 70,
+    "spAttack": 80,
+    "spDefence": 80,
+    "speed": 105
+  },
   "evolution": [78-galar]
 }

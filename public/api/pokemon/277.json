@@ -3,11 +3,13 @@
   "form": null,
   "name": "オオスバメ",
   "formName": null,
-  "hp": 60,
-  "attack": 85,
-  "defence": 60,
-  "spAttack": 75,
-  "spDefence": 50,
-  "speed": 125,
+  "status": {
+    "hp": 60,
+    "attack": 85,
+    "defence": 60,
+    "spAttack": 75,
+    "spDefence": 50,
+    "speed": 125
+  },
   "evolution": [277]
 }

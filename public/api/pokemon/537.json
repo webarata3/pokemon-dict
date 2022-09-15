@@ -3,11 +3,13 @@
   "form": null,
   "name": "ガマゲロゲ",
   "formName": null,
-  "hp": 105,
-  "attack": 95,
-  "defence": 75,
-  "spAttack": 85,
-  "spDefence": 75,
-  "speed": 74,
+  "status": {
+    "hp": 105,
+    "attack": 95,
+    "defence": 75,
+    "spAttack": 85,
+    "spDefence": 75,
+    "speed": 74
+  },
   "evolution": [537]
 }

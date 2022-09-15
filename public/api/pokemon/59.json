@@ -3,11 +3,13 @@
   "form": null,
   "name": "ウインディ",
   "formName": null,
-  "hp": 90,
-  "attack": 110,
-  "defence": 80,
-  "spAttack": 100,
-  "spDefence": 80,
-  "speed": 95,
+  "status": {
+    "hp": 90,
+    "attack": 110,
+    "defence": 80,
+    "spAttack": 100,
+    "spDefence": 80,
+    "speed": 95
+  },
   "evolution": ["58", "59"]
 }

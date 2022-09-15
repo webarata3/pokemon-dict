@@ -3,11 +3,13 @@
   "form": null,
   "name": "ダイオウドウ",
   "formName": null,
-  "hp": 122,
-  "attack": 130,
-  "defence": 69,
-  "spAttack": 80,
-  "spDefence": 69,
-  "speed": 30,
+  "status": {
+    "hp": 122,
+    "attack": 130,
+    "defence": 69,
+    "spAttack": 80,
+    "spDefence": 69,
+    "speed": 30
+  },
   "evolution": [879]
 }

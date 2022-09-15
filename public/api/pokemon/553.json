@@ -3,11 +3,13 @@
   "form": null,
   "name": "ワルビアル",
   "formName": null,
-  "hp": 95,
-  "attack": 117,
-  "defence": 80,
-  "spAttack": 65,
-  "spDefence": 70,
-  "speed": 92,
+  "status": {
+    "hp": 95,
+    "attack": 117,
+    "defence": 80,
+    "spAttack": 65,
+    "spDefence": 70,
+    "speed": 92
+  },
   "evolution": [553]
 }

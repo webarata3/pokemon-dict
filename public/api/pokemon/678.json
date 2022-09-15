@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニャオニクス",
   "formName": null,
-  "hp": 74,
-  "attack": 48,
-  "defence": 76,
-  "spAttack": 83,
-  "spDefence": 81,
-  "speed": 104,
+  "status": {
+    "hp": 74,
+    "attack": 48,
+    "defence": 76,
+    "spAttack": 83,
+    "spDefence": 81,
+    "speed": 104
+  },
   "evolution": [678]
 }

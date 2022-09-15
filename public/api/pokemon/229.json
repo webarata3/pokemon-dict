@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヘルガー",
   "formName": null,
-  "hp": 75,
-  "attack": 90,
-  "defence": 50,
-  "spAttack": 110,
-  "spDefence": 80,
-  "speed": 95,
+  "status": {
+    "hp": 75,
+    "attack": 90,
+    "defence": 50,
+    "spAttack": 110,
+    "spDefence": 80,
+    "speed": 95
+  },
   "evolution": [229]
 }

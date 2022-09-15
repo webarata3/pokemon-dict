@@ -3,11 +3,13 @@
   "form": null,
   "name": "リオル",
   "formName": null,
-  "hp": 40,
-  "attack": 70,
-  "defence": 40,
-  "spAttack": 35,
-  "spDefence": 40,
-  "speed": 60,
+  "status": {
+    "hp": 40,
+    "attack": 70,
+    "defence": 40,
+    "spAttack": 35,
+    "spDefence": 40,
+    "speed": 60
+  },
   "evolution": [447]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴビット",
   "formName": null,
-  "hp": 59,
-  "attack": 74,
-  "defence": 50,
-  "spAttack": 35,
-  "spDefence": 50,
-  "speed": 35,
+  "status": {
+    "hp": 59,
+    "attack": 74,
+    "defence": 50,
+    "spAttack": 35,
+    "spDefence": 50,
+    "speed": 35
+  },
   "evolution": [622]
 }

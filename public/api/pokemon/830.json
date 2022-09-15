@@ -3,11 +3,13 @@
   "form": null,
   "name": "ワタシラガ",
   "formName": null,
-  "hp": 60,
-  "attack": 50,
-  "defence": 90,
-  "spAttack": 80,
-  "spDefence": 120,
-  "speed": 60,
+  "status": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 90,
+    "spAttack": 80,
+    "spDefence": 120,
+    "speed": 60
+  },
   "evolution": [830]
 }

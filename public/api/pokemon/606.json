@@ -3,11 +3,13 @@
   "form": null,
   "name": "オーベム",
   "formName": null,
-  "hp": 75,
-  "attack": 75,
-  "defence": 75,
-  "spAttack": 125,
-  "spDefence": 95,
-  "speed": 40,
+  "status": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 75,
+    "spAttack": 125,
+    "spDefence": 95,
+    "speed": 40
+  },
   "evolution": [606]
 }

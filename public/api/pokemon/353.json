@@ -3,11 +3,13 @@
   "form": null,
   "name": "カゲボウズ",
   "formName": null,
-  "hp": 44,
-  "attack": 75,
-  "defence": 35,
-  "spAttack": 63,
-  "spDefence": 33,
-  "speed": 45,
+  "status": {
+    "hp": 44,
+    "attack": 75,
+    "defence": 35,
+    "spAttack": 63,
+    "spDefence": 33,
+    "speed": 45
+  },
   "evolution": [353]
 }

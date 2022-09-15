@@ -3,11 +3,13 @@
   "form": null,
   "name": "ラグラージ",
   "formName": null,
-  "hp": 100,
-  "attack": 110,
-  "defence": 90,
-  "spAttack": 85,
-  "spDefence": 90,
-  "speed": 60,
+  "status": {
+    "hp": 100,
+    "attack": 110,
+    "defence": 90,
+    "spAttack": 85,
+    "spDefence": 90,
+    "speed": 60
+  },
   "evolution": [260]
 }

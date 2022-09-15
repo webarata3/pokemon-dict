@@ -3,11 +3,13 @@
   "form": null,
   "name": "ラビフット",
   "formName": null,
-  "hp": 65,
-  "attack": 86,
-  "defence": 60,
-  "spAttack": 55,
-  "spDefence": 60,
-  "speed": 94,
+  "status": {
+    "hp": 65,
+    "attack": 86,
+    "defence": 60,
+    "spAttack": 55,
+    "spDefence": 60,
+    "speed": 94
+  },
   "evolution": [814]
 }

@@ -3,11 +3,13 @@
   "form": "rekisen",
   "name": "ザシアン",
   "formName": "れきせんのゆうしゃ",
-  "hp": 92,
-  "attack": 130,
-  "defence": 115,
-  "spAttack": 80,
-  "spDefence": 115,
-  "speed": 138,
+  "status": {
+    "hp": 92,
+    "attack": 130,
+    "defence": 115,
+    "spAttack": 80,
+    "spDefence": 115,
+    "speed": 138
+  },
   "evolution": [888-rekisen]
 }

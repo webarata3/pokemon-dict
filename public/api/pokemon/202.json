@@ -3,11 +3,13 @@
   "form": null,
   "name": "ソーナンス",
   "formName": null,
-  "hp": 190,
-  "attack": 33,
-  "defence": 58,
-  "spAttack": 33,
-  "spDefence": 58,
-  "speed": 33,
+  "status": {
+    "hp": 190,
+    "attack": 33,
+    "defence": 58,
+    "spAttack": 33,
+    "spDefence": 58,
+    "speed": 33
+  },
   "evolution": [202]
 }

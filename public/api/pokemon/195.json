@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヌオー",
   "formName": null,
-  "hp": 95,
-  "attack": 85,
-  "defence": 85,
-  "spAttack": 65,
-  "spDefence": 65,
-  "speed": 35,
+  "status": {
+    "hp": 95,
+    "attack": 85,
+    "defence": 85,
+    "spAttack": 65,
+    "spDefence": 65,
+    "speed": 35
+  },
   "evolution": [195]
 }

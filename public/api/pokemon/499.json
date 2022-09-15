@@ -3,11 +3,13 @@
   "form": null,
   "name": "チャオブー",
   "formName": null,
-  "hp": 90,
-  "attack": 93,
-  "defence": 55,
-  "spAttack": 70,
-  "spDefence": 55,
-  "speed": 55,
+  "status": {
+    "hp": 90,
+    "attack": 93,
+    "defence": 55,
+    "spAttack": 70,
+    "spDefence": 55,
+    "speed": 55
+  },
   "evolution": [499]
 }

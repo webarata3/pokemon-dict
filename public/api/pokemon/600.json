@@ -3,11 +3,13 @@
   "form": null,
   "name": "ギギアル",
   "formName": null,
-  "hp": 60,
-  "attack": 80,
-  "defence": 95,
-  "spAttack": 70,
-  "spDefence": 85,
-  "speed": 50,
+  "status": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 95,
+    "spAttack": 70,
+    "spDefence": 85,
+    "speed": 50
+  },
   "evolution": [600]
 }

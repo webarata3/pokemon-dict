@@ -3,11 +3,13 @@
   "form": null,
   "name": "ムーランド",
   "formName": null,
-  "hp": 85,
-  "attack": 110,
-  "defence": 90,
-  "spAttack": 45,
-  "spDefence": 90,
-  "speed": 80,
+  "status": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 90,
+    "spAttack": 45,
+    "spDefence": 90,
+    "speed": 80
+  },
   "evolution": [508]
 }

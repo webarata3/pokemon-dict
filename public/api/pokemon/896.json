@@ -3,11 +3,13 @@
   "form": null,
   "name": "ブリザポス",
   "formName": null,
-  "hp": 100,
-  "attack": 145,
-  "defence": 130,
-  "spAttack": 65,
-  "spDefence": 110,
-  "speed": 30,
+  "status": {
+    "hp": 100,
+    "attack": 145,
+    "defence": 130,
+    "spAttack": 65,
+    "spDefence": 110,
+    "speed": 30
+  },
   "evolution": [896]
 }

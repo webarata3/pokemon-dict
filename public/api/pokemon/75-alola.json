@@ -3,11 +3,13 @@
   "form": "alola",
   "name": "ゴローン",
   "formName": "アローラのすがた",
-  "hp": 55,
-  "attack": 95,
-  "defence": 115,
-  "spAttack": 45,
-  "spDefence": 45,
-  "speed": 35,
+  "status": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 115,
+    "spAttack": 45,
+    "spDefence": 45,
+    "speed": 35
+  },
   "evolution": [75-alola]
 }

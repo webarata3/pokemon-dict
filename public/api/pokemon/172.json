@@ -3,11 +3,13 @@
   "form": null,
   "name": "ピチュー",
   "formName": null,
-  "hp": 20,
-  "attack": 40,
-  "defence": 15,
-  "spAttack": 35,
-  "spDefence": 35,
-  "speed": 60,
+  "status": {
+    "hp": 20,
+    "attack": 40,
+    "defence": 15,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 60
+  },
   "evolution": [172]
 }

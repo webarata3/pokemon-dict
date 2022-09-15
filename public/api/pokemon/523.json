@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゼブライカ",
   "formName": null,
-  "hp": 75,
-  "attack": 100,
-  "defence": 63,
-  "spAttack": 80,
-  "spDefence": 63,
-  "speed": 116,
+  "status": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 63,
+    "spAttack": 80,
+    "spDefence": 63,
+    "speed": 116
+  },
   "evolution": [523]
 }

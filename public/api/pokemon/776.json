@@ -3,11 +3,13 @@
   "form": null,
   "name": "バクガメス",
   "formName": null,
-  "hp": 60,
-  "attack": 78,
-  "defence": 135,
-  "spAttack": 91,
-  "spDefence": 85,
-  "speed": 36,
+  "status": {
+    "hp": 60,
+    "attack": 78,
+    "defence": 135,
+    "spAttack": 91,
+    "spDefence": 85,
+    "speed": 36
+  },
   "evolution": [776]
 }

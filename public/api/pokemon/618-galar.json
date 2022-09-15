@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "マッギョ",
   "formName": "ガラルのすがた",
-  "hp": 109,
-  "attack": 81,
-  "defence": 99,
-  "spAttack": 66,
-  "spDefence": 84,
-  "speed": 32,
+  "status": {
+    "hp": 109,
+    "attack": 81,
+    "defence": 99,
+    "spAttack": 66,
+    "spDefence": 84,
+    "speed": 32
+  },
   "evolution": [618-galar]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ブビィ",
   "formName": null,
-  "hp": 45,
-  "attack": 75,
-  "defence": 37,
-  "spAttack": 70,
-  "spDefence": 55,
-  "speed": 83,
+  "status": {
+    "hp": 45,
+    "attack": 75,
+    "defence": 37,
+    "spAttack": 70,
+    "spDefence": 55,
+    "speed": 83
+  },
   "evolution": [240]
 }

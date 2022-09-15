@@ -3,11 +3,13 @@
   "form": null,
   "name": "モクロー",
   "formName": null,
-  "hp": 68,
-  "attack": 55,
-  "defence": 55,
-  "spAttack": 50,
-  "spDefence": 50,
-  "speed": 42,
+  "status": {
+    "hp": 68,
+    "attack": 55,
+    "defence": 55,
+    "spAttack": 50,
+    "spDefence": 50,
+    "speed": 42
+  },
   "evolution": [722]
 }

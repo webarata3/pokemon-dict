@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジヘッド",
   "formName": null,
-  "hp": 72,
-  "attack": 85,
-  "defence": 70,
-  "spAttack": 65,
-  "spDefence": 70,
-  "speed": 58,
+  "status": {
+    "hp": 72,
+    "attack": 85,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 70,
+    "speed": 58
+  },
   "evolution": [634]
 }

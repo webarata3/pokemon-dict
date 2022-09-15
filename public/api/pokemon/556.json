@@ -3,11 +3,13 @@
   "form": null,
   "name": "マラカッチ",
   "formName": null,
-  "hp": 75,
-  "attack": 86,
-  "defence": 67,
-  "spAttack": 106,
-  "spDefence": 67,
-  "speed": 60,
+  "status": {
+    "hp": 75,
+    "attack": 86,
+    "defence": 67,
+    "spAttack": 106,
+    "spDefence": 67,
+    "speed": 60
+  },
   "evolution": [556]
 }

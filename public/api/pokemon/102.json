@@ -3,11 +3,13 @@
   "form": null,
   "name": "タマタマ",
   "formName": null,
-  "hp": 60,
-  "attack": 40,
-  "defence": 80,
-  "spAttack": 60,
-  "spDefence": 45,
-  "speed": 40,
+  "status": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 80,
+    "spAttack": 60,
+    "spDefence": 45,
+    "speed": 40
+  },
   "evolution": ["102", "103"]
 }

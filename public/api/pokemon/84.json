@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドードー",
   "formName": null,
-  "hp": 35,
-  "attack": 85,
-  "defence": 45,
-  "spAttack": 35,
-  "spDefence": 35,
-  "speed": 75,
+  "status": {
+    "hp": 35,
+    "attack": 85,
+    "defence": 45,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 75
+  },
   "evolution": ["84", "85"]
 }

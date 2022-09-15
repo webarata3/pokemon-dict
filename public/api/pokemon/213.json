@@ -3,11 +3,13 @@
   "form": null,
   "name": "ツボツボ",
   "formName": null,
-  "hp": 20,
-  "attack": 10,
-  "defence": 230,
-  "spAttack": 10,
-  "spDefence": 230,
-  "speed": 5,
+  "status": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 230,
+    "spAttack": 10,
+    "spDefence": 230,
+    "speed": 5
+  },
   "evolution": [213]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "バリヤード",
   "formName": null,
-  "hp": 40,
-  "attack": 45,
-  "defence": 65,
-  "spAttack": 100,
-  "spDefence": 120,
-  "speed": 90,
+  "status": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 65,
+    "spAttack": 100,
+    "spDefence": 120,
+    "speed": 90
+  },
   "evolution": [122]
 }

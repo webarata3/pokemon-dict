@@ -3,11 +3,13 @@
   "form": null,
   "name": "タイレーツ",
   "formName": null,
-  "hp": 65,
-  "attack": 100,
-  "defence": 100,
-  "spAttack": 70,
-  "spDefence": 60,
-  "speed": 75,
+  "status": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 100,
+    "spAttack": 70,
+    "spDefence": 60,
+    "speed": 75
+  },
   "evolution": [870]
 }

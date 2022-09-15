@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "サンダー",
   "formName": "ガラルのすがた",
-  "hp": 90,
-  "attack": 125,
-  "defence": 90,
-  "spAttack": 85,
-  "spDefence": 90,
-  "speed": 100,
+  "status": {
+    "hp": 90,
+    "attack": 125,
+    "defence": 90,
+    "spAttack": 85,
+    "spDefence": 90,
+    "speed": 100
+  },
   "evolution": [145-galar]
 }

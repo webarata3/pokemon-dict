@@ -3,11 +3,13 @@
   "form": null,
   "name": "デスバーン",
   "formName": null,
-  "hp": 58,
-  "attack": 95,
-  "defence": 145,
-  "spAttack": 50,
-  "spDefence": 105,
-  "speed": 30,
+  "status": {
+    "hp": 58,
+    "attack": 95,
+    "defence": 145,
+    "spAttack": 50,
+    "spDefence": 105,
+    "speed": 30
+  },
   "evolution": [867]
 }

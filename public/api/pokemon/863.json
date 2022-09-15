@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニャイキング",
   "formName": null,
-  "hp": 70,
-  "attack": 110,
-  "defence": 100,
-  "spAttack": 50,
-  "spDefence": 60,
-  "speed": 50,
+  "status": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 100,
+    "spAttack": 50,
+    "spDefence": 60,
+    "speed": 50
+  },
   "evolution": [863]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "アグノム",
   "formName": null,
-  "hp": 75,
-  "attack": 125,
-  "defence": 70,
-  "spAttack": 125,
-  "spDefence": 70,
-  "speed": 115,
+  "status": {
+    "hp": 75,
+    "attack": 125,
+    "defence": 70,
+    "spAttack": 125,
+    "spDefence": 70,
+    "speed": 115
+  },
   "evolution": [482]
 }

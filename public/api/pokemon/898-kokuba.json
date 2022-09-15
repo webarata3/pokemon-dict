@@ -3,11 +3,13 @@
   "form": "kokuba",
   "name": "バドレックス",
   "formName": "こくばじょうのすがた",
-  "hp": 100,
-  "attack": 85,
-  "defence": 80,
-  "spAttack": 165,
-  "spDefence": 100,
-  "speed": 150,
+  "status": {
+    "hp": 100,
+    "attack": 85,
+    "defence": 80,
+    "spAttack": 165,
+    "spDefence": 100,
+    "speed": 150
+  },
   "evolution": [898-kokuba]
 }

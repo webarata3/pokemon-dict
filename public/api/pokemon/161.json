@@ -3,11 +3,13 @@
   "form": null,
   "name": "オタチ",
   "formName": null,
-  "hp": 35,
-  "attack": 46,
-  "defence": 34,
-  "spAttack": 35,
-  "spDefence": 45,
-  "speed": 20,
+  "status": {
+    "hp": 35,
+    "attack": 46,
+    "defence": 34,
+    "spAttack": 35,
+    "spDefence": 45,
+    "speed": 20
+  },
   "evolution": [161]
 }

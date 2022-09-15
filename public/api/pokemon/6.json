@@ -3,11 +3,13 @@
   "form": null,
   "name": "リザードン",
   "formName": null,
-  "hp": 78,
-  "attack": 84,
-  "defence": 78,
-  "spAttack": 109,
-  "spDefence": 85,
-  "speed": 100,
+  "status": {
+    "hp": 78,
+    "attack": 84,
+    "defence": 78,
+    "spAttack": 109,
+    "spDefence": 85,
+    "speed": 100
+  },
   "evolution": ["4", "5", "6"]
 }

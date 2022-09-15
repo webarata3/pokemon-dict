@@ -3,11 +3,13 @@
   "form": null,
   "name": "ユクシー",
   "formName": null,
-  "hp": 75,
-  "attack": 75,
-  "defence": 130,
-  "spAttack": 75,
-  "spDefence": 130,
-  "speed": 95,
+  "status": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 130,
+    "spAttack": 75,
+    "spDefence": 130,
+    "speed": 95
+  },
   "evolution": [480]
 }

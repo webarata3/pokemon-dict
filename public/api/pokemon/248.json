@@ -3,11 +3,13 @@
   "form": null,
   "name": "バンギラス",
   "formName": null,
-  "hp": 100,
-  "attack": 134,
-  "defence": 110,
-  "spAttack": 95,
-  "spDefence": 100,
-  "speed": 61,
+  "status": {
+    "hp": 100,
+    "attack": 134,
+    "defence": 110,
+    "spAttack": 95,
+    "spDefence": 100,
+    "speed": 61
+  },
   "evolution": [248]
 }

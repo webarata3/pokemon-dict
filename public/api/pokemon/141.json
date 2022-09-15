@@ -3,11 +3,13 @@
   "form": null,
   "name": "カブトプス",
   "formName": null,
-  "hp": 60,
-  "attack": 115,
-  "defence": 105,
-  "spAttack": 65,
-  "spDefence": 70,
-  "speed": 80,
+  "status": {
+    "hp": 60,
+    "attack": 115,
+    "defence": 105,
+    "spAttack": 65,
+    "spDefence": 70,
+    "speed": 80
+  },
   "evolution": ["140", "141"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "シンボラー",
   "formName": null,
-  "hp": 72,
-  "attack": 58,
-  "defence": 80,
-  "spAttack": 103,
-  "spDefence": 80,
-  "speed": 97,
+  "status": {
+    "hp": 72,
+    "attack": 58,
+    "defence": 80,
+    "spAttack": 103,
+    "spDefence": 80,
+    "speed": 97
+  },
   "evolution": [561]
 }

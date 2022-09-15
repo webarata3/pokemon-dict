@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "ヤドン",
   "formName": "ガラルのすがた",
-  "hp": 90,
-  "attack": 65,
-  "defence": 65,
-  "spAttack": 40,
-  "spDefence": 40,
-  "speed": 15,
+  "status": {
+    "hp": 90,
+    "attack": 65,
+    "defence": 65,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 15
+  },
   "evolution": [79-galar]
 }

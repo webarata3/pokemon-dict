@@ -3,11 +3,13 @@
   "form": null,
   "name": "タッツー",
   "formName": null,
-  "hp": 30,
-  "attack": 40,
-  "defence": 70,
-  "spAttack": 70,
-  "spDefence": 25,
-  "speed": 60,
+  "status": {
+    "hp": 30,
+    "attack": 40,
+    "defence": 70,
+    "spAttack": 70,
+    "spDefence": 25,
+    "speed": 60
+  },
   "evolution": ["116", "117", "230"]
 }

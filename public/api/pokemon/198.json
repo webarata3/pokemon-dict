@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤミカラス",
   "formName": null,
-  "hp": 60,
-  "attack": 85,
-  "defence": 42,
-  "spAttack": 85,
-  "spDefence": 42,
-  "speed": 91,
+  "status": {
+    "hp": 60,
+    "attack": 85,
+    "defence": 42,
+    "spAttack": 85,
+    "spDefence": 42,
+    "speed": 91
+  },
   "evolution": [198]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "タマザラシ",
   "formName": null,
-  "hp": 70,
-  "attack": 40,
-  "defence": 50,
-  "spAttack": 55,
-  "spDefence": 50,
-  "speed": 25,
+  "status": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 50,
+    "spAttack": 55,
+    "spDefence": 50,
+    "speed": 25
+  },
   "evolution": [363]
 }

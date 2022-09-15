@@ -3,11 +3,13 @@
   "form": null,
   "name": "サシカマス",
   "formName": null,
-  "hp": 41,
-  "attack": 63,
-  "defence": 40,
-  "spAttack": 40,
-  "spDefence": 30,
-  "speed": 66,
+  "status": {
+    "hp": 41,
+    "attack": 63,
+    "defence": 40,
+    "spAttack": 40,
+    "spDefence": 30,
+    "speed": 66
+  },
   "evolution": [846]
 }

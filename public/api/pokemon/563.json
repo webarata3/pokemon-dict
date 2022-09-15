@@ -3,11 +3,13 @@
   "form": null,
   "name": "デスカーン",
   "formName": null,
-  "hp": 58,
-  "attack": 50,
-  "defence": 145,
-  "spAttack": 95,
-  "spDefence": 105,
-  "speed": 30,
+  "status": {
+    "hp": 58,
+    "attack": 50,
+    "defence": 145,
+    "spAttack": 95,
+    "spDefence": 105,
+    "speed": 30
+  },
   "evolution": [563]
 }

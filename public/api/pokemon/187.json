@@ -3,11 +3,13 @@
   "form": null,
   "name": "ハネッコ",
   "formName": null,
-  "hp": 35,
-  "attack": 35,
-  "defence": 40,
-  "spAttack": 35,
-  "spDefence": 55,
-  "speed": 50,
+  "status": {
+    "hp": 35,
+    "attack": 35,
+    "defence": 40,
+    "spAttack": 35,
+    "spDefence": 55,
+    "speed": 50
+  },
   "evolution": [187]
 }

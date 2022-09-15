@@ -3,11 +3,13 @@
   "form": null,
   "name": "アーボック",
   "formName": null,
-  "hp": 60,
-  "attack": 95,
-  "defence": 69,
-  "spAttack": 65,
-  "spDefence": 79,
-  "speed": 80,
+  "status": {
+    "hp": 60,
+    "attack": 95,
+    "defence": 69,
+    "spAttack": 65,
+    "spDefence": 79,
+    "speed": 80
+  },
   "evolution": ["23", "24"]
 }

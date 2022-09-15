@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤミラミ",
   "formName": null,
-  "hp": 50,
-  "attack": 75,
-  "defence": 75,
-  "spAttack": 65,
-  "spDefence": 65,
-  "speed": 50,
+  "status": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 75,
+    "spAttack": 65,
+    "spDefence": 65,
+    "speed": 50
+  },
   "evolution": [302]
 }

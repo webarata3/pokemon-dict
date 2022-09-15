@@ -3,11 +3,13 @@
   "form": null,
   "name": "メロエッタ",
   "formName": ボイスフォルム,
-  "hp": 100,
-  "attack": 77,
-  "defence": 77,
-  "spAttack": 128,
-  "spDefence": 128,
-  "speed": 90,
+  "status": {
+    "hp": 100,
+    "attack": 77,
+    "defence": 77,
+    "spAttack": 128,
+    "spDefence": 128,
+    "speed": 90
+  },
   "evolution": [648]
 }

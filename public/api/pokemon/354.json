@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジュペッタ",
   "formName": null,
-  "hp": 64,
-  "attack": 115,
-  "defence": 65,
-  "spAttack": 83,
-  "spDefence": 63,
-  "speed": 65,
+  "status": {
+    "hp": 64,
+    "attack": 115,
+    "defence": 65,
+    "spAttack": 83,
+    "spDefence": 63,
+    "speed": 65
+  },
   "evolution": [354]
 }

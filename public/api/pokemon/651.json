@@ -3,11 +3,13 @@
   "form": null,
   "name": "ハリボーグ",
   "formName": null,
-  "hp": 61,
-  "attack": 78,
-  "defence": 95,
-  "spAttack": 56,
-  "spDefence": 58,
-  "speed": 57,
+  "status": {
+    "hp": 61,
+    "attack": 78,
+    "defence": 95,
+    "spAttack": 56,
+    "spDefence": 58,
+    "speed": 57
+  },
   "evolution": [651]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴリランダー",
   "formName": null,
-  "hp": 100,
-  "attack": 125,
-  "defence": 90,
-  "spAttack": 60,
-  "spDefence": 70,
-  "speed": 85,
+  "status": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 90,
+    "spAttack": 60,
+    "spDefence": 70,
+    "speed": 85
+  },
   "evolution": [812]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ビーダル",
   "formName": null,
-  "hp": 79,
-  "attack": 85,
-  "defence": 60,
-  "spAttack": 55,
-  "spDefence": 60,
-  "speed": 71,
+  "status": {
+    "hp": 79,
+    "attack": 85,
+    "defence": 60,
+    "spAttack": 55,
+    "spDefence": 60,
+    "speed": 71
+  },
   "evolution": [400]
 }

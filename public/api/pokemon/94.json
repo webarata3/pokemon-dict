@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゲンガー",
   "formName": null,
-  "hp": 60,
-  "attack": 65,
-  "defence": 60,
-  "spAttack": 130,
-  "spDefence": 75,
-  "speed": 110,
+  "status": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 60,
+    "spAttack": 130,
+    "spDefence": 75,
+    "speed": 110
+  },
   "evolution": ["92", "93", "94"]
 }

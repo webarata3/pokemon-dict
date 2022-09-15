@@ -3,11 +3,13 @@
   "form": null,
   "name": "ピィ",
   "formName": null,
-  "hp": 50,
-  "attack": 25,
-  "defence": 28,
-  "spAttack": 45,
-  "spDefence": 55,
-  "speed": 15,
+  "status": {
+    "hp": 50,
+    "attack": 25,
+    "defence": 28,
+    "spAttack": 45,
+    "spDefence": 55,
+    "speed": 15
+  },
   "evolution": [173]
 }

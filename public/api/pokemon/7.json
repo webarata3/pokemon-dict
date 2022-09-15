@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゼニガメ",
   "formName": null,
-  "hp": 44,
-  "attack": 48,
-  "defence": 65,
-  "spAttack": 50,
-  "spDefence": 64,
-  "speed": 43,
+  "status": {
+    "hp": 44,
+    "attack": 48,
+    "defence": 65,
+    "spAttack": 50,
+    "spDefence": 64,
+    "speed": 43
+  },
   "evolution": ["7", "8", "9"]
 }

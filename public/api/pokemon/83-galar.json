@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "カモネギ",
   "formName": "ガラルのすがた",
-  "hp": 52,
-  "attack": 95,
-  "defence": 55,
-  "spAttack": 58,
-  "spDefence": 62,
-  "speed": 55,
+  "status": {
+    "hp": 52,
+    "attack": 95,
+    "defence": 55,
+    "spAttack": 58,
+    "spDefence": 62,
+    "speed": 55
+  },
   "evolution": [83-galar]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴルバット",
   "formName": null,
-  "hp": 75,
-  "attack": 80,
-  "defence": 70,
-  "spAttack": 65,
-  "spDefence": 75,
-  "speed": 90,
+  "status": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 75,
+    "speed": 90
+  },
   "evolution": ["41", "42", "169"]
 }

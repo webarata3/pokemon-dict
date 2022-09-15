@@ -3,11 +3,13 @@
   "form": "kennoou",
   "name": "ザシアン",
   "formName": "けんのおう",
-  "hp": 92,
-  "attack": 170,
-  "defence": 115,
-  "spAttack": 80,
-  "spDefence": 115,
-  "speed": 148,
+  "status": {
+    "hp": 92,
+    "attack": 170,
+    "defence": 115,
+    "spAttack": 80,
+    "spDefence": 115,
+    "speed": 148
+  },
   "evolution": [888-kennoou]
 }

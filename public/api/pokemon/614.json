@@ -3,11 +3,13 @@
   "form": null,
   "name": "ツンベアー",
   "formName": null,
-  "hp": 95,
-  "attack": 130,
-  "defence": 80,
-  "spAttack": 70,
-  "spDefence": 80,
-  "speed": 50,
+  "status": {
+    "hp": 95,
+    "attack": 130,
+    "defence": 80,
+    "spAttack": 70,
+    "spDefence": 80,
+    "speed": 50
+  },
   "evolution": [614]
 }

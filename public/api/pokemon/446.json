@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴンベ",
   "formName": null,
-  "hp": 135,
-  "attack": 85,
-  "defence": 40,
-  "spAttack": 40,
-  "spDefence": 85,
-  "speed": 5,
+  "status": {
+    "hp": 135,
+    "attack": 85,
+    "defence": 40,
+    "spAttack": 40,
+    "spDefence": 85,
+    "speed": 5
+  },
   "evolution": [446]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヌケニン",
   "formName": null,
-  "hp": 1,
-  "attack": 90,
-  "defence": 45,
-  "spAttack": 30,
-  "spDefence": 30,
-  "speed": 40,
+  "status": {
+    "hp": 1,
+    "attack": 90,
+    "defence": 45,
+    "spAttack": 30,
+    "spDefence": 30,
+    "speed": 40
+  },
   "evolution": [292]
 }

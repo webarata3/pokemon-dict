@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドロンチ",
   "formName": null,
-  "hp": 68,
-  "attack": 80,
-  "defence": 50,
-  "spAttack": 60,
-  "spDefence": 50,
-  "speed": 102,
+  "status": {
+    "hp": 68,
+    "attack": 80,
+    "defence": 50,
+    "spAttack": 60,
+    "spDefence": 50,
+    "speed": 102
+  },
   "evolution": [886]
 }

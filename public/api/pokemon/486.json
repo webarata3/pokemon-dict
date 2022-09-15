@@ -3,11 +3,13 @@
   "form": null,
   "name": "レジギガス",
   "formName": null,
-  "hp": 110,
-  "attack": 160,
-  "defence": 110,
-  "spAttack": 80,
-  "spDefence": 110,
-  "speed": 100,
+  "status": {
+    "hp": 110,
+    "attack": 160,
+    "defence": 110,
+    "spAttack": 80,
+    "spDefence": 110,
+    "speed": 100
+  },
   "evolution": [486]
 }

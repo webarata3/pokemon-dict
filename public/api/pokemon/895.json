@@ -3,11 +3,13 @@
   "form": null,
   "name": "レジドラゴ",
   "formName": null,
-  "hp": 200,
-  "attack": 100,
-  "defence": 50,
-  "spAttack": 100,
-  "spDefence": 50,
-  "speed": 80,
+  "status": {
+    "hp": 200,
+    "attack": 100,
+    "defence": 50,
+    "spAttack": 100,
+    "spDefence": 50,
+    "speed": 80
+  },
   "evolution": [895]
 }

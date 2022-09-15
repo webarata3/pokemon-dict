@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニドリーノ",
   "formName": null,
-  "hp": 61,
-  "attack": 72,
-  "defence": 57,
-  "spAttack": 55,
-  "spDefence": 55,
-  "speed": 65,
+  "status": {
+    "hp": 61,
+    "attack": 72,
+    "defence": 57,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 65
+  },
   "evolution": ["32", "33", "34"]
 }

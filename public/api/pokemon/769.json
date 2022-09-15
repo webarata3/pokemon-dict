@@ -3,11 +3,13 @@
   "form": null,
   "name": "スナバァ",
   "formName": null,
-  "hp": 55,
-  "attack": 55,
-  "defence": 80,
-  "spAttack": 70,
-  "spDefence": 45,
-  "speed": 15,
+  "status": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 80,
+    "spAttack": 70,
+    "spDefence": 45,
+    "speed": 15
+  },
   "evolution": [769]
 }

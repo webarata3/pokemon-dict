@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドンカラス",
   "formName": null,
-  "hp": 100,
-  "attack": 125,
-  "defence": 52,
-  "spAttack": 105,
-  "spDefence": 52,
-  "speed": 71,
+  "status": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 52,
+    "spAttack": 105,
+    "spDefence": 52,
+    "speed": 71
+  },
   "evolution": [430]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ビリリダマ",
   "formName": null,
-  "hp": 40,
-  "attack": 30,
-  "defence": 50,
-  "spAttack": 55,
-  "spDefence": 55,
-  "speed": 100,
+  "status": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 50,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 100
+  },
   "evolution": ["100", "101"]
 }

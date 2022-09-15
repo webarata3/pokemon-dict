@@ -3,11 +3,13 @@
   "form": null,
   "name": "メッソン",
   "formName": null,
-  "hp": 50,
-  "attack": 40,
-  "defence": 40,
-  "spAttack": 70,
-  "spDefence": 40,
-  "speed": 70,
+  "status": {
+    "hp": 50,
+    "attack": 40,
+    "defence": 40,
+    "spAttack": 70,
+    "spDefence": 40,
+    "speed": 70
+  },
   "evolution": [816]
 }

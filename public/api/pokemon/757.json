@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤトウモリ",
   "formName": null,
-  "hp": 48,
-  "attack": 44,
-  "defence": 40,
-  "spAttack": 71,
-  "spDefence": 40,
-  "speed": 77,
+  "status": {
+    "hp": 48,
+    "attack": 44,
+    "defence": 40,
+    "spAttack": 71,
+    "spDefence": 40,
+    "speed": 77
+  },
   "evolution": [757]
 }

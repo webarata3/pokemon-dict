@@ -3,11 +3,13 @@
   "form": null,
   "name": "モココ",
   "formName": null,
-  "hp": 70,
-  "attack": 55,
-  "defence": 55,
-  "spAttack": 80,
-  "spDefence": 60,
-  "speed": 45,
+  "status": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 55,
+    "spAttack": 80,
+    "spDefence": 60,
+    "speed": 45
+  },
   "evolution": [180]
 }

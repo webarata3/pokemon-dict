@@ -3,11 +3,13 @@
   "form": null,
   "name": "コモルー",
   "formName": null,
-  "hp": 65,
-  "attack": 95,
-  "defence": 100,
-  "spAttack": 60,
-  "spDefence": 50,
-  "speed": 50,
+  "status": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 100,
+    "spAttack": 60,
+    "spDefence": 50,
+    "speed": 50
+  },
   "evolution": [372]
 }

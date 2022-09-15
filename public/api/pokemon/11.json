@@ -3,11 +3,13 @@
   "form": null,
   "name": "トランセル",
   "formName": null,
-  "hp": 50,
-  "attack": 20,
-  "defence": 55,
-  "spAttack": 25,
-  "spDefence": 25,
-  "speed": 30,
+  "status": {
+    "hp": 50,
+    "attack": 20,
+    "defence": 55,
+    "spAttack": 25,
+    "spDefence": 25,
+    "speed": 30
+  },
   "evolution": ["10", "11", "12"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ルリリ",
   "formName": null,
-  "hp": 50,
-  "attack": 20,
-  "defence": 40,
-  "spAttack": 20,
-  "spDefence": 40,
-  "speed": 20,
+  "status": {
+    "hp": 50,
+    "attack": 20,
+    "defence": 40,
+    "spAttack": 20,
+    "spDefence": 40,
+    "speed": 20
+  },
   "evolution": [298]
 }

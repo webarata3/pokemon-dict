@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤングース",
   "formName": null,
-  "hp": 48,
-  "attack": 70,
-  "defence": 30,
-  "spAttack": 30,
-  "spDefence": 30,
-  "speed": 45,
+  "status": {
+    "hp": 48,
+    "attack": 70,
+    "defence": 30,
+    "spAttack": 30,
+    "spDefence": 30,
+    "speed": 45
+  },
   "evolution": [734]
 }

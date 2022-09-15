@@ -3,11 +3,13 @@
   "form": null,
   "name": "ガブリアス",
   "formName": null,
-  "hp": 108,
-  "attack": 130,
-  "defence": 95,
-  "spAttack": 80,
-  "spDefence": 85,
-  "speed": 102,
+  "status": {
+    "hp": 108,
+    "attack": 130,
+    "defence": 95,
+    "spAttack": 80,
+    "spDefence": 85,
+    "speed": 102
+  },
   "evolution": [445]
 }

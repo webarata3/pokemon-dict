@@ -3,11 +3,13 @@
   "form": null,
   "name": "プテラ",
   "formName": null,
-  "hp": 80,
-  "attack": 105,
-  "defence": 65,
-  "spAttack": 60,
-  "spDefence": 75,
-  "speed": 130,
+  "status": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 65,
+    "spAttack": 60,
+    "spDefence": 75,
+    "speed": 130
+  },
   "evolution": ["142"]
 }

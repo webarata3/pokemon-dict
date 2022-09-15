@@ -3,11 +3,13 @@
   "form": null,
   "name": "エリキテル",
   "formName": null,
-  "hp": 44,
-  "attack": 38,
-  "defence": 33,
-  "spAttack": 61,
-  "spDefence": 43,
-  "speed": 70,
+  "status": {
+    "hp": 44,
+    "attack": 38,
+    "defence": 33,
+    "spAttack": 61,
+    "spDefence": 43,
+    "speed": 70
+  },
   "evolution": [694]
 }

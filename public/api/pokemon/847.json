@@ -3,11 +3,13 @@
   "form": null,
   "name": "カマスジョー",
   "formName": null,
-  "hp": 61,
-  "attack": 123,
-  "defence": 60,
-  "spAttack": 60,
-  "spDefence": 50,
-  "speed": 136,
+  "status": {
+    "hp": 61,
+    "attack": 123,
+    "defence": 60,
+    "spAttack": 60,
+    "spDefence": 50,
+    "speed": 136
+  },
   "evolution": [847]
 }

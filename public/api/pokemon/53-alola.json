@@ -3,11 +3,13 @@
   "form": "alola",
   "name": "ペルシアン",
   "formName": "アローラのすがた",
-  "hp": 65,
-  "attack": 60,
-  "defence": 60,
-  "spAttack": 75,
-  "spDefence": 65,
-  "speed": 115,
+  "status": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 60,
+    "spAttack": 75,
+    "spDefence": 65,
+    "speed": 115
+  },
   "evolution": [53-alola]
 }

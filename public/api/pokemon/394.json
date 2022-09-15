@@ -3,11 +3,13 @@
   "form": null,
   "name": "ポッタイシ",
   "formName": null,
-  "hp": 64,
-  "attack": 66,
-  "defence": 68,
-  "spAttack": 81,
-  "spDefence": 76,
-  "speed": 50,
+  "status": {
+    "hp": 64,
+    "attack": 66,
+    "defence": 68,
+    "spAttack": 81,
+    "spDefence": 76,
+    "speed": 50
+  },
   "evolution": [394]
 }

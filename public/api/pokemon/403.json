@@ -3,11 +3,13 @@
   "form": null,
   "name": "コリンク",
   "formName": null,
-  "hp": 45,
-  "attack": 65,
-  "defence": 34,
-  "spAttack": 40,
-  "spDefence": 34,
-  "speed": 45,
+  "status": {
+    "hp": 45,
+    "attack": 65,
+    "defence": 34,
+    "spAttack": 40,
+    "spDefence": 34,
+    "speed": 45
+  },
   "evolution": [403]
 }

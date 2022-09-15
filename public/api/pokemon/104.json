@@ -3,11 +3,13 @@
   "form": null,
   "name": "カラカラ",
   "formName": null,
-  "hp": 50,
-  "attack": 50,
-  "defence": 95,
-  "spAttack": 40,
-  "spDefence": 50,
-  "speed": 35,
+  "status": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 95,
+    "spAttack": 40,
+    "spDefence": 50,
+    "speed": 35
+  },
   "evolution": ["104", "105", "105-alola"]
 }

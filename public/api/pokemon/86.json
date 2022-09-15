@@ -3,11 +3,13 @@
   "form": null,
   "name": "パウワウ",
   "formName": null,
-  "hp": 65,
-  "attack": 45,
-  "defence": 55,
-  "spAttack": 45,
-  "spDefence": 70,
-  "speed": 45,
+  "status": {
+    "hp": 65,
+    "attack": 45,
+    "defence": 55,
+    "spAttack": 45,
+    "spDefence": 70,
+    "speed": 45
+  },
   "evolution": ["86", "87"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "マネネ",
   "formName": null,
-  "hp": 20,
-  "attack": 25,
-  "defence": 45,
-  "spAttack": 70,
-  "spDefence": 90,
-  "speed": 60,
+  "status": {
+    "hp": 20,
+    "attack": 25,
+    "defence": 45,
+    "spAttack": 70,
+    "spDefence": 90,
+    "speed": 60
+  },
   "evolution": [439]
 }

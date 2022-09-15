@@ -3,11 +3,13 @@
   "form": null,
   "name": "ベロバー",
   "formName": null,
-  "hp": 45,
-  "attack": 45,
-  "defence": 30,
-  "spAttack": 55,
-  "spDefence": 40,
-  "speed": 50,
+  "status": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 30,
+    "spAttack": 55,
+    "spDefence": 40,
+    "speed": 50
+  },
   "evolution": [859]
 }

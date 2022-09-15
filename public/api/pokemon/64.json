@@ -3,11 +3,13 @@
   "form": null,
   "name": "ユンゲラー",
   "formName": null,
-  "hp": 40,
-  "attack": 35,
-  "defence": 30,
-  "spAttack": 120,
-  "spDefence": 70,
-  "speed": 105,
+  "status": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 30,
+    "spAttack": 120,
+    "spDefence": 70,
+    "speed": 105
+  },
   "evolution": ["63", "64", "65"]
 }

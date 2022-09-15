@@ -3,11 +3,13 @@
   "form": null,
   "name": "アサナン",
   "formName": null,
-  "hp": 30,
-  "attack": 40,
-  "defence": 55,
-  "spAttack": 40,
-  "spDefence": 55,
-  "speed": 60,
+  "status": {
+    "hp": 30,
+    "attack": 40,
+    "defence": 55,
+    "spAttack": 40,
+    "spDefence": 55,
+    "speed": 60
+  },
   "evolution": [307]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ピジョット",
   "formName": null,
-  "hp": 83,
-  "attack": 80,
-  "defence": 75,
-  "spAttack": 70,
-  "spDefence": 70,
-  "speed": 101,
+  "status": {
+    "hp": 83,
+    "attack": 80,
+    "defence": 75,
+    "spAttack": 70,
+    "spDefence": 70,
+    "speed": 101
+  },
   "evolution": ["16", "17", "18"]
 }

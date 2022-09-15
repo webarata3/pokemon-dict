@@ -3,11 +3,13 @@
   "form": null,
   "name": "スリープ",
   "formName": null,
-  "hp": 60,
-  "attack": 48,
-  "defence": 45,
-  "spAttack": 43,
-  "spDefence": 90,
-  "speed": 42,
+  "status": {
+    "hp": 60,
+    "attack": 48,
+    "defence": 45,
+    "spAttack": 43,
+    "spDefence": 90,
+    "speed": 42
+  },
   "evolution": ["96", "97"]
 }

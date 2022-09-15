@@ -3,11 +3,13 @@
   "form": null,
   "name": "カブルモ",
   "formName": null,
-  "hp": 50,
-  "attack": 75,
-  "defence": 45,
-  "spAttack": 40,
-  "spDefence": 45,
-  "speed": 60,
+  "status": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 45,
+    "spAttack": 40,
+    "spDefence": 45,
+    "speed": 60
+  },
   "evolution": [588]
 }

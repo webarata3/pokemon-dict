@@ -3,11 +3,13 @@
   "form": null,
   "name": "ウオチルドン",
   "formName": null,
-  "hp": 90,
-  "attack": 90,
-  "defence": 100,
-  "spAttack": 80,
-  "spDefence": 90,
-  "speed": 55,
+  "status": {
+    "hp": 90,
+    "attack": 90,
+    "defence": 100,
+    "spAttack": 80,
+    "spDefence": 90,
+    "speed": 55
+  },
   "evolution": [883]
 }

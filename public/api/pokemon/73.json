@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドククラゲ",
   "formName": null,
-  "hp": 80,
-  "attack": 70,
-  "defence": 65,
-  "spAttack": 80,
-  "spDefence": 120,
-  "speed": 100,
+  "status": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 65,
+    "spAttack": 80,
+    "spDefence": 120,
+    "speed": 100
+  },
   "evolution": ["72", "73"]
 }

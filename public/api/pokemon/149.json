@@ -3,11 +3,13 @@
   "form": null,
   "name": "カイリュー",
   "formName": null,
-  "hp": 91,
-  "attack": 134,
-  "defence": 95,
-  "spAttack": 100,
-  "spDefence": 100,
-  "speed": 80,
+  "status": {
+    "hp": 91,
+    "attack": 134,
+    "defence": 95,
+    "spAttack": 100,
+    "spDefence": 100,
+    "speed": 80
+  },
   "evolution": ["147", "148", "149"]
 }

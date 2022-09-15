@@ -3,11 +3,13 @@
   "form": null,
   "name": "ケッキング",
   "formName": null,
-  "hp": 150,
-  "attack": 160,
-  "defence": 100,
-  "spAttack": 95,
-  "spDefence": 65,
-  "speed": 100,
+  "status": {
+    "hp": 150,
+    "attack": 160,
+    "defence": 100,
+    "spAttack": 95,
+    "spDefence": 65,
+    "speed": 100
+  },
   "evolution": [289]
 }

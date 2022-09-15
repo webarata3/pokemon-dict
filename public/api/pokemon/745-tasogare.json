@@ -3,11 +3,13 @@
   "form": "tasogare",
   "name": "ルガルガン",
   "formName": "たそがれのすがた",
-  "hp": 75,
-  "attack": 117,
-  "defence": 65,
-  "spAttack": 55,
-  "spDefence": 65,
-  "speed": 110,
+  "status": {
+    "hp": 75,
+    "attack": 117,
+    "defence": 65,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 110
+  },
   "evolution": [745-tasogare]
 }

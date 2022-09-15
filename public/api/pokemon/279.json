@@ -3,11 +3,13 @@
   "form": null,
   "name": "ペリッパー",
   "formName": null,
-  "hp": 60,
-  "attack": 50,
-  "defence": 100,
-  "spAttack": 95,
-  "spDefence": 70,
-  "speed": 65,
+  "status": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 100,
+    "spAttack": 95,
+    "spDefence": 70,
+    "speed": 65
+  },
   "evolution": [279]
 }

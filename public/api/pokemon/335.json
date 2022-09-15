@@ -3,11 +3,13 @@
   "form": null,
   "name": "ザングース",
   "formName": null,
-  "hp": 73,
-  "attack": 115,
-  "defence": 60,
-  "spAttack": 60,
-  "spDefence": 60,
-  "speed": 90,
+  "status": {
+    "hp": 73,
+    "attack": 115,
+    "defence": 60,
+    "spAttack": 60,
+    "spDefence": 60,
+    "speed": 90
+  },
   "evolution": [335]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "インテレオン",
   "formName": null,
-  "hp": 70,
-  "attack": 85,
-  "defence": 65,
-  "spAttack": 125,
-  "spDefence": 65,
-  "speed": 120,
+  "status": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 65,
+    "spAttack": 125,
+    "spDefence": 65,
+    "speed": 120
+  },
   "evolution": [818]
 }

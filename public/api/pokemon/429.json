@@ -3,11 +3,13 @@
   "form": null,
   "name": "ムウマージ",
   "formName": null,
-  "hp": 60,
-  "attack": 60,
-  "defence": 60,
-  "spAttack": 105,
-  "spDefence": 105,
-  "speed": 105,
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "spAttack": 105,
+    "spDefence": 105,
+    "speed": 105
+  },
   "evolution": [429]
 }

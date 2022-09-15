@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニョロモ",
   "formName": null,
-  "hp": 40,
-  "attack": 50,
-  "defence": 40,
-  "spAttack": 40,
-  "spDefence": 40,
-  "speed": 90,
+  "status": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 40,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 90
+  },
   "evolution": ["60", "61", "62", "186"]
 }

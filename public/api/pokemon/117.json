@@ -3,11 +3,13 @@
   "form": null,
   "name": "シードラ",
   "formName": null,
-  "hp": 55,
-  "attack": 65,
-  "defence": 95,
-  "spAttack": 95,
-  "spDefence": 45,
-  "speed": 85,
+  "status": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 95,
+    "spAttack": 95,
+    "spDefence": 45,
+    "speed": 85
+  },
   "evolution": ["116", "117", "230"]
 }

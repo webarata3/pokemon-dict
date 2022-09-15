@@ -3,11 +3,13 @@
   "form": null,
   "name": "トゲチック",
   "formName": null,
-  "hp": 55,
-  "attack": 40,
-  "defence": 85,
-  "spAttack": 80,
-  "spDefence": 105,
-  "speed": 40,
+  "status": {
+    "hp": 55,
+    "attack": 40,
+    "defence": 85,
+    "spAttack": 80,
+    "spDefence": 105,
+    "speed": 40
+  },
   "evolution": [176]
 }

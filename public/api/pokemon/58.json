@@ -3,11 +3,13 @@
   "form": null,
   "name": "ガーディ",
   "formName": null,
-  "hp": 55,
-  "attack": 70,
-  "defence": 45,
-  "spAttack": 70,
-  "spDefence": 50,
-  "speed": 60,
+  "status": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 45,
+    "spAttack": 70,
+    "spDefence": 50,
+    "speed": 60
+  },
   "evolution": ["58", "59"]
 }

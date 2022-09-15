@@ -3,11 +3,13 @@
   "form": null,
   "name": "バチンキー",
   "formName": null,
-  "hp": 70,
-  "attack": 85,
-  "defence": 70,
-  "spAttack": 55,
-  "spDefence": 60,
-  "speed": 80,
+  "status": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 70,
+    "spAttack": 55,
+    "spDefence": 60,
+    "speed": 80
+  },
   "evolution": [811]
 }

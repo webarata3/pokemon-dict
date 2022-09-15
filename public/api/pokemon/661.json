@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤヤコマ",
   "formName": null,
-  "hp": 45,
-  "attack": 50,
-  "defence": 43,
-  "spAttack": 40,
-  "spDefence": 38,
-  "speed": 62,
+  "status": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 43,
+    "spAttack": 40,
+    "spDefence": 38,
+    "speed": 62
+  },
   "evolution": [661]
 }

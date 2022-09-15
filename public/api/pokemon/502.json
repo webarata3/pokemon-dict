@@ -3,11 +3,13 @@
   "form": null,
   "name": "フタチマル",
   "formName": null,
-  "hp": 75,
-  "attack": 75,
-  "defence": 60,
-  "spAttack": 83,
-  "spDefence": 60,
-  "speed": 60,
+  "status": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 60,
+    "spAttack": 83,
+    "spDefence": 60,
+    "speed": 60
+  },
   "evolution": [502]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "スコルピ",
   "formName": null,
-  "hp": 40,
-  "attack": 50,
-  "defence": 90,
-  "spAttack": 30,
-  "spDefence": 55,
-  "speed": 65,
+  "status": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 90,
+    "spAttack": 30,
+    "spDefence": 55,
+    "speed": 65
+  },
   "evolution": [451]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ツツケラ",
   "formName": null,
-  "hp": 35,
-  "attack": 75,
-  "defence": 30,
-  "spAttack": 30,
-  "spDefence": 30,
-  "speed": 65,
+  "status": {
+    "hp": 35,
+    "attack": 75,
+    "defence": 30,
+    "spAttack": 30,
+    "spDefence": 30,
+    "speed": 65
+  },
   "evolution": [731]
 }

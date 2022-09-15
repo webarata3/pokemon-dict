@@ -3,11 +3,13 @@
   "form": null,
   "name": "バッフロン",
   "formName": null,
-  "hp": 95,
-  "attack": 110,
-  "defence": 95,
-  "spAttack": 40,
-  "spDefence": 95,
-  "speed": 55,
+  "status": {
+    "hp": 95,
+    "attack": 110,
+    "defence": 95,
+    "spAttack": 40,
+    "spDefence": 95,
+    "speed": 55
+  },
   "evolution": [626]
 }

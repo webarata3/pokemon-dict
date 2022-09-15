@@ -3,11 +3,13 @@
   "form": null,
   "name": "フシデ",
   "formName": null,
-  "hp": 30,
-  "attack": 45,
-  "defence": 59,
-  "spAttack": 30,
-  "spDefence": 39,
-  "speed": 57,
+  "status": {
+    "hp": 30,
+    "attack": 45,
+    "defence": 59,
+    "spAttack": 30,
+    "spDefence": 39,
+    "speed": 57
+  },
   "evolution": [543]
 }

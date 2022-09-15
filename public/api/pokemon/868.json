@@ -3,11 +3,13 @@
   "form": null,
   "name": "マホミル",
   "formName": null,
-  "hp": 45,
-  "attack": 40,
-  "defence": 40,
-  "spAttack": 50,
-  "spDefence": 61,
-  "speed": 34,
+  "status": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 40,
+    "spAttack": 50,
+    "spDefence": 61,
+    "speed": 34
+  },
   "evolution": [868]
 }

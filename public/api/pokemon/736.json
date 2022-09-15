@@ -3,11 +3,13 @@
   "form": null,
   "name": "アゴジムシ",
   "formName": null,
-  "hp": 47,
-  "attack": 62,
-  "defence": 45,
-  "spAttack": 55,
-  "spDefence": 45,
-  "speed": 46,
+  "status": {
+    "hp": 47,
+    "attack": 62,
+    "defence": 45,
+    "spAttack": 55,
+    "spDefence": 45,
+    "speed": 46
+  },
   "evolution": [736]
 }

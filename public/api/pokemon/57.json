@@ -3,11 +3,13 @@
   "form": null,
   "name": "オコリザル",
   "formName": null,
-  "hp": 65,
-  "attack": 105,
-  "defence": 60,
-  "spAttack": 60,
-  "spDefence": 70,
-  "speed": 95,
+  "status": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 60,
+    "spAttack": 60,
+    "spDefence": 70,
+    "speed": 95
+  },
   "evolution": ["56", "57"]
 }

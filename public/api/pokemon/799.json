@@ -3,11 +3,13 @@
   "form": null,
   "name": "アクジキング",
   "formName": null,
-  "hp": 223,
-  "attack": 101,
-  "defence": 53,
-  "spAttack": 97,
-  "spDefence": 53,
-  "speed": 43,
+  "status": {
+    "hp": 223,
+    "attack": 101,
+    "defence": 53,
+    "spAttack": 97,
+    "spDefence": 53,
+    "speed": 43
+  },
   "evolution": [799]
 }

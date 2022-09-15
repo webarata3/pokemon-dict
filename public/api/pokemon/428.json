@@ -3,11 +3,13 @@
   "form": null,
   "name": "ミミロップ",
   "formName": null,
-  "hp": 65,
-  "attack": 76,
-  "defence": 84,
-  "spAttack": 54,
-  "spDefence": 96,
-  "speed": 105,
+  "status": {
+    "hp": 65,
+    "attack": 76,
+    "defence": 84,
+    "spAttack": 54,
+    "spDefence": 96,
+    "speed": 105
+  },
   "evolution": [428]
 }

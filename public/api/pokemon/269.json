@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドクケイル",
   "formName": null,
-  "hp": 60,
-  "attack": 50,
-  "defence": 70,
-  "spAttack": 50,
-  "spDefence": 90,
-  "speed": 65,
+  "status": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 70,
+    "spAttack": 50,
+    "spDefence": 90,
+    "speed": 65
+  },
   "evolution": [269]
 }

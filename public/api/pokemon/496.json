@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジャノビー",
   "formName": null,
-  "hp": 60,
-  "attack": 60,
-  "defence": 75,
-  "spAttack": 60,
-  "spDefence": 75,
-  "speed": 83,
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 75,
+    "spAttack": 60,
+    "spDefence": 75,
+    "speed": 83
+  },
   "evolution": [496]
 }

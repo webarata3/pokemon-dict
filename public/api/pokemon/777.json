@@ -3,11 +3,13 @@
   "form": null,
   "name": "トゲデマル",
   "formName": null,
-  "hp": 65,
-  "attack": 98,
-  "defence": 63,
-  "spAttack": 40,
-  "spDefence": 73,
-  "speed": 96,
+  "status": {
+    "hp": 65,
+    "attack": 98,
+    "defence": 63,
+    "spAttack": 40,
+    "spDefence": 73,
+    "speed": 96
+  },
   "evolution": [777]
 }

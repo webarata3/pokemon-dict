@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヒポポタス",
   "formName": null,
-  "hp": 68,
-  "attack": 72,
-  "defence": 78,
-  "spAttack": 38,
-  "spDefence": 42,
-  "speed": 32,
+  "status": {
+    "hp": 68,
+    "attack": 72,
+    "defence": 78,
+    "spAttack": 38,
+    "spDefence": 42,
+    "speed": 32
+  },
   "evolution": [449]
 }

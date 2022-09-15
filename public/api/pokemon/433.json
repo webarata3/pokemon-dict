@@ -3,11 +3,13 @@
   "form": null,
   "name": "リーシャン",
   "formName": null,
-  "hp": 45,
-  "attack": 30,
-  "defence": 50,
-  "spAttack": 65,
-  "spDefence": 50,
-  "speed": 45,
+  "status": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 50,
+    "spAttack": 65,
+    "spDefence": 50,
+    "speed": 45
+  },
   "evolution": [433]
 }

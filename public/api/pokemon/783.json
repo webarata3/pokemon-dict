@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジャランゴ",
   "formName": null,
-  "hp": 55,
-  "attack": 75,
-  "defence": 90,
-  "spAttack": 65,
-  "spDefence": 70,
-  "speed": 65,
+  "status": {
+    "hp": 55,
+    "attack": 75,
+    "defence": 90,
+    "spAttack": 65,
+    "spDefence": 70,
+    "speed": 65
+  },
   "evolution": [783]
 }

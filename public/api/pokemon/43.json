@@ -3,11 +3,13 @@
   "form": null,
   "name": "ナゾノクサ",
   "formName": null,
-  "hp": 45,
-  "attack": 50,
-  "defence": 55,
-  "spAttack": 75,
-  "spDefence": 65,
-  "speed": 30,
+  "status": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 55,
+    "spAttack": 75,
+    "spDefence": 65,
+    "speed": 30
+  },
   "evolution": ["43", "44", "45", "182"]
 }

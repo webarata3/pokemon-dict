@@ -3,11 +3,13 @@
   "form": null,
   "name": "ハハコモリ",
   "formName": null,
-  "hp": 75,
-  "attack": 103,
-  "defence": 80,
-  "spAttack": 70,
-  "spDefence": 80,
-  "speed": 92,
+  "status": {
+    "hp": 75,
+    "attack": 103,
+    "defence": 80,
+    "spAttack": 70,
+    "spDefence": 80,
+    "speed": 92
+  },
   "evolution": [542]
 }

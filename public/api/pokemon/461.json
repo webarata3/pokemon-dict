@@ -3,11 +3,13 @@
   "form": null,
   "name": "マニューラ",
   "formName": null,
-  "hp": 70,
-  "attack": 120,
-  "defence": 65,
-  "spAttack": 45,
-  "spDefence": 85,
-  "speed": 125,
+  "status": {
+    "hp": 70,
+    "attack": 120,
+    "defence": 65,
+    "spAttack": 45,
+    "spDefence": 85,
+    "speed": 125
+  },
   "evolution": [461]
 }

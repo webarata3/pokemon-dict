@@ -3,11 +3,13 @@
   "form": null,
   "name": "キテルグマ",
   "formName": null,
-  "hp": 120,
-  "attack": 125,
-  "defence": 80,
-  "spAttack": 55,
-  "spDefence": 60,
-  "speed": 60,
+  "status": {
+    "hp": 120,
+    "attack": 125,
+    "defence": 80,
+    "spAttack": 55,
+    "spDefence": 60,
+    "speed": 60
+  },
   "evolution": [760]
 }

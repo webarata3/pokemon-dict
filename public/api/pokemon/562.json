@@ -3,11 +3,13 @@
   "form": null,
   "name": "デスマス",
   "formName": null,
-  "hp": 38,
-  "attack": 30,
-  "defence": 85,
-  "spAttack": 55,
-  "spDefence": 65,
-  "speed": 30,
+  "status": {
+    "hp": 38,
+    "attack": 30,
+    "defence": 85,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 30
+  },
   "evolution": [562]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ルージュラ",
   "formName": null,
-  "hp": 65,
-  "attack": 50,
-  "defence": 35,
-  "spAttack": 115,
-  "spDefence": 95,
-  "speed": 95,
+  "status": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 35,
+    "spAttack": 115,
+    "spDefence": 95,
+    "speed": 95
+  },
   "evolution": ["124"]
 }

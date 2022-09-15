@@ -3,11 +3,13 @@
   "form": null,
   "name": "オトスパス",
   "formName": null,
-  "hp": 80,
-  "attack": 118,
-  "defence": 90,
-  "spAttack": 70,
-  "spDefence": 80,
-  "speed": 42,
+  "status": {
+    "hp": 80,
+    "attack": 118,
+    "defence": 90,
+    "spAttack": 70,
+    "spDefence": 80,
+    "speed": 42
+  },
   "evolution": [853]
 }

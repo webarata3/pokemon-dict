@@ -3,11 +3,13 @@
   "form": null,
   "name": "ペンドラー",
   "formName": null,
-  "hp": 60,
-  "attack": 100,
-  "defence": 89,
-  "spAttack": 55,
-  "spDefence": 69,
-  "speed": 112,
+  "status": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 89,
+    "spAttack": 55,
+    "spDefence": 69,
+    "speed": 112
+  },
   "evolution": [545]
 }

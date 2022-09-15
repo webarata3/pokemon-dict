@@ -3,11 +3,13 @@
   "form": null,
   "name": "コフーライ",
   "formName": null,
-  "hp": 45,
-  "attack": 22,
-  "defence": 60,
-  "spAttack": 27,
-  "spDefence": 30,
-  "speed": 29,
+  "status": {
+    "hp": 45,
+    "attack": 22,
+    "defence": 60,
+    "spAttack": 27,
+    "spDefence": 30,
+    "speed": 29
+  },
   "evolution": [665]
 }

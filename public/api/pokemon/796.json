@@ -3,11 +3,13 @@
   "form": null,
   "name": "デンジュモク",
   "formName": null,
-  "hp": 83,
-  "attack": 89,
-  "defence": 71,
-  "spAttack": 173,
-  "spDefence": 71,
-  "speed": 83,
+  "status": {
+    "hp": 83,
+    "attack": 89,
+    "defence": 71,
+    "spAttack": 173,
+    "spDefence": 71,
+    "speed": 83
+  },
   "evolution": [796]
 }

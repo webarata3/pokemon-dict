@@ -3,11 +3,13 @@
   "form": null,
   "name": "ビークイン",
   "formName": null,
-  "hp": 70,
-  "attack": 80,
-  "defence": 102,
-  "spAttack": 80,
-  "spDefence": 102,
-  "speed": 40,
+  "status": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 102,
+    "spAttack": 80,
+    "spDefence": 102,
+    "speed": 40
+  },
   "evolution": [416]
 }

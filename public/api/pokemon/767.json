@@ -3,11 +3,13 @@
   "form": null,
   "name": "コソクムシ",
   "formName": null,
-  "hp": 25,
-  "attack": 35,
-  "defence": 40,
-  "spAttack": 20,
-  "spDefence": 30,
-  "speed": 80,
+  "status": {
+    "hp": 25,
+    "attack": 35,
+    "defence": 40,
+    "spAttack": 20,
+    "spDefence": 30,
+    "speed": 80
+  },
   "evolution": [767]
 }

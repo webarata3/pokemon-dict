@@ -3,11 +3,13 @@
   "form": "mayonaka",
   "name": "ルガルガン",
   "formName": "まよなかのすがた",
-  "hp": 85,
-  "attack": 115,
-  "defence": 75,
-  "spAttack": 55,
-  "spDefence": 75,
-  "speed": 82,
+  "status": {
+    "hp": 85,
+    "attack": 115,
+    "defence": 75,
+    "spAttack": 55,
+    "spDefence": 75,
+    "speed": 82
+  },
   "evolution": [745-mayonaka]
 }

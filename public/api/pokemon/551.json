@@ -3,11 +3,13 @@
   "form": null,
   "name": "メグロコ",
   "formName": null,
-  "hp": 50,
-  "attack": 72,
-  "defence": 35,
-  "spAttack": 35,
-  "spDefence": 35,
-  "speed": 65,
+  "status": {
+    "hp": 50,
+    "attack": 72,
+    "defence": 35,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 65
+  },
   "evolution": [551]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "カラマネロ",
   "formName": null,
-  "hp": 86,
-  "attack": 92,
-  "defence": 88,
-  "spAttack": 68,
-  "spDefence": 75,
-  "speed": 73,
+  "status": {
+    "hp": 86,
+    "attack": 92,
+    "defence": 88,
+    "spAttack": 68,
+    "spDefence": 75,
+    "speed": 73
+  },
   "evolution": [687]
 }

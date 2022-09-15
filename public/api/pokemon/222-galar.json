@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "サニーゴ",
   "formName": "ガラルのすがた",
-  "hp": 60,
-  "attack": 55,
-  "defence": 100,
-  "spAttack": 65,
-  "spDefence": 100,
-  "speed": 30,
+  "status": {
+    "hp": 60,
+    "attack": 55,
+    "defence": 100,
+    "spAttack": 65,
+    "spDefence": 100,
+    "speed": 30
+  },
   "evolution": [222-galar]
 }

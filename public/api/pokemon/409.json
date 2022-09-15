@@ -3,11 +3,13 @@
   "form": null,
   "name": "ラムパルド",
   "formName": null,
-  "hp": 97,
-  "attack": 165,
-  "defence": 60,
-  "spAttack": 65,
-  "spDefence": 50,
-  "speed": 58,
+  "status": {
+    "hp": 97,
+    "attack": 165,
+    "defence": 60,
+    "spAttack": 65,
+    "spDefence": 50,
+    "speed": 58
+  },
   "evolution": [409]
 }

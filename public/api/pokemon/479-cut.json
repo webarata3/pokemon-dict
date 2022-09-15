@@ -3,11 +3,13 @@
   "form": "cut",
   "name": "ロトム",
   "formName": "カットロトム",
-  "hp": 50,
-  "attack": 65,
-  "defence": 107,
-  "spAttack": 105,
-  "spDefence": 107,
-  "speed": 86,
+  "status": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 107,
+    "spAttack": 105,
+    "spDefence": 107,
+    "speed": 86
+  },
   "evolution": [479-cut]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ビードル",
   "formName": null,
-  "hp": 40,
-  "attack": 35,
-  "defence": 30,
-  "spAttack": 20,
-  "spDefence": 20,
-  "speed": 50,
+  "status": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 30,
+    "spAttack": 20,
+    "spDefence": 20,
+    "speed": 50
+  },
   "evolution": ["13", "14", "15"]
 }

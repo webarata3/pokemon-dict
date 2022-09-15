@@ -3,11 +3,13 @@
   "form": null,
   "name": "クレベース",
   "formName": null,
-  "hp": 95,
-  "attack": 117,
-  "defence": 184,
-  "spAttack": 44,
-  "spDefence": 46,
-  "speed": 28,
+  "status": {
+    "hp": 95,
+    "attack": 117,
+    "defence": 184,
+    "spAttack": 44,
+    "spDefence": 46,
+    "speed": 28
+  },
   "evolution": [713]
 }

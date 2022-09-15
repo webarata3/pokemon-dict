@@ -3,11 +3,13 @@
   "form": null,
   "name": "フリーザー",
   "formName": null,
-  "hp": 90,
-  "attack": 85,
-  "defence": 100,
-  "spAttack": 95,
-  "spDefence": 125,
-  "speed": 85,
+  "status": {
+    "hp": 90,
+    "attack": 85,
+    "defence": 100,
+    "spAttack": 95,
+    "spDefence": 125,
+    "speed": 85
+  },
   "evolution": ["144"]
 }

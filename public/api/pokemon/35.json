@@ -3,11 +3,13 @@
   "form": null,
   "name": "ピッピ",
   "formName": null,
-  "hp": 70,
-  "attack": 45,
-  "defence": 48,
-  "spAttack": 60,
-  "spDefence": 65,
-  "speed": 35,
+  "status": {
+    "hp": 70,
+    "attack": 45,
+    "defence": 48,
+    "spAttack": 60,
+    "spDefence": 65,
+    "speed": 35
+  },
   "evolution": ["35"]
 }

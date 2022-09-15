@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤドラン",
   "formName": null,
-  "hp": 95,
-  "attack": 75,
-  "defence": 110,
-  "spAttack": 100,
-  "spDefence": 80,
-  "speed": 30,
+  "status": {
+    "hp": 95,
+    "attack": 75,
+    "defence": 110,
+    "spAttack": 100,
+    "spDefence": 80,
+    "speed": 30
+  },
   "evolution": ["79", "80", "199"]
 }

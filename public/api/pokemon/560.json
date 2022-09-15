@@ -3,11 +3,13 @@
   "form": null,
   "name": "ズルズキン",
   "formName": null,
-  "hp": 65,
-  "attack": 90,
-  "defence": 115,
-  "spAttack": 45,
-  "spDefence": 115,
-  "speed": 58,
+  "status": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 115,
+    "spAttack": 45,
+    "spDefence": 115,
+    "speed": 58
+  },
   "evolution": [560]
 }

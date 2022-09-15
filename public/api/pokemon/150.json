@@ -3,11 +3,13 @@
   "form": null,
   "name": "ミュウツー",
   "formName": null,
-  "hp": 106,
-  "attack": 110,
-  "defence": 90,
-  "spAttack": 154,
-  "spDefence": 90,
-  "speed": 130,
+  "status": {
+    "hp": 106,
+    "attack": 110,
+    "defence": 90,
+    "spAttack": 154,
+    "spDefence": 90,
+    "speed": 130
+  },
   "evolution": ["150"]
 }

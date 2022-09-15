@@ -3,11 +3,13 @@
   "form": null,
   "name": "シャワーズ",
   "formName": null,
-  "hp": 130,
-  "attack": 65,
-  "defence": 60,
-  "spAttack": 110,
-  "spDefence": 95,
-  "speed": 65,
+  "status": {
+    "hp": 130,
+    "attack": 65,
+    "defence": 60,
+    "spAttack": 110,
+    "spDefence": 95,
+    "speed": 65
+  },
   "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
 }

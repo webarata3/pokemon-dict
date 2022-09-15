@@ -3,11 +3,13 @@
   "form": null,
   "name": "ルナアーラ",
   "formName": null,
-  "hp": 137,
-  "attack": 113,
-  "defence": 89,
-  "spAttack": 137,
-  "spDefence": 107,
-  "speed": 97,
+  "status": {
+    "hp": 137,
+    "attack": 113,
+    "defence": 89,
+    "spAttack": 137,
+    "spDefence": 107,
+    "speed": 97
+  },
   "evolution": [792]
 }

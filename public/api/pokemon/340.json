@@ -3,11 +3,13 @@
   "form": null,
   "name": "ナマズン",
   "formName": null,
-  "hp": 110,
-  "attack": 78,
-  "defence": 73,
-  "spAttack": 76,
-  "spDefence": 71,
-  "speed": 60,
+  "status": {
+    "hp": 110,
+    "attack": 78,
+    "defence": 73,
+    "spAttack": 76,
+    "spDefence": 71,
+    "speed": 60
+  },
   "evolution": [340]
 }

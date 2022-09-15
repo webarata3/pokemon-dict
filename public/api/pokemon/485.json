@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヒードラン",
   "formName": null,
-  "hp": 91,
-  "attack": 90,
-  "defence": 106,
-  "spAttack": 130,
-  "spDefence": 106,
-  "speed": 77,
+  "status": {
+    "hp": 91,
+    "attack": 90,
+    "defence": 106,
+    "spAttack": 130,
+    "spDefence": 106,
+    "speed": 77
+  },
   "evolution": [485]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドラパルト",
   "formName": null,
-  "hp": 88,
-  "attack": 120,
-  "defence": 75,
-  "spAttack": 100,
-  "spDefence": 75,
-  "speed": 142,
+  "status": {
+    "hp": 88,
+    "attack": 120,
+    "defence": 75,
+    "spAttack": 100,
+    "spDefence": 75,
+    "speed": 142
+  },
   "evolution": [887]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ベロベルト",
   "formName": null,
-  "hp": 110,
-  "attack": 85,
-  "defence": 95,
-  "spAttack": 80,
-  "spDefence": 95,
-  "speed": 50,
+  "status": {
+    "hp": 110,
+    "attack": 85,
+    "defence": 95,
+    "spAttack": 80,
+    "spDefence": 95,
+    "speed": 50
+  },
   "evolution": ["108", "463"]
 }

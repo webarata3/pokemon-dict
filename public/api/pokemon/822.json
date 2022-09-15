@@ -3,11 +3,13 @@
   "form": null,
   "name": "アオガラス",
   "formName": null,
-  "hp": 68,
-  "attack": 67,
-  "defence": 55,
-  "spAttack": 43,
-  "spDefence": 55,
-  "speed": 77,
+  "status": {
+    "hp": 68,
+    "attack": 67,
+    "defence": 55,
+    "spAttack": 43,
+    "spDefence": 55,
+    "speed": 77
+  },
   "evolution": [822]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "トロッゴン",
   "formName": null,
-  "hp": 80,
-  "attack": 60,
-  "defence": 90,
-  "spAttack": 60,
-  "spDefence": 70,
-  "speed": 50,
+  "status": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 90,
+    "spAttack": 60,
+    "spDefence": 70,
+    "speed": 50
+  },
   "evolution": [838]
 }

@@ -3,11 +3,13 @@
   "form": "alola",
   "name": "ニャース",
   "formName": "アローラのすがた",
-  "hp": 40,
-  "attack": 35,
-  "defence": 35,
-  "spAttack": 50,
-  "spDefence": 40,
-  "speed": 90,
+  "status": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 35,
+    "spAttack": 50,
+    "spDefence": 40,
+    "speed": 90
+  },
   "evolution": [52-alola]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ブラッキー",
   "formName": null,
-  "hp": 95,
-  "attack": 65,
-  "defence": 110,
-  "spAttack": 60,
-  "spDefence": 130,
-  "speed": 65,
+  "status": {
+    "hp": 95,
+    "attack": 65,
+    "defence": 110,
+    "spAttack": 60,
+    "spDefence": 130,
+    "speed": 65
+  },
   "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤンヤンマ",
   "formName": null,
-  "hp": 65,
-  "attack": 65,
-  "defence": 45,
-  "spAttack": 75,
-  "spDefence": 45,
-  "speed": 95,
+  "status": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 45,
+    "spAttack": 75,
+    "spDefence": 45,
+    "speed": 95
+  },
   "evolution": [193]
 }

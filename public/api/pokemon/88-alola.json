@@ -3,11 +3,13 @@
   "form": "alola",
   "name": "ベトベター",
   "formName": "アローラのすがた",
-  "hp": 80,
-  "attack": 80,
-  "defence": 50,
-  "spAttack": 40,
-  "spDefence": 50,
-  "speed": 25,
+  "status": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 50,
+    "spAttack": 40,
+    "spDefence": 50,
+    "speed": 25
+  },
   "evolution": [88-alola]
 }

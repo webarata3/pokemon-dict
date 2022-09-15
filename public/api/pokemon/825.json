@@ -3,11 +3,13 @@
   "form": null,
   "name": "レドームシ",
   "formName": null,
-  "hp": 50,
-  "attack": 35,
-  "defence": 80,
-  "spAttack": 50,
-  "spDefence": 90,
-  "speed": 30,
+  "status": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 80,
+    "spAttack": 50,
+    "spDefence": 90,
+    "speed": 30
+  },
   "evolution": [825]
 }

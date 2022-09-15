@@ -3,11 +3,13 @@
   "form": null,
   "name": "エネコロロ",
   "formName": null,
-  "hp": 70,
-  "attack": 65,
-  "defence": 65,
-  "spAttack": 55,
-  "spDefence": 55,
-  "speed": 90,
+  "status": {
+    "hp": 70,
+    "attack": 65,
+    "defence": 65,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 90
+  },
   "evolution": [301]
 }

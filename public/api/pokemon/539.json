@@ -3,11 +3,13 @@
   "form": null,
   "name": "ダゲキ",
   "formName": null,
-  "hp": 75,
-  "attack": 125,
-  "defence": 75,
-  "spAttack": 30,
-  "spDefence": 75,
-  "speed": 85,
+  "status": {
+    "hp": 75,
+    "attack": 125,
+    "defence": 75,
+    "spAttack": 30,
+    "spDefence": 75,
+    "speed": 85
+  },
   "evolution": [539]
 }

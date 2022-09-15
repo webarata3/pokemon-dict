@@ -3,11 +3,13 @@
   "form": null,
   "name": "カブト",
   "formName": null,
-  "hp": 30,
-  "attack": 80,
-  "defence": 90,
-  "spAttack": 55,
-  "spDefence": 45,
-  "speed": 55,
+  "status": {
+    "hp": 30,
+    "attack": 80,
+    "defence": 90,
+    "spAttack": 55,
+    "spDefence": 45,
+    "speed": 55
+  },
   "evolution": ["140", "141"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "カクレオン",
   "formName": null,
-  "hp": 60,
-  "attack": 90,
-  "defence": 70,
-  "spAttack": 60,
-  "spDefence": 120,
-  "speed": 40,
+  "status": {
+    "hp": 60,
+    "attack": 90,
+    "defence": 70,
+    "spAttack": 60,
+    "spDefence": 120,
+    "speed": 40
+  },
   "evolution": [352]
 }

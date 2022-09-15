@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "マッスグマ",
   "formName": "ガラルのすがた",
-  "hp": 78,
-  "attack": 70,
-  "defence": 61,
-  "spAttack": 50,
-  "spDefence": 61,
-  "speed": 100,
+  "status": {
+    "hp": 78,
+    "attack": 70,
+    "defence": 61,
+    "spAttack": 50,
+    "spDefence": 61,
+    "speed": 100
+  },
   "evolution": [264-galar]
 }

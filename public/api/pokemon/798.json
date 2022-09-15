@@ -3,11 +3,13 @@
   "form": null,
   "name": "カミツルギ",
   "formName": null,
-  "hp": 59,
-  "attack": 181,
-  "defence": 131,
-  "spAttack": 59,
-  "spDefence": 31,
-  "speed": 109,
+  "status": {
+    "hp": 59,
+    "attack": 181,
+    "defence": 131,
+    "spAttack": 59,
+    "spDefence": 31,
+    "speed": 109
+  },
   "evolution": [798]
 }

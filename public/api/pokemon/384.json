@@ -3,11 +3,13 @@
   "form": null,
   "name": "レックウザ",
   "formName": null,
-  "hp": 105,
-  "attack": 150,
-  "defence": 90,
-  "spAttack": 150,
-  "spDefence": 90,
-  "speed": 95,
+  "status": {
+    "hp": 105,
+    "attack": 150,
+    "defence": 90,
+    "spAttack": 150,
+    "spDefence": 90,
+    "speed": 95
+  },
   "evolution": [384]
 }

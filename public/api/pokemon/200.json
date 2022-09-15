@@ -3,11 +3,13 @@
   "form": null,
   "name": "ムウマ",
   "formName": null,
-  "hp": 60,
-  "attack": 60,
-  "defence": 60,
-  "spAttack": 85,
-  "spDefence": 85,
-  "speed": 85,
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "spAttack": 85,
+    "spDefence": 85,
+    "speed": 85
+  },
   "evolution": [200]
 }

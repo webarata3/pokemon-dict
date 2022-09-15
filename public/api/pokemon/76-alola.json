@@ -3,11 +3,13 @@
   "form": "alola",
   "name": "ゴローニャ",
   "formName": "アローラのすがた",
-  "hp": 80,
-  "attack": 120,
-  "defence": 130,
-  "spAttack": 55,
-  "spDefence": 65,
-  "speed": 45,
+  "status": {
+    "hp": 80,
+    "attack": 120,
+    "defence": 130,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 45
+  },
   "evolution": [76-alola]
 }

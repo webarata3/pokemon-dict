@@ -3,11 +3,13 @@
   "form": null,
   "name": "ポリゴン2",
   "formName": null,
-  "hp": 85,
-  "attack": 80,
-  "defence": 90,
-  "spAttack": 105,
-  "spDefence": 95,
-  "speed": 60,
+  "status": {
+    "hp": 85,
+    "attack": 80,
+    "defence": 90,
+    "spAttack": 105,
+    "spDefence": 95,
+    "speed": 60
+  },
   "evolution": ["137", "233", "474"]
 }

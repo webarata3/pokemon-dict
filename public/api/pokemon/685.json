@@ -3,11 +3,13 @@
   "form": null,
   "name": "ペロリーム",
   "formName": null,
-  "hp": 82,
-  "attack": 80,
-  "defence": 86,
-  "spAttack": 85,
-  "spDefence": 75,
-  "speed": 72,
+  "status": {
+    "hp": 82,
+    "attack": 80,
+    "defence": 86,
+    "spAttack": 85,
+    "spDefence": 75,
+    "speed": 72
+  },
   "evolution": [685]
 }

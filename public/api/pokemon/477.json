@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヨノワール",
   "formName": null,
-  "hp": 45,
-  "attack": 100,
-  "defence": 135,
-  "spAttack": 65,
-  "spDefence": 135,
-  "speed": 45,
+  "status": {
+    "hp": 45,
+    "attack": 100,
+    "defence": 135,
+    "spAttack": 65,
+    "spDefence": 135,
+    "speed": 45
+  },
   "evolution": [477]
 }

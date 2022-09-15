@@ -3,11 +3,13 @@
   "form": null,
   "name": "ムンナ",
   "formName": null,
-  "hp": 76,
-  "attack": 25,
-  "defence": 45,
-  "spAttack": 67,
-  "spDefence": 55,
-  "speed": 24,
+  "status": {
+    "hp": 76,
+    "attack": 25,
+    "defence": 45,
+    "spAttack": 67,
+    "spDefence": 55,
+    "speed": 24
+  },
   "evolution": [517]
 }

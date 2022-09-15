@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴチミル",
   "formName": null,
-  "hp": 60,
-  "attack": 45,
-  "defence": 70,
-  "spAttack": 75,
-  "spDefence": 85,
-  "speed": 55,
+  "status": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 70,
+    "spAttack": 75,
+    "spDefence": 85,
+    "speed": 55
+  },
   "evolution": [575]
 }

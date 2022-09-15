@@ -3,11 +3,13 @@
   "form": null,
   "name": "コジョンド",
   "formName": null,
-  "hp": 65,
-  "attack": 125,
-  "defence": 60,
-  "spAttack": 95,
-  "spDefence": 60,
-  "speed": 105,
+  "status": {
+    "hp": 65,
+    "attack": 125,
+    "defence": 60,
+    "spAttack": 95,
+    "spDefence": 60,
+    "speed": 105
+  },
   "evolution": [620]
 }

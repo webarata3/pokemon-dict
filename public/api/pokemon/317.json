@@ -3,11 +3,13 @@
   "form": null,
   "name": "マルノーム",
   "formName": null,
-  "hp": 100,
-  "attack": 73,
-  "defence": 83,
-  "spAttack": 73,
-  "spDefence": 83,
-  "speed": 55,
+  "status": {
+    "hp": 100,
+    "attack": 73,
+    "defence": 83,
+    "spAttack": 73,
+    "spDefence": 83,
+    "speed": 55
+  },
   "evolution": [317]
 }

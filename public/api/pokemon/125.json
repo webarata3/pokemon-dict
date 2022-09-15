@@ -3,11 +3,13 @@
   "form": null,
   "name": "エレブー",
   "formName": null,
-  "hp": 65,
-  "attack": 83,
-  "defence": 57,
-  "spAttack": 95,
-  "spDefence": 85,
-  "speed": 105,
+  "status": {
+    "hp": 65,
+    "attack": 83,
+    "defence": 57,
+    "spAttack": 95,
+    "spDefence": 85,
+    "speed": 105
+  },
   "evolution": ["125"]
 }

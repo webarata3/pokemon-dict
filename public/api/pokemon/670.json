@@ -3,11 +3,13 @@
   "form": null,
   "name": "フラエッテ",
   "formName": null,
-  "hp": 54,
-  "attack": 45,
-  "defence": 47,
-  "spAttack": 75,
-  "spDefence": 98,
-  "speed": 52,
+  "status": {
+    "hp": 54,
+    "attack": 45,
+    "defence": 47,
+    "spAttack": 75,
+    "spDefence": 98,
+    "speed": 52
+  },
   "evolution": [670]
 }

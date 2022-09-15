@@ -3,11 +3,13 @@
   "form": null,
   "name": "タイプ：ヌル",
   "formName": null,
-  "hp": 95,
-  "attack": 95,
-  "defence": 95,
-  "spAttack": 95,
-  "spDefence": 95,
-  "speed": 59,
+  "status": {
+    "hp": 95,
+    "attack": 95,
+    "defence": 95,
+    "spAttack": 95,
+    "spDefence": 95,
+    "speed": 59
+  },
   "evolution": [772]
 }

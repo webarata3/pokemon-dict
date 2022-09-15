@@ -3,11 +3,13 @@
   "form": null,
   "name": "グソクムシャ",
   "formName": null,
-  "hp": 75,
-  "attack": 125,
-  "defence": 140,
-  "spAttack": 60,
-  "spDefence": 90,
-  "speed": 40,
+  "status": {
+    "hp": 75,
+    "attack": 125,
+    "defence": 140,
+    "spAttack": 60,
+    "spDefence": 90,
+    "speed": 40
+  },
   "evolution": [768]
 }

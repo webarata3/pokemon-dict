@@ -3,11 +3,13 @@
   "form": null,
   "name": "ラランテス",
   "formName": null,
-  "hp": 70,
-  "attack": 105,
-  "defence": 90,
-  "spAttack": 80,
-  "spDefence": 90,
-  "speed": 45,
+  "status": {
+    "hp": 70,
+    "attack": 105,
+    "defence": 90,
+    "spAttack": 80,
+    "spDefence": 90,
+    "speed": 45
+  },
   "evolution": [754]
 }

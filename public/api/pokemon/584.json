@@ -3,11 +3,13 @@
   "form": null,
   "name": "バイバニラ",
   "formName": null,
-  "hp": 71,
-  "attack": 95,
-  "defence": 85,
-  "spAttack": 110,
-  "spDefence": 95,
-  "speed": 79,
+  "status": {
+    "hp": 71,
+    "attack": 95,
+    "defence": 85,
+    "spAttack": 110,
+    "spDefence": 95,
+    "speed": 79
+  },
   "evolution": [584]
 }

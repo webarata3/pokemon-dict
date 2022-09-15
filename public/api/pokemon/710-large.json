@@ -3,11 +3,13 @@
   "form": "large",
   "name": "バケッチャ",
   "formName": "おおきいサイズ",
-  "hp": 54,
-  "attack": 66,
-  "defence": 70,
-  "spAttack": 44,
-  "spDefence": 55,
-  "speed": 46,
+  "status": {
+    "hp": 54,
+    "attack": 66,
+    "defence": 70,
+    "spAttack": 44,
+    "spDefence": 55,
+    "speed": 46
+  },
   "evolution": [710-large]
 }

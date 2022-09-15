@@ -3,11 +3,13 @@
   "form": null,
   "name": "メブキジカ",
   "formName": null,
-  "hp": 80,
-  "attack": 100,
-  "defence": 70,
-  "spAttack": 60,
-  "spDefence": 70,
-  "speed": 95,
+  "status": {
+    "hp": 80,
+    "attack": 100,
+    "defence": 70,
+    "spAttack": 60,
+    "spDefence": 70,
+    "speed": 95
+  },
   "evolution": [586]
 }

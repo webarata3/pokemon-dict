@@ -3,11 +3,13 @@
   "form": null,
   "name": "ネギガナイト",
   "formName": null,
-  "hp": 62,
-  "attack": 135,
-  "defence": 95,
-  "spAttack": 68,
-  "spDefence": 82,
-  "speed": 65,
+  "status": {
+    "hp": 62,
+    "attack": 135,
+    "defence": 95,
+    "spAttack": 68,
+    "spDefence": 82,
+    "speed": 65
+  },
   "evolution": [865]
 }

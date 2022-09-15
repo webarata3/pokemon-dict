@@ -3,11 +3,13 @@
   "form": null,
   "name": "ケイコウオ",
   "formName": null,
-  "hp": 49,
-  "attack": 49,
-  "defence": 56,
-  "spAttack": 49,
-  "spDefence": 61,
-  "speed": 66,
+  "status": {
+    "hp": 49,
+    "attack": 49,
+    "defence": 56,
+    "spAttack": 49,
+    "spDefence": 61,
+    "speed": 66
+  },
   "evolution": [456]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "サボネア",
   "formName": null,
-  "hp": 50,
-  "attack": 85,
-  "defence": 40,
-  "spAttack": 85,
-  "spDefence": 40,
-  "speed": 35,
+  "status": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 40,
+    "spAttack": 85,
+    "spDefence": 40,
+    "speed": 35
+  },
   "evolution": [331]
 }

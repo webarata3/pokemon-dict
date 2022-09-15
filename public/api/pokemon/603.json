@@ -3,11 +3,13 @@
   "form": null,
   "name": "シビビール",
   "formName": null,
-  "hp": 65,
-  "attack": 85,
-  "defence": 70,
-  "spAttack": 75,
-  "spDefence": 70,
-  "speed": 40,
+  "status": {
+    "hp": 65,
+    "attack": 85,
+    "defence": 70,
+    "spAttack": 75,
+    "spDefence": 70,
+    "speed": 40
+  },
   "evolution": [603]
 }

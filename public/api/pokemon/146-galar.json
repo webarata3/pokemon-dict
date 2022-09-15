@@ -3,11 +3,13 @@
   "form": "galar",
   "name": "ファイヤー",
   "formName": "ガラルのすがた",
-  "hp": 90,
-  "attack": 85,
-  "defence": 90,
-  "spAttack": 100,
-  "spDefence": 125,
-  "speed": 90,
+  "status": {
+    "hp": 90,
+    "attack": 85,
+    "defence": 90,
+    "spAttack": 100,
+    "spDefence": 125,
+    "speed": 90
+  },
   "evolution": [146-galar]
 }

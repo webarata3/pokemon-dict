@@ -3,11 +3,13 @@
   "form": null,
   "name": "ワカシャモ",
   "formName": null,
-  "hp": 60,
-  "attack": 85,
-  "defence": 60,
-  "spAttack": 85,
-  "spDefence": 60,
-  "speed": 55,
+  "status": {
+    "hp": 60,
+    "attack": 85,
+    "defence": 60,
+    "spAttack": 85,
+    "spDefence": 60,
+    "speed": 55
+  },
   "evolution": [256]
 }

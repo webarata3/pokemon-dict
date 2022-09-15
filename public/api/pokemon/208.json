@@ -3,11 +3,13 @@
   "form": null,
   "name": "ハガネール",
   "formName": null,
-  "hp": 75,
-  "attack": 85,
-  "defence": 200,
-  "spAttack": 55,
-  "spDefence": 65,
-  "speed": 30,
+  "status": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 200,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 30
+  },
   "evolution": ["95", "208"]
 }

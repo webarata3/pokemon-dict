@@ -3,11 +3,13 @@
   "form": null,
   "name": "タテトプス",
   "formName": null,
-  "hp": 30,
-  "attack": 42,
-  "defence": 118,
-  "spAttack": 42,
-  "spDefence": 88,
-  "speed": 30,
+  "status": {
+    "hp": 30,
+    "attack": 42,
+    "defence": 118,
+    "spAttack": 42,
+    "spDefence": 88,
+    "speed": 30
+  },
   "evolution": [410]
 }

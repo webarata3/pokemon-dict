@@ -3,11 +3,13 @@
   "form": null,
   "name": "ホイーガ",
   "formName": null,
-  "hp": 40,
-  "attack": 55,
-  "defence": 99,
-  "spAttack": 40,
-  "spDefence": 79,
-  "speed": 47,
+  "status": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 99,
+    "spAttack": 40,
+    "spDefence": 79,
+    "speed": 47
+  },
   "evolution": [544]
 }

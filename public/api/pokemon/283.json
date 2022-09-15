@@ -3,11 +3,13 @@
   "form": null,
   "name": "アメタマ",
   "formName": null,
-  "hp": 40,
-  "attack": 30,
-  "defence": 32,
-  "spAttack": 50,
-  "spDefence": 52,
-  "speed": 65,
+  "status": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 32,
+    "spAttack": 50,
+    "spDefence": 52,
+    "speed": 65
+  },
   "evolution": [283]
 }

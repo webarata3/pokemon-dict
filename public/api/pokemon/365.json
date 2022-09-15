@@ -3,11 +3,13 @@
   "form": null,
   "name": "トドゼルガ",
   "formName": null,
-  "hp": 110,
-  "attack": 80,
-  "defence": 90,
-  "spAttack": 95,
-  "spDefence": 90,
-  "speed": 65,
+  "status": {
+    "hp": 110,
+    "attack": 80,
+    "defence": 90,
+    "spAttack": 95,
+    "spDefence": 90,
+    "speed": 65
+  },
   "evolution": [365]
 }

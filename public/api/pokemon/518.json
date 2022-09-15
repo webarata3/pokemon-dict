@@ -3,11 +3,13 @@
   "form": null,
   "name": "ムシャーナ",
   "formName": null,
-  "hp": 116,
-  "attack": 55,
-  "defence": 85,
-  "spAttack": 107,
-  "spDefence": 95,
-  "speed": 29,
+  "status": {
+    "hp": 116,
+    "attack": 55,
+    "defence": 85,
+    "spAttack": 107,
+    "spDefence": 95,
+    "speed": 29
+  },
   "evolution": [518]
 }

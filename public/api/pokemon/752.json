@@ -3,11 +3,13 @@
   "form": null,
   "name": "オニシズクモ",
   "formName": null,
-  "hp": 68,
-  "attack": 70,
-  "defence": 92,
-  "spAttack": 50,
-  "spDefence": 132,
-  "speed": 42,
+  "status": {
+    "hp": 68,
+    "attack": 70,
+    "defence": 92,
+    "spAttack": 50,
+    "spDefence": 132,
+    "speed": 42
+  },
   "evolution": [752]
 }

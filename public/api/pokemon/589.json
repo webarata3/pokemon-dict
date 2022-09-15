@@ -3,11 +3,13 @@
   "form": null,
   "name": "シュバルゴ",
   "formName": null,
-  "hp": 70,
-  "attack": 135,
-  "defence": 105,
-  "spAttack": 60,
-  "spDefence": 105,
-  "speed": 20,
+  "status": {
+    "hp": 70,
+    "attack": 135,
+    "defence": 105,
+    "spAttack": 60,
+    "spDefence": 105,
+    "speed": 20
+  },
   "evolution": [589]
 }

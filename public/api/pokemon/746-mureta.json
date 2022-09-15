@@ -3,11 +3,13 @@
   "form": "mureta",
   "name": "ヨワシ",
   "formName": "むれたすがた",
-  "hp": 45,
-  "attack": 140,
-  "defence": 130,
-  "spAttack": 140,
-  "spDefence": 135,
-  "speed": 30,
+  "status": {
+    "hp": 45,
+    "attack": 140,
+    "defence": 130,
+    "spAttack": 140,
+    "spDefence": 135,
+    "speed": 30
+  },
   "evolution": [746-mureta]
 }

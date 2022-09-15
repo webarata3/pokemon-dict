@@ -3,11 +3,13 @@
   "form": null,
   "name": "アメモース",
   "formName": null,
-  "hp": 70,
-  "attack": 60,
-  "defence": 62,
-  "spAttack": 100,
-  "spDefence": 82,
-  "speed": 80,
+  "status": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 62,
+    "spAttack": 100,
+    "spDefence": 82,
+    "speed": 80
+  },
   "evolution": [284]
 }

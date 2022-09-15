@@ -3,11 +3,13 @@
   "form": "ichigeki",
   "name": "ウーラオス",
   "formName": "いちげきのかた",
-  "hp": 100,
-  "attack": 130,
-  "defence": 100,
-  "spAttack": 63,
-  "spDefence": 60,
-  "speed": 97,
+  "status": {
+    "hp": 100,
+    "attack": 130,
+    "defence": 100,
+    "spAttack": 63,
+    "spDefence": 60,
+    "speed": 97
+  },
   "evolution": [892-ichigeki]
 }

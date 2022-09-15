@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヨクバリス",
   "formName": null,
-  "hp": 120,
-  "attack": 95,
-  "defence": 95,
-  "spAttack": 55,
-  "spDefence": 75,
-  "speed": 20,
+  "status": {
+    "hp": 120,
+    "attack": 95,
+    "defence": 95,
+    "spAttack": 55,
+    "spDefence": 75,
+    "speed": 20
+  },
   "evolution": [820]
 }

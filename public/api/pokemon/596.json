@@ -3,11 +3,13 @@
   "form": null,
   "name": "デンチュラ",
   "formName": null,
-  "hp": 70,
-  "attack": 77,
-  "defence": 60,
-  "spAttack": 97,
-  "spDefence": 60,
-  "speed": 108,
+  "status": {
+    "hp": 70,
+    "attack": 77,
+    "defence": 60,
+    "spAttack": 97,
+    "spDefence": 60,
+    "speed": 108
+  },
   "evolution": [596]
 }

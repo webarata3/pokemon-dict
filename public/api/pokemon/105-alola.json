@@ -3,11 +3,13 @@
   "form": "alola",
   "name": "ガラガラ",
   "formName": "アローラのすがた",
-  "hp": 60,
-  "attack": 80,
-  "defence": 110,
-  "spAttack": 50,
-  "spDefence": 80,
-  "speed": 45,
+  "status": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 110,
+    "spAttack": 50,
+    "spDefence": 80,
+    "speed": 45
+  },
   "evolution": ["104", "105", "105-alola"]
 }

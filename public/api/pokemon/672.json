@@ -3,11 +3,13 @@
   "form": null,
   "name": "メェークル",
   "formName": null,
-  "hp": 66,
-  "attack": 65,
-  "defence": 48,
-  "spAttack": 62,
-  "spDefence": 57,
-  "speed": 52,
+  "status": {
+    "hp": 66,
+    "attack": 65,
+    "defence": 48,
+    "spAttack": 62,
+    "spDefence": 57,
+    "speed": 52
+  },
   "evolution": [672]
 }

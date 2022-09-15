@@ -3,11 +3,13 @@
   "form": null,
   "name": "トロピウス",
   "formName": null,
-  "hp": 99,
-  "attack": 68,
-  "defence": 83,
-  "spAttack": 72,
-  "spDefence": 87,
-  "speed": 51,
+  "status": {
+    "hp": 99,
+    "attack": 68,
+    "defence": 83,
+    "spAttack": 72,
+    "spDefence": 87,
+    "speed": 51
+  },
   "evolution": [357]
 }

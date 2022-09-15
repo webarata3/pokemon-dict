@@ -3,11 +3,13 @@
   "form": null,
   "name": "ガメノデス",
   "formName": null,
-  "hp": 72,
-  "attack": 105,
-  "defence": 115,
-  "spAttack": 54,
-  "spDefence": 86,
-  "speed": 68,
+  "status": {
+    "hp": 72,
+    "attack": 105,
+    "defence": 115,
+    "spAttack": 54,
+    "spDefence": 86,
+    "speed": 68
+  },
   "evolution": [689]
 }

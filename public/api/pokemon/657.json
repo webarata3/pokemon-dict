@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゲコガシラ",
   "formName": null,
-  "hp": 54,
-  "attack": 63,
-  "defence": 52,
-  "spAttack": 83,
-  "spDefence": 56,
-  "speed": 97,
+  "status": {
+    "hp": 54,
+    "attack": 63,
+    "defence": 52,
+    "spAttack": 83,
+    "spDefence": 56,
+    "speed": 97
+  },
   "evolution": [657]
 }

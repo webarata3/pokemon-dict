@@ -3,11 +3,13 @@
   "form": null,
   "name": "タタッコ",
   "formName": null,
-  "hp": 50,
-  "attack": 68,
-  "defence": 60,
-  "spAttack": 50,
-  "spDefence": 50,
-  "speed": 32,
+  "status": {
+    "hp": 50,
+    "attack": 68,
+    "defence": 60,
+    "spAttack": 50,
+    "spDefence": 50,
+    "speed": 32
+  },
   "evolution": [852]
 }

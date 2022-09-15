@@ -3,11 +3,13 @@
   "form": null,
   "name": "サイドン",
   "formName": null,
-  "hp": 105,
-  "attack": 130,
-  "defence": 120,
-  "spAttack": 45,
-  "spDefence": 45,
-  "speed": 40,
+  "status": {
+    "hp": 105,
+    "attack": 130,
+    "defence": 120,
+    "spAttack": 45,
+    "spDefence": 45,
+    "speed": 40
+  },
   "evolution": ["111", "112", "464"]
 }

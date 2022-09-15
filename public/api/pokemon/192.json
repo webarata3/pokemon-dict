@@ -3,11 +3,13 @@
   "form": null,
   "name": "キマワリ",
   "formName": null,
-  "hp": 75,
-  "attack": 75,
-  "defence": 55,
-  "spAttack": 105,
-  "spDefence": 85,
-  "speed": 30,
+  "status": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 55,
+    "spAttack": 105,
+    "spDefence": 85,
+    "speed": 30
+  },
   "evolution": [192]
 }

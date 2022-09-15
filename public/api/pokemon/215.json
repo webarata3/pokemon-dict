@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニューラ",
   "formName": null,
-  "hp": 55,
-  "attack": 95,
-  "defence": 55,
-  "spAttack": 35,
-  "spDefence": 75,
-  "speed": 115,
+  "status": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 55,
+    "spAttack": 35,
+    "spDefence": 75,
+    "speed": 115
+  },
   "evolution": [215]
 }

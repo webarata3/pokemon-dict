@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴルダック",
   "formName": null,
-  "hp": 80,
-  "attack": 82,
-  "defence": 78,
-  "spAttack": 95,
-  "spDefence": 80,
-  "speed": 85,
+  "status": {
+    "hp": 80,
+    "attack": 82,
+    "defence": 78,
+    "spAttack": 95,
+    "spDefence": 80,
+    "speed": 85
+  },
   "evolution": ["54", "55"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "オドシシ",
   "formName": null,
-  "hp": 73,
-  "attack": 95,
-  "defence": 62,
-  "spAttack": 85,
-  "spDefence": 65,
-  "speed": 85,
+  "status": {
+    "hp": 73,
+    "attack": 95,
+    "defence": 62,
+    "spAttack": 85,
+    "spDefence": 65,
+    "speed": 85
+  },
   "evolution": [234]
 }

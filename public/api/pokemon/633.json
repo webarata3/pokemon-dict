@@ -3,11 +3,13 @@
   "form": null,
   "name": "モノズ",
   "formName": null,
-  "hp": 52,
-  "attack": 65,
-  "defence": 50,
-  "spAttack": 45,
-  "spDefence": 50,
-  "speed": 38,
+  "status": {
+    "hp": 52,
+    "attack": 65,
+    "defence": 50,
+    "spAttack": 45,
+    "spDefence": 50,
+    "speed": 38
+  },
   "evolution": [633]
 }

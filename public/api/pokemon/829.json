@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヒメンカ",
   "formName": null,
-  "hp": 40,
-  "attack": 40,
-  "defence": 60,
-  "spAttack": 40,
-  "spDefence": 60,
-  "speed": 10,
+  "status": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 60,
+    "spAttack": 40,
+    "spDefence": 60,
+    "speed": 10
+  },
   "evolution": [829]
 }

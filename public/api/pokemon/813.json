@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヒバニー",
   "formName": null,
-  "hp": 50,
-  "attack": 71,
-  "defence": 40,
-  "spAttack": 40,
-  "spDefence": 40,
-  "speed": 69,
+  "status": {
+    "hp": 50,
+    "attack": 71,
+    "defence": 40,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 69
+  },
   "evolution": [813]
 }

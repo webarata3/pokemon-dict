@@ -3,11 +3,13 @@
   "form": null,
   "name": "シママ",
   "formName": null,
-  "hp": 45,
-  "attack": 60,
-  "defence": 32,
-  "spAttack": 50,
-  "spDefence": 32,
-  "speed": 76,
+  "status": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 32,
+    "spAttack": 50,
+    "spDefence": 32,
+    "speed": 76
+  },
   "evolution": [522]
 }

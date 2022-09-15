@@ -3,11 +3,13 @@
   "form": null,
   "name": "パチリス",
   "formName": null,
-  "hp": 60,
-  "attack": 45,
-  "defence": 70,
-  "spAttack": 45,
-  "spDefence": 90,
-  "speed": 95,
+  "status": {
+    "hp": 60,
+    "attack": 45,
+    "defence": 70,
+    "spAttack": 45,
+    "spDefence": 90,
+    "speed": 95
+  },
   "evolution": [417]
 }

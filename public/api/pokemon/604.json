@@ -3,11 +3,13 @@
   "form": null,
   "name": "シビルドン",
   "formName": null,
-  "hp": 85,
-  "attack": 115,
-  "defence": 80,
-  "spAttack": 105,
-  "spDefence": 80,
-  "speed": 50,
+  "status": {
+    "hp": 85,
+    "attack": 115,
+    "defence": 80,
+    "spAttack": 105,
+    "spDefence": 80,
+    "speed": 50
+  },
   "evolution": [604]
 }

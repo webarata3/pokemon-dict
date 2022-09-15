@@ -3,11 +3,13 @@
   "form": null,
   "name": "キャタピー",
   "formName": null,
-  "hp": 45,
-  "attack": 30,
-  "defence": 35,
-  "spAttack": 20,
-  "spDefence": 20,
-  "speed": 45,
+  "status": {
+    "hp": 45,
+    "attack": 30,
+    "defence": 35,
+    "spAttack": 20,
+    "spDefence": 20,
+    "speed": 45
+  },
   "evolution": ["10", "11", "12"]
 }

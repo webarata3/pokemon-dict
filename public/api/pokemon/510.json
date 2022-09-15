@@ -3,11 +3,13 @@
   "form": null,
   "name": "レパルダス",
   "formName": null,
-  "hp": 64,
-  "attack": 88,
-  "defence": 50,
-  "spAttack": 88,
-  "spDefence": 50,
-  "speed": 106,
+  "status": {
+    "hp": 64,
+    "attack": 88,
+    "defence": 50,
+    "spAttack": 88,
+    "spDefence": 50,
+    "speed": 106
+  },
   "evolution": [510]
 }

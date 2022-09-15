@@ -3,11 +3,13 @@
   "form": null,
   "name": "アマルルガ",
   "formName": null,
-  "hp": 123,
-  "attack": 77,
-  "defence": 72,
-  "spAttack": 99,
-  "spDefence": 92,
-  "speed": 58,
+  "status": {
+    "hp": 123,
+    "attack": 77,
+    "defence": 72,
+    "spAttack": 99,
+    "spDefence": 92,
+    "speed": 58
+  },
   "evolution": [699]
 }

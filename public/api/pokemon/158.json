@@ -3,11 +3,13 @@
   "form": null,
   "name": "ワニノコ",
   "formName": null,
-  "hp": 50,
-  "attack": 65,
-  "defence": 64,
-  "spAttack": 44,
-  "spDefence": 48,
-  "speed": 43,
+  "status": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 64,
+    "spAttack": 44,
+    "spDefence": 48,
+    "speed": 43
+  },
   "evolution": [158]
 }

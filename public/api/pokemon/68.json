@@ -3,11 +3,13 @@
   "form": null,
   "name": "カイリキー",
   "formName": null,
-  "hp": 90,
-  "attack": 130,
-  "defence": 80,
-  "spAttack": 65,
-  "spDefence": 85,
-  "speed": 55,
+  "status": {
+    "hp": 90,
+    "attack": 130,
+    "defence": 80,
+    "spAttack": 65,
+    "spDefence": 85,
+    "speed": 55
+  },
   "evolution": ["66", "67", "68"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドガース",
   "formName": null,
-  "hp": 40,
-  "attack": 65,
-  "defence": 95,
-  "spAttack": 60,
-  "spDefence": 45,
-  "speed": 35,
+  "status": {
+    "hp": 40,
+    "attack": 65,
+    "defence": 95,
+    "spAttack": 60,
+    "spDefence": 45,
+    "speed": 35
+  },
   "evolution": ["109", "110", "110-galar"]
 }

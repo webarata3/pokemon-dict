@@ -3,11 +3,13 @@
   "form": null,
   "name": "ホエルコ",
   "formName": null,
-  "hp": 130,
-  "attack": 70,
-  "defence": 35,
-  "spAttack": 70,
-  "spDefence": 35,
-  "speed": 60,
+  "status": {
+    "hp": 130,
+    "attack": 70,
+    "defence": 35,
+    "spAttack": 70,
+    "spDefence": 35,
+    "speed": 60
+  },
   "evolution": [320]
 }

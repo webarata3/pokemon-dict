@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤバチャ",
   "formName": null,
-  "hp": 40,
-  "attack": 45,
-  "defence": 45,
-  "spAttack": 74,
-  "spDefence": 54,
-  "speed": 50,
+  "status": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 45,
+    "spAttack": 74,
+    "spDefence": 54,
+    "speed": 50
+  },
   "evolution": [854]
 }

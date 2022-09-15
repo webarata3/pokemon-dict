@@ -3,11 +3,13 @@
   "form": null,
   "name": "マンムー",
   "formName": null,
-  "hp": 110,
-  "attack": 130,
-  "defence": 80,
-  "spAttack": 70,
-  "spDefence": 60,
-  "speed": 80,
+  "status": {
+    "hp": 110,
+    "attack": 130,
+    "defence": 80,
+    "spAttack": 70,
+    "spDefence": 60,
+    "speed": 80
+  },
   "evolution": [473]
 }

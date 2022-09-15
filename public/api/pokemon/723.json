@@ -3,11 +3,13 @@
   "form": null,
   "name": "フクスロー",
   "formName": null,
-  "hp": 78,
-  "attack": 75,
-  "defence": 75,
-  "spAttack": 70,
-  "spDefence": 70,
-  "speed": 52,
+  "status": {
+    "hp": 78,
+    "attack": 75,
+    "defence": 75,
+    "spAttack": 70,
+    "spDefence": 70,
+    "speed": 52
+  },
   "evolution": [723]
 }

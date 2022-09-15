@@ -3,11 +3,13 @@
   "form": null,
   "name": "ダルマッカ",
   "formName": null,
-  "hp": 70,
-  "attack": 90,
-  "defence": 45,
-  "spAttack": 15,
-  "spDefence": 45,
-  "speed": 50,
+  "status": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 45,
+    "spAttack": 15,
+    "spDefence": 45,
+    "speed": 50
+  },
   "evolution": [554]
 }

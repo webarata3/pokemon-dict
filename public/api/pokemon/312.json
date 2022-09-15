@@ -3,11 +3,13 @@
   "form": null,
   "name": "マイナン",
   "formName": null,
-  "hp": 60,
-  "attack": 40,
-  "defence": 50,
-  "spAttack": 75,
-  "spDefence": 85,
-  "speed": 95,
+  "status": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 50,
+    "spAttack": 75,
+    "spDefence": 85,
+    "speed": 95
+  },
   "evolution": [312]
 }

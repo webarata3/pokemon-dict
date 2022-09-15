@@ -3,11 +3,13 @@
   "form": null,
   "name": "メガニウム",
   "formName": null,
-  "hp": 80,
-  "attack": 82,
-  "defence": 100,
-  "spAttack": 83,
-  "spDefence": 100,
-  "speed": 80,
+  "status": {
+    "hp": 80,
+    "attack": 82,
+    "defence": 100,
+    "spAttack": 83,
+    "spDefence": 100,
+    "speed": 80
+  },
   "evolution": [154]
 }

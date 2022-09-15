@@ -3,11 +3,13 @@
   "form": null,
   "name": "デカグース",
   "formName": null,
-  "hp": 88,
-  "attack": 110,
-  "defence": 60,
-  "spAttack": 55,
-  "spDefence": 60,
-  "speed": 45,
+  "status": {
+    "hp": 88,
+    "attack": 110,
+    "defence": 60,
+    "spAttack": 55,
+    "spDefence": 60,
+    "speed": 45
+  },
   "evolution": [735]
 }

@@ -3,11 +3,13 @@
   "form": "nice",
   "name": "コオリッポ",
   "formName": "ナイスフェイス",
-  "hp": 75,
-  "attack": 80,
-  "defence": 70,
-  "spAttack": 65,
-  "spDefence": 50,
-  "speed": 130,
+  "status": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 50,
+    "speed": 130
+  },
   "evolution": [875-nice]
 }

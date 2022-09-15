@@ -3,11 +3,13 @@
   "form": null,
   "name": "バリコオル",
   "formName": null,
-  "hp": 80,
-  "attack": 85,
-  "defence": 75,
-  "spAttack": 110,
-  "spDefence": 100,
-  "speed": 70,
+  "status": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 75,
+    "spAttack": 110,
+    "spDefence": 100,
+    "speed": 70
+  },
   "evolution": [866]
 }

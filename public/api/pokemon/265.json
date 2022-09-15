@@ -3,11 +3,13 @@
   "form": null,
   "name": "ケムッソ",
   "formName": null,
-  "hp": 45,
-  "attack": 45,
-  "defence": 35,
-  "spAttack": 20,
-  "spDefence": 30,
-  "speed": 20,
+  "status": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 35,
+    "spAttack": 20,
+    "spDefence": 30,
+    "speed": 20
+  },
   "evolution": [265]
 }

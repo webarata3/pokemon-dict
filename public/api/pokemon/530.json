@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドリュウズ",
   "formName": null,
-  "hp": 110,
-  "attack": 135,
-  "defence": 60,
-  "spAttack": 50,
-  "spDefence": 65,
-  "speed": 88,
+  "status": {
+    "hp": 110,
+    "attack": 135,
+    "defence": 60,
+    "spAttack": 50,
+    "spDefence": 65,
+    "speed": 88
+  },
   "evolution": [530]
 }

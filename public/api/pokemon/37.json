@@ -3,11 +3,13 @@
   "form": null,
   "name": "ロコン",
   "formName": null,
-  "hp": 38,
-  "attack": 41,
-  "defence": 40,
-  "spAttack": 50,
-  "spDefence": 65,
-  "speed": 65,
+  "status": {
+    "hp": 38,
+    "attack": 41,
+    "defence": 40,
+    "spAttack": 50,
+    "spDefence": 65,
+    "speed": 65
+  },
   "evolution": ["37", "38"]
 }

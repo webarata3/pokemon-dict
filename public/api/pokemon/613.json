@@ -3,11 +3,13 @@
   "form": null,
   "name": "クマシュン",
   "formName": null,
-  "hp": 55,
-  "attack": 70,
-  "defence": 40,
-  "spAttack": 60,
-  "spDefence": 40,
-  "speed": 40,
+  "status": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 40,
+    "spAttack": 60,
+    "spDefence": 40,
+    "speed": 40
+  },
   "evolution": [613]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "バイウールー",
   "formName": null,
-  "hp": 72,
-  "attack": 80,
-  "defence": 100,
-  "spAttack": 60,
-  "spDefence": 90,
-  "speed": 88,
+  "status": {
+    "hp": 72,
+    "attack": 80,
+    "defence": 100,
+    "spAttack": 60,
+    "spDefence": 90,
+    "speed": 88
+  },
   "evolution": [832]
 }

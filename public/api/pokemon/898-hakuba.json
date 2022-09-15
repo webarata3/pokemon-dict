@@ -3,11 +3,13 @@
   "form": "hakuba",
   "name": "バドレックス",
   "formName": "はくばじょうのすがた",
-  "hp": 100,
-  "attack": 165,
-  "defence": 150,
-  "spAttack": 85,
-  "spDefence": 130,
-  "speed": 50,
+  "status": {
+    "hp": 100,
+    "attack": 165,
+    "defence": 150,
+    "spAttack": 85,
+    "spDefence": 130,
+    "speed": 50
+  },
   "evolution": [898-hakuba]
 }

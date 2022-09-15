@@ -3,11 +3,13 @@
   "form": null,
   "name": "ウールー",
   "formName": null,
-  "hp": 42,
-  "attack": 40,
-  "defence": 55,
-  "spAttack": 40,
-  "spDefence": 45,
-  "speed": 48,
+  "status": {
+    "hp": 42,
+    "attack": 40,
+    "defence": 55,
+    "spAttack": 40,
+    "spDefence": 45,
+    "speed": 48
+  },
   "evolution": [831]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "キバニア",
   "formName": null,
-  "hp": 45,
-  "attack": 90,
-  "defence": 20,
-  "spAttack": 65,
-  "spDefence": 20,
-  "speed": 65,
+  "status": {
+    "hp": 45,
+    "attack": 90,
+    "defence": 20,
+    "spAttack": 65,
+    "spDefence": 20,
+    "speed": 65
+  },
   "evolution": [318]
 }

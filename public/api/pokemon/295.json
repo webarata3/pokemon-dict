@@ -3,11 +3,13 @@
   "form": null,
   "name": "バクオング",
   "formName": null,
-  "hp": 104,
-  "attack": 91,
-  "defence": 63,
-  "spAttack": 91,
-  "spDefence": 73,
-  "speed": 68,
+  "status": {
+    "hp": 104,
+    "attack": 91,
+    "defence": 63,
+    "spAttack": 91,
+    "spDefence": 73,
+    "speed": 68
+  },
   "evolution": [295]
 }

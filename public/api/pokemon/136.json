@@ -3,11 +3,13 @@
   "form": null,
   "name": "ブースター",
   "formName": null,
-  "hp": 65,
-  "attack": 130,
-  "defence": 60,
-  "spAttack": 95,
-  "spDefence": 110,
-  "speed": 65,
+  "status": {
+    "hp": 65,
+    "attack": 130,
+    "defence": 60,
+    "spAttack": 95,
+    "spDefence": 110,
+    "speed": 65
+  },
   "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
 }

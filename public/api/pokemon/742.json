@@ -3,11 +3,13 @@
   "form": null,
   "name": "アブリー",
   "formName": null,
-  "hp": 40,
-  "attack": 45,
-  "defence": 40,
-  "spAttack": 55,
-  "spDefence": 40,
-  "speed": 84,
+  "status": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 40,
+    "spAttack": 55,
+    "spDefence": 40,
+    "speed": 84
+  },
   "evolution": [742]
 }

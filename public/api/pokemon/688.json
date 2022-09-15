@@ -3,11 +3,13 @@
   "form": null,
   "name": "カメテテ",
   "formName": null,
-  "hp": 42,
-  "attack": 52,
-  "defence": 67,
-  "spAttack": 39,
-  "spDefence": 56,
-  "speed": 50,
+  "status": {
+    "hp": 42,
+    "attack": 52,
+    "defence": 67,
+    "spAttack": 39,
+    "spDefence": 56,
+    "speed": 50
+  },
   "evolution": [688]
 }

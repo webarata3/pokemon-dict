@@ -3,11 +3,13 @@
   "form": "tatenoou",
   "name": "ザマゼンタ",
   "formName": "たてのおう",
-  "hp": 92,
-  "attack": 130,
-  "defence": 145,
-  "spAttack": 80,
-  "spDefence": 145,
-  "speed": 128,
+  "status": {
+    "hp": 92,
+    "attack": 130,
+    "defence": 145,
+    "spAttack": 80,
+    "spDefence": 145,
+    "speed": 128
+  },
   "evolution": [889-tatenoou]
 }

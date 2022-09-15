@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゼラオラ",
   "formName": null,
-  "hp": 88,
-  "attack": 112,
-  "defence": 75,
-  "spAttack": 102,
-  "spDefence": 80,
-  "speed": 143,
+  "status": {
+    "hp": 88,
+    "attack": 112,
+    "defence": 75,
+    "spAttack": 102,
+    "spDefence": 80,
+    "speed": 143
+  },
   "evolution": [807]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ランターン",
   "formName": null,
-  "hp": 125,
-  "attack": 58,
-  "defence": 58,
-  "spAttack": 76,
-  "spDefence": 76,
-  "speed": 67,
+  "status": {
+    "hp": 125,
+    "attack": 58,
+    "defence": 58,
+    "spAttack": 76,
+    "spDefence": 76,
+    "speed": 67
+  },
   "evolution": [171]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "イシツブテ",
   "formName": null,
-  "hp": 40,
-  "attack": 80,
-  "defence": 100,
-  "spAttack": 30,
-  "spDefence": 30,
-  "speed": 20,
+  "status": {
+    "hp": 40,
+    "attack": 80,
+    "defence": 100,
+    "spAttack": 30,
+    "spDefence": 30,
+    "speed": 20
+  },
   "evolution": ["74", "75", "76"]
 }

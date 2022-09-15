@@ -3,11 +3,13 @@
   "form": null,
   "name": "バシャーモ",
   "formName": null,
-  "hp": 80,
-  "attack": 120,
-  "defence": 70,
-  "spAttack": 110,
-  "spDefence": 70,
-  "speed": 80,
+  "status": {
+    "hp": 80,
+    "attack": 120,
+    "defence": 70,
+    "spAttack": 110,
+    "spDefence": 70,
+    "speed": 80
+  },
   "evolution": [257]
 }

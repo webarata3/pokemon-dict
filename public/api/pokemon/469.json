@@ -3,11 +3,13 @@
   "form": null,
   "name": "メガヤンマ",
   "formName": null,
-  "hp": 86,
-  "attack": 76,
-  "defence": 86,
-  "spAttack": 116,
-  "spDefence": 56,
-  "speed": 95,
+  "status": {
+    "hp": 86,
+    "attack": 76,
+    "defence": 86,
+    "spAttack": 116,
+    "spDefence": 56,
+    "speed": 95
+  },
   "evolution": [469]
 }

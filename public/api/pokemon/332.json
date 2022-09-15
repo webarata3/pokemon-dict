@@ -3,11 +3,13 @@
   "form": null,
   "name": "ノクタス",
   "formName": null,
-  "hp": 70,
-  "attack": 115,
-  "defence": 60,
-  "spAttack": 115,
-  "spDefence": 60,
-  "speed": 55,
+  "status": {
+    "hp": 70,
+    "attack": 115,
+    "defence": 60,
+    "spAttack": 115,
+    "spDefence": 60,
+    "speed": 55
+  },
   "evolution": [332]
 }

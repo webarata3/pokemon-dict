@@ -3,11 +3,13 @@
   "form": null,
   "name": "シズクモ",
   "formName": null,
-  "hp": 38,
-  "attack": 40,
-  "defence": 52,
-  "spAttack": 40,
-  "spDefence": 72,
-  "speed": 27,
+  "status": {
+    "hp": 38,
+    "attack": 40,
+    "defence": 52,
+    "spAttack": 40,
+    "spDefence": 72,
+    "speed": 27
+  },
   "evolution": [751]
 }

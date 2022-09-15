@@ -3,11 +3,13 @@
   "form": null,
   "name": "チラチーノ",
   "formName": null,
-  "hp": 75,
-  "attack": 95,
-  "defence": 60,
-  "spAttack": 65,
-  "spDefence": 60,
-  "speed": 115,
+  "status": {
+    "hp": 75,
+    "attack": 95,
+    "defence": 60,
+    "spAttack": 65,
+    "spDefence": 60,
+    "speed": 115
+  },
   "evolution": [573]
 }

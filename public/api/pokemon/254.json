@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジュカイン",
   "formName": null,
-  "hp": 70,
-  "attack": 85,
-  "defence": 65,
-  "spAttack": 105,
-  "spDefence": 85,
-  "speed": 120,
+  "status": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 65,
+    "spAttack": 105,
+    "spDefence": 85,
+    "speed": 120
+  },
   "evolution": [254]
 }

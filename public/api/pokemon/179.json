@@ -3,11 +3,13 @@
   "form": null,
   "name": "メリープ",
   "formName": null,
-  "hp": 55,
-  "attack": 40,
-  "defence": 40,
-  "spAttack": 65,
-  "spDefence": 45,
-  "speed": 35,
+  "status": {
+    "hp": 55,
+    "attack": 40,
+    "defence": 40,
+    "spAttack": 65,
+    "spDefence": 45,
+    "speed": 35
+  },
   "evolution": [179]
 }

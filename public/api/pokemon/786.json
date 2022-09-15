@@ -3,11 +3,13 @@
   "form": null,
   "name": "カプ・テテフ",
   "formName": null,
-  "hp": 70,
-  "attack": 85,
-  "defence": 75,
-  "spAttack": 130,
-  "spDefence": 115,
-  "speed": 95,
+  "status": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 75,
+    "spAttack": 130,
+    "spDefence": 115,
+    "speed": 95
+  },
   "evolution": [786]
 }

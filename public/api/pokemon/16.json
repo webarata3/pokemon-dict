@@ -3,11 +3,13 @@
   "form": null,
   "name": "ポッポ",
   "formName": null,
-  "hp": 40,
-  "attack": 45,
-  "defence": 40,
-  "spAttack": 35,
-  "spDefence": 35,
-  "speed": 56,
+  "status": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 40,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 56
+  },
   "evolution": ["16", "17", "18"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジバコイル",
   "formName": null,
-  "hp": 70,
-  "attack": 70,
-  "defence": 115,
-  "spAttack": 130,
-  "spDefence": 90,
-  "speed": 60,
+  "status": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 115,
+    "spAttack": 130,
+    "spDefence": 90,
+    "speed": 60
+  },
   "evolution": ["81", "82", "462"]
 }

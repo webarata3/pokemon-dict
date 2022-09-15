@@ -3,11 +3,13 @@
   "form": null,
   "name": "ライコウ",
   "formName": null,
-  "hp": 90,
-  "attack": 85,
-  "defence": 75,
-  "spAttack": 115,
-  "spDefence": 100,
-  "speed": 115,
+  "status": {
+    "hp": 90,
+    "attack": 85,
+    "defence": 75,
+    "spAttack": 115,
+    "spDefence": 100,
+    "speed": 115
+  },
   "evolution": [243]
 }

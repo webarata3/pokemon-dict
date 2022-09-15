@@ -3,11 +3,13 @@
   "form": null,
   "name": "クヌギダマ",
   "formName": null,
-  "hp": 50,
-  "attack": 65,
-  "defence": 90,
-  "spAttack": 35,
-  "spDefence": 35,
-  "speed": 15,
+  "status": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 90,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 15
+  },
   "evolution": [204]
 }

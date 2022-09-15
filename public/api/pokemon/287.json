@@ -3,11 +3,13 @@
   "form": null,
   "name": "ナマケロ",
   "formName": null,
-  "hp": 60,
-  "attack": 60,
-  "defence": 60,
-  "spAttack": 35,
-  "spDefence": 35,
-  "speed": 30,
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 30
+  },
   "evolution": [287]
 }

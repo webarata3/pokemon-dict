@@ -3,11 +3,13 @@
   "form": null,
   "name": "クルマユ",
   "formName": null,
-  "hp": 55,
-  "attack": 63,
-  "defence": 90,
-  "spAttack": 50,
-  "spDefence": 80,
-  "speed": 42,
+  "status": {
+    "hp": 55,
+    "attack": 63,
+    "defence": 90,
+    "spAttack": 50,
+    "spDefence": 80,
+    "speed": 42
+  },
   "evolution": [541]
 }

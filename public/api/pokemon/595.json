@@ -3,11 +3,13 @@
   "form": null,
   "name": "バチュル",
   "formName": null,
-  "hp": 50,
-  "attack": 47,
-  "defence": 50,
-  "spAttack": 57,
-  "spDefence": 50,
-  "speed": 65,
+  "status": {
+    "hp": 50,
+    "attack": 47,
+    "defence": 50,
+    "spAttack": 57,
+    "spDefence": 50,
+    "speed": 65
+  },
   "evolution": [595]
 }

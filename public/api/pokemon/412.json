@@ -3,11 +3,13 @@
   "form": null,
   "name": "ミノムッチ",
   "formName": null,
-  "hp": 40,
-  "attack": 29,
-  "defence": 45,
-  "spAttack": 29,
-  "spDefence": 45,
-  "speed": 36,
+  "status": {
+    "hp": 40,
+    "attack": 29,
+    "defence": 45,
+    "spAttack": 29,
+    "spDefence": 45,
+    "speed": 36
+  },
   "evolution": [412]
 }

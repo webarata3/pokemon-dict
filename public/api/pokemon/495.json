@@ -3,11 +3,13 @@
   "form": null,
   "name": "ツタージャ",
   "formName": null,
-  "hp": 45,
-  "attack": 45,
-  "defence": 55,
-  "spAttack": 45,
-  "spDefence": 55,
-  "speed": 63,
+  "status": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 55,
+    "spAttack": 45,
+    "spDefence": 55,
+    "speed": 63
+  },
   "evolution": [495]
 }

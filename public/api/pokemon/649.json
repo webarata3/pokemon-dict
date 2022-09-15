@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゲノセクト",
   "formName": null,
-  "hp": 71,
-  "attack": 120,
-  "defence": 95,
-  "spAttack": 120,
-  "spDefence": 95,
-  "speed": 99,
+  "status": {
+    "hp": 71,
+    "attack": 120,
+    "defence": 95,
+    "spAttack": 120,
+    "spDefence": 95,
+    "speed": 99
+  },
   "evolution": [649]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "オニドリル",
   "formName": null,
-  "hp": 65,
-  "attack": 90,
-  "defence": 65,
-  "spAttack": 61,
-  "spDefence": 61,
-  "speed": 100,
+  "status": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 65,
+    "spAttack": 61,
+    "spDefence": 61,
+    "speed": 100
+  },
   "evolution": ["21", "22"]
 }

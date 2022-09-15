@@ -3,11 +3,13 @@
   "form": null,
   "name": "イシヘンジン",
   "formName": null,
-  "hp": 100,
-  "attack": 125,
-  "defence": 135,
-  "spAttack": 20,
-  "spDefence": 20,
-  "speed": 70,
+  "status": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 135,
+    "spAttack": 20,
+    "spDefence": 20,
+    "speed": 70
+  },
   "evolution": [874]
 }

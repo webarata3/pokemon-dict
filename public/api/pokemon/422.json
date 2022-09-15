@@ -3,11 +3,13 @@
   "form": null,
   "name": "カラナクシ",
   "formName": null,
-  "hp": 76,
-  "attack": 48,
-  "defence": 48,
-  "spAttack": 57,
-  "spDefence": 62,
-  "speed": 34,
+  "status": {
+    "hp": 76,
+    "attack": 48,
+    "defence": 48,
+    "spAttack": 57,
+    "spDefence": 62,
+    "speed": 34
+  },
   "evolution": [422]
 }

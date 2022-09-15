@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヘラクロス",
   "formName": null,
-  "hp": 80,
-  "attack": 125,
-  "defence": 75,
-  "spAttack": 40,
-  "spDefence": 95,
-  "speed": 85,
+  "status": {
+    "hp": 80,
+    "attack": 125,
+    "defence": 75,
+    "spAttack": 40,
+    "spDefence": 95,
+    "speed": 85
+  },
   "evolution": [214]
 }

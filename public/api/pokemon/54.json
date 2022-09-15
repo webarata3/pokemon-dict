@@ -3,11 +3,13 @@
   "form": null,
   "name": "コダック",
   "formName": null,
-  "hp": 50,
-  "attack": 52,
-  "defence": 48,
-  "spAttack": 65,
-  "spDefence": 50,
-  "speed": 55,
+  "status": {
+    "hp": 50,
+    "attack": 52,
+    "defence": 48,
+    "spAttack": 65,
+    "spDefence": 50,
+    "speed": 55
+  },
   "evolution": ["54", "55"]
 }

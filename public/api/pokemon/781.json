@@ -3,11 +3,13 @@
   "form": null,
   "name": "ダダリン",
   "formName": null,
-  "hp": 70,
-  "attack": 131,
-  "defence": 100,
-  "spAttack": 86,
-  "spDefence": 90,
-  "speed": 40,
+  "status": {
+    "hp": 70,
+    "attack": 131,
+    "defence": 100,
+    "spAttack": 86,
+    "spDefence": 90,
+    "speed": 40
+  },
   "evolution": [781]
 }

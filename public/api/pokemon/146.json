@@ -3,11 +3,13 @@
   "form": null,
   "name": "ファイヤー",
   "formName": null,
-  "hp": 90,
-  "attack": 100,
-  "defence": 90,
-  "spAttack": 125,
-  "spDefence": 85,
-  "speed": 90,
+  "status": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 90,
+    "spAttack": 125,
+    "spDefence": 85,
+    "speed": 90
+  },
   "evolution": ["146"]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ラティアス",
   "formName": null,
-  "hp": 80,
-  "attack": 80,
-  "defence": 90,
-  "spAttack": 110,
-  "spDefence": 130,
-  "speed": 110,
+  "status": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 90,
+    "spAttack": 110,
+    "spDefence": 130,
+    "speed": 110
+  },
   "evolution": [380]
 }

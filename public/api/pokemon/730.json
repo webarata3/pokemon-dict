@@ -3,11 +3,13 @@
   "form": null,
   "name": "アシレーヌ",
   "formName": null,
-  "hp": 80,
-  "attack": 74,
-  "defence": 74,
-  "spAttack": 126,
-  "spDefence": 116,
-  "speed": 60,
+  "status": {
+    "hp": 80,
+    "attack": 74,
+    "defence": 74,
+    "spAttack": 126,
+    "spDefence": 116,
+    "speed": 60
+  },
   "evolution": [730]
 }

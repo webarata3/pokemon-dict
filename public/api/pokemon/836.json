@@ -3,11 +3,13 @@
   "form": null,
   "name": "パルスワン",
   "formName": null,
-  "hp": 69,
-  "attack": 90,
-  "defence": 60,
-  "spAttack": 90,
-  "spDefence": 60,
-  "speed": 121,
+  "status": {
+    "hp": 69,
+    "attack": 90,
+    "defence": 60,
+    "spAttack": 90,
+    "spDefence": 60,
+    "speed": 121
+  },
   "evolution": [836]
 }

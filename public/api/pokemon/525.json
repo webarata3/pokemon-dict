@@ -3,11 +3,13 @@
   "form": null,
   "name": "ガントル",
   "formName": null,
-  "hp": 70,
-  "attack": 105,
-  "defence": 105,
-  "spAttack": 50,
-  "spDefence": 40,
-  "speed": 20,
+  "status": {
+    "hp": 70,
+    "attack": 105,
+    "defence": 105,
+    "spAttack": 50,
+    "spDefence": 40,
+    "speed": 20
+  },
   "evolution": [525]
 }

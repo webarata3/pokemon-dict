@@ -3,11 +3,13 @@
   "form": null,
   "name": "メラルバ",
   "formName": null,
-  "hp": 55,
-  "attack": 85,
-  "defence": 55,
-  "spAttack": 50,
-  "spDefence": 55,
-  "speed": 60,
+  "status": {
+    "hp": 55,
+    "attack": 85,
+    "defence": 55,
+    "spAttack": 50,
+    "spDefence": 55,
+    "speed": 60
+  },
   "evolution": [636]
 }

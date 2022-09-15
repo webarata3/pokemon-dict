@@ -3,11 +3,13 @@
   "form": null,
   "name": "クワガノン",
   "formName": null,
-  "hp": 77,
-  "attack": 70,
-  "defence": 90,
-  "spAttack": 145,
-  "spDefence": 75,
-  "speed": 43,
+  "status": {
+    "hp": 77,
+    "attack": 70,
+    "defence": 90,
+    "spAttack": 145,
+    "spDefence": 75,
+    "speed": 43
+  },
   "evolution": [738]
 }

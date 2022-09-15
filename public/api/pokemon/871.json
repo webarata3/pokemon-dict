@@ -3,11 +3,13 @@
   "form": null,
   "name": "バチンウニ",
   "formName": null,
-  "hp": 48,
-  "attack": 101,
-  "defence": 95,
-  "spAttack": 91,
-  "spDefence": 85,
-  "speed": 15,
+  "status": {
+    "hp": 48,
+    "attack": 101,
+    "defence": 95,
+    "spAttack": 91,
+    "spDefence": 85,
+    "speed": 15
+  },
   "evolution": [871]
 }

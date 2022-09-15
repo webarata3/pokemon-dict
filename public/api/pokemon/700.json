@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニンフィア",
   "formName": null,
-  "hp": 95,
-  "attack": 65,
-  "defence": 65,
-  "spAttack": 110,
-  "spDefence": 130,
-  "speed": 60,
+  "status": {
+    "hp": 95,
+    "attack": 65,
+    "defence": 65,
+    "spAttack": 110,
+    "spDefence": 130,
+    "speed": 60
+  },
   "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
 }

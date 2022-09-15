@@ -3,11 +3,13 @@
   "form": null,
   "name": "チゴラス",
   "formName": null,
-  "hp": 58,
-  "attack": 89,
-  "defence": 77,
-  "spAttack": 45,
-  "spDefence": 45,
-  "speed": 48,
+  "status": {
+    "hp": 58,
+    "attack": 89,
+    "defence": 77,
+    "spAttack": 45,
+    "spDefence": 45,
+    "speed": 48
+  },
   "evolution": [696]
 }

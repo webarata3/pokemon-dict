@@ -3,11 +3,13 @@
   "form": null,
   "name": "アマージョ",
   "formName": null,
-  "hp": 72,
-  "attack": 120,
-  "defence": 98,
-  "spAttack": 50,
-  "spDefence": 98,
-  "speed": 72,
+  "status": {
+    "hp": 72,
+    "attack": 120,
+    "defence": 98,
+    "spAttack": 50,
+    "spDefence": 98,
+    "speed": 72
+  },
   "evolution": [763]
 }

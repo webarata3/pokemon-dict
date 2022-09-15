@@ -3,11 +3,13 @@
   "form": null,
   "name": "チョンチー",
   "formName": null,
-  "hp": 75,
-  "attack": 38,
-  "defence": 38,
-  "spAttack": 56,
-  "spDefence": 56,
-  "speed": 67,
+  "status": {
+    "hp": 75,
+    "attack": 38,
+    "defence": 38,
+    "spAttack": 56,
+    "spDefence": 56,
+    "speed": 67
+  },
   "evolution": [170]
 }

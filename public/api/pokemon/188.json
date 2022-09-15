@@ -3,11 +3,13 @@
   "form": null,
   "name": "ポポッコ",
   "formName": null,
-  "hp": 55,
-  "attack": 45,
-  "defence": 50,
-  "spAttack": 45,
-  "spDefence": 65,
-  "speed": 80,
+  "status": {
+    "hp": 55,
+    "attack": 45,
+    "defence": 50,
+    "spAttack": 45,
+    "spDefence": 65,
+    "speed": 80
+  },
   "evolution": [188]
 }

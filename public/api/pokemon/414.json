@@ -3,11 +3,13 @@
   "form": null,
   "name": "ガーメイル",
   "formName": null,
-  "hp": 70,
-  "attack": 94,
-  "defence": 50,
-  "spAttack": 94,
-  "spDefence": 50,
-  "speed": 66,
+  "status": {
+    "hp": 70,
+    "attack": 94,
+    "defence": 50,
+    "spAttack": 94,
+    "spDefence": 50,
+    "speed": 66
+  },
   "evolution": [414]
 }

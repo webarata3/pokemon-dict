@@ -3,11 +3,13 @@
   "form": null,
   "name": "エレキッド",
   "formName": null,
-  "hp": 45,
-  "attack": 63,
-  "defence": 37,
-  "spAttack": 65,
-  "spDefence": 55,
-  "speed": 95,
+  "status": {
+    "hp": 45,
+    "attack": 63,
+    "defence": 37,
+    "spAttack": 65,
+    "spDefence": 55,
+    "speed": 95
+  },
   "evolution": [239]
 }

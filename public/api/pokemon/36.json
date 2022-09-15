@@ -3,11 +3,13 @@
   "form": null,
   "name": "ピクシー",
   "formName": null,
-  "hp": 95,
-  "attack": 70,
-  "defence": 73,
-  "spAttack": 95,
-  "spDefence": 90,
-  "speed": 60,
+  "status": {
+    "hp": 95,
+    "attack": 70,
+    "defence": 73,
+    "spAttack": 95,
+    "spDefence": 90,
+    "speed": 60
+  },
   "evolution": ["36"]
 }

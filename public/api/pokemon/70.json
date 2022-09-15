@@ -3,11 +3,13 @@
   "form": null,
   "name": "ウツドン",
   "formName": null,
-  "hp": 65,
-  "attack": 90,
-  "defence": 50,
-  "spAttack": 85,
-  "spDefence": 45,
-  "speed": 55,
+  "status": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 50,
+    "spAttack": 85,
+    "spDefence": 45,
+    "speed": 55
+  },
   "evolution": ["69", "70", "71"]
 }

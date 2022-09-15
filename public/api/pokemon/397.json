@@ -3,11 +3,13 @@
   "form": null,
   "name": "ムクバード",
   "formName": null,
-  "hp": 55,
-  "attack": 75,
-  "defence": 50,
-  "spAttack": 40,
-  "spDefence": 40,
-  "speed": 80,
+  "status": {
+    "hp": 55,
+    "attack": 75,
+    "defence": 50,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 80
+  },
   "evolution": [397]
 }

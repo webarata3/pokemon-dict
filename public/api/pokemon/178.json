@@ -3,11 +3,13 @@
   "form": null,
   "name": "ネイティオ",
   "formName": null,
-  "hp": 65,
-  "attack": 75,
-  "defence": 70,
-  "spAttack": 95,
-  "spDefence": 70,
-  "speed": 95,
+  "status": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 70,
+    "spAttack": 95,
+    "spDefence": 70,
+    "speed": 95
+  },
   "evolution": [178]
 }

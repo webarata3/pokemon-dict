@@ -3,11 +3,13 @@
   "form": null,
   "name": "プリン",
   "formName": null,
-  "hp": 115,
-  "attack": 45,
-  "defence": 20,
-  "spAttack": 45,
-  "spDefence": 25,
-  "speed": 20,
+  "status": {
+    "hp": 115,
+    "attack": 45,
+    "defence": 20,
+    "spAttack": 45,
+    "spDefence": 25,
+    "speed": 20
+  },
   "evolution": [39]
 }

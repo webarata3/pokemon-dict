@@ -3,11 +3,13 @@
   "form": null,
   "name": "ブルー",
   "formName": null,
-  "hp": 60,
-  "attack": 80,
-  "defence": 50,
-  "spAttack": 40,
-  "spDefence": 40,
-  "speed": 30,
+  "status": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 50,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 30
+  },
   "evolution": [209]
 }

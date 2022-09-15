@@ -3,11 +3,13 @@
   "form": null,
   "name": "クレセリア",
   "formName": null,
-  "hp": 120,
-  "attack": 70,
-  "defence": 120,
-  "spAttack": 75,
-  "spDefence": 130,
-  "speed": 85,
+  "status": {
+    "hp": 120,
+    "attack": 70,
+    "defence": 120,
+    "spAttack": 75,
+    "spDefence": 130,
+    "speed": 85
+  },
   "evolution": [488]
 }

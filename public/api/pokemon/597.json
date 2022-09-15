@@ -3,11 +3,13 @@
   "form": null,
   "name": "テッシード",
   "formName": null,
-  "hp": 44,
-  "attack": 50,
-  "defence": 91,
-  "spAttack": 24,
-  "spDefence": 86,
-  "speed": 10,
+  "status": {
+    "hp": 44,
+    "attack": 50,
+    "defence": 91,
+    "spAttack": 24,
+    "spDefence": 86,
+    "speed": 10
+  },
   "evolution": [597]
 }

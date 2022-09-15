@@ -3,11 +3,13 @@
   "form": null,
   "name": "ビッパ",
   "formName": null,
-  "hp": 59,
-  "attack": 45,
-  "defence": 40,
-  "spAttack": 35,
-  "spDefence": 40,
-  "speed": 31,
+  "status": {
+    "hp": 59,
+    "attack": 45,
+    "defence": 40,
+    "spAttack": 35,
+    "spDefence": 40,
+    "speed": 31
+  },
   "evolution": [399]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ユキワラシ",
   "formName": null,
-  "hp": 50,
-  "attack": 50,
-  "defence": 50,
-  "spAttack": 50,
-  "spDefence": 50,
-  "speed": 50,
+  "status": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "spAttack": 50,
+    "spDefence": 50,
+    "speed": 50
+  },
   "evolution": [361]
 }

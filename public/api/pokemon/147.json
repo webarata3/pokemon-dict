@@ -3,11 +3,13 @@
   "form": null,
   "name": "ミニリュウ",
   "formName": null,
-  "hp": 41,
-  "attack": 64,
-  "defence": 45,
-  "spAttack": 50,
-  "spDefence": 50,
-  "speed": 50,
+  "status": {
+    "hp": 41,
+    "attack": 64,
+    "defence": 45,
+    "spAttack": 50,
+    "spDefence": 50,
+    "speed": 50
+  },
   "evolution": ["147", "148", "149"]
 }

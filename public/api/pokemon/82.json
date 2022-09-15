@@ -3,11 +3,13 @@
   "form": null,
   "name": "レアコイル",
   "formName": null,
-  "hp": 50,
-  "attack": 60,
-  "defence": 95,
-  "spAttack": 120,
-  "spDefence": 70,
-  "speed": 70,
+  "status": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 95,
+    "spAttack": 120,
+    "spDefence": 70,
+    "speed": 70
+  },
   "evolution": ["81", "82", "462"]
 }

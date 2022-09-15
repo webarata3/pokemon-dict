@@ -3,11 +3,13 @@
   "form": null,
   "name": "ナエトル",
   "formName": null,
-  "hp": 55,
-  "attack": 68,
-  "defence": 64,
-  "spAttack": 45,
-  "spDefence": 55,
-  "speed": 31,
+  "status": {
+    "hp": 55,
+    "attack": 68,
+    "defence": 64,
+    "spAttack": 45,
+    "spDefence": 55,
+    "speed": 31
+  },
   "evolution": [387]
 }

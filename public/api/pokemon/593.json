@@ -3,11 +3,13 @@
   "form": null,
   "name": "ブルンゲル",
   "formName": null,
-  "hp": 100,
-  "attack": 60,
-  "defence": 70,
-  "spAttack": 85,
-  "spDefence": 105,
-  "speed": 60,
+  "status": {
+    "hp": 100,
+    "attack": 60,
+    "defence": 70,
+    "spAttack": 85,
+    "spDefence": 105,
+    "speed": 60
+  },
   "evolution": [593]
 }

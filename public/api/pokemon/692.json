@@ -3,11 +3,13 @@
   "form": null,
   "name": "ウデッポウ",
   "formName": null,
-  "hp": 50,
-  "attack": 53,
-  "defence": 62,
-  "spAttack": 58,
-  "spDefence": 63,
-  "speed": 44,
+  "status": {
+    "hp": 50,
+    "attack": 53,
+    "defence": 62,
+    "spAttack": 58,
+    "spDefence": 63,
+    "speed": 44
+  },
   "evolution": [692]
 }

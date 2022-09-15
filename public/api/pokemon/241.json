@@ -3,11 +3,13 @@
   "form": null,
   "name": "ミルタンク",
   "formName": null,
-  "hp": 95,
-  "attack": 80,
-  "defence": 105,
-  "spAttack": 40,
-  "spDefence": 70,
-  "speed": 100,
+  "status": {
+    "hp": 95,
+    "attack": 80,
+    "defence": 105,
+    "spAttack": 40,
+    "spDefence": 70,
+    "speed": 100
+  },
   "evolution": [241]
 }

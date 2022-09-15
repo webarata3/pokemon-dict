@@ -3,11 +3,13 @@
   "form": null,
   "name": "ケケンカニ",
   "formName": null,
-  "hp": 97,
-  "attack": 132,
-  "defence": 77,
-  "spAttack": 62,
-  "spDefence": 67,
-  "speed": 43,
+  "status": {
+    "hp": 97,
+    "attack": 132,
+    "defence": 77,
+    "spAttack": 62,
+    "spDefence": 67,
+    "speed": 43
+  },
   "evolution": [740]
 }

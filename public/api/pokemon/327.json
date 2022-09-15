@@ -3,11 +3,13 @@
   "form": null,
   "name": "パッチール",
   "formName": null,
-  "hp": 60,
-  "attack": 60,
-  "defence": 60,
-  "spAttack": 60,
-  "spDefence": 60,
-  "speed": 60,
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "spAttack": 60,
+    "spDefence": 60,
+    "speed": 60
+  },
   "evolution": [327]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ユキノオー",
   "formName": null,
-  "hp": 90,
-  "attack": 92,
-  "defence": 75,
-  "spAttack": 92,
-  "spDefence": 85,
-  "speed": 60,
+  "status": {
+    "hp": 90,
+    "attack": 92,
+    "defence": 75,
+    "spAttack": 92,
+    "spDefence": 85,
+    "speed": 60
+  },
   "evolution": [460]
 }

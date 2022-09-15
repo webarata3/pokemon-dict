@@ -3,11 +3,13 @@
   "form": null,
   "name": "ネクロズマ",
   "formName": null,
-  "hp": 97,
-  "attack": 107,
-  "defence": 101,
-  "spAttack": 127,
-  "spDefence": 89,
-  "speed": 79,
+  "status": {
+    "hp": 97,
+    "attack": 107,
+    "defence": 101,
+    "spAttack": 127,
+    "spDefence": 89,
+    "speed": 79
+  },
   "evolution": [800]
 }

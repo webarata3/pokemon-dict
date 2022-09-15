@@ -3,11 +3,13 @@
   "form": null,
   "name": "バンバドロ",
   "formName": null,
-  "hp": 100,
-  "attack": 125,
-  "defence": 100,
-  "spAttack": 55,
-  "spDefence": 85,
-  "speed": 35,
+  "status": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 100,
+    "spAttack": 55,
+    "spDefence": 85,
+    "speed": 35
+  },
   "evolution": [750]
 }

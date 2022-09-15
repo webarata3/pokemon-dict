@@ -3,11 +3,13 @@
   "form": null,
   "name": "マグマッグ",
   "formName": null,
-  "hp": 40,
-  "attack": 40,
-  "defence": 40,
-  "spAttack": 70,
-  "spDefence": 40,
-  "speed": 20,
+  "status": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 40,
+    "spAttack": 70,
+    "spDefence": 40,
+    "speed": 20
+  },
   "evolution": [218]
 }

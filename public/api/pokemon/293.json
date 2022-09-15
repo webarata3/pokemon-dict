@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴニョニョ",
   "formName": null,
-  "hp": 64,
-  "attack": 51,
-  "defence": 23,
-  "spAttack": 51,
-  "spDefence": 23,
-  "speed": 28,
+  "status": {
+    "hp": 64,
+    "attack": 51,
+    "defence": 23,
+    "spAttack": 51,
+    "spDefence": 23,
+    "speed": 28
+  },
   "evolution": [293]
 }

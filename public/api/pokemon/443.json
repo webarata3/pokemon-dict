@@ -3,11 +3,13 @@
   "form": null,
   "name": "フカマル",
   "formName": null,
-  "hp": 58,
-  "attack": 70,
-  "defence": 45,
-  "spAttack": 40,
-  "spDefence": 45,
-  "speed": 42,
+  "status": {
+    "hp": 58,
+    "attack": 70,
+    "defence": 45,
+    "spAttack": 40,
+    "spDefence": 45,
+    "speed": 42
+  },
   "evolution": [443]
 }

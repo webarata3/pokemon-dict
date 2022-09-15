@@ -3,11 +3,13 @@
   "form": null,
   "name": "ネッコアラ",
   "formName": null,
-  "hp": 65,
-  "attack": 115,
-  "defence": 65,
-  "spAttack": 75,
-  "spDefence": 95,
-  "speed": 65,
+  "status": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 65,
+    "spAttack": 75,
+    "spDefence": 95,
+    "speed": 65
+  },
   "evolution": [775]
 }

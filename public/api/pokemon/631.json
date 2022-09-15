@@ -3,11 +3,13 @@
   "form": null,
   "name": "クイタラン",
   "formName": null,
-  "hp": 85,
-  "attack": 97,
-  "defence": 66,
-  "spAttack": 105,
-  "spDefence": 66,
-  "speed": 65,
+  "status": {
+    "hp": 85,
+    "attack": 97,
+    "defence": 66,
+    "spAttack": 105,
+    "spDefence": 66,
+    "speed": 65
+  },
   "evolution": [631]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ワンリキー",
   "formName": null,
-  "hp": 70,
-  "attack": 80,
-  "defence": 50,
-  "spAttack": 35,
-  "spDefence": 35,
-  "speed": 35,
+  "status": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 50,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 35
+  },
   "evolution": ["66", "67", "68"]
 }

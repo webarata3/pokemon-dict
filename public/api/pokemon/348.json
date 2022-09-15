@@ -3,11 +3,13 @@
   "form": null,
   "name": "アーマルド",
   "formName": null,
-  "hp": 75,
-  "attack": 125,
-  "defence": 100,
-  "spAttack": 70,
-  "spDefence": 80,
-  "speed": 45,
+  "status": {
+    "hp": 75,
+    "attack": 125,
+    "defence": 100,
+    "spAttack": 70,
+    "spDefence": 80,
+    "speed": 45
+  },
   "evolution": [348]
 }

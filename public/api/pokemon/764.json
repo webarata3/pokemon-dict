@@ -3,11 +3,13 @@
   "form": null,
   "name": "キュワワー",
   "formName": null,
-  "hp": 51,
-  "attack": 52,
-  "defence": 90,
-  "spAttack": 82,
-  "spDefence": 110,
-  "speed": 100,
+  "status": {
+    "hp": 51,
+    "attack": 52,
+    "defence": 90,
+    "spAttack": 82,
+    "spDefence": 110,
+    "speed": 100
+  },
   "evolution": [764]
 }

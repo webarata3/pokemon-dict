@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニャスパー",
   "formName": null,
-  "hp": 62,
-  "attack": 48,
-  "defence": 54,
-  "spAttack": 63,
-  "spDefence": 60,
-  "speed": 68,
+  "status": {
+    "hp": 62,
+    "attack": 48,
+    "defence": 54,
+    "spAttack": 63,
+    "spDefence": 60,
+    "speed": 68
+  },
   "evolution": [677]
 }

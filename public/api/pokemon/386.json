@@ -3,11 +3,13 @@
   "form": null,
   "name": "デオキシス",
   "formName": ノーマルフォルム,
-  "hp": 50,
-  "attack": 150,
-  "defence": 50,
-  "spAttack": 150,
-  "spDefence": 50,
-  "speed": 150,
+  "status": {
+    "hp": 50,
+    "attack": 150,
+    "defence": 50,
+    "spAttack": 150,
+    "spDefence": 50,
+    "speed": 150
+  },
   "evolution": [386]
 }

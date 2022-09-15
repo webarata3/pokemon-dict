@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴクリン",
   "formName": null,
-  "hp": 70,
-  "attack": 43,
-  "defence": 53,
-  "spAttack": 43,
-  "spDefence": 53,
-  "speed": 40,
+  "status": {
+    "hp": 70,
+    "attack": 43,
+    "defence": 53,
+    "spAttack": 43,
+    "spDefence": 53,
+    "speed": 40
+  },
   "evolution": [316]
 }

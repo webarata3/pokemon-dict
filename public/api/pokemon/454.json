@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドクロッグ",
   "formName": null,
-  "hp": 83,
-  "attack": 106,
-  "defence": 65,
-  "spAttack": 86,
-  "spDefence": 65,
-  "speed": 85,
+  "status": {
+    "hp": 83,
+    "attack": 106,
+    "defence": 65,
+    "spAttack": 86,
+    "spDefence": 65,
+    "speed": 85
+  },
   "evolution": [454]
 }

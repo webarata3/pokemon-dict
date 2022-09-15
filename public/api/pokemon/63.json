@@ -3,11 +3,13 @@
   "form": null,
   "name": "ケーシィ",
   "formName": null,
-  "hp": 25,
-  "attack": 20,
-  "defence": 15,
-  "spAttack": 105,
-  "spDefence": 55,
-  "speed": 90,
+  "status": {
+    "hp": 25,
+    "attack": 20,
+    "defence": 15,
+    "spAttack": 105,
+    "spDefence": 55,
+    "speed": 90
+  },
   "evolution": ["63", "64", "65"]
 }

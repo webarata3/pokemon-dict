@@ -3,11 +3,13 @@
   "form": null,
   "name": "クスネ",
   "formName": null,
-  "hp": 40,
-  "attack": 28,
-  "defence": 28,
-  "spAttack": 47,
-  "spDefence": 52,
-  "speed": 50,
+  "status": {
+    "hp": 40,
+    "attack": 28,
+    "defence": 28,
+    "spAttack": 47,
+    "spDefence": 52,
+    "speed": 50
+  },
   "evolution": [827]
 }

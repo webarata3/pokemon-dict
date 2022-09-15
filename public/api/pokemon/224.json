@@ -3,11 +3,13 @@
   "form": null,
   "name": "オクタン",
   "formName": null,
-  "hp": 75,
-  "attack": 105,
-  "defence": 75,
-  "spAttack": 105,
-  "spDefence": 75,
-  "speed": 45,
+  "status": {
+    "hp": 75,
+    "attack": 105,
+    "defence": 75,
+    "spAttack": 105,
+    "spDefence": 75,
+    "speed": 45
+  },
   "evolution": [224]
 }

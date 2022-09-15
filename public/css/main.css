@@ -81,13 +81,34 @@ body {
 }
 
 .pokemon__evolution {
-  min-width: 550px;
+  width: 550px;
+}
+
+.pokemon__evolution-table {
+  width: 550px;
+  overflow-x: scroll;
+}
+
+.pokemon__evolution-table>table tr th:first-child {
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.pokemon__evolution-table>table thead tr:first-child th:first-child {
+  border-top: 3px solid #fff;
+  z-index: 10
+}
+
+.pokemon__evolution-table>table tbody tr:last-child td:first-child {
+  border-bottom: 3px solid #fff;
+  z-index: 10;
 }
 
 .pokemon__info {
   width: 500px;
 }
-
 
 .pokemon__toc {
   display: grid;
@@ -140,6 +161,11 @@ body {
   text-align: right;
 }
 
+.main__table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
 .main__th,
 .main__td {
   padding: var(--basic-padding);
@@ -153,6 +179,10 @@ body {
   border-left: 3px solid var(--accent-color);
   border-right: 3px solid var(--accent-color);
   background-color: var(--selected-color);
+}
+
+.main__th-nowrap {
+  white-space: nowrap;
 }
 
 .main__td-selected-top {

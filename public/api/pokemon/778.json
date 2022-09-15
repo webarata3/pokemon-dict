@@ -3,11 +3,13 @@
   "form": null,
   "name": "ミミッキュ",
   "formName": null,
-  "hp": 55,
-  "attack": 90,
-  "defence": 80,
-  "spAttack": 50,
-  "spDefence": 105,
-  "speed": 96,
+  "status": {
+    "hp": 55,
+    "attack": 90,
+    "defence": 80,
+    "spAttack": 50,
+    "spDefence": 105,
+    "speed": 96
+  },
   "evolution": [778]
 }

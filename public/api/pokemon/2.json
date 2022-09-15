@@ -3,11 +3,13 @@
   "form": null,
   "name": "フシギソウ",
   "formName": null,
-  "hp": 60,
-  "attack": 62,
-  "defence": 63,
-  "spAttack": 80,
-  "spDefence": 80,
-  "speed": 60,
+  "status": {
+    "hp": 60,
+    "attack": 62,
+    "defence": 63,
+    "spAttack": 80,
+    "spDefence": 80,
+    "speed": 60
+  },
   "evolution": ["1", "2", "3"]
 }

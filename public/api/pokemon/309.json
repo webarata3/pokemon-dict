@@ -3,11 +3,13 @@
   "form": null,
   "name": "ラクライ",
   "formName": null,
-  "hp": 40,
-  "attack": 45,
-  "defence": 40,
-  "spAttack": 65,
-  "spDefence": 40,
-  "speed": 65,
+  "status": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 40,
+    "spAttack": 65,
+    "spDefence": 40,
+    "speed": 65
+  },
   "evolution": [309]
 }

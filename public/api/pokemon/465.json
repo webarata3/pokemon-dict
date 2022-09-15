@@ -3,11 +3,13 @@
   "form": null,
   "name": "モジャンボ",
   "formName": null,
-  "hp": 100,
-  "attack": 100,
-  "defence": 125,
-  "spAttack": 110,
-  "spDefence": 50,
-  "speed": 50,
+  "status": {
+    "hp": 100,
+    "attack": 100,
+    "defence": 125,
+    "spAttack": 110,
+    "spDefence": 50,
+    "speed": 50
+  },
   "evolution": ["114", "465"]
 }

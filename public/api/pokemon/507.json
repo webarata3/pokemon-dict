@@ -3,11 +3,13 @@
   "form": null,
   "name": "ハーデリア",
   "formName": null,
-  "hp": 65,
-  "attack": 80,
-  "defence": 65,
-  "spAttack": 35,
-  "spDefence": 65,
-  "speed": 60,
+  "status": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 65,
+    "spAttack": 35,
+    "spDefence": 65,
+    "speed": 60
+  },
   "evolution": [507]
 }

@@ -3,11 +3,13 @@
   "form": "mahiru",
   "name": "ルガルガン",
   "formName": "まひるのすがた",
-  "hp": 75,
-  "attack": 115,
-  "defence": 65,
-  "spAttack": 55,
-  "spDefence": 65,
-  "speed": 112,
+  "status": {
+    "hp": 75,
+    "attack": 115,
+    "defence": 65,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 112
+  },
   "evolution": [745-mahiru]
 }

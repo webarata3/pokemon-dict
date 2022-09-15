@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジュゴン",
   "formName": null,
-  "hp": 90,
-  "attack": 70,
-  "defence": 80,
-  "spAttack": 70,
-  "spDefence": 95,
-  "speed": 70,
+  "status": {
+    "hp": 90,
+    "attack": 70,
+    "defence": 80,
+    "spAttack": 70,
+    "spDefence": 95,
+    "speed": 70
+  },
   "evolution": ["86", "87"]
 }

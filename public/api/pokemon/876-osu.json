@@ -3,11 +3,13 @@
   "form": "osu",
   "name": "イエッサン",
   "formName": "オスのすがた",
-  "hp": 60,
-  "attack": 65,
-  "defence": 55,
-  "spAttack": 105,
-  "spDefence": 95,
-  "speed": 95,
+  "status": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 55,
+    "spAttack": 105,
+    "spDefence": 95,
+    "speed": 95
+  },
   "evolution": [876-osu]
 }

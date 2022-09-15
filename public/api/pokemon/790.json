@@ -3,11 +3,13 @@
   "form": null,
   "name": "コスモウム",
   "formName": null,
-  "hp": 43,
-  "attack": 29,
-  "defence": 131,
-  "spAttack": 29,
-  "spDefence": 131,
-  "speed": 37,
+  "status": {
+    "hp": 43,
+    "attack": 29,
+    "defence": 131,
+    "spAttack": 29,
+    "spDefence": 131,
+    "speed": 37
+  },
   "evolution": [790]
 }

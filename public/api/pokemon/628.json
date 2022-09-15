@@ -3,11 +3,13 @@
   "form": null,
   "name": "ウォーグル",
   "formName": null,
-  "hp": 100,
-  "attack": 123,
-  "defence": 75,
-  "spAttack": 57,
-  "spDefence": 75,
-  "speed": 80,
+  "status": {
+    "hp": 100,
+    "attack": 123,
+    "defence": 75,
+    "spAttack": 57,
+    "spDefence": 75,
+    "speed": 80
+  },
   "evolution": [628]
 }

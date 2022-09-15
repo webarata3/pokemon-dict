@@ -3,11 +3,13 @@
   "form": "keshin",
   "name": "トルネロス",
   "formName": "けしんフォルム",
-  "hp": 79,
-  "attack": 115,
-  "defence": 70,
-  "spAttack": 125,
-  "spDefence": 80,
-  "speed": 111,
+  "status": {
+    "hp": 79,
+    "attack": 115,
+    "defence": 70,
+    "spAttack": 125,
+    "spDefence": 80,
+    "speed": 111
+  },
   "evolution": [641-keshin]
 }

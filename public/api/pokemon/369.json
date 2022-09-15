@@ -3,11 +3,13 @@
   "form": null,
   "name": "ジーランス",
   "formName": null,
-  "hp": 100,
-  "attack": 90,
-  "defence": 130,
-  "spAttack": 45,
-  "spDefence": 65,
-  "speed": 55,
+  "status": {
+    "hp": 100,
+    "attack": 90,
+    "defence": 130,
+    "spAttack": 45,
+    "spDefence": 65,
+    "speed": 55
+  },
   "evolution": [369]
 }

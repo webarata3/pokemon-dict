@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヤナッキー",
   "formName": null,
-  "hp": 75,
-  "attack": 98,
-  "defence": 63,
-  "spAttack": 98,
-  "spDefence": 63,
-  "speed": 101,
+  "status": {
+    "hp": 75,
+    "attack": 98,
+    "defence": 63,
+    "spAttack": 98,
+    "spDefence": 63,
+    "speed": 101
+  },
   "evolution": [512]
 }

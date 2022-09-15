@@ -3,11 +3,13 @@
   "form": null,
   "name": "ダストダス",
   "formName": null,
-  "hp": 80,
-  "attack": 95,
-  "defence": 82,
-  "spAttack": 60,
-  "spDefence": 82,
-  "speed": 75,
+  "status": {
+    "hp": 80,
+    "attack": 95,
+    "defence": 82,
+    "spAttack": 60,
+    "spDefence": 82,
+    "speed": 75
+  },
   "evolution": [569]
 }

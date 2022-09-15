@@ -3,11 +3,13 @@
   "form": null,
   "name": "ズガイドス",
   "formName": null,
-  "hp": 67,
-  "attack": 125,
-  "defence": 40,
-  "spAttack": 30,
-  "spDefence": 30,
-  "speed": 58,
+  "status": {
+    "hp": 67,
+    "attack": 125,
+    "defence": 40,
+    "spAttack": 30,
+    "spDefence": 30,
+    "speed": 58
+  },
   "evolution": [408]
 }

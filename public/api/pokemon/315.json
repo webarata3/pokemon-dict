@@ -3,11 +3,13 @@
   "form": null,
   "name": "ロゼリア",
   "formName": null,
-  "hp": 50,
-  "attack": 60,
-  "defence": 45,
-  "spAttack": 100,
-  "spDefence": 80,
-  "speed": 65,
+  "status": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 45,
+    "spAttack": 100,
+    "spDefence": 80,
+    "speed": 65
+  },
   "evolution": [315]
 }

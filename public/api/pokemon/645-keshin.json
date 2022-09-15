@@ -3,11 +3,13 @@
   "form": "keshin",
   "name": "ランドロス",
   "formName": "けしんフォルム",
-  "hp": 89,
-  "attack": 125,
-  "defence": 90,
-  "spAttack": 115,
-  "spDefence": 80,
-  "speed": 101,
+  "status": {
+    "hp": 89,
+    "attack": 125,
+    "defence": 90,
+    "spAttack": 115,
+    "spDefence": 80,
+    "speed": 101
+  },
   "evolution": [645-keshin]
 }

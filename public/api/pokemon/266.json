@@ -3,11 +3,13 @@
   "form": null,
   "name": "カラサリス",
   "formName": null,
-  "hp": 50,
-  "attack": 35,
-  "defence": 55,
-  "spAttack": 25,
-  "spDefence": 25,
-  "speed": 15,
+  "status": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 55,
+    "spAttack": 25,
+    "spDefence": 25,
+    "speed": 15
+  },
   "evolution": [266]
 }

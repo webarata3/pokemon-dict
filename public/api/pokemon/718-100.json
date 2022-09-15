@@ -3,11 +3,13 @@
   "form": "100",
   "name": "ジガルデ",
   "formName": "パーフェクトフォルム",
-  "hp": 216,
-  "attack": 100,
-  "defence": 121,
-  "spAttack": 91,
-  "spDefence": 95,
-  "speed": 85,
+  "status": {
+    "hp": 216,
+    "attack": 100,
+    "defence": 121,
+    "spAttack": 91,
+    "spDefence": 95,
+    "speed": 85
+  },
   "evolution": [718-100]
 }

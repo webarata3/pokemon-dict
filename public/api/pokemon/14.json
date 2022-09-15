@@ -3,11 +3,13 @@
   "form": null,
   "name": "コクーン",
   "formName": null,
-  "hp": 45,
-  "attack": 25,
-  "defence": 50,
-  "spAttack": 25,
-  "spDefence": 25,
-  "speed": 35,
+  "status": {
+    "hp": 45,
+    "attack": 25,
+    "defence": 50,
+    "spAttack": 25,
+    "spDefence": 25,
+    "speed": 35
+  },
   "evolution": ["13", "14", "15"]
 }

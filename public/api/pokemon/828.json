@@ -3,11 +3,13 @@
   "form": null,
   "name": "フォクスライ",
   "formName": null,
-  "hp": 70,
-  "attack": 58,
-  "defence": 58,
-  "spAttack": 87,
-  "spDefence": 92,
-  "speed": 90,
+  "status": {
+    "hp": 70,
+    "attack": 58,
+    "defence": 58,
+    "spAttack": 87,
+    "spDefence": 92,
+    "speed": 90
+  },
   "evolution": [828]
 }

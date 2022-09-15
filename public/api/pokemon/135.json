@@ -3,11 +3,13 @@
   "form": null,
   "name": "サンダース",
   "formName": null,
-  "hp": 65,
-  "attack": 65,
-  "defence": 60,
-  "spAttack": 110,
-  "spDefence": 95,
-  "speed": 130,
+  "status": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 60,
+    "spAttack": 110,
+    "spDefence": 95,
+    "speed": 130
+  },
   "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
 }

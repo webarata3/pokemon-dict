@@ -3,11 +3,13 @@
   "form": null,
   "name": "アノプス",
   "formName": null,
-  "hp": 45,
-  "attack": 95,
-  "defence": 50,
-  "spAttack": 40,
-  "spDefence": 50,
-  "speed": 75,
+  "status": {
+    "hp": 45,
+    "attack": 95,
+    "defence": 50,
+    "spAttack": 40,
+    "spDefence": 50,
+    "speed": 75
+  },
   "evolution": [347]
 }

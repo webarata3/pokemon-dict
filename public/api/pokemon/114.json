@@ -3,11 +3,13 @@
   "form": null,
   "name": "モンジャラ",
   "formName": null,
-  "hp": 65,
-  "attack": 55,
-  "defence": 115,
-  "spAttack": 100,
-  "spDefence": 40,
-  "speed": 60,
+  "status": {
+    "hp": 65,
+    "attack": 55,
+    "defence": 115,
+    "spAttack": 100,
+    "spDefence": 40,
+    "speed": 60
+  },
   "evolution": ["114", "465"]
 }

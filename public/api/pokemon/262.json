@@ -3,11 +3,13 @@
   "form": null,
   "name": "グラエナ",
   "formName": null,
-  "hp": 70,
-  "attack": 90,
-  "defence": 70,
-  "spAttack": 60,
-  "spDefence": 60,
-  "speed": 70,
+  "status": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 70,
+    "spAttack": 60,
+    "spDefence": 60,
+    "speed": 70
+  },
   "evolution": [262]
 }

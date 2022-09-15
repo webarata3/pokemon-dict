@@ -3,11 +3,13 @@
   "form": null,
   "name": "フリージオ",
   "formName": null,
-  "hp": 80,
-  "attack": 50,
-  "defence": 50,
-  "spAttack": 95,
-  "spDefence": 135,
-  "speed": 105,
+  "status": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 50,
+    "spAttack": 95,
+    "spDefence": 135,
+    "speed": 105
+  },
   "evolution": [615]
 }

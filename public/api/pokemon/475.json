@@ -3,11 +3,13 @@
   "form": null,
   "name": "エルレイド",
   "formName": null,
-  "hp": 68,
-  "attack": 125,
-  "defence": 65,
-  "spAttack": 65,
-  "spDefence": 115,
-  "speed": 80,
+  "status": {
+    "hp": 68,
+    "attack": 125,
+    "defence": 65,
+    "spAttack": 65,
+    "spDefence": 115,
+    "speed": 80
+  },
   "evolution": [475]
 }

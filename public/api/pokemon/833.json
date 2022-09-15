@@ -3,11 +3,13 @@
   "form": null,
   "name": "カムカメ",
   "formName": null,
-  "hp": 50,
-  "attack": 64,
-  "defence": 50,
-  "spAttack": 38,
-  "spDefence": 38,
-  "speed": 44,
+  "status": {
+    "hp": 50,
+    "attack": 64,
+    "defence": 50,
+    "spAttack": 38,
+    "spDefence": 38,
+    "speed": 44
+  },
   "evolution": [833]
 }

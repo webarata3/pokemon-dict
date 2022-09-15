@@ -3,11 +3,13 @@
   "form": null,
   "name": "スピアー",
   "formName": null,
-  "hp": 65,
-  "attack": 90,
-  "defence": 40,
-  "spAttack": 45,
-  "spDefence": 80,
-  "speed": 75,
+  "status": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 40,
+    "spAttack": 45,
+    "spDefence": 80,
+    "speed": 75
+  },
   "evolution": ["13", "14", "15"]
 }

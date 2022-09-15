@@ -3,11 +3,13 @@
   "form": null,
   "name": "ヨマワル",
   "formName": null,
-  "hp": 20,
-  "attack": 40,
-  "defence": 90,
-  "spAttack": 30,
-  "spDefence": 90,
-  "speed": 25,
+  "status": {
+    "hp": 20,
+    "attack": 40,
+    "defence": 90,
+    "spAttack": 30,
+    "spDefence": 90,
+    "speed": 25
+  },
   "evolution": [355]
 }

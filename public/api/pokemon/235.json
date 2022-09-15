@@ -3,11 +3,13 @@
   "form": null,
   "name": "ドーブル",
   "formName": null,
-  "hp": 55,
-  "attack": 20,
-  "defence": 35,
-  "spAttack": 20,
-  "spDefence": 45,
-  "speed": 75,
+  "status": {
+    "hp": 55,
+    "attack": 20,
+    "defence": 35,
+    "spAttack": 20,
+    "spDefence": 45,
+    "speed": 75
+  },
   "evolution": [235]
 }

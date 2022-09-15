@@ -3,11 +3,13 @@
   "form": null,
   "name": "プクリン",
   "formName": null,
-  "hp": 140,
-  "attack": 70,
-  "defence": 45,
-  "spAttack": 85,
-  "spDefence": 50,
-  "speed": 45,
+  "status": {
+    "hp": 140,
+    "attack": 70,
+    "defence": 45,
+    "spAttack": 85,
+    "spDefence": 50,
+    "speed": 45
+  },
   "evolution": [40]
 }

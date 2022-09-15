@@ -3,11 +3,13 @@
   "form": null,
   "name": "ベベノム",
   "formName": null,
-  "hp": 67,
-  "attack": 73,
-  "defence": 67,
-  "spAttack": 73,
-  "spDefence": 67,
-  "speed": 73,
+  "status": {
+    "hp": 67,
+    "attack": 73,
+    "defence": 67,
+    "spAttack": 73,
+    "spDefence": 67,
+    "speed": 73
+  },
   "evolution": [803]
 }

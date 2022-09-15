@@ -3,11 +3,13 @@
   "form": null,
   "name": "マッギョ",
   "formName": null,
-  "hp": 109,
-  "attack": 66,
-  "defence": 84,
-  "spAttack": 81,
-  "spDefence": 99,
-  "speed": 32,
+  "status": {
+    "hp": 109,
+    "attack": 66,
+    "defence": 84,
+    "spAttack": 81,
+    "spDefence": 99,
+    "speed": 32
+  },
   "evolution": [618]
 }

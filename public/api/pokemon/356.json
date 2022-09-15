@@ -3,11 +3,13 @@
   "form": null,
   "name": "サマヨール",
   "formName": null,
-  "hp": 40,
-  "attack": 70,
-  "defence": 130,
-  "spAttack": 60,
-  "spDefence": 130,
-  "speed": 25,
+  "status": {
+    "hp": 40,
+    "attack": 70,
+    "defence": 130,
+    "spAttack": 60,
+    "spDefence": 130,
+    "speed": 25
+  },
   "evolution": [356]
 }

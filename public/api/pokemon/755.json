@@ -3,11 +3,13 @@
   "form": null,
   "name": "ネマシュ",
   "formName": null,
-  "hp": 40,
-  "attack": 35,
-  "defence": 55,
-  "spAttack": 65,
-  "spDefence": 75,
-  "speed": 15,
+  "status": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 55,
+    "spAttack": 65,
+    "spDefence": 75,
+    "speed": 15
+  },
   "evolution": [755]
 }

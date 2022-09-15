@@ -3,11 +3,13 @@
   "form": "small",
   "name": "パンプジン",
   "formName": "ちいさいサイズ",
-  "hp": 55,
-  "attack": 85,
-  "defence": 122,
-  "spAttack": 58,
-  "spDefence": 75,
-  "speed": 99,
+  "status": {
+    "hp": 55,
+    "attack": 85,
+    "defence": 122,
+    "spAttack": 58,
+    "spDefence": 75,
+    "speed": 99
+  },
   "evolution": [711-small]
 }

@@ -3,11 +3,13 @@
   "form": null,
   "name": "ハピナス",
   "formName": null,
-  "hp": 255,
-  "attack": 10,
-  "defence": 10,
-  "spAttack": 75,
-  "spDefence": 135,
-  "speed": 55,
+  "status": {
+    "hp": 255,
+    "attack": 10,
+    "defence": 10,
+    "spAttack": 75,
+    "spDefence": 135,
+    "speed": 55
+  },
   "evolution": [242]
 }

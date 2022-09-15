@@ -3,11 +3,13 @@
   "form": null,
   "name": "コノハナ",
   "formName": null,
-  "hp": 70,
-  "attack": 70,
-  "defence": 40,
-  "spAttack": 60,
-  "spDefence": 40,
-  "speed": 60,
+  "status": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 40,
+    "spAttack": 60,
+    "spDefence": 40,
+    "speed": 60
+  },
   "evolution": [274]
 }

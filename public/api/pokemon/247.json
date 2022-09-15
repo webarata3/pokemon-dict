@@ -3,11 +3,13 @@
   "form": null,
   "name": "サナギラス",
   "formName": null,
-  "hp": 70,
-  "attack": 84,
-  "defence": 70,
-  "spAttack": 65,
-  "spDefence": 70,
-  "speed": 51,
+  "status": {
+    "hp": 70,
+    "attack": 84,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 70,
+    "speed": 51
+  },
   "evolution": [247]
 }

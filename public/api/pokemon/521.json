@@ -3,11 +3,13 @@
   "form": null,
   "name": "ケンホロウ",
   "formName": null,
-  "hp": 80,
-  "attack": 115,
-  "defence": 80,
-  "spAttack": 65,
-  "spDefence": 55,
-  "speed": 93,
+  "status": {
+    "hp": 80,
+    "attack": 115,
+    "defence": 80,
+    "spAttack": 65,
+    "spDefence": 55,
+    "speed": 93
+  },
   "evolution": [521]
 }

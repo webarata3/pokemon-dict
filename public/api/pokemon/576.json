@@ -3,11 +3,13 @@
   "form": null,
   "name": "ゴチルゼル",
   "formName": null,
-  "hp": 70,
-  "attack": 55,
-  "defence": 95,
-  "spAttack": 95,
-  "spDefence": 110,
-  "speed": 65,
+  "status": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 95,
+    "spAttack": 95,
+    "spDefence": 110,
+    "speed": 65
+  },
   "evolution": [576]
 }

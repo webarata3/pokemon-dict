@@ -3,11 +3,13 @@
   "form": null,
   "name": "ローブシン",
   "formName": null,
-  "hp": 105,
-  "attack": 140,
-  "defence": 95,
-  "spAttack": 55,
-  "spDefence": 65,
-  "speed": 45,
+  "status": {
+    "hp": 105,
+    "attack": 140,
+    "defence": 95,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 45
+  },
   "evolution": [534]
 }

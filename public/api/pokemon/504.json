@@ -3,11 +3,13 @@
   "form": null,
   "name": "ミネズミ",
   "formName": null,
-  "hp": 45,
-  "attack": 55,
-  "defence": 39,
-  "spAttack": 35,
-  "spDefence": 39,
-  "speed": 42,
+  "status": {
+    "hp": 45,
+    "attack": 55,
+    "defence": 39,
+    "spAttack": 35,
+    "spDefence": 39,
+    "speed": 42
+  },
   "evolution": [504]
 }

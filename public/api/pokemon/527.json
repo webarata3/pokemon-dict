@@ -3,11 +3,13 @@
   "form": null,
   "name": "コロモリ",
   "formName": null,
-  "hp": 65,
-  "attack": 45,
-  "defence": 43,
-  "spAttack": 55,
-  "spDefence": 43,
-  "speed": 72,
+  "status": {
+    "hp": 65,
+    "attack": 45,
+    "defence": 43,
+    "spAttack": 55,
+    "spDefence": 43,
+    "speed": 72
+  },
   "evolution": [527]
 }

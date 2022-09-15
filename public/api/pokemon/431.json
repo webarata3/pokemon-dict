@@ -3,11 +3,13 @@
   "form": null,
   "name": "ニャルマー",
   "formName": null,
-  "hp": 49,
-  "attack": 55,
-  "defence": 42,
-  "spAttack": 42,
-  "spDefence": 37,
-  "speed": 85,
+  "status": {
+    "hp": 49,
+    "attack": 55,
+    "defence": 42,
+    "spAttack": 42,
+    "spDefence": 37,
+    "speed": 85
+  },
   "evolution": [431]
 }

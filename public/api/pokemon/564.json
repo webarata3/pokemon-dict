@@ -3,11 +3,13 @@
   "form": null,
   "name": "プロトーガ",
   "formName": null,
-  "hp": 54,
-  "attack": 78,
-  "defence": 103,
-  "spAttack": 53,
-  "spDefence": 45,
-  "speed": 22,
+  "status": {
+    "hp": 54,
+    "attack": 78,
+    "defence": 103,
+    "spAttack": 53,
+    "spDefence": 45,
+    "speed": 22
+  },
   "evolution": [564]
 }

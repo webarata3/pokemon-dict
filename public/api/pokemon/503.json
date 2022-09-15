@@ -3,11 +3,13 @@
   "form": null,
   "name": "ダイケンキ",
   "formName": null,
-  "hp": 95,
-  "attack": 100,
-  "defence": 85,
-  "spAttack": 108,
-  "spDefence": 70,
-  "speed": 70,
+  "status": {
+    "hp": 95,
+    "attack": 100,
+    "defence": 85,
+    "spAttack": 108,
+    "spDefence": 70,
+    "speed": 70
+  },
   "evolution": [503]
 }

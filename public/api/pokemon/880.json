@@ -3,11 +3,13 @@
   "form": null,
   "name": "パッチラゴン",
   "formName": null,
-  "hp": 90,
-  "attack": 100,
-  "defence": 90,
-  "spAttack": 80,
-  "spDefence": 70,
-  "speed": 75,
+  "status": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 90,
+    "spAttack": 80,
+    "spDefence": 70,
+    "speed": 75
+  },
   "evolution": [880]
 }

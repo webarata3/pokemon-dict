@@ -3,11 +3,13 @@
   "form": null,
   "name": "エムリット",
   "formName": null,
-  "hp": 80,
-  "attack": 105,
-  "defence": 105,
-  "spAttack": 105,
-  "spDefence": 105,
-  "speed": 80,
+  "status": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 105,
+    "spAttack": 105,
+    "spDefence": 105,
+    "speed": 80
+  },
   "evolution": [481]
 }
