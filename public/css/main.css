@@ -202,6 +202,33 @@ body {
   top: auto;
   bottom: auto;
   left: 40px;
+  z-index: 7;
+}
+
+.main__td-status-bar {
+  position: absolute;
+  height: 1em;
+  background-color: #ffc165;
+  z-index: 5;
+  transform: scale(0, 1);
+}
+
+.main__td-status-bar-anim {
+  animation-name: slidein;
+  animation-delay: 0s;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  transform-origin: top left;
+}
+
+@keyframes slidein {
+  from {
+    transform: scale(0, 1);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
 }
 
 .main__sub-title {

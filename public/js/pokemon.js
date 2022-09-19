@@ -784,11 +784,11 @@ function _Debug_crash_UNUSED(identifier, fact1, fact2, fact3, fact4)
 
 function _Debug_regionToString(region)
 {
-	if (region.Y.I === region.ac.I)
+	if (region.Y.I === region.ad.I)
 	{
 		return 'on line ' + region.Y.I;
 	}
-	return 'on lines ' + region.Y.I + ' through ' + region.ac.I;
+	return 'on lines ' + region.Y.I + ' through ' + region.ad.I;
 }
 
 
@@ -1857,9 +1857,9 @@ var _Platform_worker = F4(function(impl, flagDecoder, debugMetadata, args)
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a1,
-		impl.bo,
-		impl.bk,
+		impl.a2,
+		impl.bp,
+		impl.bl,
 		function() { return function() {} }
 	);
 });
@@ -2704,7 +2704,7 @@ var _VirtualDom_mapEventTuple = F2(function(func, tuple)
 var _VirtualDom_mapEventRecord = F2(function(func, record)
 {
 	return {
-		o: func(record.o),
+		p: func(record.p),
 		Z: record.Z,
 		W: record.W
 	}
@@ -2974,7 +2974,7 @@ function _VirtualDom_makeCallback(eventNode, initialHandler)
 		// 3 = Custom
 
 		var value = result.a;
-		var message = !tag ? value : tag < 3 ? value.a : value.o;
+		var message = !tag ? value : tag < 3 ? value.a : value.p;
 		var stopPropagation = tag == 1 ? value.b : tag == 3 && value.Z;
 		var currentEventNode = (
 			stopPropagation && event.stopPropagation(),
@@ -3928,11 +3928,11 @@ var _Browser_element = _Debugger_element || F4(function(impl, flagDecoder, debug
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a1,
-		impl.bo,
-		impl.bk,
+		impl.a2,
+		impl.bp,
+		impl.bl,
 		function(sendToApp, initialModel) {
-			var view = impl.bp;
+			var view = impl.bq;
 			/**/
 			var domNode = args['node'];
 			//*/
@@ -3964,12 +3964,12 @@ var _Browser_document = _Debugger_document || F4(function(impl, flagDecoder, deb
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a1,
-		impl.bo,
-		impl.bk,
+		impl.a2,
+		impl.bp,
+		impl.bl,
 		function(sendToApp, initialModel) {
 			var divertHrefToApp = impl.X && impl.X(sendToApp)
-			var view = impl.bp;
+			var view = impl.bq;
 			var title = _VirtualDom_doc.title;
 			var bodyNode = _VirtualDom_doc.body;
 			var currNode = _VirtualDom_virtualize(bodyNode);
@@ -3977,12 +3977,12 @@ var _Browser_document = _Debugger_document || F4(function(impl, flagDecoder, deb
 			{
 				_VirtualDom_divertHrefToApp = divertHrefToApp;
 				var doc = view(model);
-				var nextNode = _VirtualDom_node('body')(_List_Nil)(doc.aQ);
+				var nextNode = _VirtualDom_node('body')(_List_Nil)(doc.aR);
 				var patches = _VirtualDom_diff(currNode, nextNode);
 				bodyNode = _VirtualDom_applyPatches(bodyNode, currNode, patches, sendToApp);
 				currNode = nextNode;
 				_VirtualDom_divertHrefToApp = 0;
-				(title !== doc.bn) && (_VirtualDom_doc.title = title = doc.bn);
+				(title !== doc.bo) && (_VirtualDom_doc.title = title = doc.bo);
 			});
 		}
 	);
@@ -4038,8 +4038,8 @@ function _Browser_makeAnimator(model, draw)
 
 function _Browser_application(impl)
 {
-	var onUrlChange = impl.a8;
-	var onUrlRequest = impl.a9;
+	var onUrlChange = impl.a9;
+	var onUrlRequest = impl.ba;
 	var key = function() { key.a(onUrlChange(_Browser_getUrl())); };
 
 	return _Browser_document({
@@ -4059,9 +4059,9 @@ function _Browser_application(impl)
 					var next = $elm$url$Url$fromString(href).a;
 					sendToApp(onUrlRequest(
 						(next
-							&& curr.ax === next.ax
-							&& curr.ai === next.ai
-							&& curr.au.a === next.au.a
+							&& curr.ay === next.ay
+							&& curr.aj === next.aj
+							&& curr.av.a === next.av.a
 						)
 							? $elm$browser$Browser$Internal(next)
 							: $elm$browser$Browser$External(href)
@@ -4069,13 +4069,13 @@ function _Browser_application(impl)
 				}
 			});
 		},
-		a1: function(flags)
+		a2: function(flags)
 		{
-			return A3(impl.a1, flags, _Browser_getUrl(), key);
+			return A3(impl.a2, flags, _Browser_getUrl(), key);
 		},
+		bq: impl.bq,
 		bp: impl.bp,
-		bo: impl.bo,
-		bk: impl.bk
+		bl: impl.bl
 	});
 }
 
@@ -4141,17 +4141,17 @@ var _Browser_decodeEvent = F2(function(decoder, event)
 function _Browser_visibilityInfo()
 {
 	return (typeof _VirtualDom_doc.hidden !== 'undefined')
-		? { a_: 'hidden', aR: 'visibilitychange' }
+		? { a$: 'hidden', aS: 'visibilitychange' }
 		:
 	(typeof _VirtualDom_doc.mozHidden !== 'undefined')
-		? { a_: 'mozHidden', aR: 'mozvisibilitychange' }
+		? { a$: 'mozHidden', aS: 'mozvisibilitychange' }
 		:
 	(typeof _VirtualDom_doc.msHidden !== 'undefined')
-		? { a_: 'msHidden', aR: 'msvisibilitychange' }
+		? { a$: 'msHidden', aS: 'msvisibilitychange' }
 		:
 	(typeof _VirtualDom_doc.webkitHidden !== 'undefined')
-		? { a_: 'webkitHidden', aR: 'webkitvisibilitychange' }
-		: { a_: 'hidden', aR: 'visibilitychange' };
+		? { a$: 'webkitHidden', aS: 'webkitvisibilitychange' }
+		: { a$: 'hidden', aS: 'visibilitychange' };
 }
 
 
@@ -4232,12 +4232,12 @@ var _Browser_call = F2(function(functionName, id)
 function _Browser_getViewport()
 {
 	return {
-		aD: _Browser_getScene(),
-		aI: {
-			aK: _Browser_window.pageXOffset,
-			aL: _Browser_window.pageYOffset,
-			aJ: _Browser_doc.documentElement.clientWidth,
-			ah: _Browser_doc.documentElement.clientHeight
+		aE: _Browser_getScene(),
+		aJ: {
+			aL: _Browser_window.pageXOffset,
+			aM: _Browser_window.pageYOffset,
+			aK: _Browser_doc.documentElement.clientWidth,
+			ai: _Browser_doc.documentElement.clientHeight
 		}
 	};
 }
@@ -4247,8 +4247,8 @@ function _Browser_getScene()
 	var body = _Browser_doc.body;
 	var elem = _Browser_doc.documentElement;
 	return {
-		aJ: Math.max(body.scrollWidth, body.offsetWidth, elem.scrollWidth, elem.offsetWidth, elem.clientWidth),
-		ah: Math.max(body.scrollHeight, body.offsetHeight, elem.scrollHeight, elem.offsetHeight, elem.clientHeight)
+		aK: Math.max(body.scrollWidth, body.offsetWidth, elem.scrollWidth, elem.offsetWidth, elem.clientWidth),
+		ai: Math.max(body.scrollHeight, body.offsetHeight, elem.scrollHeight, elem.offsetHeight, elem.clientHeight)
 	};
 }
 
@@ -4271,15 +4271,15 @@ function _Browser_getViewportOf(id)
 	return _Browser_withNode(id, function(node)
 	{
 		return {
-			aD: {
-				aJ: node.scrollWidth,
-				ah: node.scrollHeight
+			aE: {
+				aK: node.scrollWidth,
+				ai: node.scrollHeight
 			},
-			aI: {
-				aK: node.scrollLeft,
-				aL: node.scrollTop,
-				aJ: node.clientWidth,
-				ah: node.clientHeight
+			aJ: {
+				aL: node.scrollLeft,
+				aM: node.scrollTop,
+				aK: node.clientWidth,
+				ai: node.clientHeight
 			}
 		};
 	});
@@ -4309,18 +4309,18 @@ function _Browser_getElement(id)
 		var x = _Browser_window.pageXOffset;
 		var y = _Browser_window.pageYOffset;
 		return {
-			aD: _Browser_getScene(),
-			aI: {
-				aK: x,
-				aL: y,
-				aJ: _Browser_doc.documentElement.clientWidth,
-				ah: _Browser_doc.documentElement.clientHeight
+			aE: _Browser_getScene(),
+			aJ: {
+				aL: x,
+				aM: y,
+				aK: _Browser_doc.documentElement.clientWidth,
+				ai: _Browser_doc.documentElement.clientHeight
 			},
-			aW: {
-				aK: x + rect.left,
-				aL: y + rect.top,
-				aJ: rect.width,
-				ah: rect.height
+			aX: {
+				aL: x + rect.left,
+				aM: y + rect.top,
+				aK: rect.width,
+				ai: rect.height
 			}
 		};
 	});
@@ -4365,25 +4365,25 @@ var _Http_toTask = F3(function(router, toTask, request)
 	return _Scheduler_binding(function(callback)
 	{
 		function done(response) {
-			callback(toTask(request.ae.a(response)));
+			callback(toTask(request.af.a(response)));
 		}
 
 		var xhr = new XMLHttpRequest();
 		xhr.addEventListener('error', function() { done($elm$http$Http$NetworkError_); });
 		xhr.addEventListener('timeout', function() { done($elm$http$Http$Timeout_); });
-		xhr.addEventListener('load', function() { done(_Http_toResponse(request.ae.b, xhr)); });
-		$elm$core$Maybe$isJust(request.aH) && _Http_track(router, xhr, request.aH.a);
+		xhr.addEventListener('load', function() { done(_Http_toResponse(request.af.b, xhr)); });
+		$elm$core$Maybe$isJust(request.aI) && _Http_track(router, xhr, request.aI.a);
 
 		try {
-			xhr.open(request.a6, request.D, true);
+			xhr.open(request.a7, request.D, true);
 		} catch (e) {
 			return done($elm$http$Http$BadUrl_(request.D));
 		}
 
 		_Http_configureRequest(xhr, request);
 
-		request.aQ.a && xhr.setRequestHeader('Content-Type', request.aQ.a);
-		xhr.send(request.aQ.b);
+		request.aR.a && xhr.setRequestHeader('Content-Type', request.aR.a);
+		xhr.send(request.aR.b);
 
 		return function() { xhr.c = true; xhr.abort(); };
 	});
@@ -4394,13 +4394,13 @@ var _Http_toTask = F3(function(router, toTask, request)
 
 function _Http_configureRequest(xhr, request)
 {
-	for (var headers = request.ag; headers.b; headers = headers.b) // WHILE_CONS
+	for (var headers = request.ah; headers.b; headers = headers.b) // WHILE_CONS
 	{
 		xhr.setRequestHeader(headers.a.a, headers.a.b);
 	}
-	xhr.timeout = request.bm.a || 0;
-	xhr.responseType = request.ae.d;
-	xhr.withCredentials = request.aN;
+	xhr.timeout = request.bn.a || 0;
+	xhr.responseType = request.af.d;
+	xhr.withCredentials = request.aO;
 }
 
 
@@ -4422,9 +4422,9 @@ function _Http_toMetadata(xhr)
 {
 	return {
 		D: xhr.responseURL,
-		bi: xhr.status,
-		bj: xhr.statusText,
-		ag: _Http_parseHeaders(xhr.getAllResponseHeaders())
+		bj: xhr.status,
+		bk: xhr.statusText,
+		ah: _Http_parseHeaders(xhr.getAllResponseHeaders())
 	};
 }
 
@@ -4519,15 +4519,15 @@ function _Http_track(router, xhr, tracker)
 	xhr.upload.addEventListener('progress', function(event) {
 		if (xhr.c) { return; }
 		_Scheduler_rawSpawn(A2($elm$core$Platform$sendToSelf, router, _Utils_Tuple2(tracker, $elm$http$Http$Sending({
-			bd: event.loaded,
-			aE: event.total
+			be: event.loaded,
+			aF: event.total
 		}))));
 	});
 	xhr.addEventListener('progress', function(event) {
 		if (xhr.c) { return; }
 		_Scheduler_rawSpawn(A2($elm$core$Platform$sendToSelf, router, _Utils_Tuple2(tracker, $elm$http$Http$Receiving({
-			bb: event.loaded,
-			aE: event.lengthComputable ? $elm$core$Maybe$Just(event.total) : $elm$core$Maybe$Nothing
+			bc: event.loaded,
+			aF: event.lengthComputable ? $elm$core$Maybe$Just(event.total) : $elm$core$Maybe$Nothing
 		}))));
 	});
 }
@@ -5057,7 +5057,7 @@ var $elm$url$Url$Http = 0;
 var $elm$url$Url$Https = 1;
 var $elm$url$Url$Url = F6(
 	function (protocol, host, port_, path, query, fragment) {
-		return {af: fragment, ai: host, as: path, au: port_, ax: protocol, ay: query};
+		return {ag: fragment, aj: host, at: path, av: port_, ay: protocol, az: query};
 	});
 var $elm$core$String$contains = _String_contains;
 var $elm$core$String$length = _String_length;
@@ -5940,7 +5940,7 @@ var $elm$http$Http$resolve = F2(
 			case 3:
 				var metadata = response.a;
 				return $elm$core$Result$Err(
-					$elm$http$Http$BadStatus(metadata.bi));
+					$elm$http$Http$BadStatus(metadata.bj));
 			default:
 				var body = response.b;
 				return A2(
@@ -5961,7 +5961,7 @@ var $elm$http$Http$Request = function (a) {
 };
 var $elm$http$Http$State = F2(
 	function (reqs, subs) {
-		return {aA: reqs, aF: subs};
+		return {aB: reqs, aG: subs};
 	});
 var $elm$http$Http$init = $elm$core$Task$succeed(
 	A2($elm$http$Http$State, $elm$core$Dict$empty, _List_Nil));
@@ -6005,7 +6005,7 @@ var $elm$http$Http$updateReqs = F3(
 					return A2(
 						$elm$core$Task$andThen,
 						function (pid) {
-							var _v4 = req.aH;
+							var _v4 = req.aI;
 							if (_v4.$ === 1) {
 								return A3($elm$http$Http$updateReqs, router, otherCmds, reqs);
 							} else {
@@ -6035,7 +6035,7 @@ var $elm$http$Http$onEffects = F4(
 				return $elm$core$Task$succeed(
 					A2($elm$http$Http$State, reqs, subs));
 			},
-			A3($elm$http$Http$updateReqs, router, cmds, state.aA));
+			A3($elm$http$Http$updateReqs, router, cmds, state.aB));
 	});
 var $elm$core$List$maybeCons = F3(
 	function (f, mx, xs) {
@@ -6078,7 +6078,7 @@ var $elm$http$Http$onSelfMsg = F3(
 				A2(
 					$elm$core$List$filterMap,
 					A3($elm$http$Http$maybeSend, router, tracker, progress),
-					state.aF)));
+					state.aG)));
 	});
 var $elm$http$Http$Cancel = function (a) {
 	return {$: 0, a: a};
@@ -6092,13 +6092,13 @@ var $elm$http$Http$cmdMap = F2(
 			var r = cmd.a;
 			return $elm$http$Http$Request(
 				{
-					aN: r.aN,
-					aQ: r.aQ,
-					ae: A2(_Http_mapExpect, func, r.ae),
-					ag: r.ag,
-					a6: r.a6,
-					bm: r.bm,
-					aH: r.aH,
+					aO: r.aO,
+					aR: r.aR,
+					af: A2(_Http_mapExpect, func, r.af),
+					ah: r.ah,
+					a7: r.a7,
+					bn: r.bn,
+					aI: r.aI,
 					D: r.D
 				});
 		}
@@ -6122,18 +6122,18 @@ var $elm$http$Http$subscription = _Platform_leaf('Http');
 var $elm$http$Http$request = function (r) {
 	return $elm$http$Http$command(
 		$elm$http$Http$Request(
-			{aN: false, aQ: r.aQ, ae: r.ae, ag: r.ag, a6: r.a6, bm: r.bm, aH: r.aH, D: r.D}));
+			{aO: false, aR: r.aR, af: r.af, ah: r.ah, a7: r.a7, bn: r.bn, aI: r.aI, D: r.D}));
 };
 var $elm$http$Http$get = function (r) {
 	return $elm$http$Http$request(
-		{aQ: $elm$http$Http$emptyBody, ae: r.ae, ag: _List_Nil, a6: 'GET', bm: $elm$core$Maybe$Nothing, aH: $elm$core$Maybe$Nothing, D: r.D});
+		{aR: $elm$http$Http$emptyBody, af: r.af, ah: _List_Nil, a7: 'GET', bn: $elm$core$Maybe$Nothing, aI: $elm$core$Maybe$Nothing, D: r.D});
 };
 var $author$project$AppConfig$getBaseUrl = function (suffix) {
 	return suffix;
 };
 var $author$project$Toc$getPokemonList = $elm$http$Http$get(
 	{
-		ae: $elm$http$Http$expectString($elm$core$Basics$identity),
+		af: $elm$http$Http$expectString($elm$core$Basics$identity),
 		D: $author$project$AppConfig$getBaseUrl('/api/pokemon-list.json')
 	});
 var $elm$core$Platform$Cmd$map = _Platform_map;
@@ -6141,14 +6141,19 @@ var $author$project$Pokemon$init = F3(
 	function (_v0, url, key) {
 		return _Utils_Tuple2(
 			{
-				r: {G: 252, H: 31, P: 50, A: 0, ao: $elm$core$Maybe$Nothing},
+				s: {G: 252, H: 31, P: 50, A: 0, ap: $elm$core$Maybe$Nothing},
 				O: $author$project$Pokemon$Pokemon(
 					$elm$core$Maybe$Just(1)),
-				t: {am: $elm$core$Maybe$Nothing, S: $elm$core$Dict$empty},
+				l: {
+					aa: _List_fromArray(
+						[false, false, false, false, false, false]),
+					an: $elm$core$Maybe$Nothing,
+					S: $elm$core$Dict$empty
+				},
 				T: key,
-				Q: {an: $elm$core$Maybe$Nothing},
+				Q: {ao: $elm$core$Maybe$Nothing},
 				R: $elm$core$Maybe$Nothing,
-				L: {a2: _List_Nil},
+				L: {a3: _List_Nil},
 				D: url
 			},
 			$elm$core$Platform$Cmd$batch(
@@ -6170,17 +6175,73 @@ var $author$project$Pokemon$subscriptions = function (_v0) {
 var $author$project$Pokemon$ActualStatusMsg = function (a) {
 	return {$: 5, a: a};
 };
+var $author$project$Pokemon$EvolutionStatusAnim = function (a) {
+	return {$: 6, a: a};
+};
 var $author$project$Pokemon$PokemonForm = F2(
 	function (a, b) {
 		return {$: 1, a: a, b: b};
 	});
+var $elm$core$Process$sleep = _Process_sleep;
+var $andrewMacmurray$elm_delay$Delay$after = F2(
+	function (time, msg) {
+		return A2(
+			$elm$core$Task$perform,
+			$elm$core$Basics$always(msg),
+			$elm$core$Process$sleep(time));
+	});
+var $elm$core$List$any = F2(
+	function (isOkay, list) {
+		any:
+		while (true) {
+			if (!list.b) {
+				return false;
+			} else {
+				var x = list.a;
+				var xs = list.b;
+				if (isOkay(x)) {
+					return true;
+				} else {
+					var $temp$isOkay = isOkay,
+						$temp$list = xs;
+					isOkay = $temp$isOkay;
+					list = $temp$list;
+					continue any;
+				}
+			}
+		}
+	});
+var $elm$core$Basics$composeL = F3(
+	function (g, f, x) {
+		return g(
+			f(x));
+	});
+var $elm$core$Basics$not = _Basics_not;
+var $elm$core$List$all = F2(
+	function (isOkay, list) {
+		return !A2(
+			$elm$core$List$any,
+			A2($elm$core$Basics$composeL, $elm$core$Basics$not, isOkay),
+			list);
+	});
+var $elm$core$List$append = F2(
+	function (xs, ys) {
+		if (!ys.b) {
+			return xs;
+		} else {
+			return A3($elm$core$List$foldr, $elm$core$List$cons, ys, xs);
+		}
+	});
+var $elm$core$List$concat = function (lists) {
+	return A3($elm$core$List$foldr, $elm$core$List$append, _List_Nil, lists);
+};
 var $author$project$AppConfig$PokemonData = F6(
 	function (no, maybeForm, name, maybeFormName, status, evolution) {
-		return {aX: evolution, al: maybeForm, a3: maybeFormName, a7: name, aq: no, bh: status};
+		return {aY: evolution, am: maybeForm, a4: maybeFormName, a8: name, ar: no, bi: status};
 	});
 var $author$project$AppConfig$Status = F6(
 	function (hp, attack, defence, spAttack, spDefence, speed) {
-		return {aP: attack, aU: defence, a$: hp, be: spAttack, bf: spDefence, bg: speed};
+		return {aQ: attack, aV: defence, a0: hp, bf: spAttack, bg: spDefence, bh: speed};
 	});
 var $elm$json$Json$Decode$field = _Json_decodeField;
 var $elm$json$Json$Decode$int = _Json_decodeInt;
@@ -6283,7 +6344,7 @@ var $author$project$Pokemon$getPokemonData = function (pokemonNo) {
 			pokemonNo.b));
 	return $elm$http$Http$get(
 		{
-			ae: $elm$http$Http$expectString($author$project$Pokemon$GotPokemonData),
+			af: $elm$http$Http$expectString($author$project$Pokemon$GotPokemonData),
 			D: $author$project$AppConfig$getBaseUrl('/api/pokemon/' + (no + (form + '.json')))
 		});
 };
@@ -6293,7 +6354,7 @@ var $author$project$Pokemon$GotPokemonStatus = function (a) {
 var $author$project$Pokemon$getPokemonStatus = function (pokemon) {
 	return $elm$http$Http$get(
 		{
-			ae: $elm$http$Http$expectString($author$project$Pokemon$GotPokemonStatus),
+			af: $elm$http$Http$expectString($author$project$Pokemon$GotPokemonStatus),
 			D: $author$project$AppConfig$getBaseUrl('/api/pokemon/' + (pokemon + '.json'))
 		});
 };
@@ -6314,12 +6375,33 @@ var $author$project$AppConfig$pokemonNoFormToId = F2(
 					maybeForm)));
 	});
 var $author$project$AppConfig$pokemonDataToId = function (pokemonData) {
-	return A2($author$project$AppConfig$pokemonNoFormToId, pokemonData.aq, pokemonData.al);
+	return A2($author$project$AppConfig$pokemonNoFormToId, pokemonData.ar, pokemonData.am);
 };
 var $author$project$Pokemon$pokemonDataToId = function (pokemonData) {
-	return {aZ: '', al: pokemonData.al, a7: pokemonData.a7, aq: pokemonData.aq};
+	return {a_: '', am: pokemonData.am, a8: pokemonData.a8, ar: pokemonData.ar};
 };
 var $elm$browser$Browser$Navigation$pushUrl = _Browser_pushUrl;
+var $elm$core$List$repeatHelp = F3(
+	function (result, n, value) {
+		repeatHelp:
+		while (true) {
+			if (n <= 0) {
+				return result;
+			} else {
+				var $temp$result = A2($elm$core$List$cons, value, result),
+					$temp$n = n - 1,
+					$temp$value = value;
+				result = $temp$result;
+				n = $temp$n;
+				value = $temp$value;
+				continue repeatHelp;
+			}
+		}
+	});
+var $elm$core$List$repeat = F2(
+	function (n, value) {
+		return A3($elm$core$List$repeatHelp, _List_Nil, n, value);
+	});
 var $elm$url$Url$addPort = F2(
 	function (maybePort, starter) {
 		if (maybePort.$ === 1) {
@@ -6342,7 +6424,7 @@ var $elm$url$Url$addPrefixed = F3(
 	});
 var $elm$url$Url$toString = function (url) {
 	var http = function () {
-		var _v0 = url.ax;
+		var _v0 = url.ay;
 		if (!_v0) {
 			return 'http://';
 		} else {
@@ -6352,17 +6434,17 @@ var $elm$url$Url$toString = function (url) {
 	return A3(
 		$elm$url$Url$addPrefixed,
 		'#',
-		url.af,
+		url.ag,
 		A3(
 			$elm$url$Url$addPrefixed,
 			'?',
-			url.ay,
+			url.az,
 			_Utils_ap(
 				A2(
 					$elm$url$Url$addPort,
-					url.au,
-					_Utils_ap(http, url.ai)),
-				url.as)));
+					url.av,
+					_Utils_ap(http, url.aj)),
+				url.at)));
 };
 var $author$project$ActualStatus$update = F2(
 	function (msg, model) {
@@ -6406,7 +6488,7 @@ var $author$project$ActualStatus$update = F2(
 	});
 var $author$project$Toc$Link = F2(
 	function (link, image) {
-		return {aj: image, ak: link};
+		return {ak: image, al: link};
 	});
 var $author$project$Toc$decodeLink = A3(
 	$elm$json$Json$Decode$map2,
@@ -6426,7 +6508,7 @@ var $author$project$Toc$update = F2(
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{a2: links}),
+						{a3: links}),
 					$elm$core$Platform$Cmd$none);
 			} else {
 				return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
@@ -6437,7 +6519,7 @@ var $author$project$Toc$update = F2(
 	});
 var $elm$url$Url$Parser$State = F5(
 	function (visited, unvisited, params, frag, value) {
-		return {u: frag, w: params, q: unvisited, m: value, y: visited};
+		return {u: frag, w: params, r: unvisited, n: value, y: visited};
 	});
 var $elm$url$Url$Parser$getFirstMatch = function (states) {
 	getFirstMatch:
@@ -6447,12 +6529,12 @@ var $elm$url$Url$Parser$getFirstMatch = function (states) {
 		} else {
 			var state = states.a;
 			var rest = states.b;
-			var _v1 = state.q;
+			var _v1 = state.r;
 			if (!_v1.b) {
-				return $elm$core$Maybe$Just(state.m);
+				return $elm$core$Maybe$Just(state.n);
 			} else {
 				if ((_v1.a === '') && (!_v1.b.b)) {
-					return $elm$core$Maybe$Just(state.m);
+					return $elm$core$Maybe$Just(state.n);
 				} else {
 					var $temp$states = rest;
 					states = $temp$states;
@@ -6549,9 +6631,9 @@ var $elm$url$Url$Parser$parse = F2(
 				A5(
 					$elm$url$Url$Parser$State,
 					_List_Nil,
-					$elm$url$Url$Parser$preparePath(url.as),
-					$elm$url$Url$Parser$prepareQuery(url.ay),
-					url.af,
+					$elm$url$Url$Parser$preparePath(url.at),
+					$elm$url$Url$Parser$prepareQuery(url.az),
+					url.ag,
 					$elm$core$Basics$identity)));
 	});
 var $elm$url$Url$Parser$Internal$Parser = $elm$core$Basics$identity;
@@ -6582,10 +6664,10 @@ var $elm$url$Url$Parser$Parser = $elm$core$Basics$identity;
 var $elm$url$Url$Parser$mapState = F2(
 	function (func, _v0) {
 		var visited = _v0.y;
-		var unvisited = _v0.q;
+		var unvisited = _v0.r;
 		var params = _v0.w;
 		var frag = _v0.u;
-		var value = _v0.m;
+		var value = _v0.n;
 		return A5(
 			$elm$url$Url$Parser$State,
 			visited,
@@ -6599,10 +6681,10 @@ var $elm$url$Url$Parser$map = F2(
 		var parseArg = _v0;
 		return function (_v1) {
 			var visited = _v1.y;
-			var unvisited = _v1.q;
+			var unvisited = _v1.r;
 			var params = _v1.w;
 			var frag = _v1.u;
-			var value = _v1.m;
+			var value = _v1.n;
 			return A2(
 				$elm$core$List$map,
 				$elm$url$Url$Parser$mapState(value),
@@ -6610,17 +6692,6 @@ var $elm$url$Url$Parser$map = F2(
 					A5($elm$url$Url$Parser$State, visited, unvisited, params, frag, subValue)));
 		};
 	});
-var $elm$core$List$append = F2(
-	function (xs, ys) {
-		if (!ys.b) {
-			return xs;
-		} else {
-			return A3($elm$core$List$foldr, $elm$core$List$cons, ys, xs);
-		}
-	});
-var $elm$core$List$concat = function (lists) {
-	return A3($elm$core$List$foldr, $elm$core$List$append, _List_Nil, lists);
-};
 var $elm$core$List$concatMap = F2(
 	function (f, list) {
 		return $elm$core$List$concat(
@@ -6641,10 +6712,10 @@ var $elm$url$Url$Parser$query = function (_v0) {
 	var queryParser = _v0;
 	return function (_v1) {
 		var visited = _v1.y;
-		var unvisited = _v1.q;
+		var unvisited = _v1.r;
 		var params = _v1.w;
 		var frag = _v1.u;
-		var value = _v1.m;
+		var value = _v1.n;
 		return _List_fromArray(
 			[
 				A5(
@@ -6679,10 +6750,10 @@ var $elm$url$Url$Parser$questionMark = F2(
 var $elm$url$Url$Parser$s = function (str) {
 	return function (_v0) {
 		var visited = _v0.y;
-		var unvisited = _v0.q;
+		var unvisited = _v0.r;
 		var params = _v0.w;
 		var frag = _v0.u;
-		var value = _v0.m;
+		var value = _v0.n;
 		if (!unvisited.b) {
 			return _List_Nil;
 		} else {
@@ -6798,31 +6869,31 @@ var $author$project$Pokemon$update = F2(
 					var pokemonDataResult = A2($elm$json$Json$Decode$decodeString, $author$project$Pokemon$decodePokemonData, resp);
 					if (!pokemonDataResult.$) {
 						var pokemonData = pokemonDataResult.a;
-						var evolutionModel = model.t;
+						var evolutionModel = model.l;
 						var newEvolutionModel = _Utils_update(
 							evolutionModel,
 							{
-								am: $elm$core$Maybe$Just(pokemonData)
+								an: $elm$core$Maybe$Just(pokemonData)
 							});
-						var actualStatusModel = model.r;
+						var actualStatusModel = model.s;
 						var newActualStatusModel = _Utils_update(
 							actualStatusModel,
 							{
-								ao: $elm$core$Maybe$Just(pokemonData.bh)
+								ap: $elm$core$Maybe$Just(pokemonData.bi)
 							});
 						return _Utils_Tuple2(
 							_Utils_update(
 								model,
 								{
-									r: newActualStatusModel,
-									t: newEvolutionModel,
+									s: newActualStatusModel,
+									l: newEvolutionModel,
 									Q: {
-										an: $elm$core$Maybe$Just(
+										ao: $elm$core$Maybe$Just(
 											$author$project$Pokemon$pokemonDataToId(pokemonData))
 									}
 								}),
 							$elm$core$Platform$Cmd$batch(
-								A2($elm$core$List$map, $author$project$Pokemon$getPokemonStatus, pokemonData.aX)));
+								A2($elm$core$List$map, $author$project$Pokemon$getPokemonStatus, pokemonData.aY)));
 					} else {
 						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 					}
@@ -6835,10 +6906,11 @@ var $author$project$Pokemon$update = F2(
 					var pokemonDataResult = A2($elm$json$Json$Decode$decodeString, $author$project$Pokemon$decodePokemonData, resp);
 					if (!pokemonDataResult.$) {
 						var pokemonData = pokemonDataResult.a;
-						var evolutionModel = model.t;
+						var evolutionModel = model.l;
 						var newEvolutionModel = _Utils_update(
 							evolutionModel,
 							{
+								aa: A2($elm$core$List$repeat, 6, false),
 								S: A3(
 									$elm$core$Dict$insert,
 									$author$project$AppConfig$pokemonDataToId(pokemonData),
@@ -6848,8 +6920,11 @@ var $author$project$Pokemon$update = F2(
 						return _Utils_Tuple2(
 							_Utils_update(
 								model,
-								{t: newEvolutionModel}),
-							$elm$core$Platform$Cmd$none);
+								{l: newEvolutionModel}),
+							A2(
+								$andrewMacmurray$elm_delay$Delay$after,
+								500,
+								$author$project$Pokemon$EvolutionStatusAnim(1)));
 					} else {
 						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 					}
@@ -6866,16 +6941,41 @@ var $author$project$Pokemon$update = F2(
 						model,
 						{L: m_}),
 					A2($elm$core$Platform$Cmd$map, $author$project$Pokemon$TocMsg, cmd));
-			default:
+			case 5:
 				var msg_ = msg.a;
-				var _v6 = A2($author$project$ActualStatus$update, msg_, model.r);
+				var _v6 = A2($author$project$ActualStatus$update, msg_, model.s);
 				var m_ = _v6.a;
 				var cmd = _v6.b;
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{r: m_}),
+						{s: m_}),
 					A2($elm$core$Platform$Cmd$map, $author$project$Pokemon$ActualStatusMsg, cmd));
+			default:
+				var count = msg.a;
+				var newAnimTiming = $elm$core$List$concat(
+					_List_fromArray(
+						[
+							A2($elm$core$List$repeat, count, true),
+							A2($elm$core$List$repeat, 6 - count, false)
+						]));
+				var evolutionModel = model.l;
+				var newEvolutionModel = _Utils_update(
+					evolutionModel,
+					{aa: newAnimTiming});
+				return A2(
+					$elm$core$List$all,
+					function (e) {
+						return e;
+					},
+					evolutionModel.aa) ? _Utils_Tuple2(model, $elm$core$Platform$Cmd$none) : _Utils_Tuple2(
+					_Utils_update(
+						model,
+						{l: newEvolutionModel}),
+					A2(
+						$andrewMacmurray$elm_delay$Delay$after,
+						200,
+						$author$project$Pokemon$EvolutionStatusAnim(count + 1)));
 		}
 	});
 var $elm$json$Json$Encode$string = _Json_wrap;
@@ -6918,7 +7018,7 @@ var $author$project$Toc$viewPokemonLink = function (link) {
 		$elm$html$Html$a,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$href(link.ak)
+				$elm$html$Html$Attributes$href(link.al)
 			]),
 		_List_fromArray(
 			[
@@ -6926,7 +7026,7 @@ var $author$project$Toc$viewPokemonLink = function (link) {
 				$elm$html$Html$img,
 				_List_fromArray(
 					[
-						$elm$html$Html$Attributes$src(link.aj),
+						$elm$html$Html$Attributes$src(link.ak),
 						A2($elm$html$Html$Attributes$attribute, 'loading', 'lazy'),
 						$elm$html$Html$Attributes$class('pokemon__link')
 					]),
@@ -6940,11 +7040,11 @@ var $author$project$Toc$viewPokemonList = function (model) {
 			[
 				$elm$html$Html$Attributes$class('pokemon__list')
 			]),
-		A2($elm$core$List$map, $author$project$Toc$viewPokemonLink, model.a2));
+		A2($elm$core$List$map, $author$project$Toc$viewPokemonLink, model.a3));
 };
 var $elm$html$Html$section = _VirtualDom_node('section');
 var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
-	var id = A2($author$project$AppConfig$pokemonNoFormToId, pokemonId.aq, pokemonId.al);
+	var id = A2($author$project$AppConfig$pokemonNoFormToId, pokemonId.ar, pokemonId.am);
 	return A2(
 		$elm$html$Html$div,
 		_List_fromArray(
@@ -6977,7 +7077,7 @@ var $elm$html$Html$h1 = _VirtualDom_node('h1');
 var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
 var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
 var $author$project$MainPic$viewToc = function (pokemonId) {
-	var before = (pokemonId.aq === 1) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
+	var before = (pokemonId.ar === 1) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
 		$elm$html$Html$div,
 		_List_fromArray(
 			[
@@ -6990,7 +7090,7 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$href(
-						$author$project$MainPic$getTocUrl(pokemonId.aq - 1)),
+						$author$project$MainPic$getTocUrl(pokemonId.ar - 1)),
 						$elm$html$Html$Attributes$class('main__link-head')
 					]),
 				_List_fromArray(
@@ -7000,7 +7100,7 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 						_List_fromArray(
 							[
 								$elm$html$Html$Attributes$src(
-								$author$project$MainPic$getTocImageUrl(pokemonId.aq - 1)),
+								$author$project$MainPic$getTocImageUrl(pokemonId.ar - 1)),
 								$elm$html$Html$Attributes$class('pokemon__image-toc')
 							]),
 						_List_Nil),
@@ -7015,12 +7115,12 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 						_List_Nil)
 					]))
 			]));
-	var after = (pokemonId.aq === 905) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
+	var after = (pokemonId.ar === 905) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
 		$elm$html$Html$a,
 		_List_fromArray(
 			[
 				$elm$html$Html$Attributes$href(
-				$author$project$MainPic$getTocUrl(pokemonId.aq + 1)),
+				$author$project$MainPic$getTocUrl(pokemonId.ar + 1)),
 				$elm$html$Html$Attributes$class('main__link-head')
 			]),
 		_List_fromArray(
@@ -7038,7 +7138,7 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 						_List_fromArray(
 							[
 								$elm$html$Html$Attributes$src(
-								$author$project$MainPic$getTocImageUrl(pokemonId.aq + 1)),
+								$author$project$MainPic$getTocImageUrl(pokemonId.ar + 1)),
 								$elm$html$Html$Attributes$class('pokemon__image-toc')
 							]),
 						_List_Nil),
@@ -7079,14 +7179,14 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 						_List_fromArray(
 							[
 								$elm$html$Html$text(
-								'No.' + ($elm$core$String$fromInt(pokemonId.aq) + (' ' + pokemonId.a7)))
+								'No.' + ($elm$core$String$fromInt(pokemonId.ar) + (' ' + pokemonId.a8)))
 							]))
 					])),
 				after
 			]));
 };
 var $author$project$MainPic$viewPokemonMainPic = function (model) {
-	var _v0 = model.an;
+	var _v0 = model.ao;
 	if (!_v0.$) {
 		var pokemonId = _v0.a;
 		return A2(
@@ -7201,13 +7301,13 @@ var $author$project$ActualStatus$viewCalcStatus = F5(
 				$author$project$ActualStatus$calcHp,
 				f(status),
 				correction.v,
-				correction.s,
+				correction.t,
 				inputLevel)) : $elm$core$String$fromInt(
 			A5(
 				$author$project$ActualStatus$calcParam,
 				f(status),
 				correction.v,
-				correction.s,
+				correction.t,
 				inputLevel,
 				correction.B));
 		return A2(
@@ -7623,10 +7723,10 @@ var $author$project$ActualStatus$viewIndividual = F2(
 							status,
 							_List_fromArray(
 								[
-									{s: 252, v: 31, B: 0},
-									{s: 0, v: 31, B: 0},
-									{s: 0, v: 31, B: 1},
-									{s: model.G, v: model.H, B: model.A}
+									{t: 252, v: 31, B: 0},
+									{t: 0, v: 31, B: 0},
+									{t: 0, v: 31, B: 1},
+									{t: model.G, v: model.H, B: model.A}
 								]),
 							model.P),
 						_List_fromArray(
@@ -7634,22 +7734,22 @@ var $author$project$ActualStatus$viewIndividual = F2(
 						_List_fromArray(
 							[
 								function ($) {
-								return $.a$;
+								return $.a0;
 							},
 								function ($) {
-								return $.aP;
+								return $.aQ;
 							},
 								function ($) {
-								return $.aU;
-							},
-								function ($) {
-								return $.be;
+								return $.aV;
 							},
 								function ($) {
 								return $.bf;
 							},
 								function ($) {
 								return $.bg;
+							},
+								function ($) {
+								return $.bh;
 							}
 							])))
 				]));
@@ -7743,7 +7843,7 @@ var $author$project$ActualStatus$viewIndividualValue = F2(
 				]));
 	});
 var $author$project$ActualStatus$viewActualStatus = function (model) {
-	var _v0 = model.ao;
+	var _v0 = model.ap;
 	if (!_v0.$) {
 		var status = _v0.a;
 		return A2($author$project$ActualStatus$viewIndividualValue, model, status);
@@ -7757,6 +7857,7 @@ var $author$project$ActualStatus$viewActualStatus = function (model) {
 			_List_Nil);
 	}
 };
+var $elm$core$List$map3 = _List_map3;
 var $elm$core$List$filter = F2(
 	function (isGood, list) {
 		return A3(
@@ -7784,7 +7885,7 @@ var $author$project$Evolution$viewEvoHeaderImage = F3(
 		if (!_v0.$) {
 			var pokemonStatus = _v0.a;
 			var formString = function () {
-				var _v1 = pokemonStatus.al;
+				var _v1 = pokemonStatus.am;
 				if (!_v1.$) {
 					var form = _v1.a;
 					return '&form=' + form;
@@ -7812,7 +7913,7 @@ var $author$project$Evolution$viewEvoHeaderImage = F3(
 						_List_fromArray(
 							[
 								$elm$html$Html$Attributes$href(
-								'pokemon.html?no=' + ($elm$core$String$fromInt(pokemonStatus.aq) + formString))
+								'pokemon.html?no=' + ($elm$core$String$fromInt(pokemonStatus.ar) + formString))
 							]),
 						_List_fromArray(
 							[
@@ -7857,7 +7958,7 @@ var $author$project$Evolution$viewEvoHeaderName = F3(
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text(pokemonStatus.a7)
+						$elm$html$Html$text(pokemonStatus.a8)
 					]));
 		} else {
 			return A2(
@@ -7872,11 +7973,15 @@ var $author$project$Evolution$viewEvoHeaderName = F3(
 					]));
 		}
 	});
-var $author$project$Evolution$viewEvoStatus = F5(
-	function (pokemonDataDict, no, f, isLast, pokemonId) {
+var $elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
+var $elm$html$Html$Attributes$style = $elm$virtual_dom$VirtualDom$style;
+var $author$project$Evolution$viewEvoStatus = F6(
+	function (pokemonDataDict, no, f, isLast, animTiming, pokemonId) {
 		var _v0 = A2($elm$core$Dict$get, pokemonId, pokemonDataDict);
 		if (!_v0.$) {
 			var pokemonStatus = _v0.a;
+			var tempWidth = ((f(pokemonStatus.bi) * 2) / 3) | 0;
+			var barWidth = (tempWidth > 100) ? 100 : tempWidth;
 			return A2(
 				$elm$html$Html$td,
 				_List_fromArray(
@@ -7906,8 +8011,24 @@ var $author$project$Evolution$viewEvoStatus = F5(
 							[
 								$elm$html$Html$text(
 								$elm$core$String$fromInt(
-									f(pokemonStatus.bh)))
-							]))
+									f(pokemonStatus.bi)))
+							])),
+						A2(
+						$elm$html$Html$div,
+						_List_fromArray(
+							[
+								A2(
+								$elm$html$Html$Attributes$style,
+								'width',
+								$elm$core$String$fromInt(barWidth) + 'px'),
+								$elm$html$Html$Attributes$classList(
+								_List_fromArray(
+									[
+										_Utils_Tuple2('main__td-status-bar', true),
+										_Utils_Tuple2('main__td-status-bar-anim', animTiming)
+									]))
+							]),
+						_List_Nil)
 					]));
 		} else {
 			return A2(
@@ -7922,8 +8043,8 @@ var $author$project$Evolution$viewEvoStatus = F5(
 					]));
 		}
 	});
-var $author$project$Evolution$viewEvoStatusLine = F5(
-	function (pokemonDataDict, evolution, no, title, f) {
+var $author$project$Evolution$viewEvoStatusLine = F6(
+	function (pokemonDataDict, evolution, no, title, f, animTiming) {
 		return A2(
 			$elm$html$Html$tr,
 			_List_Nil,
@@ -7941,7 +8062,7 @@ var $author$project$Evolution$viewEvoStatusLine = F5(
 						])),
 				A2(
 					$elm$core$List$map,
-					A4($author$project$Evolution$viewEvoStatus, pokemonDataDict, no, f, title === 'すばやさ'),
+					A5($author$project$Evolution$viewEvoStatus, pokemonDataDict, no, f, title === 'すばやさ', animTiming),
 					evolution)));
 	});
 var $author$project$Evolution$viewPokemonEvolutionMain = F2(
@@ -8001,7 +8122,7 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 												A2(
 													$elm$core$List$map,
 													A2($author$project$Evolution$viewEvoHeaderImage, model.S, id),
-													pokemonData.aX))),
+													pokemonData.aY))),
 											A2(
 											$elm$html$Html$tr,
 											_List_Nil,
@@ -8017,43 +8138,44 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 												A2(
 													$elm$core$List$map,
 													A2($author$project$Evolution$viewEvoHeaderName, model.S, id),
-													pokemonData.aX)))
+													pokemonData.aY)))
 										])),
 									A2(
 									$elm$html$Html$tbody,
 									_List_Nil,
-									A3(
-										$elm$core$List$map2,
-										A3($author$project$Evolution$viewEvoStatusLine, model.S, pokemonData.aX, id),
+									A4(
+										$elm$core$List$map3,
+										A3($author$project$Evolution$viewEvoStatusLine, model.S, pokemonData.aY, id),
 										_List_fromArray(
 											['HP', 'こうげき', 'ぼうぎょ', 'とくこう', 'とくぼう', 'すばやさ']),
 										_List_fromArray(
 											[
 												function ($) {
-												return $.a$;
+												return $.a0;
 											},
 												function ($) {
-												return $.aP;
+												return $.aQ;
 											},
 												function ($) {
-												return $.aU;
-											},
-												function ($) {
-												return $.be;
+												return $.aV;
 											},
 												function ($) {
 												return $.bf;
 											},
 												function ($) {
 												return $.bg;
+											},
+												function ($) {
+												return $.bh;
 											}
-											])))
+											]),
+										model.aa))
 								]))
 						]))
 				]));
 	});
 var $author$project$Evolution$viewPokemonEvolution = function (model) {
-	var _v0 = model.am;
+	var _v0 = model.an;
 	if (!_v0.$) {
 		var pokemonData = _v0.a;
 		return A2($author$project$Evolution$viewPokemonEvolutionMain, model, pokemonData);
@@ -8076,11 +8198,11 @@ var $author$project$Pokemon$viewStatusInfo = function (model) {
 			]),
 		_List_fromArray(
 			[
-				$author$project$Evolution$viewPokemonEvolution(model.t),
+				$author$project$Evolution$viewPokemonEvolution(model.l),
 				A2(
 				$elm$html$Html$map,
 				$author$project$Pokemon$ActualStatusMsg,
-				$author$project$ActualStatus$viewActualStatus(model.r))
+				$author$project$ActualStatus$viewActualStatus(model.s))
 			]));
 };
 var $author$project$Pokemon$viewPokemonMain = function (model) {
@@ -8112,14 +8234,14 @@ var $author$project$Pokemon$viewMain = function (model) {
 var $author$project$Pokemon$view = function (model) {
 	var pageTitle = 'ポケモン図鑑';
 	return {
-		aQ: _List_fromArray(
+		aR: _List_fromArray(
 			[
 				$author$project$Pokemon$viewMain(model)
 			]),
-		bn: pageTitle
+		bo: pageTitle
 	};
 };
 var $author$project$Pokemon$main = $elm$browser$Browser$application(
-	{a1: $author$project$Pokemon$init, a8: $author$project$Pokemon$UrlChanged, a9: $author$project$Pokemon$LinkClicked, bk: $author$project$Pokemon$subscriptions, bo: $author$project$Pokemon$update, bp: $author$project$Pokemon$view});
+	{a2: $author$project$Pokemon$init, a9: $author$project$Pokemon$UrlChanged, ba: $author$project$Pokemon$LinkClicked, bl: $author$project$Pokemon$subscriptions, bp: $author$project$Pokemon$update, bq: $author$project$Pokemon$view});
 _Platform_export({'Pokemon':{'init':$author$project$Pokemon$main(
 	$elm$json$Json$Decode$succeed(0))(0)}});}(this));

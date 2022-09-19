@@ -10,6 +10,7 @@ import Html.Events exposing (..)
 type alias Model =
     { maybePokemonData : Maybe AppConfig.PokemonData
     , pokemonDataDict : Dict String AppConfig.PokemonData
+    , animTiming : List Bool
     }
 
 
@@ -46,9 +47,10 @@ viewPokemonEvolutionMain model pokemonData =
                             :: List.map (viewEvoHeaderName model.pokemonDataDict id) pokemonData.evolution
                     ]
                 , tbody [] <|
-                    List.map2 (viewEvoStatusLine model.pokemonDataDict pokemonData.evolution id)
+                    List.map3 (viewEvoStatusLine model.pokemonDataDict pokemonData.evolution id)
                         [ "HP", "こうげき", "ぼうぎょ", "とくこう", "とくぼう", "すばやさ" ]
                         [ .hp, .attack, .defence, .spAttack, .spDefence, .speed ]
+                        model.animTiming
                 ]
             ]
         ]
@@ -111,17 +113,28 @@ viewEvoHeaderName pokemonDataDict no pokemonId =
             th [ class "main__th" ] [ text "読込中" ]
 
 
-viewEvoStatusLine : Dict String AppConfig.PokemonData -> List String -> String -> String -> (AppConfig.Status -> Int) -> Html msg
-viewEvoStatusLine pokemonDataDict evolution no title f =
+viewEvoStatusLine : Dict String AppConfig.PokemonData -> List String -> String -> String -> (AppConfig.Status -> Int) -> Bool -> Html msg
+viewEvoStatusLine pokemonDataDict evolution no title f animTiming =
     tr [] <|
         th [ class "main__th main__th-center main__th-nowrap" ] [ text title ]
-            :: List.map (viewEvoStatus pokemonDataDict no f (title == "すばやさ")) evolution
+            :: List.map (viewEvoStatus pokemonDataDict no f (title == "すばやさ") animTiming) evolution
 
 
-viewEvoStatus : Dict String AppConfig.PokemonData -> String -> (AppConfig.Status -> Int) -> Bool -> String -> Html msg
-viewEvoStatus pokemonDataDict no f isLast pokemonId =
+viewEvoStatus : Dict String AppConfig.PokemonData -> String -> (AppConfig.Status -> Int) -> Bool -> Bool -> String -> Html msg
+viewEvoStatus pokemonDataDict no f isLast animTiming pokemonId =
     case Dict.get pokemonId pokemonDataDict of
         Just pokemonStatus ->
+            let
+                tempWidth =
+                    f pokemonStatus.status * 2 // 3
+
+                barWidth =
+                    if tempWidth > 100 then
+                        100
+
+                    else
+                        tempWidth
+            in
             td
                 [ classList
                     [ ( "main__td", True )
@@ -132,6 +145,15 @@ viewEvoStatus pokemonDataDict no f isLast pokemonId =
                 ]
                 [ div [ class "main__td-status-value" ]
                     [ f pokemonStatus.status |> String.fromInt |> text ]
+                , div
+                    [ style "width"
+                        (String.fromInt barWidth ++ "px")
+                    , classList
+                        [ ( "main__td-status-bar", True )
+                        , ( "main__td-status-bar-anim", animTiming )
+                        ]
+                    ]
+                    []
                 ]
 
         _ ->
