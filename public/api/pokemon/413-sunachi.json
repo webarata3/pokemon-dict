@@ -1,0 +1,15 @@
+{
+  "no": 413,
+  "form": "sunachi",
+  "name": "ミノマダム",
+  "formName": "すなちのミノ",
+  "status": {
+    "hp": 60,
+    "attack": 79,
+    "defence": 105,
+    "spAttack": 59,
+    "spDefence": 85,
+    "speed": 36
+  },
+  "evolution": [413-sunachi]
+}

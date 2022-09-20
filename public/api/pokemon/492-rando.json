@@ -1,8 +1,8 @@
 {
   "no": 492,
-  "form": null,
+  "form": "rando",
   "name": "シェイミ",
-  "formName": ランドフォルム,
+  "formName": "ランドフォルム",
   "status": {
     "hp": 100,
     "attack": 100,
@@ -11,5 +11,5 @@
     "spDefence": 100,
     "speed": 100
   },
-  "evolution": [492]
+  "evolution": [492-rando]
 }

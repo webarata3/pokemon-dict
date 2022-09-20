@@ -1,0 +1,15 @@
+{
+  "no": 492,
+  "form": "sukai",
+  "name": "シェイミ",
+  "formName": "スカイフォルム",
+  "status": {
+    "hp": 100,
+    "attack": 103,
+    "defence": 75,
+    "spAttack": 120,
+    "spDefence": 75,
+    "speed": 127
+  },
+  "evolution": [492-sukai]
+}

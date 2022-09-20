@@ -14,7 +14,6 @@ import Http exposing (..)
 import Json.Decode as JD exposing (Decoder, decodeString, field, int, nullable, string)
 import Json.Decode.Pipeline as JDP
 import MainPic
-import Process
 import Task
 import Toc
 import Url
@@ -115,7 +114,7 @@ init _ url key =
       , evolutionModel =
             { maybePokemonData = Nothing
             , pokemonDataDict = Dict.empty
-            , animTiming = [ False, False, False, False, False, False ]
+            , animTiming = False
             }
       , actualStatusModel =
             { maybeStatus = Nothing
@@ -148,7 +147,7 @@ type Msg
     | GotPokemonStatus (Result Http.Error String)
     | TocMsg Toc.Msg
     | ActualStatusMsg AS.Msg
-    | EvolutionStatusAnim Int
+    | EvolutionStatusAnim
 
 
 
@@ -245,13 +244,13 @@ update msg model =
                                         (AC.pokemonDataToId pokemonData)
                                         pokemonData
                                         evolutionModel.pokemonDataDict
-                                , animTiming = List.repeat 6 False
+                                , animTiming = False
                             }
                     in
                     ( { model
                         | evolutionModel = newEvolutionModel
                       }
-                    , Delay.after 500 <| EvolutionStatusAnim 1
+                    , Delay.after 100 <| EvolutionStatusAnim
                     )
 
                 Err _ ->
@@ -274,31 +273,21 @@ update msg model =
             in
             ( { model | actualStatusModel = m_ }, Cmd.map ActualStatusMsg cmd )
 
-        EvolutionStatusAnim count ->
+        EvolutionStatusAnim ->
             let
                 evolutionModel =
                     model.evolutionModel
 
-                newAnimTiming =
-                    List.concat
-                        [ List.repeat count True
-                        , List.repeat (6 - count) False
-                        ]
-
                 newEvolutionModel =
                     { evolutionModel
-                        | animTiming = newAnimTiming
+                        | animTiming = True
                     }
             in
-            if List.all (\e -> e) evolutionModel.animTiming then
-                ( model, Cmd.none )
-
-            else
-                ( { model
-                    | evolutionModel = newEvolutionModel
-                  }
-                , Delay.after 200 <| EvolutionStatusAnim <| count + 1
-                )
+            ( { model
+                | evolutionModel = newEvolutionModel
+              }
+            , Cmd.none
+            )
 
 
 

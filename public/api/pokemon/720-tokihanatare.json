@@ -1,0 +1,15 @@
+{
+  "no": 720,
+  "form": "tokihanatare",
+  "name": "フーパ",
+  "formName": "ときはなたれしフーパ",
+  "status": {
+    "hp": 80,
+    "attack": 160,
+    "defence": 60,
+    "spAttack": 170,
+    "spDefence": 130,
+    "speed": 80
+  },
+  "evolution": [720-tokihanatare]
+}

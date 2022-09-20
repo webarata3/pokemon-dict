@@ -30,7 +30,7 @@ getTocUrl no =
 
 getTocImageUrl : Int -> String
 getTocImageUrl no =
-    AppConfig.getBaseUrl ("/image/pokemon/" ++ String.fromInt no ++ ".png")
+    AppConfig.getBaseUrl ("/image/pokemon/" ++ String.fromInt no ++ ".webp")
 
 
 
@@ -119,7 +119,7 @@ viewPokemonImage pokemonId =
     in
     div [ class "pokemon__image-large" ]
         [ img
-            [ src <| AppConfig.getBaseUrl ("/image/pokemon/" ++ id ++ ".png")
+            [ src <| AppConfig.getBaseUrl ("/image/pokemon/" ++ id ++ ".webp")
             , class "pokemon__image-main"
             ]
             []

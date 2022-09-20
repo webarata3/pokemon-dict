@@ -1,0 +1,15 @@
+{
+  "no": 413,
+  "form": "gomi",
+  "name": "ミノマダム",
+  "formName": "ゴミのミノ",
+  "status": {
+    "hp": 60,
+    "attack": 69,
+    "defence": 95,
+    "spAttack": 69,
+    "spDefence": 95,
+    "speed": 36
+  },
+  "evolution": [413-gomi]
+}

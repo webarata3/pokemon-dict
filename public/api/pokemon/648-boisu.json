@@ -1,8 +1,8 @@
 {
   "no": 648,
-  "form": null,
+  "form": "boisu",
   "name": "メロエッタ",
-  "formName": ボイスフォルム,
+  "formName": "ボイスフォルム",
   "status": {
     "hp": 100,
     "attack": 77,
@@ -11,5 +11,5 @@
     "spDefence": 128,
     "speed": 90
   },
-  "evolution": [648]
+  "evolution": [648-boisu]
 }

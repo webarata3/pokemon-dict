@@ -1,8 +1,8 @@
 {
   "no": 413,
-  "form": null,
+  "form": "kusaki",
   "name": "ミノマダム",
-  "formName": くさきのミノ,
+  "formName": "くさきのミノ",
   "status": {
     "hp": 60,
     "attack": 59,
@@ -11,5 +11,5 @@
     "spDefence": 105,
     "speed": 36
   },
-  "evolution": [413]
+  "evolution": [413-kusaki]
 }

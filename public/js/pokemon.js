@@ -6144,12 +6144,7 @@ var $author$project$Pokemon$init = F3(
 				s: {G: 252, H: 31, P: 50, A: 0, ap: $elm$core$Maybe$Nothing},
 				O: $author$project$Pokemon$Pokemon(
 					$elm$core$Maybe$Just(1)),
-				l: {
-					aa: _List_fromArray(
-						[false, false, false, false, false, false]),
-					an: $elm$core$Maybe$Nothing,
-					S: $elm$core$Dict$empty
-				},
+				l: {aa: false, an: $elm$core$Maybe$Nothing, S: $elm$core$Dict$empty},
 				T: key,
 				Q: {ao: $elm$core$Maybe$Nothing},
 				R: $elm$core$Maybe$Nothing,
@@ -6175,9 +6170,7 @@ var $author$project$Pokemon$subscriptions = function (_v0) {
 var $author$project$Pokemon$ActualStatusMsg = function (a) {
 	return {$: 5, a: a};
 };
-var $author$project$Pokemon$EvolutionStatusAnim = function (a) {
-	return {$: 6, a: a};
-};
+var $author$project$Pokemon$EvolutionStatusAnim = {$: 6};
 var $author$project$Pokemon$PokemonForm = F2(
 	function (a, b) {
 		return {$: 1, a: a, b: b};
@@ -6190,51 +6183,6 @@ var $andrewMacmurray$elm_delay$Delay$after = F2(
 			$elm$core$Basics$always(msg),
 			$elm$core$Process$sleep(time));
 	});
-var $elm$core$List$any = F2(
-	function (isOkay, list) {
-		any:
-		while (true) {
-			if (!list.b) {
-				return false;
-			} else {
-				var x = list.a;
-				var xs = list.b;
-				if (isOkay(x)) {
-					return true;
-				} else {
-					var $temp$isOkay = isOkay,
-						$temp$list = xs;
-					isOkay = $temp$isOkay;
-					list = $temp$list;
-					continue any;
-				}
-			}
-		}
-	});
-var $elm$core$Basics$composeL = F3(
-	function (g, f, x) {
-		return g(
-			f(x));
-	});
-var $elm$core$Basics$not = _Basics_not;
-var $elm$core$List$all = F2(
-	function (isOkay, list) {
-		return !A2(
-			$elm$core$List$any,
-			A2($elm$core$Basics$composeL, $elm$core$Basics$not, isOkay),
-			list);
-	});
-var $elm$core$List$append = F2(
-	function (xs, ys) {
-		if (!ys.b) {
-			return xs;
-		} else {
-			return A3($elm$core$List$foldr, $elm$core$List$cons, ys, xs);
-		}
-	});
-var $elm$core$List$concat = function (lists) {
-	return A3($elm$core$List$foldr, $elm$core$List$append, _List_Nil, lists);
-};
 var $author$project$AppConfig$PokemonData = F6(
 	function (no, maybeForm, name, maybeFormName, status, evolution) {
 		return {aY: evolution, am: maybeForm, a4: maybeFormName, a8: name, ar: no, bi: status};
@@ -6381,27 +6329,6 @@ var $author$project$Pokemon$pokemonDataToId = function (pokemonData) {
 	return {a_: '', am: pokemonData.am, a8: pokemonData.a8, ar: pokemonData.ar};
 };
 var $elm$browser$Browser$Navigation$pushUrl = _Browser_pushUrl;
-var $elm$core$List$repeatHelp = F3(
-	function (result, n, value) {
-		repeatHelp:
-		while (true) {
-			if (n <= 0) {
-				return result;
-			} else {
-				var $temp$result = A2($elm$core$List$cons, value, result),
-					$temp$n = n - 1,
-					$temp$value = value;
-				result = $temp$result;
-				n = $temp$n;
-				value = $temp$value;
-				continue repeatHelp;
-			}
-		}
-	});
-var $elm$core$List$repeat = F2(
-	function (n, value) {
-		return A3($elm$core$List$repeatHelp, _List_Nil, n, value);
-	});
 var $elm$url$Url$addPort = F2(
 	function (maybePort, starter) {
 		if (maybePort.$ === 1) {
@@ -6692,6 +6619,17 @@ var $elm$url$Url$Parser$map = F2(
 					A5($elm$url$Url$Parser$State, visited, unvisited, params, frag, subValue)));
 		};
 	});
+var $elm$core$List$append = F2(
+	function (xs, ys) {
+		if (!ys.b) {
+			return xs;
+		} else {
+			return A3($elm$core$List$foldr, $elm$core$List$cons, ys, xs);
+		}
+	});
+var $elm$core$List$concat = function (lists) {
+	return A3($elm$core$List$foldr, $elm$core$List$append, _List_Nil, lists);
+};
 var $elm$core$List$concatMap = F2(
 	function (f, list) {
 		return $elm$core$List$concat(
@@ -6910,7 +6848,7 @@ var $author$project$Pokemon$update = F2(
 						var newEvolutionModel = _Utils_update(
 							evolutionModel,
 							{
-								aa: A2($elm$core$List$repeat, 6, false),
+								aa: false,
 								S: A3(
 									$elm$core$Dict$insert,
 									$author$project$AppConfig$pokemonDataToId(pokemonData),
@@ -6921,10 +6859,7 @@ var $author$project$Pokemon$update = F2(
 							_Utils_update(
 								model,
 								{l: newEvolutionModel}),
-							A2(
-								$andrewMacmurray$elm_delay$Delay$after,
-								500,
-								$author$project$Pokemon$EvolutionStatusAnim(1)));
+							A2($andrewMacmurray$elm_delay$Delay$after, 100, $author$project$Pokemon$EvolutionStatusAnim));
 					} else {
 						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 					}
@@ -6952,30 +6887,15 @@ var $author$project$Pokemon$update = F2(
 						{s: m_}),
 					A2($elm$core$Platform$Cmd$map, $author$project$Pokemon$ActualStatusMsg, cmd));
 			default:
-				var count = msg.a;
-				var newAnimTiming = $elm$core$List$concat(
-					_List_fromArray(
-						[
-							A2($elm$core$List$repeat, count, true),
-							A2($elm$core$List$repeat, 6 - count, false)
-						]));
 				var evolutionModel = model.l;
 				var newEvolutionModel = _Utils_update(
 					evolutionModel,
-					{aa: newAnimTiming});
-				return A2(
-					$elm$core$List$all,
-					function (e) {
-						return e;
-					},
-					evolutionModel.aa) ? _Utils_Tuple2(model, $elm$core$Platform$Cmd$none) : _Utils_Tuple2(
+					{aa: true});
+				return _Utils_Tuple2(
 					_Utils_update(
 						model,
 						{l: newEvolutionModel}),
-					A2(
-						$andrewMacmurray$elm_delay$Delay$after,
-						200,
-						$author$project$Pokemon$EvolutionStatusAnim(count + 1)));
+					$elm$core$Platform$Cmd$none);
 		}
 	});
 var $elm$json$Json$Encode$string = _Json_wrap;
@@ -7058,7 +6978,7 @@ var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$src(
-						$author$project$AppConfig$getBaseUrl('/image/pokemon/' + (id + '.png'))),
+						$author$project$AppConfig$getBaseUrl('/image/pokemon/' + (id + '.webp'))),
 						$elm$html$Html$Attributes$class('pokemon__image-main')
 					]),
 				_List_Nil)
@@ -7066,7 +6986,7 @@ var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
 };
 var $author$project$MainPic$getTocImageUrl = function (no) {
 	return $author$project$AppConfig$getBaseUrl(
-		'/image/pokemon/' + ($elm$core$String$fromInt(no) + '.png'));
+		'/image/pokemon/' + ($elm$core$String$fromInt(no) + '.webp'));
 };
 var $author$project$MainPic$getTocUrl = function (no) {
 	return _Utils_ap(
@@ -7922,7 +7842,7 @@ var $author$project$Evolution$viewEvoHeaderImage = F3(
 								_List_fromArray(
 									[
 										$elm$html$Html$Attributes$src(
-										'/image/pokemon/' + ($author$project$AppConfig$pokemonDataToId(pokemonStatus) + '.png')),
+										'/image/pokemon/' + ($author$project$AppConfig$pokemonDataToId(pokemonStatus) + '.webp')),
 										$elm$html$Html$Attributes$class('pokemon__image-evo')
 									]),
 								_List_Nil)
@@ -7975,8 +7895,8 @@ var $author$project$Evolution$viewEvoHeaderName = F3(
 	});
 var $elm$virtual_dom$VirtualDom$style = _VirtualDom_style;
 var $elm$html$Html$Attributes$style = $elm$virtual_dom$VirtualDom$style;
-var $author$project$Evolution$viewEvoStatus = F6(
-	function (pokemonDataDict, no, f, isLast, animTiming, pokemonId) {
+var $author$project$Evolution$viewEvoStatus = F7(
+	function (pokemonDataDict, no, f, isLast, animTiming, styleNo, pokemonId) {
 		var _v0 = A2($elm$core$Dict$get, pokemonId, pokemonDataDict);
 		if (!_v0.$) {
 			var pokemonStatus = _v0.a;
@@ -8025,7 +7945,7 @@ var $author$project$Evolution$viewEvoStatus = F6(
 								_List_fromArray(
 									[
 										_Utils_Tuple2('main__td-status-bar', true),
-										_Utils_Tuple2('main__td-status-bar-anim', animTiming)
+										_Utils_Tuple2('main__td-status-bar-anim' + styleNo, animTiming)
 									]))
 							]),
 						_List_Nil)
@@ -8043,8 +7963,8 @@ var $author$project$Evolution$viewEvoStatus = F6(
 					]));
 		}
 	});
-var $author$project$Evolution$viewEvoStatusLine = F6(
-	function (pokemonDataDict, evolution, no, title, f, animTiming) {
+var $author$project$Evolution$viewEvoStatusLine = F7(
+	function (pokemonDataDict, evolution, no, animTiming, title, f, styleNo) {
 		return A2(
 			$elm$html$Html$tr,
 			_List_Nil,
@@ -8062,7 +7982,7 @@ var $author$project$Evolution$viewEvoStatusLine = F6(
 						])),
 				A2(
 					$elm$core$List$map,
-					A5($author$project$Evolution$viewEvoStatus, pokemonDataDict, no, f, title === 'すばやさ', animTiming),
+					A6($author$project$Evolution$viewEvoStatus, pokemonDataDict, no, f, title === 'すばやさ', animTiming, styleNo),
 					evolution)));
 	});
 var $author$project$Evolution$viewPokemonEvolutionMain = F2(
@@ -8145,7 +8065,7 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 									_List_Nil,
 									A4(
 										$elm$core$List$map3,
-										A3($author$project$Evolution$viewEvoStatusLine, model.S, pokemonData.aY, id),
+										A4($author$project$Evolution$viewEvoStatusLine, model.S, pokemonData.aY, id, model.aa),
 										_List_fromArray(
 											['HP', 'こうげき', 'ぼうぎょ', 'とくこう', 'とくぼう', 'すばやさ']),
 										_List_fromArray(
@@ -8169,7 +8089,8 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 												return $.bh;
 											}
 											]),
-										model.aa))
+										_List_fromArray(
+											['1', '2', '3', '4', '5', '6'])))
 								]))
 						]))
 				]));

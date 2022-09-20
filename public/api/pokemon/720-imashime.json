@@ -1,8 +1,8 @@
 {
   "no": 720,
-  "form": null,
+  "form": "imashime",
   "name": "フーパ",
-  "formName": いましめられしフーパ,
+  "formName": "いましめられしフーパ",
   "status": {
     "hp": 80,
     "attack": 110,
@@ -11,5 +11,5 @@
     "spDefence": 130,
     "speed": 70
   },
-  "evolution": [720]
+  "evolution": [720-imashime]
 }
