@@ -5,16 +5,11 @@ import Dict exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
+import Json.Decode as JD exposing (Decoder, field, int, string)
 
 
 
 -- MODEL
-
-
-type alias AttrType =
-    { typeId : Int
-    , typeName : String
-    }
 
 
 type Scale
@@ -27,8 +22,8 @@ type Scale
 
 
 type alias Model =
-    { attrTypes : List AttrType
-    , typeChart : Dict Int (Dict Int Scale)
+    { maybeAttrTypes : Maybe (List AC.AttrType)
+    , typeChart : Dict Int (List Scale)
     }
 
 
@@ -36,7 +31,7 @@ type alias Model =
 -- FUNCTION
 
 
-getTypeChart : Dict Int (Dict Int Scale)
+getTypeChart : Dict Int (List Scale)
 getTypeChart =
     let
         typeCharts =
@@ -385,12 +380,7 @@ getTypeChart =
               ]
             ]
     in
-    List.map
-        (\e ->
-            listToDictList e
-        )
-        typeCharts
-        |> listToDictList
+    listToDictList typeCharts
 
 
 listToDictList : List a -> Dict Int a
@@ -398,3 +388,26 @@ listToDictList list =
     List.indexedMap Tuple.pair list
         |> List.map (\e -> Tuple.mapFirst (\t -> t + 1) e)
         |> Dict.fromList
+
+
+
+-- VIEW
+
+
+viewTypes : Model -> Html msg
+viewTypes model =
+    section [ class "pokemon__types" ]
+        [ h2 [ class "main__sub-title" ] [ text "タイプと弱点" ]
+        , case model.maybeAttrTypes of
+            Just attrTypes ->
+                div [] <|
+                    List.map viewType attrTypes
+
+            _ ->
+                div [] []
+        ]
+
+
+viewType : AC.AttrType -> Html msg
+viewType attrType =
+    div [] [ text attrType.typeName ]

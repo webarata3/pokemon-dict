@@ -3,6 +3,12 @@ module AppConfig exposing (..)
 -- MODEL
 
 
+type alias AttrType =
+    { typeId : Int
+    , typeName : String
+    }
+
+
 type alias Status =
     { hp : Int
     , attack : Int
@@ -19,6 +25,7 @@ type alias PokemonData =
     , name : String
     , maybeFormName : Maybe String
     , status : Status
+    , types : List AttrType
     , evolution : List String
     }
 

@@ -2,7 +2,7 @@ module Pokemon exposing (..)
 
 import ActualStatus as AS
 import AppConfig as AC
-import AttrType
+import AttrType as AT
 import Browser exposing (Document)
 import Browser.Navigation as Nav
 import Delay
@@ -37,6 +37,13 @@ decodeStatus =
         (field "speed" int)
 
 
+decodeAttrType : Decoder AC.AttrType
+decodeAttrType =
+    JD.map2 AC.AttrType
+        (field "typeId" int)
+        (field "typeName" string)
+
+
 decodePokemonData : Decoder AC.PokemonData
 decodePokemonData =
     JD.succeed AC.PokemonData
@@ -45,6 +52,7 @@ decodePokemonData =
         |> JDP.required "name" string
         |> JDP.required "formName" (nullable string)
         |> JDP.required "status" decodeStatus
+        |> JDP.required "type" (JD.list decodeAttrType)
         |> JDP.required "evolution" (JD.list string)
 
 
@@ -95,6 +103,7 @@ type alias Model =
     , maybeCurrentPokemonNo : Maybe PokemonNo
     , tocModel : Toc.Model
     , mainPicModel : MainPic.Model
+    , attrTypeModel : AT.Model
     , evolutionModel : Evo.Model
     , actualStatusModel : AS.Model
     }
@@ -111,6 +120,10 @@ init _ url key =
             }
       , mainPicModel =
             { maybePokemonId = Nothing
+            }
+      , attrTypeModel =
+            { maybeAttrTypes = Nothing
+            , typeChart = AT.getTypeChart
             }
       , evolutionModel =
             { maybePokemonData = Nothing
@@ -194,6 +207,14 @@ update msg model =
             case pokemonDataResult of
                 Ok pokemonData ->
                     let
+                        attrTypeModel =
+                            model.attrTypeModel
+
+                        newAttrTypeModel =
+                            { attrTypeModel
+                                | maybeAttrTypes = Just pokemonData.types
+                            }
+
                         evolutionModel =
                             model.evolutionModel
 
@@ -214,6 +235,7 @@ update msg model =
                         | mainPicModel =
                             { maybePokemonId = Just <| pokemonDataToId pokemonData
                             }
+                        , attrTypeModel = newAttrTypeModel
                         , evolutionModel = newEvolutionModel
                         , actualStatusModel = newActualStatusModel
                       }
@@ -363,7 +385,10 @@ viewMain model =
 viewPokemonMain : Model -> Html Msg
 viewPokemonMain model =
     div []
-        [ MainPic.viewPokemonMainPic model.mainPicModel
+        [ div [ class "pokemon__top" ]
+            [ MainPic.viewPokemonMainPic model.mainPicModel
+            , AT.viewTypes model.attrTypeModel
+            ]
         , viewStatusInfo model
         ]
 

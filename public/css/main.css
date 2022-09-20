@@ -108,7 +108,12 @@ body {
 }
 
 .pokemon__info {
-  width: 500px;
+  width: 550px;
+}
+
+.pokemon__info-inner {
+  width: 400px;
+  margin: 0 auto;
 }
 
 .pokemon__toc {
@@ -265,6 +270,10 @@ body {
   margin-bottom: var(--basic-margin);
 }
 
+.pokemon__top {
+  display: flex;
+}
+
 .pokemon__detail {
   display: flex;
 }
@@ -345,4 +354,8 @@ body {
 .main__link-button:active {
   background-color: var(--accent-color);
   color: #fff;
+}
+
+.pokemon__types {
+  padding: var(--basic-padding);
 }

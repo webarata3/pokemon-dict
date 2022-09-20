@@ -42,8 +42,10 @@ viewPokemonMainPic model =
     case model.maybePokemonId of
         Just pokemonId ->
             section [ class "pokemon__info" ]
-                [ viewToc pokemonId
-                , viewPokemonImage pokemonId
+                [ div [ class "pokemon__info-inner" ]
+                    [ viewToc pokemonId
+                    , viewPokemonImage pokemonId
+                    ]
                 ]
 
         _ ->
