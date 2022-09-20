@@ -11,5 +11,10 @@
     "spDefence": 107,
     "speed": 86
   },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+,{ "typeId": 2,
+  "typeName": "ほのお"}
+],
   "evolution": [479-heat]
 }

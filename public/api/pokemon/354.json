@@ -11,5 +11,8 @@
     "spDefence": 63,
     "speed": 65
   },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
   "evolution": [354]
 }

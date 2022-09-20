@@ -2,6 +2,7 @@ module Pokemon exposing (..)
 
 import ActualStatus as AS
 import AppConfig as AC
+import AttrType
 import Browser exposing (Document)
 import Browser.Navigation as Nav
 import Delay

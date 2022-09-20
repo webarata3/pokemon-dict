@@ -11,5 +11,10 @@
     "spDefence": 75,
     "speed": 127
   },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
   "evolution": [492-sukai]
 }

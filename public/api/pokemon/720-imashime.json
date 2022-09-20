@@ -11,5 +11,10 @@
     "spDefence": 130,
     "speed": 70
   },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
   "evolution": [720-imashime]
 }

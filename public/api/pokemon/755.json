@@ -11,5 +11,10 @@
     "spDefence": 75,
     "speed": 15
   },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
   "evolution": [755]
 }

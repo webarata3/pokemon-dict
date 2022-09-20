@@ -11,5 +11,8 @@
     "spDefence": 50,
     "speed": 90
   },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+],
   "evolution": ["25", "26", "26-alola"]
 }

@@ -11,5 +11,10 @@
     "spDefence": 55,
     "speed": 135
   },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+,{ "typeId": 2,
+  "typeName": "ほのお"}
+],
   "evolution": [555-daruma-galar]
 }

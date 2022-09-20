@@ -11,5 +11,8 @@
     "spDefence": 75,
     "speed": 55
   },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
   "evolution": [217]
 }

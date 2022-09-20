@@ -11,5 +11,10 @@
     "spDefence": 70,
     "speed": 58
   },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
   "evolution": [634]
 }

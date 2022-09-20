@@ -11,5 +11,8 @@
     "spDefence": 80,
     "speed": 60
   },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+],
   "evolution": [325]
 }

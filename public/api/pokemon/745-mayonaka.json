@@ -11,5 +11,8 @@
     "spDefence": 75,
     "speed": 82
   },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+],
   "evolution": [745-mayonaka]
 }

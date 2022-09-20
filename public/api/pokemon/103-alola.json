@@ -11,5 +11,10 @@
     "spDefence": 75,
     "speed": 45
   },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
   "evolution": ["102", "103", "103-alola"]
 }

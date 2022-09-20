@@ -11,5 +11,10 @@
     "spDefence": 80,
     "speed": 101
   },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
   "evolution": [642-reiju]
 }

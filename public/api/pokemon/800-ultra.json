@@ -11,5 +11,10 @@
     "spDefence": 97,
     "speed": 129
   },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
   "evolution": [800-ultra]
 }

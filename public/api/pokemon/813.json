@@ -11,5 +11,8 @@
     "spDefence": 40,
     "speed": 69
   },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
   "evolution": [813]
 }

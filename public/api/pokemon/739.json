@@ -11,5 +11,8 @@
     "spDefence": 47,
     "speed": 63
   },
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+],
   "evolution": [739]
 }

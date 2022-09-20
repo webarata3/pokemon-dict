@@ -11,5 +11,10 @@
     "spDefence": 110,
     "speed": 30
   },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
   "evolution": ["79-galar", "80-galar", "199-galar"]
 }

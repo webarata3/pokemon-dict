@@ -11,5 +11,10 @@
     "spDefence": 61,
     "speed": 100
   },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
   "evolution": [264-galar]
 }

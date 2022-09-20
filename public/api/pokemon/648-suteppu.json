@@ -11,5 +11,10 @@
     "spDefence": 77,
     "speed": 128
   },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
   "evolution": [648-suteppu]
 }

@@ -11,5 +11,8 @@
     "spDefence": 55,
     "speed": 95
   },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+],
   "evolution": [555-galar]
 }

@@ -11,5 +11,10 @@
     "spDefence": 70,
     "speed": 60
   },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
   "evolution": ["109", "110", "110-galar"]
 }

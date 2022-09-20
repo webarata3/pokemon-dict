@@ -11,5 +11,8 @@
     "spDefence": 80,
     "speed": 111
   },
+  "type": [{ "typeId": 10,
+  "typeName": "ひこう"}
+],
   "evolution": [641-keshin]
 }

@@ -11,5 +11,8 @@
     "spDefence": 65,
     "speed": 110
   },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+],
   "evolution": [745-tasogare]
 }

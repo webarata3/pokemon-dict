@@ -11,5 +11,10 @@
     "spDefence": 84,
     "speed": 32
   },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
   "evolution": [618-galar]
 }
