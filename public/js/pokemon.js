@@ -8250,37 +8250,35 @@ var $author$project$AttrType$viewType = function (attrType) {
 			]));
 };
 var $author$project$AttrType$viewTypes = function (model) {
-	return A2(
-		$elm$html$Html$section,
-		_List_fromArray(
-			[
-				$elm$html$Html$Attributes$class('pokemon__types')
-			]),
-		_List_fromArray(
-			[
-				A2(
-				$elm$html$Html$h2,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$class('main__sub-title')
-					]),
-				_List_fromArray(
-					[
-						$elm$html$Html$text('タイプと弱点')
-					])),
-				function () {
-				var _v0 = model.am;
-				if (!_v0.$) {
-					var attrTypes = _v0.a;
-					return A2(
-						$elm$html$Html$div,
-						_List_Nil,
-						A2($elm$core$List$map, $author$project$AttrType$viewType, attrTypes));
-				} else {
-					return A2($elm$html$Html$div, _List_Nil, _List_Nil);
-				}
-			}()
-			]));
+	var _v0 = model.am;
+	if (!_v0.$) {
+		var attrTypes = _v0.a;
+		return A2(
+			$elm$html$Html$section,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('pokemon__types')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h2,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$class('main__sub-title')
+						]),
+					_List_fromArray(
+						[
+							$elm$html$Html$text('タイプと弱点')
+						])),
+					A2(
+					$elm$html$Html$div,
+					_List_Nil,
+					A2($elm$core$List$map, $author$project$AttrType$viewType, attrTypes))
+				]));
+	} else {
+		return A2($elm$html$Html$div, _List_Nil, _List_Nil);
+	}
 };
 var $author$project$Pokemon$viewPokemonMain = function (model) {
 	return A2(

@@ -396,16 +396,16 @@ listToDictList list =
 
 viewTypes : Model -> Html msg
 viewTypes model =
-    section [ class "pokemon__types" ]
-        [ h2 [ class "main__sub-title" ] [ text "タイプと弱点" ]
-        , case model.maybeAttrTypes of
-            Just attrTypes ->
-                div [] <|
+    case model.maybeAttrTypes of
+        Just attrTypes ->
+            section [ class "pokemon__types" ]
+                [ h2 [ class "main__sub-title" ] [ text "タイプと弱点" ]
+                , div [] <|
                     List.map viewType attrTypes
+                ]
 
-            _ ->
-                div [] []
-        ]
+        _ ->
+            div [] []
 
 
 viewType : AC.AttrType -> Html msg
