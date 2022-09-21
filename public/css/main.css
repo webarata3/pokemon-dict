@@ -54,13 +54,18 @@ body {
 }
 
 .main {
-  display: flex;
-  height: 870px;
+  display: grid;
+  grid-template-columns: 110px 550px 550px;
+  grid-template-rows: 400px 440px;
+  gap: var(--basic-margin);
 }
 
+
 .pokemon__list {
-  min-width: 110px;
-  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
   border: 1px solid #000;
   display: flex;
   flex-direction: column;
@@ -87,7 +92,7 @@ body {
 }
 
 .pokemon__evolution-table {
-  width: 550px;
+  width: calc(550px - var(--basic-margin));
   overflow-x: scroll;
 }
 
@@ -264,10 +269,6 @@ body {
 }
 
 .pokemon__top {
-  display: flex;
-}
-
-.pokemon__detail {
   display: flex;
 }
 

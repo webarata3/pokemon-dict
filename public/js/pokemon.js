@@ -7015,256 +7015,12 @@ var $elm$html$Html$Attributes$class = $elm$html$Html$Attributes$stringProperty('
 var $elm$html$Html$main_ = _VirtualDom_node('main');
 var $elm$virtual_dom$VirtualDom$map = _VirtualDom_map;
 var $elm$html$Html$map = $elm$virtual_dom$VirtualDom$map;
-var $elm$html$Html$div = _VirtualDom_node('div');
-var $elm$html$Html$a = _VirtualDom_node('a');
-var $elm$virtual_dom$VirtualDom$attribute = F2(
-	function (key, value) {
-		return A2(
-			_VirtualDom_attribute,
-			_VirtualDom_noOnOrFormAction(key),
-			_VirtualDom_noJavaScriptOrHtmlUri(value));
-	});
-var $elm$html$Html$Attributes$attribute = $elm$virtual_dom$VirtualDom$attribute;
-var $elm$html$Html$Attributes$height = function (n) {
-	return A2(
-		_VirtualDom_attribute,
-		'height',
-		$elm$core$String$fromInt(n));
-};
-var $elm$html$Html$Attributes$href = function (url) {
-	return A2(
-		$elm$html$Html$Attributes$stringProperty,
-		'href',
-		_VirtualDom_noJavaScriptUri(url));
-};
-var $elm$html$Html$img = _VirtualDom_node('img');
-var $elm$html$Html$Attributes$src = function (url) {
-	return A2(
-		$elm$html$Html$Attributes$stringProperty,
-		'src',
-		_VirtualDom_noJavaScriptOrHtmlUri(url));
-};
-var $elm$html$Html$Attributes$width = function (n) {
-	return A2(
-		_VirtualDom_attribute,
-		'width',
-		$elm$core$String$fromInt(n));
-};
-var $author$project$Toc$viewPokemonLink = function (link) {
-	return A2(
-		$elm$html$Html$a,
-		_List_fromArray(
-			[
-				$elm$html$Html$Attributes$href(link.al)
-			]),
-		_List_fromArray(
-			[
-				A2(
-				$elm$html$Html$img,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$src(link.ak),
-						A2($elm$html$Html$Attributes$attribute, 'loading', 'lazy'),
-						$elm$html$Html$Attributes$class('pokemon__link'),
-						$elm$html$Html$Attributes$width(90),
-						$elm$html$Html$Attributes$height(90)
-					]),
-				_List_Nil)
-			]));
-};
-var $author$project$Toc$viewPokemonList = function (model) {
-	return A2(
-		$elm$html$Html$div,
-		_List_fromArray(
-			[
-				$elm$html$Html$Attributes$class('pokemon__list')
-			]),
-		A2($elm$core$List$map, $author$project$Toc$viewPokemonLink, model.a5));
-};
 var $elm$html$Html$section = _VirtualDom_node('section');
-var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
-	var id = A2($author$project$AppConfig$pokemonNoFormToId, pokemonId.as, pokemonId.an);
-	return A2(
-		$elm$html$Html$div,
-		_List_fromArray(
-			[
-				$elm$html$Html$Attributes$class('main__pic')
-			]),
-		_List_fromArray(
-			[
-				A2(
-				$elm$html$Html$img,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$src(
-						$author$project$AppConfig$getBaseUrl('/image/pokemon/' + (id + '.webp'))),
-						$elm$html$Html$Attributes$width(300),
-						$elm$html$Html$Attributes$height(300)
-					]),
-				_List_Nil)
-			]));
-};
-var $author$project$MainPic$getTocImageUrl = function (no) {
-	return $author$project$AppConfig$getBaseUrl(
-		'/image/pokemon/' + ($elm$core$String$fromInt(no) + '.webp'));
-};
-var $author$project$MainPic$getTocUrl = function (no) {
-	return _Utils_ap(
-		$author$project$AppConfig$getBaseUrl('/pokemon.html?no='),
-		$elm$core$String$fromInt(no));
-};
-var $elm$html$Html$h1 = _VirtualDom_node('h1');
-var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
-var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
-var $author$project$MainPic$viewToc = function (pokemonId) {
-	var before = (pokemonId.as === 1) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
-		$elm$html$Html$div,
-		_List_fromArray(
-			[
-				$elm$html$Html$Attributes$class('arrow-left')
-			]),
-		_List_fromArray(
-			[
-				A2(
-				$elm$html$Html$a,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$href(
-						$author$project$MainPic$getTocUrl(pokemonId.as - 1)),
-						$elm$html$Html$Attributes$class('main__link-head')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$img,
-						_List_fromArray(
-							[
-								$elm$html$Html$Attributes$src(
-								$author$project$MainPic$getTocImageUrl(pokemonId.as - 1)),
-								$elm$html$Html$Attributes$width(50),
-								$elm$html$Html$Attributes$height(50)
-							]),
-						_List_Nil),
-						A2(
-						$elm$html$Html$img,
-						_List_fromArray(
-							[
-								$elm$html$Html$Attributes$src(
-								$author$project$AppConfig$getBaseUrl('/image/arrow-left-long-solid.svg')),
-								$elm$html$Html$Attributes$class('arrow')
-							]),
-						_List_Nil)
-					]))
-			]));
-	var after = (pokemonId.as === 905) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
-		$elm$html$Html$a,
-		_List_fromArray(
-			[
-				$elm$html$Html$Attributes$href(
-				$author$project$MainPic$getTocUrl(pokemonId.as + 1)),
-				$elm$html$Html$Attributes$class('main__link-head')
-			]),
-		_List_fromArray(
-			[
-				A2(
-				$elm$html$Html$div,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$class('arrow-right')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$img,
-						_List_fromArray(
-							[
-								$elm$html$Html$Attributes$src(
-								$author$project$MainPic$getTocImageUrl(pokemonId.as + 1)),
-								$elm$html$Html$Attributes$width(50),
-								$elm$html$Html$Attributes$height(50)
-							]),
-						_List_Nil),
-						A2(
-						$elm$html$Html$img,
-						_List_fromArray(
-							[
-								$elm$html$Html$Attributes$src(
-								$author$project$AppConfig$getBaseUrl('/image/arrow-right-long-solid.svg')),
-								$elm$html$Html$Attributes$class('arrow')
-							]),
-						_List_Nil)
-					]))
-			]));
-	return A2(
-		$elm$html$Html$div,
-		_List_fromArray(
-			[
-				$elm$html$Html$Attributes$class('pokemon__toc')
-			]),
-		_List_fromArray(
-			[
-				before,
-				A2(
-				$elm$html$Html$div,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$class('pokemon__title')
-					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$h1,
-						_List_fromArray(
-							[
-								$elm$html$Html$Attributes$class('pokemon__name')
-							]),
-						_List_fromArray(
-							[
-								$elm$html$Html$text(
-								'No.' + ($elm$core$String$fromInt(pokemonId.as) + (' ' + pokemonId.ba)))
-							]))
-					])),
-				after
-			]));
-};
-var $author$project$MainPic$viewPokemonMainPic = function (model) {
-	var _v0 = model.ap;
-	if (!_v0.$) {
-		var pokemonId = _v0.a;
-		return A2(
-			$elm$html$Html$section,
-			_List_fromArray(
-				[
-					$elm$html$Html$Attributes$class('pokemon__info')
-				]),
-			_List_fromArray(
-				[
-					A2(
-					$elm$html$Html$div,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$class('pokemon__info-inner')
-						]),
-					_List_fromArray(
-						[
-							$author$project$MainPic$viewToc(pokemonId),
-							$author$project$MainPic$viewPokemonImage(pokemonId)
-						]))
-				]));
-	} else {
-		return A2(
-			$elm$html$Html$section,
-			_List_fromArray(
-				[
-					$elm$html$Html$Attributes$class('pokemon__info')
-				]),
-			_List_Nil);
-	}
-};
 var $author$project$ActualStatus$InputLevel = function (a) {
 	return {$: 0, a: a};
 };
 var $elm$html$Html$button = _VirtualDom_node('button');
+var $elm$html$Html$div = _VirtualDom_node('div');
 var $elm$html$Html$Attributes$for = $elm$html$Html$Attributes$stringProperty('htmlFor');
 var $elm$html$Html$h2 = _VirtualDom_node('h2');
 var $elm$html$Html$Attributes$id = $elm$html$Html$Attributes$stringProperty('id');
@@ -7318,6 +7074,8 @@ var $elm$html$Html$Events$onInput = function (tagger) {
 			$elm$html$Html$Events$alwaysStop,
 			A2($elm$json$Json$Decode$map, tagger, $elm$html$Html$Events$targetValue)));
 };
+var $elm$virtual_dom$VirtualDom$text = _VirtualDom_text;
+var $elm$html$Html$text = $elm$virtual_dom$VirtualDom$text;
 var $elm$html$Html$Attributes$type_ = $elm$html$Html$Attributes$stringProperty('type');
 var $elm$html$Html$Attributes$value = $elm$html$Html$Attributes$stringProperty('value');
 var $author$project$ActualStatus$Normal = 1;
@@ -7909,6 +7667,7 @@ var $author$project$ActualStatus$viewActualStatus = function (model) {
 	}
 };
 var $elm$core$List$map3 = _List_map3;
+var $elm$html$Html$a = _VirtualDom_node('a');
 var $elm$core$List$filter = F2(
 	function (isGood, list) {
 		return A3(
@@ -7929,6 +7688,31 @@ var $elm$html$Html$Attributes$classList = function (classes) {
 				$elm$core$List$map,
 				$elm$core$Tuple$first,
 				A2($elm$core$List$filter, $elm$core$Tuple$second, classes))));
+};
+var $elm$html$Html$Attributes$height = function (n) {
+	return A2(
+		_VirtualDom_attribute,
+		'height',
+		$elm$core$String$fromInt(n));
+};
+var $elm$html$Html$Attributes$href = function (url) {
+	return A2(
+		$elm$html$Html$Attributes$stringProperty,
+		'href',
+		_VirtualDom_noJavaScriptUri(url));
+};
+var $elm$html$Html$img = _VirtualDom_node('img');
+var $elm$html$Html$Attributes$src = function (url) {
+	return A2(
+		$elm$html$Html$Attributes$stringProperty,
+		'src',
+		_VirtualDom_noJavaScriptOrHtmlUri(url));
+};
+var $elm$html$Html$Attributes$width = function (n) {
+	return A2(
+		_VirtualDom_attribute,
+		'width',
+		$elm$core$String$fromInt(n));
 };
 var $author$project$Evolution$viewEvoHeaderImage = F3(
 	function (pokemonDataDict, no, pokemonId) {
@@ -8242,21 +8026,221 @@ var $author$project$Evolution$viewPokemonEvolution = function (model) {
 			_List_Nil);
 	}
 };
-var $author$project$Pokemon$viewStatusInfo = function (model) {
+var $elm$virtual_dom$VirtualDom$attribute = F2(
+	function (key, value) {
+		return A2(
+			_VirtualDom_attribute,
+			_VirtualDom_noOnOrFormAction(key),
+			_VirtualDom_noJavaScriptOrHtmlUri(value));
+	});
+var $elm$html$Html$Attributes$attribute = $elm$virtual_dom$VirtualDom$attribute;
+var $author$project$Toc$viewPokemonLink = function (link) {
+	return A2(
+		$elm$html$Html$a,
+		_List_fromArray(
+			[
+				$elm$html$Html$Attributes$href(link.al)
+			]),
+		_List_fromArray(
+			[
+				A2(
+				$elm$html$Html$img,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$src(link.ak),
+						A2($elm$html$Html$Attributes$attribute, 'loading', 'lazy'),
+						$elm$html$Html$Attributes$class('pokemon__link'),
+						$elm$html$Html$Attributes$width(90),
+						$elm$html$Html$Attributes$height(90)
+					]),
+				_List_Nil)
+			]));
+};
+var $author$project$Toc$viewPokemonList = function (model) {
 	return A2(
 		$elm$html$Html$div,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$class('pokemon__detail')
+				$elm$html$Html$Attributes$class('pokemon__list')
+			]),
+		A2($elm$core$List$map, $author$project$Toc$viewPokemonLink, model.a5));
+};
+var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
+	var id = A2($author$project$AppConfig$pokemonNoFormToId, pokemonId.as, pokemonId.an);
+	return A2(
+		$elm$html$Html$div,
+		_List_fromArray(
+			[
+				$elm$html$Html$Attributes$class('main__pic')
 			]),
 		_List_fromArray(
 			[
-				$author$project$Evolution$viewPokemonEvolution(model.l),
 				A2(
-				$elm$html$Html$map,
-				$author$project$Pokemon$ActualStatusMsg,
-				$author$project$ActualStatus$viewActualStatus(model.s))
+				$elm$html$Html$img,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$src(
+						$author$project$AppConfig$getBaseUrl('/image/pokemon/' + (id + '.webp'))),
+						$elm$html$Html$Attributes$width(300),
+						$elm$html$Html$Attributes$height(300)
+					]),
+				_List_Nil)
 			]));
+};
+var $author$project$MainPic$getTocImageUrl = function (no) {
+	return $author$project$AppConfig$getBaseUrl(
+		'/image/pokemon/' + ($elm$core$String$fromInt(no) + '.webp'));
+};
+var $author$project$MainPic$getTocUrl = function (no) {
+	return _Utils_ap(
+		$author$project$AppConfig$getBaseUrl('/pokemon.html?no='),
+		$elm$core$String$fromInt(no));
+};
+var $elm$html$Html$h1 = _VirtualDom_node('h1');
+var $author$project$MainPic$viewToc = function (pokemonId) {
+	var before = (pokemonId.as === 1) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
+		$elm$html$Html$div,
+		_List_fromArray(
+			[
+				$elm$html$Html$Attributes$class('arrow-left')
+			]),
+		_List_fromArray(
+			[
+				A2(
+				$elm$html$Html$a,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$href(
+						$author$project$MainPic$getTocUrl(pokemonId.as - 1)),
+						$elm$html$Html$Attributes$class('main__link-head')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						$elm$html$Html$img,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$src(
+								$author$project$MainPic$getTocImageUrl(pokemonId.as - 1)),
+								$elm$html$Html$Attributes$width(50),
+								$elm$html$Html$Attributes$height(50)
+							]),
+						_List_Nil),
+						A2(
+						$elm$html$Html$img,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$src(
+								$author$project$AppConfig$getBaseUrl('/image/arrow-left-long-solid.svg')),
+								$elm$html$Html$Attributes$class('arrow')
+							]),
+						_List_Nil)
+					]))
+			]));
+	var after = (pokemonId.as === 905) ? A2($elm$html$Html$div, _List_Nil, _List_Nil) : A2(
+		$elm$html$Html$a,
+		_List_fromArray(
+			[
+				$elm$html$Html$Attributes$href(
+				$author$project$MainPic$getTocUrl(pokemonId.as + 1)),
+				$elm$html$Html$Attributes$class('main__link-head')
+			]),
+		_List_fromArray(
+			[
+				A2(
+				$elm$html$Html$div,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$class('arrow-right')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						$elm$html$Html$img,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$src(
+								$author$project$MainPic$getTocImageUrl(pokemonId.as + 1)),
+								$elm$html$Html$Attributes$width(50),
+								$elm$html$Html$Attributes$height(50)
+							]),
+						_List_Nil),
+						A2(
+						$elm$html$Html$img,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$src(
+								$author$project$AppConfig$getBaseUrl('/image/arrow-right-long-solid.svg')),
+								$elm$html$Html$Attributes$class('arrow')
+							]),
+						_List_Nil)
+					]))
+			]));
+	return A2(
+		$elm$html$Html$div,
+		_List_fromArray(
+			[
+				$elm$html$Html$Attributes$class('pokemon__toc')
+			]),
+		_List_fromArray(
+			[
+				before,
+				A2(
+				$elm$html$Html$div,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$class('pokemon__title')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						$elm$html$Html$h1,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$class('pokemon__name')
+							]),
+						_List_fromArray(
+							[
+								$elm$html$Html$text(
+								'No.' + ($elm$core$String$fromInt(pokemonId.as) + (' ' + pokemonId.ba)))
+							]))
+					])),
+				after
+			]));
+};
+var $author$project$MainPic$viewPokemonMainPic = function (model) {
+	var _v0 = model.ap;
+	if (!_v0.$) {
+		var pokemonId = _v0.a;
+		return A2(
+			$elm$html$Html$section,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('pokemon__info')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$div,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$class('pokemon__info-inner')
+						]),
+					_List_fromArray(
+						[
+							$author$project$MainPic$viewToc(pokemonId),
+							$author$project$MainPic$viewPokemonImage(pokemonId)
+						]))
+				]));
+	} else {
+		return A2(
+			$elm$html$Html$section,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('pokemon__info')
+				]),
+			_List_Nil);
+	}
 };
 var $author$project$AttrType$FourTimes = 0;
 var $author$project$AttrType$Quarter = 4;
@@ -8543,26 +8527,6 @@ var $author$project$AttrType$viewTypes = function (model) {
 		return A2($elm$html$Html$div, _List_Nil, _List_Nil);
 	}
 };
-var $author$project$Pokemon$viewPokemonMain = function (model) {
-	return A2(
-		$elm$html$Html$div,
-		_List_Nil,
-		_List_fromArray(
-			[
-				A2(
-				$elm$html$Html$div,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$class('pokemon__top')
-					]),
-				_List_fromArray(
-					[
-						$author$project$MainPic$viewPokemonMainPic(model.Q),
-						$author$project$AttrType$viewTypes(model.G)
-					])),
-				$author$project$Pokemon$viewStatusInfo(model)
-			]));
-};
 var $author$project$Pokemon$viewMain = function (model) {
 	return A2(
 		$elm$html$Html$main_,
@@ -8576,7 +8540,13 @@ var $author$project$Pokemon$viewMain = function (model) {
 				$elm$html$Html$map,
 				$author$project$Pokemon$TocMsg,
 				$author$project$Toc$viewPokemonList(model.M)),
-				$author$project$Pokemon$viewPokemonMain(model)
+				$author$project$MainPic$viewPokemonMainPic(model.Q),
+				$author$project$AttrType$viewTypes(model.G),
+				$author$project$Evolution$viewPokemonEvolution(model.l),
+				A2(
+				$elm$html$Html$map,
+				$author$project$Pokemon$ActualStatusMsg,
+				$author$project$ActualStatus$viewActualStatus(model.s))
 			]));
 };
 var $author$project$Pokemon$view = function (model) {

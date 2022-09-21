@@ -378,25 +378,9 @@ viewMain : Model -> Html Msg
 viewMain model =
     main_ [ class "main" ]
         [ Toc.viewPokemonList model.tocModel |> Html.map TocMsg
-        , viewPokemonMain model
-        ]
-
-
-viewPokemonMain : Model -> Html Msg
-viewPokemonMain model =
-    div []
-        [ div [ class "pokemon__top" ]
-            [ MainPic.viewPokemonMainPic model.mainPicModel
-            , AT.viewTypes model.attrTypeModel
-            ]
-        , viewStatusInfo model
-        ]
-
-
-viewStatusInfo : Model -> Html Msg
-viewStatusInfo model =
-    div [ class "pokemon__detail" ]
-        [ Evo.viewPokemonEvolution model.evolutionModel
+        , MainPic.viewPokemonMainPic model.mainPicModel
+        , AT.viewTypes model.attrTypeModel
+        , Evo.viewPokemonEvolution model.evolutionModel
         , AS.viewActualStatus model.actualStatusModel
             |> Html.map ActualStatusMsg
         ]
