@@ -1857,9 +1857,9 @@ var _Platform_worker = F4(function(impl, flagDecoder, debugMetadata, args)
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a3,
+		impl.a4,
 		impl.bu,
-		impl.bm,
+		impl.bn,
 		function() { return function() {} }
 	);
 });
@@ -3928,9 +3928,9 @@ var _Browser_element = _Debugger_element || F4(function(impl, flagDecoder, debug
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a3,
+		impl.a4,
 		impl.bu,
-		impl.bm,
+		impl.bn,
 		function(sendToApp, initialModel) {
 			var view = impl.bv;
 			/**/
@@ -3964,9 +3964,9 @@ var _Browser_document = _Debugger_document || F4(function(impl, flagDecoder, deb
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a3,
+		impl.a4,
 		impl.bu,
-		impl.bm,
+		impl.bn,
 		function(sendToApp, initialModel) {
 			var divertHrefToApp = impl.X && impl.X(sendToApp)
 			var view = impl.bv;
@@ -3977,12 +3977,12 @@ var _Browser_document = _Debugger_document || F4(function(impl, flagDecoder, deb
 			{
 				_VirtualDom_divertHrefToApp = divertHrefToApp;
 				var doc = view(model);
-				var nextNode = _VirtualDom_node('body')(_List_Nil)(doc.aS);
+				var nextNode = _VirtualDom_node('body')(_List_Nil)(doc.aT);
 				var patches = _VirtualDom_diff(currNode, nextNode);
 				bodyNode = _VirtualDom_applyPatches(bodyNode, currNode, patches, sendToApp);
 				currNode = nextNode;
 				_VirtualDom_divertHrefToApp = 0;
-				(title !== doc.bp) && (_VirtualDom_doc.title = title = doc.bp);
+				(title !== doc.bq) && (_VirtualDom_doc.title = title = doc.bq);
 			});
 		}
 	);
@@ -4038,8 +4038,8 @@ function _Browser_makeAnimator(model, draw)
 
 function _Browser_application(impl)
 {
-	var onUrlChange = impl.ba;
-	var onUrlRequest = impl.bb;
+	var onUrlChange = impl.bb;
+	var onUrlRequest = impl.bc;
 	var key = function() { key.a(onUrlChange(_Browser_getUrl())); };
 
 	return _Browser_document({
@@ -4069,13 +4069,13 @@ function _Browser_application(impl)
 				}
 			});
 		},
-		a3: function(flags)
+		a4: function(flags)
 		{
-			return A3(impl.a3, flags, _Browser_getUrl(), key);
+			return A3(impl.a4, flags, _Browser_getUrl(), key);
 		},
 		bv: impl.bv,
 		bu: impl.bu,
-		bm: impl.bm
+		bn: impl.bn
 	});
 }
 
@@ -4141,17 +4141,17 @@ var _Browser_decodeEvent = F2(function(decoder, event)
 function _Browser_visibilityInfo()
 {
 	return (typeof _VirtualDom_doc.hidden !== 'undefined')
-		? { a0: 'hidden', aT: 'visibilitychange' }
+		? { a1: 'hidden', aU: 'visibilitychange' }
 		:
 	(typeof _VirtualDom_doc.mozHidden !== 'undefined')
-		? { a0: 'mozHidden', aT: 'mozvisibilitychange' }
+		? { a1: 'mozHidden', aU: 'mozvisibilitychange' }
 		:
 	(typeof _VirtualDom_doc.msHidden !== 'undefined')
-		? { a0: 'msHidden', aT: 'msvisibilitychange' }
+		? { a1: 'msHidden', aU: 'msvisibilitychange' }
 		:
 	(typeof _VirtualDom_doc.webkitHidden !== 'undefined')
-		? { a0: 'webkitHidden', aT: 'webkitvisibilitychange' }
-		: { a0: 'hidden', aT: 'visibilitychange' };
+		? { a1: 'webkitHidden', aU: 'webkitvisibilitychange' }
+		: { a1: 'hidden', aU: 'visibilitychange' };
 }
 
 
@@ -4233,10 +4233,10 @@ function _Browser_getViewport()
 {
 	return {
 		aF: _Browser_getScene(),
-		aK: {
-			aM: _Browser_window.pageXOffset,
-			aN: _Browser_window.pageYOffset,
-			aL: _Browser_doc.documentElement.clientWidth,
+		aL: {
+			aN: _Browser_window.pageXOffset,
+			aO: _Browser_window.pageYOffset,
+			aM: _Browser_doc.documentElement.clientWidth,
 			ai: _Browser_doc.documentElement.clientHeight
 		}
 	};
@@ -4247,7 +4247,7 @@ function _Browser_getScene()
 	var body = _Browser_doc.body;
 	var elem = _Browser_doc.documentElement;
 	return {
-		aL: Math.max(body.scrollWidth, body.offsetWidth, elem.scrollWidth, elem.offsetWidth, elem.clientWidth),
+		aM: Math.max(body.scrollWidth, body.offsetWidth, elem.scrollWidth, elem.offsetWidth, elem.clientWidth),
 		ai: Math.max(body.scrollHeight, body.offsetHeight, elem.scrollHeight, elem.offsetHeight, elem.clientHeight)
 	};
 }
@@ -4272,13 +4272,13 @@ function _Browser_getViewportOf(id)
 	{
 		return {
 			aF: {
-				aL: node.scrollWidth,
+				aM: node.scrollWidth,
 				ai: node.scrollHeight
 			},
-			aK: {
-				aM: node.scrollLeft,
-				aN: node.scrollTop,
-				aL: node.clientWidth,
+			aL: {
+				aN: node.scrollLeft,
+				aO: node.scrollTop,
+				aM: node.clientWidth,
 				ai: node.clientHeight
 			}
 		};
@@ -4310,16 +4310,16 @@ function _Browser_getElement(id)
 		var y = _Browser_window.pageYOffset;
 		return {
 			aF: _Browser_getScene(),
-			aK: {
-				aM: x,
-				aN: y,
-				aL: _Browser_doc.documentElement.clientWidth,
+			aL: {
+				aN: x,
+				aO: y,
+				aM: _Browser_doc.documentElement.clientWidth,
 				ai: _Browser_doc.documentElement.clientHeight
 			},
-			aY: {
-				aM: x + rect.left,
-				aN: y + rect.top,
-				aL: rect.width,
+			aZ: {
+				aN: x + rect.left,
+				aO: y + rect.top,
+				aM: rect.width,
 				ai: rect.height
 			}
 		};
@@ -4375,15 +4375,15 @@ var _Http_toTask = F3(function(router, toTask, request)
 		$elm$core$Maybe$isJust(request.aJ) && _Http_track(router, xhr, request.aJ.a);
 
 		try {
-			xhr.open(request.a8, request.D, true);
+			xhr.open(request.a9, request.D, true);
 		} catch (e) {
 			return done($elm$http$Http$BadUrl_(request.D));
 		}
 
 		_Http_configureRequest(xhr, request);
 
-		request.aS.a && xhr.setRequestHeader('Content-Type', request.aS.a);
-		xhr.send(request.aS.b);
+		request.aT.a && xhr.setRequestHeader('Content-Type', request.aT.a);
+		xhr.send(request.aT.b);
 
 		return function() { xhr.c = true; xhr.abort(); };
 	});
@@ -4398,9 +4398,9 @@ function _Http_configureRequest(xhr, request)
 	{
 		xhr.setRequestHeader(headers.a.a, headers.a.b);
 	}
-	xhr.timeout = request.bo.a || 0;
+	xhr.timeout = request.bp.a || 0;
 	xhr.responseType = request.af.d;
-	xhr.withCredentials = request.aP;
+	xhr.withCredentials = request.aQ;
 }
 
 
@@ -4422,8 +4422,8 @@ function _Http_toMetadata(xhr)
 {
 	return {
 		D: xhr.responseURL,
-		bk: xhr.status,
-		bl: xhr.statusText,
+		bl: xhr.status,
+		bm: xhr.statusText,
 		ah: _Http_parseHeaders(xhr.getAllResponseHeaders())
 	};
 }
@@ -4519,14 +4519,14 @@ function _Http_track(router, xhr, tracker)
 	xhr.upload.addEventListener('progress', function(event) {
 		if (xhr.c) { return; }
 		_Scheduler_rawSpawn(A2($elm$core$Platform$sendToSelf, router, _Utils_Tuple2(tracker, $elm$http$Http$Sending({
-			bf: event.loaded,
+			bg: event.loaded,
 			aG: event.total
 		}))));
 	});
 	xhr.addEventListener('progress', function(event) {
 		if (xhr.c) { return; }
 		_Scheduler_rawSpawn(A2($elm$core$Platform$sendToSelf, router, _Utils_Tuple2(tracker, $elm$http$Http$Receiving({
-			bd: event.loaded,
+			be: event.loaded,
 			aG: event.lengthComputable ? $elm$core$Maybe$Just(event.total) : $elm$core$Maybe$Nothing
 		}))));
 	});
@@ -5940,7 +5940,7 @@ var $elm$http$Http$resolve = F2(
 			case 3:
 				var metadata = response.a;
 				return $elm$core$Result$Err(
-					$elm$http$Http$BadStatus(metadata.bk));
+					$elm$http$Http$BadStatus(metadata.bl));
 			default:
 				var body = response.b;
 				return A2(
@@ -6092,12 +6092,12 @@ var $elm$http$Http$cmdMap = F2(
 			var r = cmd.a;
 			return $elm$http$Http$Request(
 				{
-					aP: r.aP,
-					aS: r.aS,
+					aQ: r.aQ,
+					aT: r.aT,
 					af: A2(_Http_mapExpect, func, r.af),
 					ah: r.ah,
-					a8: r.a8,
-					bo: r.bo,
+					a9: r.a9,
+					bp: r.bp,
 					aJ: r.aJ,
 					D: r.D
 				});
@@ -6122,11 +6122,11 @@ var $elm$http$Http$subscription = _Platform_leaf('Http');
 var $elm$http$Http$request = function (r) {
 	return $elm$http$Http$command(
 		$elm$http$Http$Request(
-			{aP: false, aS: r.aS, af: r.af, ah: r.ah, a8: r.a8, bo: r.bo, aJ: r.aJ, D: r.D}));
+			{aQ: false, aT: r.aT, af: r.af, ah: r.ah, a9: r.a9, bp: r.bp, aJ: r.aJ, D: r.D}));
 };
 var $elm$http$Http$get = function (r) {
 	return $elm$http$Http$request(
-		{aS: $elm$http$Http$emptyBody, af: r.af, ah: _List_Nil, a8: 'GET', bo: $elm$core$Maybe$Nothing, aJ: $elm$core$Maybe$Nothing, D: r.D});
+		{aT: $elm$http$Http$emptyBody, af: r.af, ah: _List_Nil, a9: 'GET', bp: $elm$core$Maybe$Nothing, aJ: $elm$core$Maybe$Nothing, D: r.D});
 };
 var $author$project$AppConfig$getBaseUrl = function (suffix) {
 	return suffix;
@@ -6184,29 +6184,29 @@ var $author$project$AttrType$getTypeChart = function () {
 			_List_fromArray(
 			[2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 5, 2, 2, 2, 2]),
 			_List_fromArray(
-			[2, 3, 1, 2, 3, 3, 2, 2, 1, 2, 2, 3, 1, 2, 2, 2, 3, 3]),
+			[2, 3, 1, 3, 2, 3, 2, 2, 1, 2, 2, 3, 1, 2, 2, 2, 3, 3]),
 			_List_fromArray(
 			[2, 3, 3, 1, 1, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2]),
 			_List_fromArray(
-			[2, 2, 2, 3, 2, 2, 2, 2, 1, 3, 2, 2, 2, 2, 2, 2, 3, 2]),
-			_List_fromArray(
 			[2, 1, 3, 3, 3, 1, 2, 1, 3, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2]),
+			_List_fromArray(
+			[2, 2, 2, 2, 3, 2, 2, 2, 1, 3, 2, 2, 2, 2, 2, 2, 3, 2]),
 			_List_fromArray(
 			[2, 1, 2, 2, 2, 3, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2]),
 			_List_fromArray(
 			[2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 3, 3, 2, 2, 3, 2, 1]),
 			_List_fromArray(
-			[2, 2, 2, 2, 3, 2, 3, 3, 1, 2, 1, 3, 2, 2, 2, 2, 2, 3]),
+			[2, 2, 2, 3, 2, 2, 3, 3, 1, 2, 1, 3, 2, 2, 2, 2, 2, 3]),
 			_List_fromArray(
-			[2, 2, 1, 5, 1, 1, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2]),
+			[2, 2, 1, 1, 5, 1, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2]),
 			_List_fromArray(
-			[2, 2, 2, 1, 3, 1, 3, 2, 5, 2, 2, 3, 1, 2, 2, 2, 2, 2]),
+			[2, 2, 2, 3, 1, 1, 3, 2, 5, 2, 2, 3, 1, 2, 2, 2, 2, 2]),
 			_List_fromArray(
 			[2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 3, 1, 2, 1, 2, 1, 2, 2]),
 			_List_fromArray(
-			[2, 1, 2, 2, 3, 2, 3, 2, 3, 1, 2, 2, 1, 2, 2, 2, 2, 2]),
+			[2, 1, 2, 3, 2, 2, 3, 2, 3, 1, 2, 2, 1, 2, 2, 2, 2, 2]),
 			_List_fromArray(
-			[3, 3, 1, 2, 1, 2, 1, 3, 1, 3, 2, 2, 2, 2, 2, 2, 1, 2]),
+			[3, 3, 1, 1, 2, 2, 1, 3, 1, 3, 2, 2, 2, 2, 2, 2, 1, 2]),
 			_List_fromArray(
 			[5, 2, 2, 2, 2, 2, 5, 3, 2, 2, 2, 3, 2, 1, 2, 1, 2, 2]),
 			_List_fromArray(
@@ -6214,7 +6214,7 @@ var $author$project$AttrType$getTypeChart = function () {
 			_List_fromArray(
 			[2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 5, 1, 2, 3, 2, 3, 2, 1]),
 			_List_fromArray(
-			[3, 1, 2, 2, 3, 3, 1, 5, 1, 3, 3, 3, 3, 2, 3, 2, 3, 3]),
+			[3, 1, 2, 3, 2, 3, 1, 5, 1, 3, 3, 3, 3, 2, 3, 2, 3, 3]),
 			_List_fromArray(
 			[2, 2, 2, 2, 2, 2, 3, 1, 2, 2, 2, 3, 2, 2, 5, 3, 1, 2])
 		]);
@@ -6226,14 +6226,14 @@ var $author$project$Pokemon$init = F3(
 		return _Utils_Tuple2(
 			{
 				s: {H: 252, I: 31, P: 50, A: 0, aq: $elm$core$Maybe$Nothing},
-				G: {am: $elm$core$Maybe$Nothing, bq: $author$project$AttrType$getTypeChart},
+				G: {am: $elm$core$Maybe$Nothing, aK: $author$project$AttrType$getTypeChart},
 				O: $author$project$Pokemon$Pokemon(
 					$elm$core$Maybe$Just(1)),
 				l: {aa: false, ao: $elm$core$Maybe$Nothing, S: $elm$core$Dict$empty},
 				T: key,
 				Q: {ap: $elm$core$Maybe$Nothing},
 				R: $elm$core$Maybe$Nothing,
-				M: {a4: _List_Nil},
+				M: {a5: _List_Nil},
 				D: url
 			},
 			$elm$core$Platform$Cmd$batch(
@@ -6270,7 +6270,7 @@ var $andrewMacmurray$elm_delay$Delay$after = F2(
 	});
 var $author$project$AppConfig$PokemonData = F7(
 	function (no, maybeForm, name, maybeFormName, status, types, evolution) {
-		return {aZ: evolution, an: maybeForm, a5: maybeFormName, a9: name, as: no, bj: status, bt: types};
+		return {a_: evolution, an: maybeForm, a6: maybeFormName, ba: name, as: no, bk: status, bt: types};
 	});
 var $author$project$AppConfig$AttrType = F2(
 	function (typeId, typeName) {
@@ -6286,7 +6286,7 @@ var $author$project$Pokemon$decodeAttrType = A3(
 	A2($elm$json$Json$Decode$field, 'typeName', $elm$json$Json$Decode$string));
 var $author$project$AppConfig$Status = F6(
 	function (hp, attack, defence, spAttack, spDefence, speed) {
-		return {aR: attack, aW: defence, a1: hp, bg: spAttack, bh: spDefence, bi: speed};
+		return {aS: attack, aX: defence, a2: hp, bh: spAttack, bi: spDefence, bj: speed};
 	});
 var $elm$json$Json$Decode$map6 = _Json_map6;
 var $author$project$Pokemon$decodeStatus = A7(
@@ -6424,7 +6424,7 @@ var $author$project$AppConfig$pokemonDataToId = function (pokemonData) {
 	return A2($author$project$AppConfig$pokemonNoFormToId, pokemonData.as, pokemonData.an);
 };
 var $author$project$Pokemon$pokemonDataToId = function (pokemonData) {
-	return {a$: '', an: pokemonData.an, a9: pokemonData.a9, as: pokemonData.as};
+	return {a0: '', an: pokemonData.an, ba: pokemonData.ba, as: pokemonData.as};
 };
 var $elm$browser$Browser$Navigation$pushUrl = _Browser_pushUrl;
 var $elm$url$Url$addPort = F2(
@@ -6533,7 +6533,7 @@ var $author$project$Toc$update = F2(
 				return _Utils_Tuple2(
 					_Utils_update(
 						model,
-						{a4: links}),
+						{a5: links}),
 					$elm$core$Platform$Cmd$none);
 			} else {
 				return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
@@ -6921,7 +6921,7 @@ var $author$project$Pokemon$update = F2(
 						var newActualStatusModel = _Utils_update(
 							actualStatusModel,
 							{
-								aq: $elm$core$Maybe$Just(pokemonData.bj)
+								aq: $elm$core$Maybe$Just(pokemonData.bk)
 							});
 						return _Utils_Tuple2(
 							_Utils_update(
@@ -6936,7 +6936,7 @@ var $author$project$Pokemon$update = F2(
 									}
 								}),
 							$elm$core$Platform$Cmd$batch(
-								A2($elm$core$List$map, $author$project$Pokemon$getPokemonStatus, pokemonData.aZ)));
+								A2($elm$core$List$map, $author$project$Pokemon$getPokemonStatus, pokemonData.a_)));
 					} else {
 						return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
 					}
@@ -7065,7 +7065,7 @@ var $author$project$Toc$viewPokemonList = function (model) {
 			[
 				$elm$html$Html$Attributes$class('pokemon__list')
 			]),
-		A2($elm$core$List$map, $author$project$Toc$viewPokemonLink, model.a4));
+		A2($elm$core$List$map, $author$project$Toc$viewPokemonLink, model.a5));
 };
 var $elm$html$Html$section = _VirtualDom_node('section');
 var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
@@ -7204,7 +7204,7 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 						_List_fromArray(
 							[
 								$elm$html$Html$text(
-								'No.' + ($elm$core$String$fromInt(pokemonId.as) + (' ' + pokemonId.a9)))
+								'No.' + ($elm$core$String$fromInt(pokemonId.as) + (' ' + pokemonId.ba)))
 							]))
 					])),
 				after
@@ -7768,22 +7768,22 @@ var $author$project$ActualStatus$viewIndividual = F2(
 						_List_fromArray(
 							[
 								function ($) {
-								return $.a1;
+								return $.a2;
 							},
 								function ($) {
-								return $.aR;
+								return $.aS;
 							},
 								function ($) {
-								return $.aW;
-							},
-								function ($) {
-								return $.bg;
+								return $.aX;
 							},
 								function ($) {
 								return $.bh;
 							},
 								function ($) {
 								return $.bi;
+							},
+								function ($) {
+								return $.bj;
 							}
 							])))
 				]));
@@ -7992,7 +7992,7 @@ var $author$project$Evolution$viewEvoHeaderName = F3(
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text(pokemonStatus.a9)
+						$elm$html$Html$text(pokemonStatus.ba)
 					]));
 		} else {
 			return A2(
@@ -8014,7 +8014,7 @@ var $author$project$Evolution$viewEvoStatus = F7(
 		var _v0 = A2($elm$core$Dict$get, pokemonId, pokemonDataDict);
 		if (!_v0.$) {
 			var pokemonStatus = _v0.a;
-			var tempWidth = ((f(pokemonStatus.bj) * 2) / 3) | 0;
+			var tempWidth = ((f(pokemonStatus.bk) * 2) / 3) | 0;
 			var barWidth = (tempWidth > 100) ? 100 : tempWidth;
 			return A2(
 				$elm$html$Html$td,
@@ -8045,7 +8045,7 @@ var $author$project$Evolution$viewEvoStatus = F7(
 							[
 								$elm$html$Html$text(
 								$elm$core$String$fromInt(
-									f(pokemonStatus.bj)))
+									f(pokemonStatus.bk)))
 							])),
 						A2(
 						$elm$html$Html$div,
@@ -8156,7 +8156,7 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 												A2(
 													$elm$core$List$map,
 													A2($author$project$Evolution$viewEvoHeaderImage, model.S, id),
-													pokemonData.aZ))),
+													pokemonData.a_))),
 											A2(
 											$elm$html$Html$tr,
 											_List_Nil,
@@ -8172,35 +8172,35 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 												A2(
 													$elm$core$List$map,
 													A2($author$project$Evolution$viewEvoHeaderName, model.S, id),
-													pokemonData.aZ)))
+													pokemonData.a_)))
 										])),
 									A2(
 									$elm$html$Html$tbody,
 									_List_Nil,
 									A4(
 										$elm$core$List$map3,
-										A4($author$project$Evolution$viewEvoStatusLine, model.S, pokemonData.aZ, id, model.aa),
+										A4($author$project$Evolution$viewEvoStatusLine, model.S, pokemonData.a_, id, model.aa),
 										_List_fromArray(
 											['HP', 'こうげき', 'ぼうぎょ', 'とくこう', 'とくぼう', 'すばやさ']),
 										_List_fromArray(
 											[
 												function ($) {
-												return $.a1;
+												return $.a2;
 											},
 												function ($) {
-												return $.aR;
+												return $.aS;
 											},
 												function ($) {
-												return $.aW;
-											},
-												function ($) {
-												return $.bg;
+												return $.aX;
 											},
 												function ($) {
 												return $.bh;
 											},
 												function ($) {
 												return $.bi;
+											},
+												function ($) {
+												return $.bj;
 											}
 											]),
 										_List_fromArray(
@@ -8240,19 +8240,246 @@ var $author$project$Pokemon$viewStatusInfo = function (model) {
 				$author$project$ActualStatus$viewActualStatus(model.s))
 			]));
 };
+var $author$project$AttrType$FourTimes = 0;
+var $author$project$AttrType$Quarter = 4;
+var $author$project$AttrType$calcScale = F2(
+	function (scale1, scale2) {
+		switch (scale1) {
+			case 5:
+				return 5;
+			case 1:
+				switch (scale2) {
+					case 5:
+						return 5;
+					case 1:
+						return 0;
+					case 3:
+						return 2;
+					default:
+						return 1;
+				}
+			case 3:
+				switch (scale2) {
+					case 5:
+						return 5;
+					case 1:
+						return 2;
+					case 3:
+						return 4;
+					default:
+						return 3;
+				}
+			default:
+				return scale2;
+		}
+	});
+var $elm$core$List$drop = F2(
+	function (n, list) {
+		drop:
+		while (true) {
+			if (n <= 0) {
+				return list;
+			} else {
+				if (!list.b) {
+					return list;
+				} else {
+					var x = list.a;
+					var xs = list.b;
+					var $temp$n = n - 1,
+						$temp$list = xs;
+					n = $temp$n;
+					list = $temp$list;
+					continue drop;
+				}
+			}
+		}
+	});
+var $author$project$AttrType$getScales = F2(
+	function (typeChart, attrType) {
+		return A2(
+			$elm$core$Maybe$withDefault,
+			_List_Nil,
+			A2($elm$core$Dict$get, attrType.br, typeChart));
+	});
+var $elm$core$List$head = function (list) {
+	if (list.b) {
+		var x = list.a;
+		var xs = list.b;
+		return $elm$core$Maybe$Just(x);
+	} else {
+		return $elm$core$Maybe$Nothing;
+	}
+};
+var $author$project$AttrType$calcTypeChart = F2(
+	function (attrTypes, typeChart) {
+		var list = A2(
+			$elm$core$List$map,
+			$author$project$AttrType$getScales(typeChart),
+			attrTypes);
+		var first = A2(
+			$elm$core$Maybe$withDefault,
+			_List_Nil,
+			$elm$core$List$head(list));
+		if ($elm$core$List$length(list) === 1) {
+			return first;
+		} else {
+			var second = A2(
+				$elm$core$Maybe$withDefault,
+				_List_Nil,
+				$elm$core$List$head(
+					A2($elm$core$List$drop, 1, list)));
+			return A3($elm$core$List$map2, $author$project$AttrType$calcScale, first, second);
+		}
+	});
+var $elm$html$Html$br = _VirtualDom_node('br');
+var $elm$html$Html$span = _VirtualDom_node('span');
 var $author$project$AttrType$viewType = function (attrType) {
 	return A2(
 		$elm$html$Html$div,
-		_List_Nil,
 		_List_fromArray(
 			[
-				$elm$html$Html$text(attrType.bs)
+				$elm$html$Html$Attributes$class('main__type main__continue-content')
+			]),
+		_List_fromArray(
+			[
+				A2(
+				$elm$html$Html$img,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$src(
+						$author$project$AppConfig$getBaseUrl(
+							'/image/type/' + ($elm$core$String$fromInt(attrType.br) + '.svg'))),
+						$elm$html$Html$Attributes$class('type__image')
+					]),
+				_List_Nil),
+				A2($elm$html$Html$br, _List_Nil, _List_Nil),
+				A2(
+				$elm$html$Html$span,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$class('type__name')
+					]),
+				_List_fromArray(
+					[
+						$elm$html$Html$text(attrType.bs)
+					]))
 			]));
 };
+var $elm$html$Html$Attributes$title = $elm$html$Html$Attributes$stringProperty('title');
+var $author$project$AttrType$viewTypeChart = F3(
+	function (scale, typeId, typeName) {
+		return A2(
+			$elm$html$Html$div,
+			_List_Nil,
+			_List_fromArray(
+				[
+					function () {
+					switch (scale) {
+						case 0:
+							return A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('type__times type__week')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('4')
+									]));
+						case 1:
+							return A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('type__times type__week')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('2')
+									]));
+						default:
+							return A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('type__times')
+									]),
+								_List_Nil);
+					}
+				}(),
+					A2(
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src(
+							$author$project$AppConfig$getBaseUrl(
+								'/image/type/' + ($elm$core$String$fromInt(typeId) + '.svg'))),
+							$elm$html$Html$Attributes$class('type__image-small'),
+							$elm$html$Html$Attributes$title(typeName)
+						]),
+					_List_Nil),
+					function () {
+					switch (scale) {
+						case 5:
+							return A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('type__times type__strong')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('0')
+									]));
+						case 4:
+							return A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('type__times type__strong')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('¼')
+									]));
+						case 3:
+							return A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('type__times type__strong')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('½')
+									]));
+						default:
+							return A2(
+								$elm$html$Html$div,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$class('type__times')
+									]),
+								_List_Nil);
+					}
+				}()
+				]));
+	});
+var $author$project$AttrType$viewTypeCharts = F3(
+	function (scales, typeIds, typeNames) {
+		return A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('type__scale')
+				]),
+			A4($elm$core$List$map3, $author$project$AttrType$viewTypeChart, scales, typeIds, typeNames));
+	});
 var $author$project$AttrType$viewTypes = function (model) {
 	var _v0 = model.am;
 	if (!_v0.$) {
 		var attrTypes = _v0.a;
+		var scales = A2($author$project$AttrType$calcTypeChart, attrTypes, model.aK);
 		return A2(
 			$elm$html$Html$section,
 			_List_fromArray(
@@ -8273,8 +8500,17 @@ var $author$project$AttrType$viewTypes = function (model) {
 						])),
 					A2(
 					$elm$html$Html$div,
-					_List_Nil,
-					A2($elm$core$List$map, $author$project$AttrType$viewType, attrTypes))
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$class('main__types')
+						]),
+					A2($elm$core$List$map, $author$project$AttrType$viewType, attrTypes)),
+					A3(
+					$author$project$AttrType$viewTypeCharts,
+					scales,
+					A2($elm$core$List$range, 1, 18),
+					_List_fromArray(
+						['ノーマル', 'ほのお', 'こおり', 'くさ', 'でんき', 'こおり', 'かくとう', 'どく', 'じめん', 'ひこう', 'エスパー', 'むし', 'いわ', 'ゴースト', 'ドラゴン', 'あく', 'はがね', 'フェアリー']))
 				]));
 	} else {
 		return A2($elm$html$Html$div, _List_Nil, _List_Nil);
@@ -8319,14 +8555,14 @@ var $author$project$Pokemon$viewMain = function (model) {
 var $author$project$Pokemon$view = function (model) {
 	var pageTitle = 'ポケモン図鑑';
 	return {
-		aS: _List_fromArray(
+		aT: _List_fromArray(
 			[
 				$author$project$Pokemon$viewMain(model)
 			]),
-		bp: pageTitle
+		bq: pageTitle
 	};
 };
 var $author$project$Pokemon$main = $elm$browser$Browser$application(
-	{a3: $author$project$Pokemon$init, ba: $author$project$Pokemon$UrlChanged, bb: $author$project$Pokemon$LinkClicked, bm: $author$project$Pokemon$subscriptions, bu: $author$project$Pokemon$update, bv: $author$project$Pokemon$view});
+	{a4: $author$project$Pokemon$init, bb: $author$project$Pokemon$UrlChanged, bc: $author$project$Pokemon$LinkClicked, bn: $author$project$Pokemon$subscriptions, bu: $author$project$Pokemon$update, bv: $author$project$Pokemon$view});
 _Platform_export({'Pokemon':{'init':$author$project$Pokemon$main(
 	$elm$json$Json$Decode$succeed(0))(0)}});}(this));
