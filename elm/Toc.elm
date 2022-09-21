@@ -98,6 +98,8 @@ viewPokemonLink link =
             [ src link.image
             , attribute "loading" "lazy"
             , class "pokemon__link"
+            , width 90
+            , height 90
             ]
             []
         ]

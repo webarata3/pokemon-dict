@@ -14,5 +14,5 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
-  "evolution": [300]
+  "evolution": ["300"]
 }

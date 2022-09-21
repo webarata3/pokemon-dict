@@ -7025,6 +7025,12 @@ var $elm$virtual_dom$VirtualDom$attribute = F2(
 			_VirtualDom_noJavaScriptOrHtmlUri(value));
 	});
 var $elm$html$Html$Attributes$attribute = $elm$virtual_dom$VirtualDom$attribute;
+var $elm$html$Html$Attributes$height = function (n) {
+	return A2(
+		_VirtualDom_attribute,
+		'height',
+		$elm$core$String$fromInt(n));
+};
 var $elm$html$Html$Attributes$href = function (url) {
 	return A2(
 		$elm$html$Html$Attributes$stringProperty,
@@ -7037,6 +7043,12 @@ var $elm$html$Html$Attributes$src = function (url) {
 		$elm$html$Html$Attributes$stringProperty,
 		'src',
 		_VirtualDom_noJavaScriptOrHtmlUri(url));
+};
+var $elm$html$Html$Attributes$width = function (n) {
+	return A2(
+		_VirtualDom_attribute,
+		'width',
+		$elm$core$String$fromInt(n));
 };
 var $author$project$Toc$viewPokemonLink = function (link) {
 	return A2(
@@ -7053,7 +7065,9 @@ var $author$project$Toc$viewPokemonLink = function (link) {
 					[
 						$elm$html$Html$Attributes$src(link.ak),
 						A2($elm$html$Html$Attributes$attribute, 'loading', 'lazy'),
-						$elm$html$Html$Attributes$class('pokemon__link')
+						$elm$html$Html$Attributes$class('pokemon__link'),
+						$elm$html$Html$Attributes$width(90),
+						$elm$html$Html$Attributes$height(90)
 					]),
 				_List_Nil)
 			]));
