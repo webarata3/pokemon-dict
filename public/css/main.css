@@ -59,7 +59,7 @@ body {
 }
 
 .pokemon__list {
-  width: 110px;
+  min-width: 110px;
   height: 100%;
   border: 1px solid #000;
   display: flex;
@@ -117,6 +117,10 @@ body {
   margin: 0 auto;
 }
 
+.main__pic {
+  text-align: center;
+}
+
 .pokemon__toc {
   display: grid;
   grid-template-columns: 50px 1fr 50px;
@@ -126,18 +130,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.pokemon__image-main {
-  width: 300px;
-}
-
-.pokemon__image-toc {
-  width: 50px;
-}
-
-.pokemon__image-evo {
-  width: 100px;
 }
 
 .pokemon__title {

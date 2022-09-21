@@ -7088,7 +7088,7 @@ var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
 		$elm$html$Html$div,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$class('pokemon__image-large')
+				$elm$html$Html$Attributes$class('main__pic')
 			]),
 		_List_fromArray(
 			[
@@ -7098,7 +7098,8 @@ var $author$project$MainPic$viewPokemonImage = function (pokemonId) {
 					[
 						$elm$html$Html$Attributes$src(
 						$author$project$AppConfig$getBaseUrl('/image/pokemon/' + (id + '.webp'))),
-						$elm$html$Html$Attributes$class('pokemon__image-main')
+						$elm$html$Html$Attributes$width(300),
+						$elm$html$Html$Attributes$height(300)
 					]),
 				_List_Nil)
 			]));
@@ -7140,7 +7141,8 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 							[
 								$elm$html$Html$Attributes$src(
 								$author$project$MainPic$getTocImageUrl(pokemonId.as - 1)),
-								$elm$html$Html$Attributes$class('pokemon__image-toc')
+								$elm$html$Html$Attributes$width(50),
+								$elm$html$Html$Attributes$height(50)
 							]),
 						_List_Nil),
 						A2(
@@ -7178,7 +7180,8 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 							[
 								$elm$html$Html$Attributes$src(
 								$author$project$MainPic$getTocImageUrl(pokemonId.as + 1)),
-								$elm$html$Html$Attributes$class('pokemon__image-toc')
+								$elm$html$Html$Attributes$width(50),
+								$elm$html$Html$Attributes$height(50)
 							]),
 						_List_Nil),
 						A2(
@@ -7971,7 +7974,8 @@ var $author$project$Evolution$viewEvoHeaderImage = F3(
 									[
 										$elm$html$Html$Attributes$src(
 										'/image/pokemon/' + ($author$project$AppConfig$pokemonDataToId(pokemonStatus) + '.webp')),
-										$elm$html$Html$Attributes$class('pokemon__image-evo')
+										$elm$html$Html$Attributes$width(100),
+										$elm$html$Html$Attributes$height(100)
 									]),
 								_List_Nil)
 							]))

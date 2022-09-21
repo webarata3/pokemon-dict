@@ -67,7 +67,8 @@ viewToc pokemonId =
                         ]
                         [ img
                             [ src <| getTocImageUrl (pokemonId.no - 1)
-                            , class "pokemon__image-toc"
+                            , width 50
+                            , height 50
                             ]
                             []
                         , img
@@ -91,7 +92,8 @@ viewToc pokemonId =
                     [ div [ class "arrow-right" ]
                         [ img
                             [ src <| getTocImageUrl (pokemonId.no + 1)
-                            , class "pokemon__image-toc"
+                            , width 50
+                            , height 50
                             ]
                             []
                         , img
@@ -119,10 +121,11 @@ viewPokemonImage pokemonId =
         id =
             AppConfig.pokemonNoFormToId pokemonId.no pokemonId.maybeForm
     in
-    div [ class "pokemon__image-large" ]
+    div [ class "main__pic" ]
         [ img
             [ src <| AppConfig.getBaseUrl ("/image/pokemon/" ++ id ++ ".webp")
-            , class "pokemon__image-main"
+            , width 300
+            , height 300
             ]
             []
         ]
