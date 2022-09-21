@@ -1672,8 +1672,20 @@
     "image": "/image/pokemon/385.webp"
   },
   {
-    "link": "/pokemon.html?no=386",
-    "image": "/image/pokemon/386.webp"
+    "link": "/pokemon.html?no=386&form=normal",
+    "image": "/image/pokemon/386-normal.webp"
+  },
+  {
+    "link": "/pokemon.html?no=386&form=attack",
+    "image": "/image/pokemon/386-attack.webp"
+  },
+  {
+    "link": "/pokemon.html?no=386&form=defence",
+    "image": "/image/pokemon/386-defence.webp"
+  },
+  {
+    "link": "/pokemon.html?no=386&form=speed",
+    "image": "/image/pokemon/386-speed.webp"
   },
   {
     "link": "/pokemon.html?no=387",
@@ -2784,10 +2796,6 @@
     "image": "/image/pokemon/645-reiju.webp"
   },
   {
-    "link": "/pokemon.html?no=646",
-    "image": "/image/pokemon/646.webp"
-  },
-  {
     "link": "/pokemon.html?no=646&form=white",
     "image": "/image/pokemon/646-white.webp"
   },
@@ -3056,10 +3064,6 @@
     "image": "/image/pokemon/709.webp"
   },
   {
-    "link": "/pokemon.html?no=710&form=normal",
-    "image": "/image/pokemon/710-normal.webp"
-  },
-  {
     "link": "/pokemon.html?no=710&form=small",
     "image": "/image/pokemon/710-small.webp"
   },
@@ -3070,10 +3074,6 @@
   {
     "link": "/pokemon.html?no=710&form=x-large",
     "image": "/image/pokemon/710-x-large.webp"
-  },
-  {
-    "link": "/pokemon.html?no=711&form=normal",
-    "image": "/image/pokemon/711-normal.webp"
   },
   {
     "link": "/pokemon.html?no=711&form=small",

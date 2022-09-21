@@ -1,0 +1,18 @@
+{
+  "no": 386,
+  "form": "normal",
+  "name": "デオキシス",
+  "formName": "ノーマルフォルム",
+  "status": {
+    "hp": 50,
+    "attack": 150,
+    "defence": 50,
+    "spAttack": 150,
+    "spDefence": 50,
+    "speed": 150
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "evolution": ["386-normal", "386-attack", "386-defence", "386-speed"]
+}
