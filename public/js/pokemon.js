@@ -8503,22 +8503,31 @@ var $author$project$AttrType$viewTypes = function (model) {
 			_List_fromArray(
 				[
 					A2(
-					$elm$html$Html$h2,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$class('main__sub-title')
-						]),
-					_List_fromArray(
-						[
-							$elm$html$Html$text('タイプと弱点')
-						])),
-					A2(
 					$elm$html$Html$div,
 					_List_fromArray(
 						[
-							$elm$html$Html$Attributes$class('main__types')
+							$elm$html$Html$Attributes$class('type__header')
 						]),
-					A2($elm$core$List$map, $author$project$AttrType$viewType, attrTypes)),
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$h2,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('main__sub-title')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('タイプと弱点')
+								])),
+							A2(
+							$elm$html$Html$div,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('main__types')
+								]),
+							A2($elm$core$List$map, $author$project$AttrType$viewType, attrTypes))
+						])),
 					A3(
 					$author$project$AttrType$viewTypeCharts,
 					scales,

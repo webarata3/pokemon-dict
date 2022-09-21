@@ -408,3 +408,8 @@ body {
 .type__strong {
   color: #00f;
 }
+
+.type__header {
+  display: flex;
+  gap: var(--basic-margin-large);
+}

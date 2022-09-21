@@ -468,9 +468,11 @@ viewTypes model =
                     calcTypeChart attrTypes model.typeChart
             in
             section [ class "pokemon__types" ]
-                [ h2 [ class "main__sub-title" ] [ text "タイプと弱点" ]
-                , div [ class "main__types" ] <|
-                    List.map viewType attrTypes
+                [ div [ class "type__header" ]
+                    [ h2 [ class "main__sub-title" ] [ text "タイプと弱点" ]
+                    , div [ class "main__types" ] <|
+                        List.map viewType attrTypes
+                    ]
                 , viewTypeCharts scales
                     (List.range 1 18)
                     [ "ノーマル"
