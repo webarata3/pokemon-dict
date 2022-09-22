@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "サンパワー","abilityEffect": "にほんばれのとき、毎ターンHPが1/8減り、とくこうが1.5倍になる。", "hidden": true}],
   "evolution": ["4", "5", "6"]
 }

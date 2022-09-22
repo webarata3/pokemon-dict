@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "トレース","abilityEffect": "場に出たとき、相手と同じ特性になる。", "hidden": false},{ "abilityName": "ダウンロード","abilityEffect": "相手のステータスに応じてこうげきかとくこうが1段階上がる。", "hidden": false},{ "abilityName": "アナライズ","abilityEffect": "最後にわざを出すと威力が1.3倍になる。", "hidden": true}],
   "evolution": ["137", "233", "474"]
 }

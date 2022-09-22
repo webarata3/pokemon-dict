@@ -16,5 +16,6 @@
 ,{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "がんじょうあご","abilityEffect": "かみつきわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "すなかき","abilityEffect": "すなあらしのとき、すばやさが2倍になる。", "hidden": true}],
   "evolution": ["882"]
 }

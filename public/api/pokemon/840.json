@@ -16,5 +16,6 @@
 ,{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "じゅくせい","abilityEffect": "きのみの効果が2倍になる。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": true}],
   "evolution": ["840"]
 }

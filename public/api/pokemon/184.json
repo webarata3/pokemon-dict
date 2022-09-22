@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "ちからもち","abilityEffect": "こうげきが2倍になる。", "hidden": false},{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": true}],
   "evolution": ["298", "183", "184"]
 }

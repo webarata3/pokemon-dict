@@ -14,5 +14,6 @@
   "type": [{ "typeId": 12,
   "typeName": "むし"}
 ],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": true}],
   "evolution": ["401"]
 }

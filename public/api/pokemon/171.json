@@ -16,5 +16,6 @@
 ,{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "ちくでん","abilityEffect": "でんきタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "はっこう","abilityEffect": "野生ポケモンが出現しやすくなる。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": true}],
   "evolution": ["170", "171"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": true}],
   "evolution": ["194", "195"]
 }

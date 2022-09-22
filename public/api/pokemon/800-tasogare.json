@@ -16,5 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "プリズムアーマー","abilityEffect": "効果抜群のわざのダメージが0.75倍になる。", "hidden": false}],
   "evolution": ["800-tasogare"]
 }

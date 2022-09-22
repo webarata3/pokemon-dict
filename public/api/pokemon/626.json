@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": false},{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": false},{ "abilityName": "ぼうおん","abilityEffect": "音のわざを無効化する。", "hidden": true}],
   "evolution": ["626"]
 }

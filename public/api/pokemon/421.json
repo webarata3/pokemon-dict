@@ -14,5 +14,6 @@
   "type": [{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "フラワーギフト","abilityEffect": "にほんばれのとき、自分と味方のこうげきととくぼうを1.5倍に上げる。", "hidden": false}],
   "evolution": ["421"]
 }

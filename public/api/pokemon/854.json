@@ -14,5 +14,6 @@
   "type": [{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": false},{ "abilityName": "のろわれボディ","abilityEffect": "攻撃技を受けると相手をかなしばりにすることがある。", "hidden": true}],
   "evolution": ["854"]
 }

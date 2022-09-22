@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "オーラブレイク","abilityEffect": "ダークオーラ・フェアリーオーラの効果を逆にし、威力が0.75倍になるようにする。", "hidden": false},{ "abilityName": "スワームチェンジ","abilityEffect": "HPが半分以下になるとパーフェクトフォルムにフォルムチェンジする。", "hidden": false}],
   "evolution": ["718-10"]
 }

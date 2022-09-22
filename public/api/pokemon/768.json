@@ -16,5 +16,6 @@
 ,{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "ききかいひ","abilityEffect": "HPが半分以下になると交代する。", "hidden": false}],
   "evolution": ["768"]
 }

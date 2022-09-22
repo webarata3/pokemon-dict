@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ミラクルスキン","abilityEffect": "相手の変化技の命中率が50%以上の場合は50%になる。", "hidden": false},{ "abilityName": "マジックガード","abilityEffect": "攻撃以外でのダメージを受けない。", "hidden": false},{ "abilityName": "いろめがね","abilityEffect": "与える「こうかはいまひとつ」のダメージが2倍になる。", "hidden": true}],
   "evolution": ["561"]
 }

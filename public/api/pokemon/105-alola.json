@@ -16,5 +16,6 @@
 ,{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "のろわれボディ","abilityEffect": "攻撃技を受けると相手をかなしばりにすることがある。", "hidden": false},{ "abilityName": "ひらいしん","abilityEffect": "でんきわざの対象を自分にし、無効化してとくこうを1段階上げる。", "hidden": false},{ "abilityName": "いしあたま","abilityEffect": "反動技を使用してもダメージを受けない。", "hidden": true}],
   "evolution": ["104", "105", "105-alola"]
 }

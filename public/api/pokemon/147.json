@@ -14,5 +14,6 @@
   "type": [{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "ふしぎなうろこ","abilityEffect": "状態異常のとき、ぼうぎょが1.5倍になる。", "hidden": true}],
   "evolution": ["147", "148", "149"]
 }

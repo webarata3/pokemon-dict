@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "どくのトゲ","abilityEffect": "直接攻撃を受けたとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "とうそうしん","abilityEffect": "相手が同性のときはわざの威力が1.25倍になり、異性のときは0.75倍になる。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": true}],
   "evolution": ["29", "30", "31"]
 }

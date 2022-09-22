@@ -16,5 +16,6 @@
 ,{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": true}],
   "evolution": ["442"]
 }

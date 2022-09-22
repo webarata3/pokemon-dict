@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "はやおき","abilityEffect": "ねむりのターンの消費量が2倍になる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
   "evolution": ["165", "166"]
 }

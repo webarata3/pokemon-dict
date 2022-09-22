@@ -14,5 +14,6 @@
   "type": [{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "ミイラ","abilityEffect": "直接攻撃を受けたとき、相手の特性もミイラにする。", "hidden": false}],
   "evolution": ["563"]
 }

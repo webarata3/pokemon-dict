@@ -14,5 +14,6 @@
   "type": [{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": true}],
   "evolution": ["336"]
 }

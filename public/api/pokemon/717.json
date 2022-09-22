@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ダークオーラ","abilityEffect": "場にいるポケモンのあくわざの威力が1.33倍になる。", "hidden": false}],
   "evolution": ["717"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "ふくがん","abilityEffect": "命中率が1.3倍に上がる。 もちものを持った野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "いろめがね","abilityEffect": "与える「こうかはいまひとつ」のダメージが2倍になる。", "hidden": false},{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": true}],
   "evolution": ["48", "49"]
 }

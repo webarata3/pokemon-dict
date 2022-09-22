@@ -14,5 +14,6 @@
   "type": [{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "すなはき","abilityEffect": "攻撃を受けると場をすなあらし状態にする。", "hidden": false},{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": true}],
   "evolution": ["844"]
 }

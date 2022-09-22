@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "ちくでん","abilityEffect": "でんきタイプのわざを無効化しHPを1/4回復する。", "hidden": true}],
   "evolution": ["417"]
 }

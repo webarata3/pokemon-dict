@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "ファーコート","abilityEffect": "ぼうぎょが2倍になる。", "hidden": false}],
   "evolution": ["676"]
 }

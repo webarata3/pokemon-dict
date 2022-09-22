@@ -16,5 +16,6 @@
 ,{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "しゅうかく","abilityEffect": "消費したきのみを復活させることがある。", "hidden": true}],
   "evolution": ["102", "103", "103-alola"]
 }

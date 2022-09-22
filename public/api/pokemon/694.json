@@ -16,5 +16,6 @@
 ,{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "かんそうはだ","abilityEffect": "みずわざを受けるとHPが1/4回復し、ほのおわざを受けた時の威力は1.25倍になる。 あめのときはHPを1/8回復し、にほんばれのときは1/8のダメージを受ける。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": false},{ "abilityName": "サンパワー","abilityEffect": "にほんばれのとき、毎ターンHPが1/8減り、とくこうが1.5倍になる。", "hidden": true}],
   "evolution": ["694"]
 }

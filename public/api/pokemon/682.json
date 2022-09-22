@@ -14,5 +14,6 @@
   "type": [{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "いやしのこころ","abilityEffect": "味方の状態異常を治すことがある。", "hidden": false},{ "abilityName": "アロマベール","abilityEffect": "自分と味方がメンタル系の状態変化にならない。", "hidden": true}],
   "evolution": ["682"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "はがねつかい","abilityEffect": "はがねタイプのわざで攻撃するとき、こうげき・とくこうが1.5倍になる。", "hidden": false}],
   "evolution": ["781"]
 }

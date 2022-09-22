@@ -16,5 +16,6 @@
 ,{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false},{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": false},{ "abilityName": "きもったま","abilityEffect": "ゴーストタイプにノーマル・かくとうわざが当たるようになる。", "hidden": true}],
   "evolution": ["675"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化しその後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ひでり","abilityEffect": "場の天気をにほんばれにする。", "hidden": true}],
   "evolution": ["37", "38"]
 }

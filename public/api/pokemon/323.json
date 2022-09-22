@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "マグマのよろい","abilityEffect": "こおりにならなくなる。 タマゴの孵化に必要な歩数が半減する。", "hidden": false},{ "abilityName": "ハードロック","abilityEffect": "受ける効果抜群のわざのダメージが0.75倍になる。", "hidden": false},{ "abilityName": "いかりのつぼ","abilityEffect": "急所に当たると、攻撃が最大まで上がる。", "hidden": true}],
   "evolution": ["322", "323"]
 }

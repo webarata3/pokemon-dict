@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "へんしょく","abilityEffect": "受けた攻撃技と同じタイプになる。", "hidden": false},{ "abilityName": "へんげんじざい","abilityEffect": "わざを出す直前にそのわざのタイプになる。", "hidden": true}],
   "evolution": ["352"]
 }

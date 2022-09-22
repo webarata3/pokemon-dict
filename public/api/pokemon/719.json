@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": false}],
   "evolution": ["719"]
 }

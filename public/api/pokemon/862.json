@@ -16,5 +16,6 @@
 ,{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": false},{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": true}],
   "evolution": ["263-galar", "264-galar", "862"]
 }

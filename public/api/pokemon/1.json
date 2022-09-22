@@ -16,5 +16,6 @@
 ,{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": true}],
   "evolution": ["1", "2", "3"]
 }

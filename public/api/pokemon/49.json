@@ -16,5 +16,6 @@
 ,{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "りんぷん","abilityEffect": "攻撃技の追加効果を受けない。", "hidden": false},{ "abilityName": "いろめがね","abilityEffect": "与える「こうかはいまひとつ」のダメージが2倍になる。", "hidden": false},{ "abilityName": "ミラクルスキン","abilityEffect": "相手の変化技の命中率が50%以上の場合は50%になる。", "hidden": true}],
   "evolution": ["48", "49"]
 }

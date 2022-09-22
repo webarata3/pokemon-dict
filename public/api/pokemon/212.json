@@ -16,5 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "ライトメタル","abilityEffect": "重さが半分になる。", "hidden": true}],
   "evolution": ["123", "212", "900"]
 }

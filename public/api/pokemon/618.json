@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "せいでんき","abilityEffect": "直接攻撃を受けたとき、相手をまひにすることがある。 でんきタイプの野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": true}],
   "evolution": ["618"]
 }

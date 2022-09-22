@@ -14,5 +14,6 @@
   "type": [{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "ナイトメア","abilityEffect": "ねむり状態のポケモンのHPを1/8減らす。", "hidden": false}],
   "evolution": ["491"]
 }

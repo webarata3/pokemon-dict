@@ -16,5 +16,6 @@
 ,{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "あめうけざら","abilityEffect": "あめのとき、HPが1/16回復する。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": true}],
   "evolution": ["270", "271", "272"]
 }

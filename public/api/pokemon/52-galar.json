@@ -14,5 +14,6 @@
   "type": [{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "かたいツメ","abilityEffect": "使用する直接攻撃の威力が1.3倍になる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
   "evolution": ["52-galar", "863"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "パステルベール","abilityEffect": "自分と味方がどくにならない。", "hidden": false},{ "abilityName": "きけんよち","abilityEffect": "相手が自分に効果抜群のわざを持っているかわかる。", "hidden": true}],
   "evolution": ["77-galar", "78-galar"]
 }

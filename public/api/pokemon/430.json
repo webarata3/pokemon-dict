@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ふみん","abilityEffect": "ねむりにならない。", "hidden": false},{ "abilityName": "きょううん","abilityEffect": "急所ランクが1段階上がる。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": true}],
   "evolution": ["198", "430"]
 }

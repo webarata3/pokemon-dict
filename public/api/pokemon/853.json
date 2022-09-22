@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": true}],
   "evolution": ["853"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": false},{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": true}],
   "evolution": ["619"]
 }

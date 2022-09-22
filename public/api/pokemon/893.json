@@ -16,5 +16,6 @@
 ,{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false}],
   "evolution": ["893"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "たんじゅん","abilityEffect": "ランク補正の変化量が2倍になる。", "hidden": false},{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": false},{ "abilityName": "ムラっけ","abilityEffect": "毎ターンいずれかのステータスが1段階下がり、2段階上がる。", "hidden": true}],
   "evolution": ["400"]
 }

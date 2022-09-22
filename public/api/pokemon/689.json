@@ -16,5 +16,6 @@
 ,{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "スナイパー","abilityEffect": "急所に当てたときのダメージが2.25倍になる。", "hidden": false},{ "abilityName": "かたいツメ","abilityEffect": "使用する直接攻撃の威力が1.3倍になる。", "hidden": false},{ "abilityName": "わるいてぐせ","abilityEffect": "直接攻撃を受けたとき、相手の道具を奪う。", "hidden": true}],
   "evolution": ["689"]
 }

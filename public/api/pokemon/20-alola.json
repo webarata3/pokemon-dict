@@ -16,5 +16,6 @@
 ,{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "はりきり","abilityEffect": "こうげきが1.5倍になるが、命中率が0.8倍になる。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": true}],
   "evolution": ["19-alola", "20-alola"]
 }

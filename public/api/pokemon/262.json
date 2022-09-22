@@ -14,5 +14,6 @@
   "type": [{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "はやあし","abilityEffect": "状態異常のとき、すばやさが1.5倍になる。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": true}],
   "evolution": ["261", "262"]
 }

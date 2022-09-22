@@ -9,6 +9,13 @@ type alias AttrType =
     }
 
 
+type alias Ability =
+    { abilityName: String
+    , abilityEffect: String
+    , hidden : Bool
+    }
+
+
 type alias Status =
     { hp : Int
     , attack : Int
@@ -26,6 +33,7 @@ type alias PokemonData =
     , maybeFormName : Maybe String
     , status : Status
     , types : List AttrType
+    , abilities: List Ability
     , evolution : List String
     }
 

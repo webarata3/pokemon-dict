@@ -16,5 +16,6 @@
 ,{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": false},{ "abilityName": "てんのめぐみ","abilityEffect": "追加効果の出る確率が2倍になる。", "hidden": true}],
   "evolution": ["585"]
 }

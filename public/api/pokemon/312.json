@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "マイナス","abilityEffect": "味方の場にプラスかマイナスのポケモンがいる時、とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ちくでん","abilityEffect": "でんきタイプのわざを無効化しHPを1/4回復する。", "hidden": true}],
   "evolution": ["312"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "ひでり","abilityEffect": "場の天気をにほんばれにする。", "hidden": false}],
   "evolution": ["383"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 13,
   "typeName": "いわ"}
 ],
+  "ability": [{ "abilityName": "はりきり","abilityEffect": "こうげきが1.5倍になるが、命中率が0.8倍になる。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
   "evolution": ["222"]
 }

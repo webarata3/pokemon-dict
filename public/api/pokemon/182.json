@@ -14,5 +14,6 @@
   "type": [{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "いやしのこころ","abilityEffect": "味方の状態異常を治すことがある。", "hidden": true}],
   "evolution": ["43", "44", "45", "182"]
 }

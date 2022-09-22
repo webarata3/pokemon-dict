@@ -1,5 +1,6 @@
 module Pokemon exposing (..)
 
+import Ability as AB
 import ActualStatus as AS
 import AppConfig as AC
 import AttrType as AT
@@ -12,7 +13,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 import Http exposing (..)
-import Json.Decode as JD exposing (Decoder, decodeString, field, int, nullable, string)
+import Json.Decode as JD exposing (Decoder, bool, decodeString, field, int, nullable, string)
 import Json.Decode.Pipeline as JDP
 import MainPic
 import Task
@@ -44,6 +45,14 @@ decodeAttrType =
         (field "typeName" string)
 
 
+decodeAbility : Decoder AC.Ability
+decodeAbility =
+    JD.map3 AC.Ability
+        (field "abilityName" string)
+        (field "abilityEffect" string)
+        (field "hidden" bool)
+
+
 decodePokemonData : Decoder AC.PokemonData
 decodePokemonData =
     JD.succeed AC.PokemonData
@@ -53,6 +62,7 @@ decodePokemonData =
         |> JDP.required "formName" (nullable string)
         |> JDP.required "status" decodeStatus
         |> JDP.required "type" (JD.list decodeAttrType)
+        |> JDP.required "ability" (JD.list decodeAbility)
         |> JDP.required "evolution" (JD.list string)
 
 
@@ -104,6 +114,7 @@ type alias Model =
     , tocModel : Toc.Model
     , mainPicModel : MainPic.Model
     , attrTypeModel : AT.Model
+    , abilityModel : AB.Model
     , evolutionModel : Evo.Model
     , actualStatusModel : AS.Model
     }
@@ -124,6 +135,9 @@ init _ url key =
       , attrTypeModel =
             { maybeAttrTypes = Nothing
             , typeChart = AT.getTypeChart
+            }
+      , abilityModel =
+            { maybeAbilities = Nothing
             }
       , evolutionModel =
             { maybePokemonData = Nothing
@@ -215,6 +229,14 @@ update msg model =
                                 | maybeAttrTypes = Just pokemonData.types
                             }
 
+                        abilityModel =
+                            model.abilityModel
+
+                        newAbilityModel =
+                            { abilityModel
+                                | maybeAbilities = Just pokemonData.abilities
+                            }
+
                         evolutionModel =
                             model.evolutionModel
 
@@ -236,6 +258,7 @@ update msg model =
                             { maybePokemonId = Just <| pokemonDataToId pokemonData
                             }
                         , attrTypeModel = newAttrTypeModel
+                        , abilityModel = newAbilityModel
                         , evolutionModel = newEvolutionModel
                         , actualStatusModel = newActualStatusModel
                       }
@@ -380,6 +403,7 @@ viewMain model =
         [ Toc.viewPokemonList model.tocModel |> Html.map TocMsg
         , MainPic.viewPokemonMainPic model.mainPicModel
         , AT.viewTypes model.attrTypeModel
+        , AB.viewAbilitiesSection model.abilityModel
         , Evo.viewPokemonEvolution model.evolutionModel
         , AS.viewActualStatus model.actualStatusModel
             |> Html.map ActualStatusMsg

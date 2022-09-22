@@ -14,5 +14,6 @@
   "type": [{ "typeId": 13,
   "typeName": "いわ"}
 ],
+  "ability": [{ "abilityName": "パワースポット","abilityEffect": "味方の攻撃技の威力が1.3倍になる。", "hidden": false}],
   "evolution": ["874"]
 }

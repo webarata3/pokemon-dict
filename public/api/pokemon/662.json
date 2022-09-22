@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ほのおのからだ","abilityEffect": "直接攻撃を受けたとき、相手をやけどにすることがある。 タマゴの孵化に必要な歩数が半減する。", "hidden": false},{ "abilityName": "はやてのつばさ","abilityEffect": "HPが満タンのとき、ひこうわざの優先度を1高くして出せる。", "hidden": true}],
   "evolution": ["662"]
 }

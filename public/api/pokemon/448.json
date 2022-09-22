@@ -16,5 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "ふくつのこころ","abilityEffect": "ひるむとすばやさが1段階上がる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false},{ "abilityName": "せいぎのこころ","abilityEffect": "あくタイプの攻撃を受けるとこうげきが1段階上がる。", "hidden": true}],
   "evolution": ["448"]
 }

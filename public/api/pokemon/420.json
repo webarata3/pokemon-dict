@@ -14,5 +14,6 @@
   "type": [{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false}],
   "evolution": ["420"]
 }

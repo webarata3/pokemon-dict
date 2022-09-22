@@ -14,5 +14,6 @@
   "type": [{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "イリュージョン","abilityEffect": "手持ちのポケモンに化けて場に出る。", "hidden": false}],
   "evolution": ["571"]
 }

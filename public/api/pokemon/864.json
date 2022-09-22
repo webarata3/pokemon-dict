@@ -14,5 +14,6 @@
   "type": [{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": false},{ "abilityName": "ほろびのボディ","abilityEffect": "直接攻撃を受けたとき、お互いがほろびのうた状態になる。", "hidden": true}],
   "evolution": ["864"]
 }

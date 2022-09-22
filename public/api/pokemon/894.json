@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "トランジスタ","abilityEffect": "でんきタイプのわざで攻撃するとき、こうげき・とくこうが1.5倍になる。", "hidden": false}],
   "evolution": ["894"]
 }

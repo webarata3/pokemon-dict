@@ -16,5 +16,6 @@
 ,{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "ゆきふらし","abilityEffect": "場をあられにする。", "hidden": false},{ "abilityName": "ぼうおん","abilityEffect": "音のわざを無効化する。", "hidden": true}],
   "evolution": ["459"]
 }

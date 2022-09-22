@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": true}],
   "evolution": ["296", "297"]
 }

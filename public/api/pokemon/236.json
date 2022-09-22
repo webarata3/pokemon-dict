@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "ふくつのこころ","abilityEffect": "ひるむとすばやさが1段階上がる。", "hidden": false},{ "abilityName": "やるき","abilityEffect": "ねむりにならない。 レベルの高いポケモンの出現率が上がる。", "hidden": true}],
   "evolution": ["236", "106", "107", "237"]
 }

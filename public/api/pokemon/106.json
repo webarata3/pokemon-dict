@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": true}],
   "evolution": ["236", "106", "107", "237"]
 }

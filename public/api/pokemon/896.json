@@ -14,5 +14,6 @@
   "type": [{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "しろのいななき","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": false}],
   "evolution": ["896"]
 }

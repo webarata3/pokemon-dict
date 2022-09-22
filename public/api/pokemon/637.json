@@ -16,5 +16,6 @@
 ,{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "ほのおのからだ","abilityEffect": "直接攻撃を受けたとき、相手をやけどにすることがある。 タマゴの孵化に必要な歩数が半減する。", "hidden": false},{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": true}],
   "evolution": ["637"]
 }

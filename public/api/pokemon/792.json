@@ -16,5 +16,6 @@
 ,{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "ファントムガード","abilityEffect": "HPが満タンのとき、受けるダメージが半減する。", "hidden": false}],
   "evolution": ["792"]
 }

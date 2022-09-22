@@ -14,5 +14,6 @@
   "type": [{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": true}],
   "evolution": ["548"]
 }

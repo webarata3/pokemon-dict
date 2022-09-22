@@ -16,5 +16,6 @@
 ,{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "あくしゅう","abilityEffect": "野生ポケモンと出会いにくくなる。 攻撃した相手をひるませることがある。", "hidden": true}],
   "evolution": ["43", "44", "45", "182"]
 }

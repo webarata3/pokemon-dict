@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "がんじょうあご","abilityEffect": "かみつきわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "かちき","abilityEffect": "敵から能力を下げられたとき、とくこうが2段階上がる。", "hidden": true}],
   "evolution": ["836"]
 }

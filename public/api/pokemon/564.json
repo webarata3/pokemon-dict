@@ -16,5 +16,6 @@
 ,{ "typeId": 13,
   "typeName": "いわ"}
 ],
+  "ability": [{ "abilityName": "ハードロック","abilityEffect": "受ける効果抜群のわざのダメージが0.75倍になる。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": true}],
   "evolution": ["564"]
 }

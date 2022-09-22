@@ -16,5 +16,6 @@
 ,{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false}],
   "evolution": ["13", "14", "15"]
 }

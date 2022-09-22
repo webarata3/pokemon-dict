@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "きゅうばん","abilityEffect": "相手から強制交代をされない。 釣りの成功率が上がる。", "hidden": false},{ "abilityName": "スナイパー","abilityEffect": "急所に当てたときのダメージが2.25倍になる。", "hidden": false},{ "abilityName": "ムラっけ","abilityEffect": "毎ターンいずれかのステータスが1段階下がり、2段階上がる。", "hidden": true}],
   "evolution": ["223", "224"]
 }

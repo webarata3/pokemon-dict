@@ -16,5 +16,6 @@
 ,{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": true}],
   "evolution": ["331", "332"]
 }

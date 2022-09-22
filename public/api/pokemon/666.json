@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "りんぷん","abilityEffect": "攻撃技の追加効果を受けない。", "hidden": false},{ "abilityName": "ふくがん","abilityEffect": "命中率が1.3倍に上がる。 もちものを持った野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "フレンドガード","abilityEffect": "味方へのダメージが0.75倍になる。", "hidden": true}],
   "evolution": ["666"]
 }

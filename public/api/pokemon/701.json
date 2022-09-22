@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": false},{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": true}],
   "evolution": ["701"]
 }

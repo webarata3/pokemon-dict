@@ -16,5 +16,6 @@
 ,{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": true}],
   "evolution": ["214"]
 }

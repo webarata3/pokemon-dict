@@ -14,5 +14,6 @@
   "type": [{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": false},{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": true}],
   "evolution": ["510"]
 }

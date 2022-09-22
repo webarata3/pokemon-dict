@@ -16,5 +16,6 @@
 ,{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": false}],
   "evolution": ["898"]
 }

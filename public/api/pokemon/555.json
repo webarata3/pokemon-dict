@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": false},{ "abilityName": "ダルマモード","abilityEffect": "HPが半分以下になるとヒヒダルマのフォルムが変化する。", "hidden": true}],
   "evolution": ["555"]
 }

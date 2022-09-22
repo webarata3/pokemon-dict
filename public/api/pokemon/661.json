@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "はとむね","abilityEffect": "相手からぼうぎょを下げられない。", "hidden": false},{ "abilityName": "はやてのつばさ","abilityEffect": "HPが満タンのとき、ひこうわざの優先度を1高くして出せる。", "hidden": true}],
   "evolution": ["661"]
 }

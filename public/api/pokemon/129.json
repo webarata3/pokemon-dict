@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
   "evolution": ["129", "130"]
 }

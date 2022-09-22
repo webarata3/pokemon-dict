@@ -14,5 +14,6 @@
   "type": [{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "ふみん","abilityEffect": "ねむりにならない。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "のろわれボディ","abilityEffect": "攻撃技を受けると相手をかなしばりにすることがある。", "hidden": true}],
   "evolution": ["353", "354"]
 }

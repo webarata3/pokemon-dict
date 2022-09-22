@@ -16,5 +16,6 @@
 ,{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "ビビッドボディ","abilityEffect": "自分と味方は相手側からの先制技を受けなくなる。", "hidden": false},{ "abilityName": "がんじょうあご","abilityEffect": "かみつきわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "ミラクルスキン","abilityEffect": "相手の変化技の命中率が50%以上の場合は50%になる。", "hidden": true}],
   "evolution": ["779"]
 }

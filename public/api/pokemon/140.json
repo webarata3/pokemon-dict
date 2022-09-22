@@ -16,5 +16,6 @@
 ,{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "カブトアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": true}],
   "evolution": ["140", "141"]
 }

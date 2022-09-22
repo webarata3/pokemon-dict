@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": false},{ "abilityName": "マジシャン","abilityEffect": "攻撃を当てたとき、相手の持ち物を奪う。", "hidden": true}],
   "evolution": ["707"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "はやおき","abilityEffect": "ねむりのターンの消費量が2倍になる。", "hidden": false},{ "abilityName": "きもったま","abilityEffect": "ゴーストタイプにノーマル・かくとうわざが当たるようになる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": true}],
   "evolution": ["115"]
 }

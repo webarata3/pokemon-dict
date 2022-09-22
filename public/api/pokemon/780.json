@@ -16,5 +16,6 @@
 ,{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "ぎゃくじょう","abilityEffect": "HPが半分以下になったとき、とくこうが1段階上がる。", "hidden": false},{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": false},{ "abilityName": "ノーてんき","abilityEffect": "天気の影響が無くなる。", "hidden": true}],
   "evolution": ["780"]
 }

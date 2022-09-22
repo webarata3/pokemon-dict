@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "とびだすなかみ","abilityEffect": "ひんしになったとき、直前のHP分だけ相手にダメージを与える。", "hidden": false},{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": true}],
   "evolution": ["771"]
 }

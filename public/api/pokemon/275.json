@@ -16,5 +16,6 @@
 ,{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "はやおき","abilityEffect": "ねむりのターンの消費量が2倍になる。", "hidden": false},{ "abilityName": "わるいてぐせ","abilityEffect": "直接攻撃を受けたとき、相手の道具を奪う。", "hidden": true}],
   "evolution": ["273", "274", "275"]
 }

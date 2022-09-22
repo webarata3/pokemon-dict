@@ -16,5 +16,6 @@
 ,{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "とうそうしん","abilityEffect": "相手が同性のときはわざの威力が1.25倍になり、異性のときは0.75倍になる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": true}],
   "evolution": ["667"]
 }

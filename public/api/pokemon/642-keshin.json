@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": false},{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": true}],
   "evolution": ["642-keshin"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": false},{ "abilityName": "ヘヴィメタル","abilityEffect": "重さが2倍になる。", "hidden": true}],
   "evolution": ["878"]
 }

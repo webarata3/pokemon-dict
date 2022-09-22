@@ -16,5 +16,6 @@
 ,{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "フリーズスキン","abilityEffect": "ノーマルタイプのわざがこおりタイプになり、威力が1.2倍になる。", "hidden": false},{ "abilityName": "ゆきふらし","abilityEffect": "場をあられにする。", "hidden": true}],
   "evolution": ["698"]
 }

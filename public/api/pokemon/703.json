@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": true}],
   "evolution": ["703"]
 }

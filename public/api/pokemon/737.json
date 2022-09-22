@@ -16,5 +16,6 @@
 ,{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "バッテリー","abilityEffect": "味方の特殊技の威力が1.3倍になる。", "hidden": false}],
   "evolution": ["737"]
 }

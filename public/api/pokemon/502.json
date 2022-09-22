@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": true}],
   "evolution": ["502"]
 }

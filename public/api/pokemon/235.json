@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "ムラっけ","abilityEffect": "毎ターンいずれかのステータスが1段階下がり、2段階上がる。", "hidden": true}],
   "evolution": ["235"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "ひとでなし","abilityEffect": "相手がどく・もうどく状態のとき、自分のわざが急所に当たる。", "hidden": false},{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
   "evolution": ["747"]
 }

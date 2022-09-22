@@ -16,5 +16,6 @@
 ,{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "マジシャン","abilityEffect": "攻撃を当てたとき、相手の持ち物を奪う。", "hidden": true}],
   "evolution": ["655"]
 }

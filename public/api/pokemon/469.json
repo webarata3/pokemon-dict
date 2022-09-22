@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "かそく","abilityEffect": "毎ターンすばやさが1段階上がる。", "hidden": false},{ "abilityName": "いろめがね","abilityEffect": "与える「こうかはいまひとつ」のダメージが2倍になる。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": true}],
   "evolution": ["193", "469"]
 }

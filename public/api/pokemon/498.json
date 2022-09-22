@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": true}],
   "evolution": ["498"]
 }

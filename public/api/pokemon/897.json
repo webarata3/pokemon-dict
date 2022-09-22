@@ -14,5 +14,6 @@
   "type": [{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "くろのいななき","abilityEffect": "ポケモンを倒すととくこうが1段階上がる。", "hidden": false}],
   "evolution": ["897"]
 }

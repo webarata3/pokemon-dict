@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "しろいけむり","abilityEffect": "相手からランク補正を下げられない。 野生ポケモンの出現率が半分になる。", "hidden": false},{ "abilityName": "ひでり","abilityEffect": "場の天気をにほんばれにする。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": true}],
   "evolution": ["324"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": false},{ "abilityName": "マジックガード","abilityEffect": "攻撃以外でのダメージを受けない。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
   "evolution": ["578"]
 }

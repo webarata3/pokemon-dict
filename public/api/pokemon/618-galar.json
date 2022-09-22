@@ -16,5 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "ぎたい","abilityEffect": "フィールドに合わせてタイプが変わる。", "hidden": false}],
   "evolution": ["618-galar"]
 }

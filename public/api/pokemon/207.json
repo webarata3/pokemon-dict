@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": false},{ "abilityName": "めんえき","abilityEffect": "どく、もうどくにならない。", "hidden": true}],
   "evolution": ["207", "472"]
 }

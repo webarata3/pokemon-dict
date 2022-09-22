@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "やるき","abilityEffect": "ねむりにならない。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "いかりのつぼ","abilityEffect": "急所に当たると、攻撃が最大まで上がる。", "hidden": false},{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": true}],
   "evolution": ["56", "57"]
 }

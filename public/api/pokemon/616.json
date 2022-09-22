@@ -14,5 +14,6 @@
   "type": [{ "typeId": 12,
   "typeName": "むし"}
 ],
+  "ability": [{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
   "evolution": ["616"]
 }

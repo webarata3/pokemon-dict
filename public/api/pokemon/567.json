@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "よわき","abilityEffect": "HPが半分以下になると、こうげきととくこうが半分になる。", "hidden": false}],
   "evolution": ["567"]
 }

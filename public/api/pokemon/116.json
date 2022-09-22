@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "スナイパー","abilityEffect": "急所に当てたときのダメージが2.25倍になる。", "hidden": false},{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": true}],
   "evolution": ["116", "117", "230"]
 }

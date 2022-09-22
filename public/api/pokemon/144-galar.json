@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "かちき","abilityEffect": "敵から能力を下げられたとき、とくこうが2段階上がる。", "hidden": false}],
   "evolution": ["144-galar"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "きょううん","abilityEffect": "急所ランクが1段階上がる。", "hidden": false},{ "abilityName": "せいぎのこころ","abilityEffect": "あくタイプの攻撃を受けるとこうげきが1段階上がる。", "hidden": true}],
   "evolution": ["359"]
 }

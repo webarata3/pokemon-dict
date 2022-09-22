@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "きもったま","abilityEffect": "ゴーストタイプにノーマル・かくとうわざが当たるようになる。", "hidden": true}],
   "evolution": ["276", "277"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": true}],
   "evolution": ["152", "153", "154"]
 }

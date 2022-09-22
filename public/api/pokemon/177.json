@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "シンクロ","abilityEffect": "状態異常になったとき、相手も同じ状態異常にする。 自分と同じ性格のポケモンが出やすくなる。", "hidden": false},{ "abilityName": "はやおき","abilityEffect": "ねむりのターンの消費量が2倍になる。", "hidden": false},{ "abilityName": "マジックミラー","abilityEffect": "常にマジックコート状態になる。", "hidden": true}],
   "evolution": ["177", "178"]
 }

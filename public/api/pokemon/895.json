@@ -14,5 +14,6 @@
   "type": [{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "りゅうのあぎと","abilityEffect": "ドラゴンタイプのわざで攻撃するとき、こうげき・とくこうが1.5倍になる。", "hidden": false}],
   "evolution": ["895"]
 }

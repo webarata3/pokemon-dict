@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ゆうばく","abilityEffect": "ひんしになったとき、相手に1/4のダメージを与える。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": false},{ "abilityName": "ねつぼうそう","abilityEffect": "やけどのとき、特殊技の威力が1.5倍になる。", "hidden": true}],
   "evolution": ["425"]
 }

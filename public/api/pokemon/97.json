@@ -14,5 +14,6 @@
   "type": [{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "ふみん","abilityEffect": "ねむりにならない。", "hidden": false},{ "abilityName": "よちむ","abilityEffect": "相手の持つわざが1つ分かる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": true}],
   "evolution": ["96", "97"]
 }

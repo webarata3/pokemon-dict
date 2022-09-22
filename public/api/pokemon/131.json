@@ -16,5 +16,6 @@
 ,{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": true}],
   "evolution": ["131"]
 }

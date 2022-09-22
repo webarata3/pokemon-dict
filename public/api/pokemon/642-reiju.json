@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ちくでん","abilityEffect": "でんきタイプのわざを無効化しHPを1/4回復する。", "hidden": false}],
   "evolution": ["642-reiju"]
 }

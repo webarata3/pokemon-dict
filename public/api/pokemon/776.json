@@ -16,5 +16,6 @@
 ,{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false}],
   "evolution": ["776"]
 }

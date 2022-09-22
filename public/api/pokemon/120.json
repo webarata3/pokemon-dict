@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "はっこう","abilityEffect": "野生ポケモンが出現しやすくなる。", "hidden": false},{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "アナライズ","abilityEffect": "最後にわざを出すと威力が1.3倍になる。", "hidden": true}],
   "evolution": ["120", "121"]
 }

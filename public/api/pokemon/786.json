@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "サイコメイカー","abilityEffect": "場の状態をサイコフィールドにする。", "hidden": false},{ "abilityName": "テレパシー","abilityEffect": "味方からの攻撃を無効化する。", "hidden": true}],
   "evolution": ["786"]
 }

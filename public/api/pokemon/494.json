@@ -16,5 +16,6 @@
 ,{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "しょうりのほし","abilityEffect": "自分と味方の命中率が1.1倍になる。", "hidden": false}],
   "evolution": ["494"]
 }

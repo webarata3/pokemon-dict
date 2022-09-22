@@ -16,5 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": false},{ "abilityName": "ミラーアーマー","abilityEffect": "相手から受けたランク補正を下げる効果を跳ね返す。", "hidden": true}],
   "evolution": ["823"]
 }

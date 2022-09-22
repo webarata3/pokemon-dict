@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "めんえき","abilityEffect": "どく、もうどくにならない。", "hidden": false},{ "abilityName": "どくぼうそう","abilityEffect": "どく・もうどくのとき、物理技の威力が1.5倍になる。", "hidden": true}],
   "evolution": ["335"]
 }

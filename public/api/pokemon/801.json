@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "ソウルハート","abilityEffect": "場のポケモンがひんしになるととくこうが1段階上がる。", "hidden": false}],
   "evolution": ["801"]
 }

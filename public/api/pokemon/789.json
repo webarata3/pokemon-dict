@@ -14,5 +14,6 @@
   "type": [{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": false}],
   "evolution": ["789"]
 }

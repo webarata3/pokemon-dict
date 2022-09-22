@@ -16,5 +16,6 @@
 ,{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "スキルリンク","abilityEffect": "連続攻撃技を常に最大回数出せる。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
   "evolution": ["90", "91"]
 }

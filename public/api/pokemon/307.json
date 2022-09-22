@@ -16,5 +16,6 @@
 ,{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "ヨガパワー","abilityEffect": "こうげきが2倍になる。", "hidden": false},{ "abilityName": "テレパシー","abilityEffect": "味方からの攻撃を無効化する。", "hidden": true}],
   "evolution": ["307", "308"]
 }

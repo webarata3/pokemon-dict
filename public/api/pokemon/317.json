@@ -14,5 +14,6 @@
   "type": [{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "ヘドロえき","abilityEffect": "HPを吸い取るわざを受けたとき、逆にダメージを与える。", "hidden": false},{ "abilityName": "ねんちゃく","abilityEffect": "持ち物を奪われない。 つりの成功率が上がる。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": true}],
   "evolution": ["316", "317"]
 }

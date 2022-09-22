@@ -14,5 +14,6 @@
   "type": [{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "スイートベール","abilityEffect": "自分と味方がねむりにならなくなる。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": true}],
   "evolution": ["685"]
 }

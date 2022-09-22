@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "せいでんき","abilityEffect": "直接攻撃を受けたとき、相手をまひにすることがある。 でんきタイプの野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "でんきエンジン","abilityEffect": "でんきタイプのわざを無効化して、すばやさが1段階上がる。", "hidden": true}],
   "evolution": ["587"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "プラス","abilityEffect": "味方の場にプラスかマイナスのポケモンがいる時、とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "マイナス","abilityEffect": "味方の場にプラスかマイナスのポケモンがいる時、とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": true}],
   "evolution": ["601"]
 }

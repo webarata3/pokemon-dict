@@ -14,5 +14,6 @@
   "type": [{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": false},{ "abilityName": "すなかき","abilityEffect": "すなあらしのとき、すばやさが2倍になる。", "hidden": true}],
   "evolution": ["27", "28"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "フェアリーオーラ","abilityEffect": "場にいるポケモンのフェアリーわざの威力が1.33倍になる。", "hidden": false}],
   "evolution": ["716"]
 }

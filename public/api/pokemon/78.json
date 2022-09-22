@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化しその後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ほのおのからだ","abilityEffect": "直接攻撃を受けたとき、相手をやけどにすることがある。 タマゴの孵化に必要な歩数が半減する。", "hidden": true}],
   "evolution": ["77", "78"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "ぜったいねむり","abilityEffect": "状態異常にならない。ねむり状態のように扱われる。", "hidden": false}],
   "evolution": ["775"]
 }

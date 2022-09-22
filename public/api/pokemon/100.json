@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "ぼうおん","abilityEffect": "音のわざを無効化する。", "hidden": false},{ "abilityName": "せいでんき","abilityEffect": "直接攻撃を受けたとき、相手をまひにすることがある。 でんきタイプの野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "ゆうばく","abilityEffect": "ひんしになったとき、相手に1/4のダメージを与える。", "hidden": true}],
   "evolution": ["100", "101"]
 }

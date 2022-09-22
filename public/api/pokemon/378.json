@@ -14,5 +14,6 @@
   "type": [{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": false},{ "abilityName": "アイスボディ","abilityEffect": "あられのとき、HPが1/16回復する。", "hidden": true}],
   "evolution": ["378"]
 }

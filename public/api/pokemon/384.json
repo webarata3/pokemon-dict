@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "エアロック","abilityEffect": "天気の影響が無くなる。", "hidden": false}],
   "evolution": ["384"]
 }

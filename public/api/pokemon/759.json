@@ -16,5 +16,6 @@
 ,{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "もふもふ","abilityEffect": "受ける直接攻撃のダメージが0.5倍、ほのおわざのダメージが2倍になる。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": false},{ "abilityName": "メロメロボディ","abilityEffect": "直接攻撃を受けたとき、相手をメロメロにすることがある。 自分と逆の性別のポケモンの出現率が上がる。", "hidden": true}],
   "evolution": ["759"]
 }

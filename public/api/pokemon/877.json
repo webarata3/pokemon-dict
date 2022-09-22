@@ -16,5 +16,6 @@
 ,{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "はらぺこスイッチ","abilityEffect": "1ターンごとにモルペコのフォルムが変わる。", "hidden": false}],
   "evolution": ["877"]
 }

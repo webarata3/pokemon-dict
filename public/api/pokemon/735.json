@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "はりこみ","abilityEffect": "交代して出てきたポケモンに攻撃するとき、こうげき・とくこうが2倍になる。", "hidden": false},{ "abilityName": "がんじょうあご","abilityEffect": "かみつきわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "てきおうりょく","abilityEffect": "タイプ一致のダメージ補正が1.5倍から2倍になる。", "hidden": true}],
   "evolution": ["735"]
 }

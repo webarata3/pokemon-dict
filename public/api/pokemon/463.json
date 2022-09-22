@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": false},{ "abilityName": "ノーてんき","abilityEffect": "天気の影響が無くなる。", "hidden": true}],
   "evolution": ["108", "463"]
 }

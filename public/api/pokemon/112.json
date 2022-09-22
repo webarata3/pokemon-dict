@@ -16,5 +16,6 @@
 ,{ "typeId": 13,
   "typeName": "いわ"}
 ],
+  "ability": [{ "abilityName": "ひらいしん","abilityEffect": "でんきわざの対象を自分にし、無効化してとくこうを1段階上げる。", "hidden": false},{ "abilityName": "いしあたま","abilityEffect": "反動技を使用してもダメージを受けない。", "hidden": false},{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": true}],
   "evolution": ["111", "112", "464"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "じりょく","abilityEffect": "はがねタイプのポケモンを逃げられなくする。 はがねタイプのポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "アナライズ","abilityEffect": "最後にわざを出すと威力が1.3倍になる。", "hidden": true}],
   "evolution": ["81", "82", "462"]
 }

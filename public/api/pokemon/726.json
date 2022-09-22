@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": true}],
   "evolution": ["726"]
 }

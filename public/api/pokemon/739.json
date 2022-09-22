@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false},{ "abilityName": "いかりのつぼ","abilityEffect": "急所に当たると、攻撃が最大まで上がる。", "hidden": true}],
   "evolution": ["739"]
 }

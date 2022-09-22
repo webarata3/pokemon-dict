@@ -16,5 +16,6 @@
 ,{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "スナイパー","abilityEffect": "急所に当てたときのダメージが2.25倍になる。", "hidden": true}],
   "evolution": ["13", "14", "15"]
 }

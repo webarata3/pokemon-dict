@@ -14,5 +14,6 @@
   "type": [{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化しその後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "しろいけむり","abilityEffect": "相手からランク補正を下げられない。 野生ポケモンの出現率が半分になる。", "hidden": true}],
   "evolution": ["631"]
 }

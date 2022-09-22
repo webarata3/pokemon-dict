@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false}],
   "evolution": ["891"]
 }

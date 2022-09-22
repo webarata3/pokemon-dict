@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "ノーてんき","abilityEffect": "天気の影響が無くなる。", "hidden": true}],
   "evolution": ["333", "334"]
 }

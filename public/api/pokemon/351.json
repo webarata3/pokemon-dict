@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "てんきや","abilityEffect": "場の天気によってタイプ・フォルムが変化する。", "hidden": false}],
   "evolution": ["351"]
 }

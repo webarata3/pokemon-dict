@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "いやしのこころ","abilityEffect": "味方の状態異常を治すことがある。", "hidden": false},{ "abilityName": "きけんよち","abilityEffect": "相手が自分に効果抜群のわざを持っているかわかる。", "hidden": false},{ "abilityName": "マジックミラー","abilityEffect": "常にマジックコート状態になる。", "hidden": true}],
   "evolution": ["858"]
 }

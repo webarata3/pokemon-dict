@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ふくがん","abilityEffect": "命中率が1.3倍に上がる。 もちものを持った野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "いろめがね","abilityEffect": "与える「こうかはいまひとつ」のダメージが2倍になる。", "hidden": true}],
   "evolution": ["10", "11", "12"]
 }

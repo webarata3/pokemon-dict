@@ -16,5 +16,6 @@
 ,{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
   "evolution": ["380"]
 }

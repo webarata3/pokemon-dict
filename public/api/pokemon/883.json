@@ -16,5 +16,6 @@
 ,{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "アイスボディ","abilityEffect": "あられのとき、HPが1/16回復する。", "hidden": false},{ "abilityName": "ゆきかき","abilityEffect": "あられのとき、すばやさが2倍になる。", "hidden": true}],
   "evolution": ["883"]
 }

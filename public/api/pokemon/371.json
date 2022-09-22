@@ -14,5 +14,6 @@
   "type": [{ "typeId": 15,
   "typeName": "ドラゴン"}
 ],
+  "ability": [{ "abilityName": "いしあたま","abilityEffect": "反動技を使用してもダメージを受けない。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": true}],
   "evolution": ["371", "372", "373"]
 }

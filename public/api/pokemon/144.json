@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "ゆきがくれ","abilityEffect": "あられのとき、回避率が1.25倍になる。 雪が降っている場所でのポケモンの出現率が下がる。", "hidden": true}],
   "evolution": ["144"]
 }

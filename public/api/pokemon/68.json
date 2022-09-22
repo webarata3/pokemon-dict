@@ -14,5 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "ノーガード","abilityEffect": "自分と相手のわざが必中になる。", "hidden": false},{ "abilityName": "ふくつのこころ","abilityEffect": "ひるむとすばやさが1段階上がる。", "hidden": true}],
   "evolution": ["66", "67", "68"]
 }

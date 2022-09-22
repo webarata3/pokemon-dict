@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": false},{ "abilityName": "たんじゅん","abilityEffect": "ランク補正の変化量が2倍になる。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": true}],
   "evolution": ["322", "323"]
 }

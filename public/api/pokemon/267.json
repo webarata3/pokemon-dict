@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "とうそうしん","abilityEffect": "相手が同性のときはわざの威力が1.25倍になり、異性のときは0.75倍になる。", "hidden": true}],
   "evolution": ["265", "266", "267", "268", "269"]
 }

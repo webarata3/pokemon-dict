@@ -14,5 +14,6 @@
   "type": [{ "typeId": 12,
   "typeName": "むし"}
 ],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "ノーガード","abilityEffect": "自分と相手のわざが必中になる。", "hidden": true}],
   "evolution": ["588"]
 }

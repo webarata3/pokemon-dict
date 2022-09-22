@@ -16,5 +16,6 @@
 ,{ "typeId": 8,
   "typeName": "どく"}
 ],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "ほうし","abilityEffect": "直接攻撃を受けたとき、相手をどく・まひ・ねむり状態にすることがある。", "hidden": true}],
   "evolution": ["43", "44", "45", "182"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": false},{ "abilityName": "きけんよち","abilityEffect": "相手が自分に効果抜群のわざを持っているかわかる。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": true}],
   "evolution": ["339", "340"]
 }

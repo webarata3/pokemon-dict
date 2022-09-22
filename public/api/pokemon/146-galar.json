@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "ぎゃくじょう","abilityEffect": "HPが半分以下になったとき、とくこうが1段階上がる。", "hidden": false}],
   "evolution": ["146-galar"]
 }

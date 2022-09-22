@@ -14,5 +14,6 @@
   "type": [{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false},{ "abilityName": "じょおうのいげん","abilityEffect": "自分と味方は相手側からの先制技を受けなくなる。", "hidden": false},{ "abilityName": "スイートベール","abilityEffect": "自分と味方がねむりにならなくなる。", "hidden": true}],
   "evolution": ["763"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "ほうし","abilityEffect": "直接攻撃を受けたとき、相手をどく・まひ・ねむり状態にすることがある。", "hidden": false},{ "abilityName": "かんそうはだ","abilityEffect": "みずわざを受けるとHPが1/4回復し、ほのおわざを受けた時の威力は1.25倍になる。 あめのときはHPを1/8回復し、にほんばれのときは1/8のダメージを受ける。", "hidden": false},{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": true}],
   "evolution": ["46", "47"]
 }

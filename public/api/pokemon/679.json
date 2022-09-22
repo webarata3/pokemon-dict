@@ -16,5 +16,6 @@
 ,{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "ノーガード","abilityEffect": "自分と相手のわざが必中になる。", "hidden": false}],
   "evolution": ["679"]
 }

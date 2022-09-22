@@ -16,5 +16,6 @@
 ,{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": false}],
   "evolution": ["802"]
 }

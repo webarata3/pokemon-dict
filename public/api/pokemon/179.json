@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "せいでんき","abilityEffect": "直接攻撃を受けたとき、相手をまひにすることがある。 でんきタイプの野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "プラス","abilityEffect": "味方の場にプラスかマイナスのポケモンがいる時、とくこうが1.5倍になる。", "hidden": true}],
   "evolution": ["179", "180", "181"]
 }

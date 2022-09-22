@@ -16,5 +16,6 @@
 ,{ "typeId": 16,
   "typeName": "あく"}
 ],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "てきおうりょく","abilityEffect": "タイプ一致のダメージ補正が1.5倍から2倍になる。", "hidden": true}],
   "evolution": ["341", "342"]
 }

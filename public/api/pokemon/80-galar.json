@@ -16,5 +16,6 @@
 ,{ "typeId": 11,
   "typeName": "エスパー"}
 ],
+  "ability": [{ "abilityName": "クイックドロウ","abilityEffect": "攻撃技を使ったとき、行動順が早くなることがある。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
   "evolution": ["79-galar", "80-galar", "199-galar"]
 }

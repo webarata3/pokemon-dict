@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "ひらいしん","abilityEffect": "でんきわざの対象を自分にし、無効化してとくこうを1段階上げる。", "hidden": false},{ "abilityName": "エレキメイカー","abilityEffect": "場の状態をエレキフィールドにする。", "hidden": true}],
   "evolution": ["871"]
 }

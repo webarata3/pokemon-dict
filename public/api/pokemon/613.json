@@ -14,5 +14,6 @@
   "type": [{ "typeId": 6,
   "typeName": "こおり"}
 ],
+  "ability": [{ "abilityName": "ゆきがくれ","abilityEffect": "あられのとき、回避率が1.25倍になる。 雪が降っている場所でのポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "ゆきかき","abilityEffect": "あられのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
   "evolution": ["613"]
 }

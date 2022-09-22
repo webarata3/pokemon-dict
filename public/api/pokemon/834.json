@@ -16,5 +16,6 @@
 ,{ "typeId": 13,
   "typeName": "いわ"}
 ],
+  "ability": [{ "abilityName": "がんじょうあご","abilityEffect": "かみつきわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": true}],
   "evolution": ["834"]
 }

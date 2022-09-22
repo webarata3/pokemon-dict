@@ -16,5 +16,6 @@
 ,{ "typeId": 10,
   "typeName": "ひこう"}
 ],
+  "ability": [{ "abilityName": "リミットシールド","abilityEffect": "HPが半分より多いとメテノのフォルムが変わる。", "hidden": false}],
   "evolution": ["774"]
 }

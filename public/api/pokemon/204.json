@@ -14,5 +14,6 @@
   "type": [{ "typeId": 12,
   "typeName": "むし"}
 ],
+  "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
   "evolution": ["204", "205"]
 }

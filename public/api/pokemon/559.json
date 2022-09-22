@@ -16,5 +16,6 @@
 ,{ "typeId": 7,
   "typeName": "かくとう"}
 ],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": false},{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": true}],
   "evolution": ["559"]
 }

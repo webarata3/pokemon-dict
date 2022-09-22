@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "ふしぎなうろこ","abilityEffect": "状態異常のとき、ぼうぎょが1.5倍になる。", "hidden": false},{ "abilityName": "かちき","abilityEffect": "敵から能力を下げられたとき、とくこうが2段階上がる。", "hidden": false},{ "abilityName": "メロメロボディ","abilityEffect": "直接攻撃を受けたとき、相手をメロメロにすることがある。 自分と逆の性別のポケモンの出現率が上がる。", "hidden": true}],
   "evolution": ["349", "350"]
 }

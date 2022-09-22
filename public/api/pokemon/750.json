@@ -14,5 +14,6 @@
   "type": [{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "じきゅうりょく","abilityEffect": "攻撃技を受けるとぼうぎょが1段階上がる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": true}],
   "evolution": ["750"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": false},{ "abilityName": "ゆきがくれ","abilityEffect": "あられのとき、回避率が1.25倍になる。 雪が降っている場所でのポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": true}],
   "evolution": ["220", "221"]
 }

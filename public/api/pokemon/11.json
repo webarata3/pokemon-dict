@@ -14,5 +14,6 @@
   "type": [{ "typeId": 12,
   "typeName": "むし"}
 ],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false}],
   "evolution": ["10", "11", "12"]
 }

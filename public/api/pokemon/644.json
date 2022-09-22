@@ -16,5 +16,6 @@
 ,{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "テラボルテージ","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": false}],
   "evolution": ["644"]
 }

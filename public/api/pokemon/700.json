@@ -14,5 +14,6 @@
   "type": [{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "メロメロボディ","abilityEffect": "直接攻撃を受けたとき、相手をメロメロにすることがある。 自分と逆の性別のポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "フェアリースキン","abilityEffect": "ノーマルタイプのわざがフェアリータイプになり、威力が1.2倍になる。", "hidden": true}],
   "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
 }

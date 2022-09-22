@@ -14,5 +14,6 @@
   "type": [{ "typeId": 1,
   "typeName": "ノーマル"}
 ],
+  "ability": [{ "abilityName": "なまけ","abilityEffect": "2ターンに1回しか行動できない。", "hidden": false}],
   "evolution": ["287", "288", "289"]
 }

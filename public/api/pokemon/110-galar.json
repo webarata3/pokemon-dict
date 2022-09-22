@@ -16,5 +16,6 @@
 ,{ "typeId": 18,
   "typeName": "フェアリー"}
 ],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false},{ "abilityName": "かがくへんかガス","abilityEffect": "場にいる間、他の特性の効果が発動しなくなる。", "hidden": false},{ "abilityName": "ミストメイカー","abilityEffect": "場の状態をミストフィールドにする。", "hidden": true}],
   "evolution": ["109", "110", "110-galar"]
 }

@@ -14,5 +14,6 @@
   "type": [{ "typeId": 3,
   "typeName": "みず"}
 ],
+  "ability": [{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": false},{ "abilityName": "アイスボディ","abilityEffect": "あられのとき、HPが1/16回復する。", "hidden": true}],
   "evolution": ["86", "87"]
 }

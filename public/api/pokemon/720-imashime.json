@@ -16,5 +16,6 @@
 ,{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
+  "ability": [{ "abilityName": "マジシャン","abilityEffect": "攻撃を当てたとき、相手の持ち物を奪う。", "hidden": false}],
   "evolution": ["720-imashime"]
 }

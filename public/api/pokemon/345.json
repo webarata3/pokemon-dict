@@ -16,5 +16,6 @@
 ,{ "typeId": 4,
   "typeName": "くさ"}
 ],
+  "ability": [{ "abilityName": "きゅうばん","abilityEffect": "相手から強制交代をされない。 釣りの成功率が上がる。", "hidden": false},{ "abilityName": "よびみず","abilityEffect": "みずわざの対象を自分にし、無効化してとくこうを1段階上げる。", "hidden": true}],
   "evolution": ["345", "346"]
 }

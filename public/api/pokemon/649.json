@@ -16,5 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
+  "ability": [{ "abilityName": "ダウンロード","abilityEffect": "相手のステータスに応じてこうげきかとくこうが1段階上がる。", "hidden": false}],
   "evolution": ["649"]
 }

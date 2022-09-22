@@ -16,5 +16,6 @@
 ,{ "typeId": 2,
   "typeName": "ほのお"}
 ],
+  "ability": [{ "abilityName": "ターボブレイズ","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": false}],
   "evolution": ["643"]
 }

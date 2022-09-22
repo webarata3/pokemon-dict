@@ -16,5 +16,6 @@
 ,{ "typeId": 12,
   "typeName": "むし"}
 ],
+  "ability": [{ "abilityName": "すいほう","abilityEffect": "ほのおタイプのわざを受けるとき、相手のこうげき・とくこうを半分にする。 やけどにならない。 みずタイプのわざで攻撃するとき、こうげき・とくこうが2倍になる。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": true}],
   "evolution": ["752"]
 }

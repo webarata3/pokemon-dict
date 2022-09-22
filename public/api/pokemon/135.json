@@ -14,5 +14,6 @@
   "type": [{ "typeId": 5,
   "typeName": "でんき"}
 ],
+  "ability": [{ "abilityName": "ちくでん","abilityEffect": "でんきタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "はやあし","abilityEffect": "状態異常のとき、すばやさが1.5倍になる。", "hidden": true}],
   "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
 }

@@ -16,5 +16,6 @@
 ,{ "typeId": 12,
   "typeName": "むし"}
 ],
+  "ability": [{ "abilityName": "カブトアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": true}],
   "evolution": ["347", "348"]
 }

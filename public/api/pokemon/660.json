@@ -16,5 +16,6 @@
 ,{ "typeId": 9,
   "typeName": "じめん"}
 ],
+  "ability": [{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "ほおぶくろ","abilityEffect": "きのみを食べたとき、通常の効果に加えてHPが1/3回復する。", "hidden": false},{ "abilityName": "ちからもち","abilityEffect": "こうげきが2倍になる。", "hidden": true}],
   "evolution": ["660"]
 }
