@@ -48,12 +48,6 @@
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-
 .main {
   display: grid;
   grid-template-columns: 110px 550px 550px;
