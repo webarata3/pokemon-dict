@@ -128,6 +128,7 @@ init _ url key =
       , maybeCurrentPokemonNo = Nothing
       , tocModel =
             { links = []
+            , searchWord = ""
             }
       , mainPicModel =
             { maybePokemonId = Nothing
