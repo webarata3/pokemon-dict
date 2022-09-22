@@ -210,6 +210,7 @@ viewSearch searchWord =
         , placeholder "検索"
         , value searchWord
         , onInput InputSearch
+        , class "search__input"
         ]
         []
 

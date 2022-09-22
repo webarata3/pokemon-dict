@@ -8291,7 +8291,8 @@ var $author$project$Toc$viewSearch = function (searchWord) {
 				$elm$html$Html$Attributes$type_('text'),
 				$elm$html$Html$Attributes$placeholder('検索'),
 				$elm$html$Html$Attributes$value(searchWord),
-				$elm$html$Html$Events$onInput($author$project$Toc$InputSearch)
+				$elm$html$Html$Events$onInput($author$project$Toc$InputSearch),
+				$elm$html$Html$Attributes$class('search__input')
 			]),
 		_List_Nil);
 };

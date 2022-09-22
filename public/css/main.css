@@ -431,3 +431,7 @@
   color: #fff;
   font-size: var(--font-size-small);
 }
+
+.search__input {
+  margin: var(--basic-margin-small);
+}
