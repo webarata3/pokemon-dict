@@ -7925,10 +7925,36 @@ var $author$project$Evolution$viewEvoHeaderName = F3(
 								_Utils_eq(no, pokemonId))
 							]))
 					]),
-				_List_fromArray(
-					[
-						$elm$html$Html$text(pokemonStatus.be)
-					]));
+				A2(
+					$elm$core$List$cons,
+					A2(
+						$elm$html$Html$div,
+						_List_Nil,
+						_List_fromArray(
+							[
+								$elm$html$Html$text(pokemonStatus.be)
+							])),
+					function () {
+						var _v1 = pokemonStatus.ba;
+						if (!_v1.$) {
+							var formName = _v1.a;
+							return _List_fromArray(
+								[
+									A2(
+									$elm$html$Html$div,
+									_List_fromArray(
+										[
+											$elm$html$Html$Attributes$class('main__form-name')
+										]),
+									_List_fromArray(
+										[
+											$elm$html$Html$text(formName)
+										]))
+								]);
+						} else {
+							return _List_Nil;
+						}
+					}()));
 		} else {
 			return A2(
 				$elm$html$Html$th,

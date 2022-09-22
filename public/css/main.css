@@ -426,3 +426,7 @@
 .search__input {
   margin: var(--basic-margin-small);
 }
+
+.main__form-name {
+  font-size: var(--font-size-small);
+}

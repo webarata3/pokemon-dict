@@ -113,7 +113,20 @@ viewEvoHeaderName pokemonDataDict no pokemonId =
                     , ( "main__td-selected", no == pokemonId )
                     ]
                 ]
-                [ text pokemonStatus.name ]
+            <|
+                div []
+                    [ text pokemonStatus.name
+                    ]
+                    :: (case pokemonStatus.maybeFormName of
+                            Just formName ->
+                                [ div [ class "main__form-name" ]
+                                    [ text formName
+                                    ]
+                                ]
+
+                            _ ->
+                                []
+                       )
 
         _ ->
             th [ class "main__th" ] [ text "読込中" ]
