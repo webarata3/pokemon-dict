@@ -378,7 +378,7 @@ pokemonDataToId pokemonData =
     { no = pokemonData.no
     , maybeForm = pokemonData.maybeForm
     , name = pokemonData.name
-    , formName = ""
+    , maybeFormName = pokemonData.maybeFormName
     }
 
 

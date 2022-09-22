@@ -1857,9 +1857,9 @@ var _Platform_worker = F4(function(impl, flagDecoder, debugMetadata, args)
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a9,
-		impl.bA,
-		impl.bt,
+		impl.a8,
+		impl.bz,
+		impl.bs,
 		function() { return function() {} }
 	);
 });
@@ -3928,11 +3928,11 @@ var _Browser_element = _Debugger_element || F4(function(impl, flagDecoder, debug
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a9,
-		impl.bA,
-		impl.bt,
+		impl.a8,
+		impl.bz,
+		impl.bs,
 		function(sendToApp, initialModel) {
-			var view = impl.bB;
+			var view = impl.bA;
 			/**/
 			var domNode = args['node'];
 			//*/
@@ -3964,12 +3964,12 @@ var _Browser_document = _Debugger_document || F4(function(impl, flagDecoder, deb
 	return _Platform_initialize(
 		flagDecoder,
 		args,
-		impl.a9,
-		impl.bA,
-		impl.bt,
+		impl.a8,
+		impl.bz,
+		impl.bs,
 		function(sendToApp, initialModel) {
 			var divertHrefToApp = impl.Y && impl.Y(sendToApp)
-			var view = impl.bB;
+			var view = impl.bA;
 			var title = _VirtualDom_doc.title;
 			var bodyNode = _VirtualDom_doc.body;
 			var currNode = _VirtualDom_virtualize(bodyNode);
@@ -3982,7 +3982,7 @@ var _Browser_document = _Debugger_document || F4(function(impl, flagDecoder, deb
 				bodyNode = _VirtualDom_applyPatches(bodyNode, currNode, patches, sendToApp);
 				currNode = nextNode;
 				_VirtualDom_divertHrefToApp = 0;
-				(title !== doc.bw) && (_VirtualDom_doc.title = title = doc.bw);
+				(title !== doc.bv) && (_VirtualDom_doc.title = title = doc.bv);
 			});
 		}
 	);
@@ -4038,8 +4038,8 @@ function _Browser_makeAnimator(model, draw)
 
 function _Browser_application(impl)
 {
-	var onUrlChange = impl.bg;
-	var onUrlRequest = impl.bh;
+	var onUrlChange = impl.bf;
+	var onUrlRequest = impl.bg;
 	var key = function() { key.a(onUrlChange(_Browser_getUrl())); };
 
 	return _Browser_document({
@@ -4069,13 +4069,13 @@ function _Browser_application(impl)
 				}
 			});
 		},
-		a9: function(flags)
+		a8: function(flags)
 		{
-			return A3(impl.a9, flags, _Browser_getUrl(), key);
+			return A3(impl.a8, flags, _Browser_getUrl(), key);
 		},
-		bB: impl.bB,
 		bA: impl.bA,
-		bt: impl.bt
+		bz: impl.bz,
+		bs: impl.bs
 	});
 }
 
@@ -4141,17 +4141,17 @@ var _Browser_decodeEvent = F2(function(decoder, event)
 function _Browser_visibilityInfo()
 {
 	return (typeof _VirtualDom_doc.hidden !== 'undefined')
-		? { a6: 'hidden', aZ: 'visibilitychange' }
+		? { a5: 'hidden', aZ: 'visibilitychange' }
 		:
 	(typeof _VirtualDom_doc.mozHidden !== 'undefined')
-		? { a6: 'mozHidden', aZ: 'mozvisibilitychange' }
+		? { a5: 'mozHidden', aZ: 'mozvisibilitychange' }
 		:
 	(typeof _VirtualDom_doc.msHidden !== 'undefined')
-		? { a6: 'msHidden', aZ: 'msvisibilitychange' }
+		? { a5: 'msHidden', aZ: 'msvisibilitychange' }
 		:
 	(typeof _VirtualDom_doc.webkitHidden !== 'undefined')
-		? { a6: 'webkitHidden', aZ: 'webkitvisibilitychange' }
-		: { a6: 'hidden', aZ: 'visibilitychange' };
+		? { a5: 'webkitHidden', aZ: 'webkitvisibilitychange' }
+		: { a5: 'hidden', aZ: 'visibilitychange' };
 }
 
 
@@ -4375,7 +4375,7 @@ var _Http_toTask = F3(function(router, toTask, request)
 		$elm$core$Maybe$isJust(request.aM) && _Http_track(router, xhr, request.aM.a);
 
 		try {
-			xhr.open(request.be, request.D, true);
+			xhr.open(request.bd, request.D, true);
 		} catch (e) {
 			return done($elm$http$Http$BadUrl_(request.D));
 		}
@@ -4398,7 +4398,7 @@ function _Http_configureRequest(xhr, request)
 	{
 		xhr.setRequestHeader(headers.a.a, headers.a.b);
 	}
-	xhr.timeout = request.bv.a || 0;
+	xhr.timeout = request.bu.a || 0;
 	xhr.responseType = request.ah.d;
 	xhr.withCredentials = request.aV;
 }
@@ -4422,8 +4422,8 @@ function _Http_toMetadata(xhr)
 {
 	return {
 		D: xhr.responseURL,
-		br: xhr.status,
-		bs: xhr.statusText,
+		bq: xhr.status,
+		br: xhr.statusText,
 		aj: _Http_parseHeaders(xhr.getAllResponseHeaders())
 	};
 }
@@ -4519,14 +4519,14 @@ function _Http_track(router, xhr, tracker)
 	xhr.upload.addEventListener('progress', function(event) {
 		if (xhr.c) { return; }
 		_Scheduler_rawSpawn(A2($elm$core$Platform$sendToSelf, router, _Utils_Tuple2(tracker, $elm$http$Http$Sending({
-			bm: event.loaded,
+			bl: event.loaded,
 			aJ: event.total
 		}))));
 	});
 	xhr.addEventListener('progress', function(event) {
 		if (xhr.c) { return; }
 		_Scheduler_rawSpawn(A2($elm$core$Platform$sendToSelf, router, _Utils_Tuple2(tracker, $elm$http$Http$Receiving({
-			bj: event.loaded,
+			bi: event.loaded,
 			aJ: event.lengthComputable ? $elm$core$Maybe$Just(event.total) : $elm$core$Maybe$Nothing
 		}))));
 	});
@@ -5942,7 +5942,7 @@ var $elm$http$Http$resolve = F2(
 			case 3:
 				var metadata = response.a;
 				return $elm$core$Result$Err(
-					$elm$http$Http$BadStatus(metadata.br));
+					$elm$http$Http$BadStatus(metadata.bq));
 			default:
 				var body = response.b;
 				return A2(
@@ -6098,8 +6098,8 @@ var $elm$http$Http$cmdMap = F2(
 					aY: r.aY,
 					ah: A2(_Http_mapExpect, func, r.ah),
 					aj: r.aj,
-					be: r.be,
-					bv: r.bv,
+					bd: r.bd,
+					bu: r.bu,
 					aM: r.aM,
 					D: r.D
 				});
@@ -6124,11 +6124,11 @@ var $elm$http$Http$subscription = _Platform_leaf('Http');
 var $elm$http$Http$request = function (r) {
 	return $elm$http$Http$command(
 		$elm$http$Http$Request(
-			{aV: false, aY: r.aY, ah: r.ah, aj: r.aj, be: r.be, bv: r.bv, aM: r.aM, D: r.D}));
+			{aV: false, aY: r.aY, ah: r.ah, aj: r.aj, bd: r.bd, bu: r.bu, aM: r.aM, D: r.D}));
 };
 var $elm$http$Http$get = function (r) {
 	return $elm$http$Http$request(
-		{aY: $elm$http$Http$emptyBody, ah: r.ah, aj: _List_Nil, be: 'GET', bv: $elm$core$Maybe$Nothing, aM: $elm$core$Maybe$Nothing, D: r.D});
+		{aY: $elm$http$Http$emptyBody, ah: r.ah, aj: _List_Nil, bd: 'GET', bu: $elm$core$Maybe$Nothing, aM: $elm$core$Maybe$Nothing, D: r.D});
 };
 var $author$project$AppConfig$getBaseUrl = function (suffix) {
 	return suffix;
@@ -6236,7 +6236,7 @@ var $author$project$Pokemon$init = F3(
 				U: key,
 				R: {as: $elm$core$Maybe$Nothing},
 				S: $elm$core$Maybe$Nothing,
-				N: {ba: _List_Nil, bl: ''},
+				N: {a9: _List_Nil, bk: ''},
 				D: url
 			},
 			$elm$core$Platform$Cmd$batch(
@@ -6273,11 +6273,11 @@ var $andrewMacmurray$elm_delay$Delay$after = F2(
 	});
 var $author$project$AppConfig$PokemonData = F8(
 	function (no, maybeForm, name, maybeFormName, status, types, abilities, evolution) {
-		return {aT: abilities, a3: evolution, aq: maybeForm, bb: maybeFormName, bf: name, av: no, bq: status, bz: types};
+		return {aT: abilities, a3: evolution, aq: maybeForm, ba: maybeFormName, be: name, av: no, bp: status, by: types};
 	});
 var $author$project$AppConfig$Ability = F3(
 	function (abilityName, abilityEffect, hidden) {
-		return {aU: abilityEffect, aa: abilityName, a6: hidden};
+		return {aU: abilityEffect, aa: abilityName, a5: hidden};
 	});
 var $elm$json$Json$Decode$bool = _Json_decodeBool;
 var $elm$json$Json$Decode$field = _Json_decodeField;
@@ -6291,7 +6291,7 @@ var $author$project$Pokemon$decodeAbility = A4(
 	A2($elm$json$Json$Decode$field, 'hidden', $elm$json$Json$Decode$bool));
 var $author$project$AppConfig$AttrType = F2(
 	function (typeId, typeName) {
-		return {bx: typeId, by: typeName};
+		return {bw: typeId, bx: typeName};
 	});
 var $elm$json$Json$Decode$int = _Json_decodeInt;
 var $author$project$Pokemon$decodeAttrType = A3(
@@ -6301,7 +6301,7 @@ var $author$project$Pokemon$decodeAttrType = A3(
 	A2($elm$json$Json$Decode$field, 'typeName', $elm$json$Json$Decode$string));
 var $author$project$AppConfig$Status = F6(
 	function (hp, attack, defence, spAttack, spDefence, speed) {
-		return {aX: attack, a0: defence, a7: hp, bn: spAttack, bo: spDefence, bp: speed};
+		return {aX: attack, a0: defence, a6: hp, bm: spAttack, bn: spDefence, bo: speed};
 	});
 var $elm$json$Json$Decode$map6 = _Json_map6;
 var $author$project$Pokemon$decodeStatus = A7(
@@ -6443,7 +6443,7 @@ var $author$project$AppConfig$pokemonDataToId = function (pokemonData) {
 	return A2($author$project$AppConfig$pokemonNoFormToId, pokemonData.av, pokemonData.aq);
 };
 var $author$project$Pokemon$pokemonDataToId = function (pokemonData) {
-	return {a5: '', aq: pokemonData.aq, bf: pokemonData.bf, av: pokemonData.av};
+	return {aq: pokemonData.aq, ba: pokemonData.ba, be: pokemonData.be, av: pokemonData.av};
 };
 var $elm$browser$Browser$Navigation$pushUrl = _Browser_pushUrl;
 var $elm$url$Url$addPort = F2(
@@ -6532,7 +6532,7 @@ var $author$project$ActualStatus$update = F2(
 	});
 var $author$project$Toc$Link = F3(
 	function (name, link, image) {
-		return {am: image, an: link, bf: name};
+		return {am: image, an: link, be: name};
 	});
 var $author$project$Toc$decodeLink = A4(
 	$elm$json$Json$Decode$map3,
@@ -6554,7 +6554,7 @@ var $author$project$Toc$update = F2(
 					return _Utils_Tuple2(
 						_Utils_update(
 							model,
-							{ba: links}),
+							{a9: links}),
 						$elm$core$Platform$Cmd$none);
 				} else {
 					return _Utils_Tuple2(model, $elm$core$Platform$Cmd$none);
@@ -6567,7 +6567,7 @@ var $author$project$Toc$update = F2(
 			return _Utils_Tuple2(
 				_Utils_update(
 					model,
-					{bl: search}),
+					{bk: search}),
 				$elm$core$Platform$Cmd$none);
 		}
 	});
@@ -6944,13 +6944,13 @@ var $author$project$Pokemon$update = F2(
 						var newAttrTypeModel = _Utils_update(
 							attrTypeModel,
 							{
-								ap: $elm$core$Maybe$Just(pokemonData.bz)
+								ap: $elm$core$Maybe$Just(pokemonData.by)
 							});
 						var actualStatusModel = model.s;
 						var newActualStatusModel = _Utils_update(
 							actualStatusModel,
 							{
-								at: $elm$core$Maybe$Just(pokemonData.bq)
+								at: $elm$core$Maybe$Just(pokemonData.bp)
 							});
 						var abilityModel = model.F;
 						var newAbilityModel = _Utils_update(
@@ -7074,7 +7074,7 @@ var $author$project$Ability$viewAbility = function (ability) {
 					[
 						$elm$html$Html$Attributes$class('main__th main__th-nowrap')
 					]),
-				ability.a6 ? _List_fromArray(
+				ability.a5 ? _List_fromArray(
 					[
 						A2(
 						$elm$html$Html$span,
@@ -7676,7 +7676,7 @@ var $author$project$ActualStatus$viewIndividual = F2(
 						_List_fromArray(
 							[
 								function ($) {
-								return $.a7;
+								return $.a6;
 							},
 								function ($) {
 								return $.aX;
@@ -7685,13 +7685,13 @@ var $author$project$ActualStatus$viewIndividual = F2(
 								return $.a0;
 							},
 								function ($) {
+								return $.bm;
+							},
+								function ($) {
 								return $.bn;
 							},
 								function ($) {
 								return $.bo;
-							},
-								function ($) {
-								return $.bp;
 							}
 							])))
 				]));
@@ -7927,7 +7927,7 @@ var $author$project$Evolution$viewEvoHeaderName = F3(
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text(pokemonStatus.bf)
+						$elm$html$Html$text(pokemonStatus.be)
 					]));
 		} else {
 			return A2(
@@ -7949,7 +7949,7 @@ var $author$project$Evolution$viewEvoStatus = F7(
 		var _v0 = A2($elm$core$Dict$get, pokemonId, pokemonDataDict);
 		if (!_v0.$) {
 			var pokemonStatus = _v0.a;
-			var tempWidth = ((f(pokemonStatus.bq) * 2) / 3) | 0;
+			var tempWidth = ((f(pokemonStatus.bp) * 2) / 3) | 0;
 			var barWidth = (tempWidth > 100) ? 100 : tempWidth;
 			return A2(
 				$elm$html$Html$td,
@@ -7980,7 +7980,7 @@ var $author$project$Evolution$viewEvoStatus = F7(
 							[
 								$elm$html$Html$text(
 								$elm$core$String$fromInt(
-									f(pokemonStatus.bq)))
+									f(pokemonStatus.bp)))
 							])),
 						A2(
 						$elm$html$Html$div,
@@ -8120,7 +8120,7 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 										_List_fromArray(
 											[
 												function ($) {
-												return $.a7;
+												return $.a6;
 											},
 												function ($) {
 												return $.aX;
@@ -8129,13 +8129,13 @@ var $author$project$Evolution$viewPokemonEvolutionMain = F2(
 												return $.a0;
 											},
 												function ($) {
+												return $.bm;
+											},
+												function ($) {
 												return $.bn;
 											},
 												function ($) {
 												return $.bo;
-											},
-												function ($) {
-												return $.bp;
 											}
 											]),
 										_List_fromArray(
@@ -8303,14 +8303,14 @@ var $author$project$Toc$viewPokemonList = function (model) {
 			function (e, word) {
 				return A3($elm$core$String$replace, e.a, e.b, word);
 			}),
-		model.bl,
+		model.bk,
 		$author$project$Toc$getKanaList);
 	var links = A2(
 		$elm$core$List$filter,
 		function (e) {
-			return A2($elm$core$String$contains, searchWord, e.bf);
+			return A2($elm$core$String$contains, searchWord, e.be);
 		},
-		model.ba);
+		model.a9);
 	return A2(
 		$elm$html$Html$div,
 		_List_fromArray(
@@ -8327,7 +8327,7 @@ var $author$project$Toc$viewPokemonList = function (model) {
 						$author$project$AppConfig$getBaseUrl('/image/zukan.webp'))
 					]),
 				_List_Nil),
-				$author$project$Toc$viewSearch(model.bl),
+				$author$project$Toc$viewSearch(model.bk),
 				A2(
 				$elm$html$Html$div,
 				_List_fromArray(
@@ -8463,20 +8463,50 @@ var $author$project$MainPic$viewToc = function (pokemonId) {
 					[
 						$elm$html$Html$Attributes$class('pokemon__title')
 					]),
-				_List_fromArray(
-					[
-						A2(
-						$elm$html$Html$h1,
-						_List_fromArray(
+				$elm$core$List$concat(
+					_List_fromArray(
+						[
+							_List_fromArray(
 							[
-								$elm$html$Html$Attributes$class('pokemon__name')
+								A2(
+								$elm$html$Html$h1,
+								_List_Nil,
+								_List_fromArray(
+									[
+										$elm$html$Html$text(
+										'No.' + $elm$core$String$fromInt(pokemonId.av))
+									]))
 							]),
-						_List_fromArray(
+							_List_fromArray(
 							[
-								$elm$html$Html$text(
-								'No.' + ($elm$core$String$fromInt(pokemonId.av) + (' ' + pokemonId.bf)))
-							]))
-					])),
+								A2(
+								$elm$html$Html$h1,
+								_List_Nil,
+								_List_fromArray(
+									[
+										$elm$html$Html$text(pokemonId.be)
+									]))
+							]),
+							function () {
+							var _v0 = pokemonId.ba;
+							if (!_v0.$) {
+								var formName = _v0.a;
+								return _List_fromArray(
+									[
+										A2($elm$html$Html$div, _List_Nil, _List_Nil),
+										A2(
+										$elm$html$Html$h1,
+										_List_Nil,
+										_List_fromArray(
+											[
+												$elm$html$Html$text(formName)
+											]))
+									]);
+							} else {
+								return _List_Nil;
+							}
+						}()
+						]))),
 				after
 			]));
 };
@@ -8492,17 +8522,8 @@ var $author$project$MainPic$viewPokemonMainPic = function (model) {
 				]),
 			_List_fromArray(
 				[
-					A2(
-					$elm$html$Html$div,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$class('pokemon__info-inner')
-						]),
-					_List_fromArray(
-						[
-							$author$project$MainPic$viewToc(pokemonId),
-							$author$project$MainPic$viewPokemonImage(pokemonId)
-						]))
+					$author$project$MainPic$viewToc(pokemonId),
+					$author$project$MainPic$viewPokemonImage(pokemonId)
 				]));
 	} else {
 		return A2(
@@ -8573,7 +8594,7 @@ var $author$project$AttrType$getScales = F2(
 		return A2(
 			$elm$core$Maybe$withDefault,
 			_List_Nil,
-			A2($elm$core$Dict$get, attrType.bx, typeChart));
+			A2($elm$core$Dict$get, attrType.bw, typeChart));
 	});
 var $elm$core$List$head = function (list) {
 	if (list.b) {
@@ -8621,7 +8642,7 @@ var $author$project$AttrType$viewType = function (attrType) {
 					[
 						$elm$html$Html$Attributes$src(
 						$author$project$AppConfig$getBaseUrl(
-							'/image/type/' + ($elm$core$String$fromInt(attrType.bx) + '.svg'))),
+							'/image/type/' + ($elm$core$String$fromInt(attrType.bw) + '.svg'))),
 						$elm$html$Html$Attributes$class('type__image')
 					]),
 				_List_Nil),
@@ -8634,7 +8655,7 @@ var $author$project$AttrType$viewType = function (attrType) {
 					]),
 				_List_fromArray(
 					[
-						$elm$html$Html$text(attrType.by)
+						$elm$html$Html$text(attrType.bx)
 					]))
 			]));
 };
@@ -8828,10 +8849,10 @@ var $author$project$Pokemon$view = function (model) {
 			[
 				$author$project$Pokemon$viewMain(model)
 			]),
-		bw: pageTitle
+		bv: pageTitle
 	};
 };
 var $author$project$Pokemon$main = $elm$browser$Browser$application(
-	{a9: $author$project$Pokemon$init, bg: $author$project$Pokemon$UrlChanged, bh: $author$project$Pokemon$LinkClicked, bt: $author$project$Pokemon$subscriptions, bA: $author$project$Pokemon$update, bB: $author$project$Pokemon$view});
+	{a8: $author$project$Pokemon$init, bf: $author$project$Pokemon$UrlChanged, bg: $author$project$Pokemon$LinkClicked, bs: $author$project$Pokemon$subscriptions, bz: $author$project$Pokemon$update, bA: $author$project$Pokemon$view});
 _Platform_export({'Pokemon':{'init':$author$project$Pokemon$main(
 	$elm$json$Json$Decode$succeed(0))(0)}});}(this));

@@ -10,7 +10,7 @@ type alias PokemonId =
     { no : Int
     , maybeForm : Maybe String
     , name : String
-    , formName : String
+    , maybeFormName : Maybe String
     }
 
 
@@ -42,10 +42,8 @@ viewPokemonMainPic model =
     case model.maybePokemonId of
         Just pokemonId ->
             section [ class "pokemon__info" ]
-                [ div [ class "pokemon__info-inner" ]
-                    [ viewToc pokemonId
-                    , viewPokemonImage pokemonId
-                    ]
+                [ viewToc pokemonId
+                , viewPokemonImage pokemonId
                 ]
 
         _ ->
@@ -107,10 +105,19 @@ viewToc pokemonId =
     in
     div [ class "pokemon__toc" ]
         [ before
-        , div [ class "pokemon__title" ]
-            [ h1 [ class "pokemon__name" ]
-                [ text <| "No." ++ String.fromInt pokemonId.no ++ " " ++ pokemonId.name ]
-            ]
+        , div [ class "pokemon__title" ] <|
+            List.concat
+                [ [ h1 [] [ text <| "No." ++ String.fromInt pokemonId.no ] ]
+                , [ h1 [] [ text pokemonId.name ] ]
+                , case pokemonId.maybeFormName of
+                    Just formName ->
+                        [ div [] []
+                        , h1 [] [ text formName ]
+                        ]
+
+                    _ ->
+                        []
+                ]
         , after
         ]
 

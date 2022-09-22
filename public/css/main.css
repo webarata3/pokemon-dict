@@ -29,7 +29,6 @@
 * {
   box-sizing: border-box;
   font-family: 'Kosugi Maru', sans-serif;
-  font-size: var(--font-size-normal);
   font-weight: normal;
 }
 
@@ -119,11 +118,6 @@
   grid-row-end: 3;
 }
 
-.pokemon__info-inner {
-  width: 400px;
-  margin: 0 auto;
-}
-
 .main__pic {
   text-align: center;
 }
@@ -131,6 +125,8 @@
 .pokemon__toc {
   display: grid;
   grid-template-columns: 50px 1fr 50px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .pokemon__image-large {
@@ -140,15 +136,10 @@
 }
 
 .pokemon__title {
-  display: flex;
-  align-items: center;
-}
-
-.pokemon__name {
-  width: 100%;
-  font-weight: normal;
+  display: grid;
+  grid-template-columns: 100px 1fr;
   font-size: var(--font-size-large);
-  text-align: center;
+  margin: 0 auto;
 }
 
 .number {
