@@ -7541,7 +7541,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 							]),
 						_List_fromArray(
 							[
-								$elm$html$Html$text('+')
+								$elm$html$Html$text('＋')
 							])),
 						A2(
 						$elm$html$Html$th,
@@ -7551,7 +7551,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 							]),
 						_List_fromArray(
 							[
-								$elm$html$Html$text('+')
+								$elm$html$Html$text('－')
 							])),
 						A2(
 						$elm$html$Html$th,
@@ -7593,7 +7593,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 									]),
 								_List_fromArray(
 									[
-										$elm$html$Html$text('+')
+										$elm$html$Html$text('＋')
 									])),
 								A2(
 								$elm$html$Html$input,
@@ -7641,7 +7641,7 @@ var $author$project$ActualStatus$viewIndividualHead = function (model) {
 									]),
 								_List_fromArray(
 									[
-										$elm$html$Html$text('-')
+										$elm$html$Html$text('－')
 									]))
 							]))
 					]))

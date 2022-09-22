@@ -262,8 +262,8 @@ viewIndividualHead model =
             ]
         , tr []
             [ th [ class "main__th" ] [ text "性格補正" ]
-            , th [ class "main__th pokemon__label" ] [ text "+" ]
-            , th [ class "main__th pokemon__label" ] [ text "+" ]
+            , th [ class "main__th pokemon__label" ] [ text "＋" ]
+            , th [ class "main__th pokemon__label" ] [ text "－" ]
             , th [ class "main__th pokemon__label" ] [ text "無" ]
             , th [ class "main__th main__radio-area main__radio-area-3" ]
                 [ input
@@ -279,7 +279,7 @@ viewIndividualHead model =
                     [ for "nature-max"
                     , class "main__radio-label"
                     ]
-                    [ text "+" ]
+                    [ text "＋" ]
                 , input
                     [ type_ "radio"
                     , id "nature-zero"
@@ -307,7 +307,7 @@ viewIndividualHead model =
                     [ for "nature-min"
                     , class "main__radio-label"
                     ]
-                    [ text "-" ]
+                    [ text "－" ]
                 ]
             ]
         ]
