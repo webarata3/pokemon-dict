@@ -273,6 +273,18 @@ body {
 .main__sub-title {
   font-size: var(--font-size-large);
   margin-bottom: var(--basic-margin);
+  background: linear-gradient(#fff, #fff7d6);
+}
+
+.main__sub-title::before {
+  content: '';
+  display: inline-block;
+  vertical-align: bottom;
+  background-image: url(../image/ball.webp);
+  width: 1em;
+  height: 1em;
+  background-size: 1em 1em;
+  margin-right: var(--basic-margin-small);
 }
 
 .pokemon__top {
@@ -280,7 +292,6 @@ body {
 }
 
 .pokemon__value {
-  width: 410px;
   padding: var(--basic-padding);
 }
 
@@ -373,7 +384,6 @@ body {
 
 .main__type {
   text-align: center;
-  ;
 }
 
 .type__image {
@@ -411,7 +421,12 @@ body {
 
 .type__header {
   display: flex;
+  align-items: flex-start;
   gap: var(--basic-margin-large);
+}
+
+.abilities {
+  padding: var(--basic-padding);
 }
 
 .hidden-ability {
