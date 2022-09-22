@@ -56,7 +56,7 @@ body {
 .main {
   display: grid;
   grid-template-columns: 110px 550px 550px;
-  grid-template-rows: 140px 260px 440px;
+  grid-template-rows: 160px 240px 440px;
   gap: var(--basic-margin);
 }
 
@@ -415,8 +415,4 @@ body {
   padding: var(--basic-padding-small);
   color: #fff;
   font-size: var(--font-size-small);
-}
-
-.abilities {
-  margin-top: var(--basic-margin-large);
 }
