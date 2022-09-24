@@ -15,5 +15,5 @@
   "typeName": "ノーマル"}
 ],
   "ability": [{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": false},{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": true}],
-  "evolution": ["427"]
+  "evolution": ["427", "428"]
 }

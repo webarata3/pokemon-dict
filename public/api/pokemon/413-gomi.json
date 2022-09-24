@@ -17,5 +17,5 @@
   "typeName": "はがね"}
 ],
   "ability": [{ "abilityName": "きけんよち","abilityEffect": "相手が自分に効果抜群のわざを持っているかわかる。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
-  "evolution": ["413-gomi"]
+  "evolution": ["412", "413-kusaki", "413-sunachi", "413-gomi", "414"]
 }

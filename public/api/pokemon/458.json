@@ -17,5 +17,5 @@
   "typeName": "ひこう"}
 ],
   "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "みずのベール","abilityEffect": "やけどにならない。", "hidden": true}],
-  "evolution": ["458"]
+  "evolution": ["458", "226"]
 }

@@ -11,10 +11,5 @@
     "spDefence": 115,
     "speed": 148
   },
-  "type": [{ "typeId": 18,
-  "typeName": "フェアリー"}
-,{ "typeId": 17,
-  "typeName": "はがね"}
-],
-  "evolution": ["888-kennoou"]
+  "evolution": [888-kennoou]
 }

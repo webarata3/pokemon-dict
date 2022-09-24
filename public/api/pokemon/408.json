@@ -15,5 +15,5 @@
   "typeName": "いわ"}
 ],
   "ability": [{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": true}],
-  "evolution": ["408"]
+  "evolution": ["408", "409"]
 }

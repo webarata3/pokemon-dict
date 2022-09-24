@@ -17,5 +17,5 @@
   "typeName": "はがね"}
 ],
   "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "ぼうおん","abilityEffect": "音のわざを無効化する。", "hidden": true}],
-  "evolution": ["410"]
+  "evolution": ["410", "411"]
 }

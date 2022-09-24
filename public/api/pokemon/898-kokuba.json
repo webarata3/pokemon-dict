@@ -11,10 +11,5 @@
     "spDefence": 100,
     "speed": 150
   },
-  "type": [{ "typeId": 11,
-  "typeName": "エスパー"}
-,{ "typeId": 14,
-  "typeName": "ゴースト"}
-],
-  "evolution": ["898-kokuba"]
+  "evolution": [898-kokuba]
 }

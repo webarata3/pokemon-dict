@@ -17,5 +17,5 @@
   "typeName": "エスパー"}
 ],
   "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false},{ "abilityName": "たいねつ","abilityEffect": "ほのおわざを受けた時に威力を半減する。やけどのダメージを半減する。", "hidden": false},{ "abilityName": "ヘヴィメタル","abilityEffect": "重さが2倍になる。", "hidden": true}],
-  "evolution": ["436"]
+  "evolution": ["436", "437"]
 }

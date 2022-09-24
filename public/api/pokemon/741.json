@@ -1,8 +1,8 @@
 {
   "no": 741,
-  "form": "maimai",
+  "form": null,
   "name": "オドリドリ",
-  "formName": "まいまいスタイル",
+  "formName": めらめらスタイル,
   "status": {
     "hp": 75,
     "attack": 70,
@@ -11,5 +11,5 @@
     "spDefence": 70,
     "speed": 93
   },
-  "evolution": [741-maimai]
+  "evolution": [741]
 }

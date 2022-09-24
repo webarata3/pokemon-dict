@@ -11,8 +11,5 @@
     "spDefence": 115,
     "speed": 138
   },
-  "type": [{ "typeId": 18,
-  "typeName": "フェアリー"}
-],
-  "evolution": ["888-rekisen"]
+  "evolution": [888-rekisen]
 }

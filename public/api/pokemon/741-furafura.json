@@ -11,10 +11,5 @@
     "spDefence": 70,
     "speed": 93
   },
-  "type": [{ "typeId": 11,
-  "typeName": "エスパー"}
-,{ "typeId": 10,
-  "typeName": "ひこう"}
-],
-  "evolution": ["741-furafura"]
+  "evolution": [741-furafura]
 }

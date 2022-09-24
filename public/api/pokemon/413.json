@@ -1,0 +1,15 @@
+{
+  "no": 413,
+  "form": null,
+  "name": "ミノマダム",
+  "formName": くさきのミノ,
+  "status": {
+    "hp": 60,
+    "attack": 59,
+    "defence": 85,
+    "spAttack": 79,
+    "spDefence": 105,
+    "speed": 36
+  },
+  "evolution": [413]
+}

@@ -15,5 +15,5 @@
   "typeName": "ノーマル"}
 ],
   "ability": [{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "するどいめ","abilityEffect": "命中率を下げられず、相手の回避率を無視できる。 レベルの低いポケモンの出現率が下がる。", "hidden": true}],
-  "evolution": ["431"]
+  "evolution": ["431", "432"]
 }

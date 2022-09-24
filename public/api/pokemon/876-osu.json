@@ -11,10 +11,5 @@
     "spDefence": 95,
     "speed": 95
   },
-  "type": [{ "typeId": 11,
-  "typeName": "エスパー"}
-,{ "typeId": 1,
-  "typeName": "ノーマル"}
-],
-  "evolution": ["876-osu"]
+  "evolution": [876-osu]
 }

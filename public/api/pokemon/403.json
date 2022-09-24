@@ -15,5 +15,5 @@
   "typeName": "でんき"}
 ],
   "ability": [{ "abilityName": "とうそうしん","abilityEffect": "相手が同性のときはわざの威力が1.25倍になり、異性のときは0.75倍になる。", "hidden": false},{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": true}],
-  "evolution": ["403"]
+  "evolution": ["403", "404", "405"]
 }

@@ -11,8 +11,5 @@
     "spDefence": 115,
     "speed": 138
   },
-  "type": [{ "typeId": 7,
-  "typeName": "かくとう"}
-],
-  "evolution": ["889-rekisen"]
+  "evolution": [889-rekisen]
 }

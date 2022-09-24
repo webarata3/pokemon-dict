@@ -11,8 +11,5 @@
     "spDefence": 25,
     "speed": 40
   },
-  "type": [{ "typeId": 3,
-  "typeName": "みず"}
-],
-  "evolution": ["746-tandoku"]
+  "evolution": [746-tandoku]
 }

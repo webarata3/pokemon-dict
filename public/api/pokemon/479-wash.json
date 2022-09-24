@@ -17,5 +17,5 @@
   "typeName": "みず"}
 ],
   "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
-  "evolution": ["479-wash"]
+  "evolution": ["479", "479-heat", "479-wash", "479-frost", "479-spin", "479-cut"]
 }

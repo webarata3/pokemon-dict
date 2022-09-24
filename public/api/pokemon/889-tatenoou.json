@@ -11,10 +11,5 @@
     "spDefence": 145,
     "speed": 128
   },
-  "type": [{ "typeId": 7,
-  "typeName": "かくとう"}
-,{ "typeId": 17,
-  "typeName": "はがね"}
-],
-  "evolution": ["889-tatenoou"]
+  "evolution": [889-tatenoou]
 }

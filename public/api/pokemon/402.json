@@ -15,5 +15,5 @@
   "typeName": "むし"}
 ],
   "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": true}],
-  "evolution": ["402"]
+  "evolution": ["401", "402"]
 }

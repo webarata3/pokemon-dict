@@ -11,10 +11,5 @@
     "spDefence": 60,
     "speed": 97
   },
-  "type": [{ "typeId": 7,
-  "typeName": "かくとう"}
-,{ "typeId": 3,
-  "typeName": "みず"}
-],
-  "evolution": ["892-rengeki"]
+  "evolution": [892-rengeki]
 }

@@ -17,5 +17,5 @@
   "typeName": "かくとう"}
 ],
   "ability": [{ "abilityName": "きけんよち","abilityEffect": "相手が自分に効果抜群のわざを持っているかわかる。", "hidden": false},{ "abilityName": "かんそうはだ","abilityEffect": "みずわざを受けるとHPが1/4回復し、ほのおわざを受けた時の威力は1.25倍になる。 あめのときはHPを1/8回復し、にほんばれのときは1/8のダメージを受ける。", "hidden": false},{ "abilityName": "どくしゅ","abilityEffect": "直接攻撃を使ったとき、相手をどくにすることがある。", "hidden": true}],
-  "evolution": ["454"]
+  "evolution": ["453", "454"]
 }

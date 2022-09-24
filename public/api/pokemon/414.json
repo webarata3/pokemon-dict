@@ -17,5 +17,5 @@
   "typeName": "ひこう"}
 ],
   "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "いろめがね","abilityEffect": "与える「こうかはいまひとつ」のダメージが2倍になる。", "hidden": true}],
-  "evolution": ["414"]
+  "evolution": ["412", "413-kusaki", "413-sunachi", "413-gomi", "414"]
 }

@@ -11,10 +11,5 @@
     "spDefence": 70,
     "speed": 93
   },
-  "type": [{ "typeId": 2,
-  "typeName": "ほのお"}
-,{ "typeId": 10,
-  "typeName": "ひこう"}
-],
-  "evolution": ["741-meramera"]
+  "evolution": [741-meramera]
 }
