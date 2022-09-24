@@ -15,5 +15,5 @@
   "typeName": "どく"}
 ],
   "ability": [{ "abilityName": "あくしゅう","abilityEffect": "野生ポケモンと出会いにくくなる。 攻撃した相手をひるませることがある。", "hidden": false},{ "abilityName": "ねんちゃく","abilityEffect": "持ち物を奪われない。 つりの成功率が上がる。", "hidden": false},{ "abilityName": "ゆうばく","abilityEffect": "ひんしになったとき、相手に1/4のダメージを与える。", "hidden": true}],
-  "evolution": ["568"]
+  "evolution": ["568", "569"]
 }

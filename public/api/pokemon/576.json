@@ -15,5 +15,5 @@
   "typeName": "エスパー"}
 ],
   "ability": [{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "かちき","abilityEffect": "敵から能力を下げられたとき、とくこうが2段階上がる。", "hidden": false},{ "abilityName": "かげふみ","abilityEffect": "相手を逃げられなくする。", "hidden": true}],
-  "evolution": ["576"]
+  "evolution": ["574", "575", "576"]
 }

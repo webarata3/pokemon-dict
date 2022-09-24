@@ -15,5 +15,5 @@
   "typeName": "こおり"}
 ],
   "ability": [{ "abilityName": "ごりむちゅう","abilityEffect": "こうげきが1.5倍になるが、最初に選んだ技しか出せなくなる。", "hidden": false},{ "abilityName": "ダルマモード","abilityEffect": "HPが半分以下になるとヒヒダルマのフォルムが変化する。", "hidden": true}],
-  "evolution": ["555-galar"]
+  "evolution": ["554-galar", "555-galar"]
 }

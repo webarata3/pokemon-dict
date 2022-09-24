@@ -17,5 +17,5 @@
   "typeName": "あく"}
 ],
   "ability": [{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": false},{ "abilityName": "いかりのつぼ","abilityEffect": "急所に当たると、攻撃が最大まで上がる。", "hidden": true}],
-  "evolution": ["551"]
+  "evolution": ["551", "552", "553"]
 }

@@ -17,5 +17,5 @@
   "typeName": "ひこう"}
 ],
   "ability": [{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": false},{ "abilityName": "たんじゅん","abilityEffect": "ランク補正の変化量が2倍になる。", "hidden": true}],
-  "evolution": ["527"]
+  "evolution": ["527", "528"]
 }

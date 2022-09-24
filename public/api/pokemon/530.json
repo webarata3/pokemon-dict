@@ -17,5 +17,5 @@
   "typeName": "はがね"}
 ],
   "ability": [{ "abilityName": "すなかき","abilityEffect": "すなあらしのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "すなのちから","abilityEffect": "すなあらしのとき、いわ・じめん・はがねの威力が1.3倍になる。", "hidden": false},{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": true}],
-  "evolution": ["530"]
+  "evolution": ["529", "530"]
 }

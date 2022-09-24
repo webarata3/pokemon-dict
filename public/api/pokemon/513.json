@@ -15,5 +15,5 @@
   "typeName": "ほのお"}
 ],
   "ability": [{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": true}],
-  "evolution": ["513"]
+  "evolution": ["513", "514"]
 }

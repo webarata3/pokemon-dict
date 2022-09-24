@@ -15,5 +15,5 @@
   "typeName": "でんき"}
 ],
   "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
-  "evolution": ["602"]
+  "evolution": ["602", "603", "604"]
 }

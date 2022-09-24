@@ -15,5 +15,5 @@
   "typeName": "ひこう"}
 ],
   "ability": [{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": false}],
-  "evolution": ["641-reiju"]
+  "evolution": ["641-keshin", "641-reiju"]
 }

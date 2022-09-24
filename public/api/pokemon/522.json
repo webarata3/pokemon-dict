@@ -15,5 +15,5 @@
   "typeName": "でんき"}
 ],
   "ability": [{ "abilityName": "ひらいしん","abilityEffect": "でんきわざの対象を自分にし、無効化してとくこうを1段階上げる。", "hidden": false},{ "abilityName": "でんきエンジン","abilityEffect": "でんきタイプのわざを無効化して、すばやさが1段階上がる。", "hidden": false},{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": true}],
-  "evolution": ["522"]
+  "evolution": ["522", "523"]
 }

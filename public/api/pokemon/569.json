@@ -15,5 +15,5 @@
   "typeName": "どく"}
 ],
   "ability": [{ "abilityName": "あくしゅう","abilityEffect": "野生ポケモンと出会いにくくなる。 攻撃した相手をひるませることがある。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": false},{ "abilityName": "ゆうばく","abilityEffect": "ひんしになったとき、相手に1/4のダメージを与える。", "hidden": true}],
-  "evolution": ["569"]
+  "evolution": ["568", "569"]
 }

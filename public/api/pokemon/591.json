@@ -17,5 +17,5 @@
   "typeName": "どく"}
 ],
   "ability": [{ "abilityName": "ほうし","abilityEffect": "直接攻撃を受けたとき、相手をどく・まひ・ねむり状態にすることがある。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
-  "evolution": ["591"]
+  "evolution": ["590", "591"]
 }

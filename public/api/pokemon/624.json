@@ -17,5 +17,5 @@
   "typeName": "はがね"}
 ],
   "ability": [{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false},{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": true}],
-  "evolution": ["624"]
+  "evolution": ["624", "625"]
 }

@@ -17,5 +17,5 @@
   "typeName": "フェアリー"}
 ],
   "ability": [{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": false},{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": true}],
-  "evolution": ["547"]
+  "evolution": ["546", "547"]
 }

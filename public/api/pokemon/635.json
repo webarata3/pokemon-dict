@@ -17,5 +17,5 @@
   "typeName": "ドラゴン"}
 ],
   "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
-  "evolution": ["635"]
+  "evolution": ["633", "634", "635"]
 }

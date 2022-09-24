@@ -15,5 +15,5 @@
   "typeName": "いわ"}
 ],
   "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": false},{ "abilityName": "すなのちから","abilityEffect": "すなあらしのとき、いわ・じめん・はがねの威力が1.3倍になる。", "hidden": true}],
-  "evolution": ["524"]
+  "evolution": ["524", "525", "526"]
 }

@@ -17,5 +17,5 @@
   "typeName": "でんき"}
 ],
   "ability": [{ "abilityName": "ふくがん","abilityEffect": "命中率が1.3倍に上がる。 もちものを持った野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": false},{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": true}],
-  "evolution": ["595"]
+  "evolution": ["595", "596"]
 }

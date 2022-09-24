@@ -17,5 +17,5 @@
   "typeName": "じめん"}
 ],
   "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": true}],
-  "evolution": ["536"]
+  "evolution": ["535", "536", "537"]
 }

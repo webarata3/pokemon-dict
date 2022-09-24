@@ -17,5 +17,5 @@
   "typeName": "かくとう"}
 ],
   "ability": [{ "abilityName": "てんのめぐみ","abilityEffect": "追加効果の出る確率が2倍になる。", "hidden": false}],
-  "evolution": ["648-suteppu"]
+  "evolution": ["648-boisu", "648-suteppu"]
 }

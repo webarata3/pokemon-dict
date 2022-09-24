@@ -17,5 +17,5 @@
   "typeName": "ゴースト"}
 ],
   "ability": [{ "abilityName": "さまようたましい","abilityEffect": "直接攻撃を受けたとき、相手と特性を入れ替える。", "hidden": false}],
-  "evolution": ["562-galar"]
+  "evolution": ["562-galar", "867"]
 }
