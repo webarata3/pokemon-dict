@@ -14,6 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
-  "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": false},{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": true}],
+  "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": false},{ "abilityName": "てつのこぶし","abilityEffect": "パンチ系の技『アイスハンマー』『アームハンマー』『かみなりパンチ』『きあいパンチ』『グロウパンチ』『コメットパンチ』『シャドーパンチ』『スカイアッパー』『ドレインパンチ』『ばくれつパンチ』『バレットパンチ』『ピヨピヨパンチ』『プラズマフィスト』『ほのおのパンチ』『マッハパンチ』『メガトンパンチ』『れいとうパンチ』『れんぞくパンチ』『ダブルパンツァー』『あんこくきょうだ』『すいりゅうれんだ』の威力が1.2倍になる。", "hidden": true}],
   "evolution": ["532", "533", "534"]
 }

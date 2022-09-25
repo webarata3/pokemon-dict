@@ -15,5 +15,5 @@
   "typeName": "みず"}
 ],
   "ability": [{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": false},{ "abilityName": "てきおうりょく","abilityEffect": "タイプ一致のダメージ補正が1.5倍から2倍になる。", "hidden": false},{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": true}],
-  "evolution": ["550"]
+  "evolution": ["550", "902-osu", "902-mesu"]
 }

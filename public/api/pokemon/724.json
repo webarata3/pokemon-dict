@@ -17,5 +17,5 @@
   "typeName": "ゴースト"}
 ],
   "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "えんかく","abilityEffect": "使用する直接攻撃わざが、直接攻撃でなくなる。", "hidden": true}],
-  "evolution": ["722", "723", "724"]
+  "evolution": ["722", "723", "724", "724-hisui"]
 }

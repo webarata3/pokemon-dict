@@ -1,0 +1,21 @@
+{
+  "no": 157,
+  "form": "hisui",
+  "name": "バクフーン",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 73,
+    "attack": 84,
+    "defence": 78,
+    "spAttack": 119,
+    "spDefence": 85,
+    "speed": 95
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [],
+  "evolution": ["155", "156", "157", "157-hisui"]
+}

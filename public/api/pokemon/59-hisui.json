@@ -1,0 +1,21 @@
+{
+  "no": 59,
+  "form": "hisui",
+  "name": "ウィンディ",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 95,
+    "attack": 115,
+    "defence": 80,
+    "spAttack": 95,
+    "spDefence": 80,
+    "speed": 90
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [],
+  "evolution": ["58-hisui", "59-hisui"]
+}

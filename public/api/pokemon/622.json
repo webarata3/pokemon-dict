@@ -16,6 +16,6 @@
 ,{ "typeId": 14,
   "typeName": "ゴースト"}
 ],
-  "ability": [{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": false},{ "abilityName": "ノーガード","abilityEffect": "自分と相手のわざが必中になる。", "hidden": true}],
+  "ability": [{ "abilityName": "てつのこぶし","abilityEffect": "パンチ系の技『アイスハンマー』『アームハンマー』『かみなりパンチ』『きあいパンチ』『グロウパンチ』『コメットパンチ』『シャドーパンチ』『スカイアッパー』『ドレインパンチ』『ばくれつパンチ』『バレットパンチ』『ピヨピヨパンチ』『プラズマフィスト』『ほのおのパンチ』『マッハパンチ』『メガトンパンチ』『れいとうパンチ』『れんぞくパンチ』『ダブルパンツァー』『あんこくきょうだ』『すいりゅうれんだ』の威力が1.2倍になる。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": false},{ "abilityName": "ノーガード","abilityEffect": "自分と相手のわざが必中になる。", "hidden": true}],
   "evolution": ["622", "623"]
 }

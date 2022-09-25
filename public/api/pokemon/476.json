@@ -16,6 +16,6 @@
 ,{ "typeId": 17,
   "typeName": "はがね"}
 ],
-  "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "じりょく","abilityEffect": "はがねタイプのポケモンを逃げられなくする。 はがねタイプのポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "すなのちから","abilityEffect": "すなあらしのとき、いわ・じめん・はがねの威力が1.3倍になる。", "hidden": true}],
+  "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "じりょく","abilityEffect": "相手の『はがね』タイプのポケモンは逃げたり、ポケモンを交代することができなくなる。／『はがね』タイプの野生のポケモンと出会いやすくなる。", "hidden": false},{ "abilityName": "すなのちから","abilityEffect": "すなあらしのとき、いわ・じめん・はがねの威力が1.3倍になる。", "hidden": true}],
   "evolution": ["299", "476"]
 }

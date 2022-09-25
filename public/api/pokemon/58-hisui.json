@@ -1,0 +1,21 @@
+{
+  "no": 58,
+  "form": "hisui",
+  "name": "ガーディ",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 45,
+    "spAttack": 65,
+    "spDefence": 50,
+    "speed": 55
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [],
+  "evolution": ["58-hisui", "59-hisui"]
+}

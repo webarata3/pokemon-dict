@@ -14,6 +14,6 @@
   "type": [{ "typeId": 7,
   "typeName": "かくとう"}
 ],
-  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false},{ "abilityName": "いかりのつぼ","abilityEffect": "急所に当たると、攻撃が最大まで上がる。", "hidden": true}],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "てつのこぶし","abilityEffect": "パンチ系の技『アイスハンマー』『アームハンマー』『かみなりパンチ』『きあいパンチ』『グロウパンチ』『コメットパンチ』『シャドーパンチ』『スカイアッパー』『ドレインパンチ』『ばくれつパンチ』『バレットパンチ』『ピヨピヨパンチ』『プラズマフィスト』『ほのおのパンチ』『マッハパンチ』『メガトンパンチ』『れいとうパンチ』『れんぞくパンチ』『ダブルパンツァー』『あんこくきょうだ』『すいりゅうれんだ』の威力が1.2倍になる。", "hidden": false},{ "abilityName": "いかりのつぼ","abilityEffect": "急所に当たると、攻撃が最大まで上がる。", "hidden": true}],
   "evolution": ["739", "740"]
 }

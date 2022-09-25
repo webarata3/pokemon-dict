@@ -1,0 +1,21 @@
+{
+  "no": 570,
+  "form": "hisui",
+  "name": "ゾロア",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 35,
+    "attack": 60,
+    "defence": 40,
+    "spAttack": 85,
+    "spDefence": 40,
+    "speed": 70
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [],
+  "evolution": ["570-hisui", "571-hisui"]
+}

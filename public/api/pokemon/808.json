@@ -1,0 +1,19 @@
+{
+  "no": 808,
+  "form": null,
+  "name": "メルタン",
+  "formName": null,
+  "status": {
+    "hp": 46,
+    "attack": 65,
+    "defence": 65,
+    "spAttack": 55,
+    "spDefence": 35,
+    "speed": 34
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "じりょく","abilityEffect": "相手の『はがね』タイプのポケモンは逃げたり、ポケモンを交代することができなくなる。／『はがね』タイプの野生のポケモンと出会いやすくなる。", "hidden": false}],
+  "evolution": ["808", "809"]
+}

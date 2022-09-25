@@ -1,0 +1,21 @@
+{
+  "no": 503,
+  "form": "hisui",
+  "name": "ダイケンキ",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 90,
+    "attack": 108,
+    "defence": 80,
+    "spAttack": 100,
+    "spDefence": 65,
+    "speed": 85
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [],
+  "evolution": ["501", "502", "503", "503-hisui"]
+}

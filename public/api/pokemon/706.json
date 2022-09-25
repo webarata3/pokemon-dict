@@ -15,5 +15,5 @@
   "typeName": "ドラゴン"}
 ],
   "ability": [{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": false},{ "abilityName": "ぬめぬめ","abilityEffect": "直接攻撃を受けたとき、相手のすばやさを1段階下げる。", "hidden": true}],
-  "evolution": ["704", "705", "706"]
+  "evolution": ["704", "705", "705-hisui", "706", "706-hisui"]
 }
