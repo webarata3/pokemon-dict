@@ -11,5 +11,9 @@
     "spDefence": 115,
     "speed": 138
   },
-  "evolution": [889-rekisen]
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "ふくつのたて","abilityEffect": "場に出たときぼうぎょが1段階上がる。", "hidden": false}],
+  "evolution": ["889-rekisen", "889-tatenoou"]
 }

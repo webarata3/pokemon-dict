@@ -15,5 +15,5 @@
   "typeName": "ノーマル"}
 ],
   "ability": [{ "abilityName": "ほおぶくろ","abilityEffect": "きのみを食べたとき、通常の効果に加えてHPが1/3回復する。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": true}],
-  "evolution": ["819"]
+  "evolution": ["819", "820"]
 }

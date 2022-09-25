@@ -15,5 +15,5 @@
   "typeName": "かくとう"}
 ],
   "ability": [{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false}],
-  "evolution": ["891"]
+  "evolution": ["891", "892-ichigeki", "892-rengeki"]
 }

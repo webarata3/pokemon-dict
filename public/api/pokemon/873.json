@@ -17,5 +17,5 @@
   "typeName": "むし"}
 ],
   "ability": [{ "abilityName": "りんぷん","abilityEffect": "攻撃技の追加効果を受けない。", "hidden": false},{ "abilityName": "こおりのりんぷん","abilityEffect": "受ける特殊技のダメージが半減する。", "hidden": true}],
-  "evolution": ["873"]
+  "evolution": ["872", "873"]
 }

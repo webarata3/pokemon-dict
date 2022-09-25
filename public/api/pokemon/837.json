@@ -15,5 +15,5 @@
   "typeName": "いわ"}
 ],
   "ability": [{ "abilityName": "じょうききかん","abilityEffect": "みずタイプかほのおタイプのわざを受けるとすばやさが6段階上がる。 タマゴの孵化に必要な歩数が半減する。", "hidden": false},{ "abilityName": "たいねつ","abilityEffect": "ほのおわざを受けた時に威力を半減する。やけどのダメージを半減する。", "hidden": false},{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化しその後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": true}],
-  "evolution": ["837"]
+  "evolution": ["837", "838", "839"]
 }

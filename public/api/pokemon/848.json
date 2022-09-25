@@ -17,5 +17,5 @@
   "typeName": "どく"}
 ],
   "ability": [{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": false},{ "abilityName": "せいでんき","abilityEffect": "直接攻撃を受けたとき、相手をまひにすることがある。 でんきタイプの野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": true}],
-  "evolution": ["848"]
+  "evolution": ["848", "849"]
 }

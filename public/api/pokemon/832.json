@@ -15,5 +15,5 @@
   "typeName": "ノーマル"}
 ],
   "ability": [{ "abilityName": "もふもふ","abilityEffect": "受ける直接攻撃のダメージが0.5倍、ほのおわざのダメージが2倍になる。", "hidden": false},{ "abilityName": "はやあし","abilityEffect": "状態異常のとき、すばやさが1.5倍になる。", "hidden": false},{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": true}],
-  "evolution": ["832"]
+  "evolution": ["831", "832"]
 }

@@ -15,5 +15,5 @@
   "typeName": "くさ"}
 ],
   "ability": [{ "abilityName": "わたげ","abilityEffect": "攻撃を受けると自分以外のポケモンのすばやさを1段階下げる。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": false},{ "abilityName": "ほうし","abilityEffect": "直接攻撃を受けたとき、相手をどく・まひ・ねむり状態にすることがある。", "hidden": true}],
-  "evolution": ["829"]
+  "evolution": ["829", "830"]
 }

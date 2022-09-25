@@ -15,5 +15,5 @@
   "typeName": "でんき"}
 ],
   "ability": [{ "abilityName": "たまひろい","abilityEffect": "野生ポケモンの捕獲に失敗した際、ボールを拾ってくる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
-  "evolution": ["835"]
+  "evolution": ["835", "836"]
 }

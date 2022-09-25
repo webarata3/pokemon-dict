@@ -11,5 +11,11 @@
     "spDefence": 60,
     "speed": 97
   },
-  "evolution": [892-ichigeki]
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+,{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [{ "abilityName": "ふかしのこぶし","abilityEffect": "直接攻撃を使ったとき、相手のまもる状態を無視する。", "hidden": false}],
+  "evolution": ["891", "892-ichigeki", "892-rengeki"]
 }

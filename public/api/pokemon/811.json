@@ -15,5 +15,5 @@
   "typeName": "くさ"}
 ],
   "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "グラスメイカー","abilityEffect": "場の状態をグラスフィールドにする。", "hidden": true}],
-  "evolution": ["811"]
+  "evolution": ["810", "811", "812"]
 }

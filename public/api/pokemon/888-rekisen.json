@@ -11,5 +11,9 @@
     "spDefence": 115,
     "speed": 138
   },
-  "evolution": [888-rekisen]
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "ふとうのけん","abilityEffect": "場に出たときこうげきが1段階上がる。", "hidden": false}],
+  "evolution": ["888-rekisen", "888-kennoou"]
 }

@@ -17,5 +17,5 @@
   "typeName": "エスパー"}
 ],
   "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "テレパシー","abilityEffect": "味方からの攻撃を無効化する。", "hidden": true}],
-  "evolution": ["826"]
+  "evolution": ["824", "825", "826"]
 }
