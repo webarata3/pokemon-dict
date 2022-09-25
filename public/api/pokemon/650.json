@@ -15,5 +15,5 @@
   "typeName": "くさ"}
 ],
   "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": true}],
-  "evolution": ["650"]
+  "evolution": ["650", "651", "652"]
 }

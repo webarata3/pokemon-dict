@@ -15,5 +15,5 @@
   "typeName": "むし"}
 ],
   "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "フレンドガード","abilityEffect": "味方へのダメージが0.75倍になる。", "hidden": true}],
-  "evolution": ["665"]
+  "evolution": ["664", "665", "666"]
 }

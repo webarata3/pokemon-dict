@@ -15,5 +15,5 @@
   "typeName": "みず"}
 ],
   "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "へんげんじざい","abilityEffect": "わざを出す直前にそのわざのタイプになる。", "hidden": true}],
-  "evolution": ["656"]
+  "evolution": ["656", "657", "658"]
 }

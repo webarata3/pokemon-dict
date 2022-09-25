@@ -17,5 +17,5 @@
   "typeName": "はがね"}
 ],
   "ability": [{ "abilityName": "メタルプロテクト","abilityEffect": "相手からランク補正を下げられない。", "hidden": false}],
-  "evolution": ["791"]
+  "evolution": ["789", "790", "791", "792"]
 }

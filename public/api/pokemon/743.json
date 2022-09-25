@@ -17,5 +17,5 @@
   "typeName": "フェアリー"}
 ],
   "ability": [{ "abilityName": "みつあつめ","abilityEffect": "バトル終了後、あまいミツを拾ってくることがある。", "hidden": false},{ "abilityName": "りんぷん","abilityEffect": "攻撃技の追加効果を受けない。", "hidden": false},{ "abilityName": "スイートベール","abilityEffect": "自分と味方がねむりにならなくなる。", "hidden": true}],
-  "evolution": ["743"]
+  "evolution": ["742", "743"]
 }

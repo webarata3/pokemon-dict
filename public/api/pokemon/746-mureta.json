@@ -11,5 +11,9 @@
     "spDefence": 135,
     "speed": 30
   },
-  "evolution": [746-mureta]
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "ぎょぐん","abilityEffect": "HPが25%以上あるとヨワシのフォルムが変化する。", "hidden": false}],
+  "evolution": ["746-tandoku", "746-mureta"]
 }

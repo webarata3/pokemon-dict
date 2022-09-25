@@ -17,5 +17,5 @@
   "typeName": "ドラゴン"}
 ],
   "ability": [{ "abilityName": "ビーストブースト","abilityEffect": "ポケモンを倒すと、自分の最も高い能力が1段階上がる。", "hidden": false}],
-  "evolution": ["804"]
+  "evolution": ["803", "804"]
 }

@@ -15,5 +15,5 @@
   "typeName": "エスパー"}
 ],
   "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false}],
-  "evolution": ["790"]
+  "evolution": ["789", "790", "791", "792"]
 }

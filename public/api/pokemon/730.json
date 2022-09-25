@@ -17,5 +17,5 @@
   "typeName": "フェアリー"}
 ],
   "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "うるおいボイス","abilityEffect": "音のわざがみずタイプになる。", "hidden": true}],
-  "evolution": ["730"]
+  "evolution": ["728", "729", "730"]
 }

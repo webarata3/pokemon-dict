@@ -15,5 +15,5 @@
   "typeName": "ノーマル"}
 ],
   "ability": [{ "abilityName": "ARシステム","abilityEffect": "持たせたメモリによってタイプが変わる。", "hidden": false}],
-  "evolution": ["773"]
+  "evolution": ["772", "773"]
 }

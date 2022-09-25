@@ -15,5 +15,5 @@
   "typeName": "ノーマル"}
 ],
   "ability": [{ "abilityName": "カブトアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false}],
-  "evolution": ["772"]
+  "evolution": ["772", "773"]
 }

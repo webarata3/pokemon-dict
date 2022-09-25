@@ -11,5 +11,11 @@
     "spDefence": 140,
     "speed": 60
   },
-  "evolution": [681-shield]
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "バトルスイッチ","abilityEffect": "使う技に応じてギルガルドのフォルムを変化させる。", "hidden": false}],
+  "evolution": ["679", "680", "681-shield", "681-blade"]
 }

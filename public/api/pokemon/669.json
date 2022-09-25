@@ -15,5 +15,5 @@
   "typeName": "フェアリー"}
 ],
   "ability": [{ "abilityName": "フラワーベール","abilityEffect": "味方の場のくさタイプのポケモンは、相手からランク補正を下げられなくなり、状態異常にもならない。", "hidden": false},{ "abilityName": "きょうせい","abilityEffect": "味方の持ち物がなくなったとき、自分の持ち物を渡す。", "hidden": true}],
-  "evolution": ["669"]
+  "evolution": ["669", "670", "671"]
 }

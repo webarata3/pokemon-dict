@@ -15,5 +15,5 @@
   "typeName": "くさ"}
 ],
   "ability": [{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false},{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": false},{ "abilityName": "スイートベール","abilityEffect": "自分と味方がねむりにならなくなる。", "hidden": true}],
-  "evolution": ["762"]
+  "evolution": ["761", "762", "763"]
 }

@@ -15,5 +15,5 @@
   "typeName": "エスパー"}
 ],
   "ability": [{ "abilityName": "プリズムアーマー","abilityEffect": "効果抜群のわざのダメージが0.75倍になる。", "hidden": false}],
-  "evolution": ["800"]
+  "evolution": ["800", "800-tasogare"]
 }

@@ -17,5 +17,5 @@
   "typeName": "ドラゴン"}
 ],
   "ability": [{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": false},{ "abilityName": "テレパシー","abilityEffect": "味方からの攻撃を無効化する。", "hidden": true}],
-  "evolution": ["715"]
+  "evolution": ["714", "715"]
 }

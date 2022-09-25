@@ -11,5 +11,11 @@
     "spDefence": 75,
     "speed": 99
   },
-  "evolution": [711-small]
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+,{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "ふみん","abilityEffect": "ねむりにならない。", "hidden": true}],
+  "evolution": ["710-normal", "710-small", "710-large", "710-x-large", "711-normal", "711-small", "711-large", "711-x-large"]
 }

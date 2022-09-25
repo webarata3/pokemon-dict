@@ -17,5 +17,5 @@
   "typeName": "エスパー"}
 ],
   "ability": [{ "abilityName": "あまのじゃく","abilityEffect": "自分にかかるランク補正を逆にする。", "hidden": false},{ "abilityName": "きゅうばん","abilityEffect": "相手から強制交代をされない。 釣りの成功率が上がる。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": true}],
-  "evolution": ["687"]
+  "evolution": ["686", "687"]
 }

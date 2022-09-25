@@ -15,5 +15,5 @@
   "typeName": "むし"}
 ],
   "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false}],
-  "evolution": ["736"]
+  "evolution": ["736", "737", "738"]
 }

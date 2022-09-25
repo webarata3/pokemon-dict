@@ -17,5 +17,5 @@
   "typeName": "じめん"}
 ],
   "ability": [{ "abilityName": "みずがため","abilityEffect": "みずタイプの攻撃を受けるとぼうぎょが2段階上がる。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": true}],
-  "evolution": ["769"]
+  "evolution": ["769", "770"]
 }

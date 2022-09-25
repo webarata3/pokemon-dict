@@ -17,5 +17,5 @@
   "typeName": "みず"}
 ],
   "ability": [{ "abilityName": "にげごし","abilityEffect": "HPが半分以下になると交代する。", "hidden": false}],
-  "evolution": ["767"]
+  "evolution": ["767", "768"]
 }

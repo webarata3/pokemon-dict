@@ -17,5 +17,5 @@
   "typeName": "くさ"}
 ],
   "ability": [{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "しゅうかく","abilityEffect": "消費したきのみを復活させることがある。", "hidden": true}],
-  "evolution": ["709"]
+  "evolution": ["708", "709"]
 }

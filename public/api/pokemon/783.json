@@ -17,5 +17,5 @@
   "typeName": "かくとう"}
 ],
   "ability": [{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": false},{ "abilityName": "ぼうおん","abilityEffect": "音のわざを無効化する。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
-  "evolution": ["783"]
+  "evolution": ["782", "783", "784"]
 }

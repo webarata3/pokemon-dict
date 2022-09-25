@@ -17,5 +17,5 @@
   "typeName": "かくとう"}
 ],
   "ability": [{ "abilityName": "もふもふ","abilityEffect": "受ける直接攻撃のダメージが0.5倍、ほのおわざのダメージが2倍になる。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
-  "evolution": ["760"]
+  "evolution": ["759", "760"]
 }

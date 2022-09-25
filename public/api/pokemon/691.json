@@ -17,5 +17,5 @@
   "typeName": "ドラゴン"}
 ],
   "ability": [{ "abilityName": "どくのトゲ","abilityEffect": "直接攻撃を受けたとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "どくしゅ","abilityEffect": "直接攻撃を使ったとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "てきおうりょく","abilityEffect": "タイプ一致のダメージ補正が1.5倍から2倍になる。", "hidden": true}],
-  "evolution": ["691"]
+  "evolution": ["690", "691"]
 }

@@ -15,5 +15,5 @@
   "typeName": "みず"}
 ],
   "ability": [{ "abilityName": "メガランチャー","abilityEffect": "はどう系のわざの威力が1.5倍になる。", "hidden": false}],
-  "evolution": ["693"]
+  "evolution": ["692", "693"]
 }

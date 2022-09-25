@@ -15,5 +15,5 @@
   "typeName": "くさ"}
 ],
   "ability": [{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false},{ "abilityName": "あまのじゃく","abilityEffect": "自分にかかるランク補正を逆にする。", "hidden": true}],
-  "evolution": ["753"]
+  "evolution": ["753", "754"]
 }

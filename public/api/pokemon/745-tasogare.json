@@ -15,5 +15,5 @@
   "typeName": "いわ"}
 ],
   "ability": [{ "abilityName": "かたいツメ","abilityEffect": "使用する直接攻撃の威力が1.3倍になる。", "hidden": false}],
-  "evolution": ["745-tasogare"]
+  "evolution": ["744", "745-mahiru", "745-mayonaka", "745-tasogare"]
 }
