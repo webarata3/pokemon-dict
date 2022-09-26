@@ -984,5 +984,9 @@
 {"name": "アヤシシ", "link": "/pokemon.html?no=899", "image": "/image/pokemon/899.webp"},
 {"name": "バサギリ", "link": "/pokemon.html?no=900", "image": "/image/pokemon/900.webp"},
 {"name": "ガチグマ", "link": "/pokemon.html?no=901", "image": "/image/pokemon/901.webp"},
+{"name": "イダイトウ", "link": "/pokemon.html?no=902&form=osu", "image": "/image/pokemon/902-osu.webp"},
+{"name": "イダイトウ", "link": "/pokemon.html?no=902&form=mesu", "image": "/image/pokemon/902-mesu.webp"},
 {"name": "オオニューラ", "link": "/pokemon.html?no=903", "image": "/image/pokemon/903.webp"},
-{"name": "ハリーマン", "link": "/pokemon.html?no=904", "image": "/image/pokemon/904.webp"}]
+{"name": "ハリーマン", "link": "/pokemon.html?no=904", "image": "/image/pokemon/904.webp"},
+{"name": "ラブトロス", "link": "/pokemon.html?no=905&form=keshin", "image": "/image/pokemon/905-keshin.webp"},
+{"name": "ラブトロス", "link": "/pokemon.html?no=905&form=reiju", "image": "/image/pokemon/905-reiju.webp"}]

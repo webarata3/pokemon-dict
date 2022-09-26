@@ -1,0 +1,21 @@
+{
+  "no": 905,
+  "form": "keshin",
+  "name": "ラブトロス",
+  "formName": "けしんフォルム",
+  "status": {
+    "hp": 74,
+    "attack": 115,
+    "defence": 70,
+    "spAttack": 135,
+    "spDefence": 80,
+    "speed": 106
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "いやしのこころ","abilityEffect": "味方の状態異常を治すことがある。", "hidden": false},{ "abilityName": "あまのじゃく","abilityEffect": "自分にかかるランク補正を逆にする。", "hidden": true}],
+  "evolution": ["905-keshin"]
+}
