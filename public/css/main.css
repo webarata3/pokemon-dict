@@ -416,6 +416,11 @@
   padding: var(--basic-padding);
 }
 
+.abilities__table {
+  max-height: 200px;
+  overflow: scroll;
+}
+
 .hidden-ability {
   border-radius: 50%;
   background-color: var(--accent-color);

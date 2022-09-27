@@ -7117,17 +7117,26 @@ var $author$project$Ability$viewAbility = function (ability) {
 };
 var $author$project$Ability$viewAbilities = function (abilities) {
 	return A2(
-		$elm$html$Html$table,
+		$elm$html$Html$div,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$class('main__table')
+				$elm$html$Html$Attributes$class('abilities__table')
 			]),
 		_List_fromArray(
 			[
 				A2(
-				$elm$html$Html$tbody,
-				_List_Nil,
-				A2($elm$core$List$map, $author$project$Ability$viewAbility, abilities))
+				$elm$html$Html$table,
+				_List_fromArray(
+					[
+						$elm$html$Html$Attributes$class('main__table')
+					]),
+				_List_fromArray(
+					[
+						A2(
+						$elm$html$Html$tbody,
+						_List_Nil,
+						A2($elm$core$List$map, $author$project$Ability$viewAbility, abilities))
+					]))
 			]));
 };
 var $author$project$Ability$viewAbilitiesSection = function (model) {

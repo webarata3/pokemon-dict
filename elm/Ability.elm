@@ -35,9 +35,11 @@ viewAbilitiesSection model =
 
 viewAbilities : List AC.Ability -> Html msg
 viewAbilities abilities =
-    table [ class "main__table" ]
-        [ tbody [] <|
-            List.map viewAbility abilities
+    div [ class "abilities__table" ]
+        [ table [ class "main__table" ]
+            [ tbody [] <|
+                List.map viewAbility abilities
+            ]
         ]
 
 
