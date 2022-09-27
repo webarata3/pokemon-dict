@@ -260,7 +260,7 @@
 .main__sub-title {
   font-size: var(--font-size-large);
   margin-bottom: var(--basic-margin);
-  background: linear-gradient(#fff 40%, #fff7df);
+  background: linear-gradient(#fff 40%, #deedff);
 }
 
 .main__sub-title::before {
