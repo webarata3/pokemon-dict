@@ -425,7 +425,8 @@
 }
 
 .search__input {
-  margin: var(--basic-margin-small);
+  margin: 0 auto;
+  width: 10em;
 }
 
 .main__form-name {
