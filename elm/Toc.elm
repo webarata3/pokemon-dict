@@ -217,9 +217,9 @@ viewSearch searchWord =
 
 viewPokemonLink : Link -> Html Msg
 viewPokemonLink link =
-    a [ href link.link ]
+    a [ href <| AC.getBaseUrl link.link ]
         [ img
-            [ src link.image
+            [ src <| AC.getBaseUrl link.image
             , attribute "loading" "lazy"
             , class "pokemon__link"
             , width 90

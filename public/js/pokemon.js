@@ -6131,7 +6131,7 @@ var $elm$http$Http$get = function (r) {
 		{aY: $elm$http$Http$emptyBody, ah: r.ah, aj: _List_Nil, bd: 'GET', bu: $elm$core$Maybe$Nothing, aM: $elm$core$Maybe$Nothing, D: r.D});
 };
 var $author$project$AppConfig$getBaseUrl = function (suffix) {
-	return suffix;
+	return '/graduation-work/pokemon' + suffix;
 };
 var $author$project$Toc$getPokemonList = $elm$http$Http$get(
 	{
@@ -6857,19 +6857,31 @@ var $author$project$Pokemon$routeParser = $elm$url$Url$Parser$oneOf(
 			$elm$url$Url$Parser$map,
 			$author$project$Pokemon$PokemonForm,
 			A2(
-				$elm$url$Url$Parser$questionMark,
+				$elm$url$Url$Parser$slash,
+				$elm$url$Url$Parser$s('graduation-work'),
 				A2(
-					$elm$url$Url$Parser$questionMark,
-					$elm$url$Url$Parser$s('pokemon.html'),
-					$elm$url$Url$Parser$Query$int('no')),
-				$elm$url$Url$Parser$Query$string('form'))),
+					$elm$url$Url$Parser$slash,
+					$elm$url$Url$Parser$s('pokemon'),
+					A2(
+						$elm$url$Url$Parser$questionMark,
+						A2(
+							$elm$url$Url$Parser$questionMark,
+							$elm$url$Url$Parser$s('pokemon.html'),
+							$elm$url$Url$Parser$Query$int('no')),
+						$elm$url$Url$Parser$Query$string('form'))))),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Pokemon$Pokemon,
 			A2(
-				$elm$url$Url$Parser$questionMark,
-				$elm$url$Url$Parser$s('pokemon.html'),
-				$elm$url$Url$Parser$Query$int('no')))
+				$elm$url$Url$Parser$slash,
+				$elm$url$Url$Parser$s('graduation-work'),
+				A2(
+					$elm$url$Url$Parser$slash,
+					$elm$url$Url$Parser$s('pokemon'),
+					A2(
+						$elm$url$Url$Parser$questionMark,
+						$elm$url$Url$Parser$s('pokemon.html'),
+						$elm$url$Url$Parser$Query$int('no')))))
 		]));
 var $author$project$Pokemon$urlToRoute = function (url) {
 	return A2(
@@ -7899,7 +7911,8 @@ var $author$project$Evolution$viewEvoHeaderImage = F3(
 								_List_fromArray(
 									[
 										$elm$html$Html$Attributes$src(
-										'/image/pokemon/' + ($author$project$AppConfig$pokemonDataToId(pokemonStatus) + '.webp')),
+										$author$project$AppConfig$getBaseUrl(
+											'/image/pokemon/' + ($author$project$AppConfig$pokemonDataToId(pokemonStatus) + '.webp'))),
 										$elm$html$Html$Attributes$width(100),
 										$elm$html$Html$Attributes$height(100)
 									]),
@@ -8297,7 +8310,8 @@ var $author$project$Toc$viewPokemonLink = function (link) {
 		$elm$html$Html$a,
 		_List_fromArray(
 			[
-				$elm$html$Html$Attributes$href(link.an)
+				$elm$html$Html$Attributes$href(
+				$author$project$AppConfig$getBaseUrl(link.an))
 			]),
 		_List_fromArray(
 			[
@@ -8305,7 +8319,8 @@ var $author$project$Toc$viewPokemonLink = function (link) {
 				$elm$html$Html$img,
 				_List_fromArray(
 					[
-						$elm$html$Html$Attributes$src(link.am),
+						$elm$html$Html$Attributes$src(
+						$author$project$AppConfig$getBaseUrl(link.am)),
 						A2($elm$html$Html$Attributes$attribute, 'loading', 'lazy'),
 						$elm$html$Html$Attributes$class('pokemon__link'),
 						$elm$html$Html$Attributes$width(90),

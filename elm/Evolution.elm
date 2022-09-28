@@ -1,6 +1,6 @@
 module Evolution exposing (..)
 
-import AppConfig
+import AppConfig as AC
 import Dict exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
@@ -8,8 +8,8 @@ import Html.Events exposing (..)
 
 
 type alias Model =
-    { maybePokemonData : Maybe AppConfig.PokemonData
-    , pokemonDataDict : Dict String AppConfig.PokemonData
+    { maybePokemonData : Maybe AC.PokemonData
+    , pokemonDataDict : Dict String AC.PokemonData
     , animTiming : Bool
     }
 
@@ -28,11 +28,11 @@ viewPokemonEvolution model =
             section [ class "pokemon__evolution" ] []
 
 
-viewPokemonEvolutionMain : Model -> AppConfig.PokemonData -> Html msg
+viewPokemonEvolutionMain : Model -> AC.PokemonData -> Html msg
 viewPokemonEvolutionMain model pokemonData =
     let
         id =
-            AppConfig.pokemonDataToId pokemonData
+            AC.pokemonDataToId pokemonData
     in
     section [ class "pokemon__evolution" ]
         [ h2 [ class "main__sub-title" ] [ text "進化と種族値" ]
@@ -61,7 +61,7 @@ viewPokemonEvolutionMain model pokemonData =
         ]
 
 
-viewEvoHeaderImage : Dict String AppConfig.PokemonData -> String -> String -> Html msg
+viewEvoHeaderImage : Dict String AC.PokemonData -> String -> String -> Html msg
 viewEvoHeaderImage pokemonDataDict no pokemonId =
     case Dict.get pokemonId pokemonDataDict of
         Just pokemonStatus ->
@@ -87,11 +87,12 @@ viewEvoHeaderImage pokemonDataDict no pokemonId =
                             ++ formString
                     ]
                     [ img
-                        [ src
-                            ("/image/pokemon/"
-                                ++ AppConfig.pokemonDataToId pokemonStatus
-                                ++ ".webp"
-                            )
+                        [ src <|
+                            AC.getBaseUrl
+                                ("/image/pokemon/"
+                                    ++ AC.pokemonDataToId pokemonStatus
+                                    ++ ".webp"
+                                )
                         , width 100
                         , height 100
                         ]
@@ -103,7 +104,7 @@ viewEvoHeaderImage pokemonDataDict no pokemonId =
             td [ class "main__td" ] []
 
 
-viewEvoHeaderName : Dict String AppConfig.PokemonData -> String -> String -> Html msg
+viewEvoHeaderName : Dict String AC.PokemonData -> String -> String -> Html msg
 viewEvoHeaderName pokemonDataDict no pokemonId =
     case Dict.get pokemonId pokemonDataDict of
         Just pokemonStatus ->
@@ -132,7 +133,7 @@ viewEvoHeaderName pokemonDataDict no pokemonId =
             th [ class "main__th" ] [ text "読込中" ]
 
 
-viewEvoStatusLine : Dict String AppConfig.PokemonData -> List String -> String -> Bool -> String -> (AppConfig.Status -> Int) -> String -> Html msg
+viewEvoStatusLine : Dict String AC.PokemonData -> List String -> String -> Bool -> String -> (AC.Status -> Int) -> String -> Html msg
 viewEvoStatusLine pokemonDataDict evolution no animTiming title f styleNo =
     tr [] <|
         th [ class "main__th main__th-center main__th-nowrap" ] [ text title ]
@@ -147,7 +148,7 @@ viewEvoStatusLine pokemonDataDict evolution no animTiming title f styleNo =
                 evolution
 
 
-viewEvoStatus : Dict String AppConfig.PokemonData -> String -> (AppConfig.Status -> Int) -> Bool -> Bool -> String -> String -> Html msg
+viewEvoStatus : Dict String AC.PokemonData -> String -> (AC.Status -> Int) -> Bool -> Bool -> String -> String -> Html msg
 viewEvoStatus pokemonDataDict no f isLast animTiming styleNo pokemonId =
     case Dict.get pokemonId pokemonDataDict of
         Just pokemonStatus ->
