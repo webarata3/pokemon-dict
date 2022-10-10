@@ -17,5 +17,5 @@
   "typeName": "ひこう"}
 ],
   "ability": [{ "abilityName": "いやしのこころ","abilityEffect": "味方の状態異常を治すことがある。", "hidden": false},{ "abilityName": "あまのじゃく","abilityEffect": "自分にかかるランク補正を逆にする。", "hidden": true}],
-  "evolution": ["905-keshin"]
+  "evolution": ["905-keshin", "905-reiju"]
 }

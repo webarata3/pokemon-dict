@@ -7,9 +7,9 @@
     "hp": 80,
     "attack": 100,
     "defence": 100,
-    "spAttack": ,
-    "spDefence": ,
-    "speed": 
+    "spAttack": 110,
+    "spDefence": 150,
+    "speed": 60
   },
   "type": [{ "typeId": 17,
   "typeName": "はがね"}

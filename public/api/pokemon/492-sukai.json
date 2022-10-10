@@ -17,5 +17,5 @@
   "typeName": "ひこう"}
 ],
   "ability": [{ "abilityName": "てんのめぐみ","abilityEffect": "追加効果の出る確率が2倍になる。", "hidden": false}],
-  "evolution": ["492-sukai"]
+  "evolution": ["492-rando", "492-sukai"]
 }

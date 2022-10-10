@@ -6131,7 +6131,7 @@ var $elm$http$Http$get = function (r) {
 		{aY: $elm$http$Http$emptyBody, ah: r.ah, aj: _List_Nil, bd: 'GET', bu: $elm$core$Maybe$Nothing, aM: $elm$core$Maybe$Nothing, D: r.D});
 };
 var $author$project$AppConfig$getBaseUrl = function (suffix) {
-	return '/graduation-work/pokemon' + suffix;
+	return suffix;
 };
 var $author$project$Toc$getPokemonList = $elm$http$Http$get(
 	{
@@ -6857,31 +6857,19 @@ var $author$project$Pokemon$routeParser = $elm$url$Url$Parser$oneOf(
 			$elm$url$Url$Parser$map,
 			$author$project$Pokemon$PokemonForm,
 			A2(
-				$elm$url$Url$Parser$slash,
-				$elm$url$Url$Parser$s('graduation-work'),
+				$elm$url$Url$Parser$questionMark,
 				A2(
-					$elm$url$Url$Parser$slash,
-					$elm$url$Url$Parser$s('pokemon'),
-					A2(
-						$elm$url$Url$Parser$questionMark,
-						A2(
-							$elm$url$Url$Parser$questionMark,
-							$elm$url$Url$Parser$s('pokemon.html'),
-							$elm$url$Url$Parser$Query$int('no')),
-						$elm$url$Url$Parser$Query$string('form'))))),
+					$elm$url$Url$Parser$questionMark,
+					$elm$url$Url$Parser$s('pokemon.html'),
+					$elm$url$Url$Parser$Query$int('no')),
+				$elm$url$Url$Parser$Query$string('form'))),
 			A2(
 			$elm$url$Url$Parser$map,
 			$author$project$Pokemon$Pokemon,
 			A2(
-				$elm$url$Url$Parser$slash,
-				$elm$url$Url$Parser$s('graduation-work'),
-				A2(
-					$elm$url$Url$Parser$slash,
-					$elm$url$Url$Parser$s('pokemon'),
-					A2(
-						$elm$url$Url$Parser$questionMark,
-						$elm$url$Url$Parser$s('pokemon.html'),
-						$elm$url$Url$Parser$Query$int('no')))))
+				$elm$url$Url$Parser$questionMark,
+				$elm$url$Url$Parser$s('pokemon.html'),
+				$elm$url$Url$Parser$Query$int('no')))
 		]));
 var $author$project$Pokemon$urlToRoute = function (url) {
 	return A2(
