@@ -1,0 +1,22 @@
+{
+  "no": 705,
+  "form": "hisui",
+  "name": "ヌメイル",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 58,
+    "attack": 75,
+    "defence": 83,
+    "spAttack": 83,
+    "spDefence": 113,
+    "speed": 40
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
+  "ability": [],
+  "regionId": 9,
+  "evolution": ["704", "705", "705-hisui", "706", "706-hisui"]
+}

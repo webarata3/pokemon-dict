@@ -1,0 +1,20 @@
+{
+  "no": 313,
+  "form": null,
+  "name": "バルビート",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 73,
+    "defence": 75,
+    "spAttack": 47,
+    "spDefence": 85,
+    "speed": 85
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "はっこう","abilityEffect": "野生ポケモンが出現しやすくなる。", "hidden": false},{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["313"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 584,
+  "form": null,
+  "name": "バイバニラ",
+  "formName": null,
+  "status": {
+    "hp": 71,
+    "attack": 95,
+    "defence": 85,
+    "spAttack": 110,
+    "spDefence": 95,
+    "speed": 79
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+],
+  "ability": [{ "abilityName": "アイスボディ","abilityEffect": "あられ/ゆきのとき、HPが1/16回復する。", "hidden": false},{ "abilityName": "ゆきふらし","abilityEffect": "場をあられ4-8/9にする。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["582", "583", "584"]
+}

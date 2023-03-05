@@ -1,0 +1,22 @@
+{
+  "no": 536,
+  "form": null,
+  "name": "ガマガル",
+  "formName": null,
+  "status": {
+    "hp": 75,
+    "attack": 65,
+    "defence": 55,
+    "spAttack": 65,
+    "spDefence": 55,
+    "speed": 69
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["535", "536", "537"]
+}

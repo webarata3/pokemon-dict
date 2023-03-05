@@ -1,0 +1,22 @@
+{
+  "no": 557,
+  "form": null,
+  "name": "イシズマイ",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 85,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 55
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["557", "558"]
+}

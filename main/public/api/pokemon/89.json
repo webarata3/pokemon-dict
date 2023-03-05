@@ -1,0 +1,20 @@
+{
+  "no": 89,
+  "form": null,
+  "name": "ベトベトン",
+  "formName": null,
+  "status": {
+    "hp": 105,
+    "attack": 105,
+    "defence": 75,
+    "spAttack": 65,
+    "spDefence": 100,
+    "speed": 50
+  },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "あくしゅう","abilityEffect": "野生ポケモンと出会いにくくなる。 攻撃した相手をひるませることがある。", "hidden": false},{ "abilityName": "ねんちゃく","abilityEffect": "持ち物を奪われない。 つりの成功率が上がる。", "hidden": false},{ "abilityName": "どくしゅ","abilityEffect": "直接攻撃を使ったとき、相手をどくにすることがある。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["88", "89"]
+}

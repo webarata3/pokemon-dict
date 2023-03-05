@@ -1,0 +1,22 @@
+{
+  "no": 973,
+  "form": null,
+  "name": "カラミンゴ",
+  "formName": null,
+  "status": {
+    "hp": 82,
+    "attack": 115,
+    "defence": 74,
+    "spAttack": 75,
+    "spDefence": 64,
+    "speed": 90
+  },
+  "type": [{ "typeId": 10,
+  "typeName": "ひこう"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "きもったま","abilityEffect": "ゴーストタイプにノーマル・かくとうわざが当たるようになる。", "hidden": false},{ "abilityName": "ちどりあし","abilityEffect": "こんらんのとき、回避率が2倍になる。", "hidden": false},{ "abilityName": "きょうえん","abilityEffect": "場に出たとき、味方のランク補正をコピーする。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["973"]
+}

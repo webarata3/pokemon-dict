@@ -1,0 +1,22 @@
+{
+  "no": 929,
+  "form": null,
+  "name": "オリーニョ",
+  "formName": null,
+  "status": {
+    "hp": 52,
+    "attack": 53,
+    "defence": 60,
+    "spAttack": 78,
+    "spDefence": 78,
+    "speed": 33
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "はやおき","abilityEffect": "ねむりのターンの消費量が2倍になる。", "hidden": false},{ "abilityName": "しゅうかく","abilityEffect": "消費したきのみを復活させることがある。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["928", "929", "930"]
+}

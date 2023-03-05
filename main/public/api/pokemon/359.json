@@ -1,0 +1,20 @@
+{
+  "no": 359,
+  "form": null,
+  "name": "アブソル",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 130,
+    "defence": 60,
+    "spAttack": 75,
+    "spDefence": 60,
+    "speed": 75
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "きょううん","abilityEffect": "急所ランクが1段階上がる。", "hidden": false},{ "abilityName": "せいぎのこころ","abilityEffect": "あくタイプの攻撃を受けるとこうげきが1段階上がる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["359"]
+}

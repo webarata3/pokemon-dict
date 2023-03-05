@@ -1,0 +1,22 @@
+{
+  "no": 698,
+  "form": null,
+  "name": "アマルス",
+  "formName": null,
+  "status": {
+    "hp": 77,
+    "attack": 59,
+    "defence": 50,
+    "spAttack": 67,
+    "spDefence": 63,
+    "speed": 46
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 6,
+  "typeName": "こおり"}
+],
+  "ability": [{ "abilityName": "フリーズスキン","abilityEffect": "ノーマルタイプのわざがこおりタイプになり、威力が1.2倍になる。", "hidden": false},{ "abilityName": "ゆきふらし","abilityEffect": "場をあられ4-8/9にする。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["698", "699"]
+}

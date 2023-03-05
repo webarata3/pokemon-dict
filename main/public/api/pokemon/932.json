@@ -1,0 +1,20 @@
+{
+  "no": 932,
+  "form": null,
+  "name": "コジオ",
+  "formName": null,
+  "status": {
+    "hp": 55,
+    "attack": 55,
+    "defence": 75,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 25
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [{ "abilityName": "きよめのしお","abilityEffect": "状態異常にならず、ゴースト技を受けるとき相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["932", "933", "934"]
+}

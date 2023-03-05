@@ -1,0 +1,22 @@
+{
+  "no": 632,
+  "form": null,
+  "name": "アイアント",
+  "formName": null,
+  "status": {
+    "hp": 58,
+    "attack": 109,
+    "defence": 112,
+    "spAttack": 48,
+    "spDefence": 48,
+    "speed": 109
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "はりきり","abilityEffect": "こうげきが1.5倍になるが、命中率が0.8倍になる。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "なまけ","abilityEffect": "2ターンに1回しか行動できない。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["632"]
+}

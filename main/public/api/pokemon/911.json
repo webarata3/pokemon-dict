@@ -1,0 +1,22 @@
+{
+  "no": 911,
+  "form": null,
+  "name": "ラウドボーン",
+  "formName": null,
+  "status": {
+    "hp": 104,
+    "attack": 75,
+    "defence": 100,
+    "spAttack": 110,
+    "spDefence": 75,
+    "speed": 66
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["909", "910", "911"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 572,
+  "form": null,
+  "name": "チラーミィ",
+  "formName": null,
+  "status": {
+    "hp": 55,
+    "attack": 50,
+    "defence": 40,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 75
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "メロメロボディ","abilityEffect": "直接攻撃を受けたとき、相手をメロメロにすることがある。 自分と逆の性別のポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "スキルリンク","abilityEffect": "連続攻撃技を常に最大回数出せる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["572", "573"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 625,
+  "form": null,
+  "name": "キリキザン",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 125,
+    "defence": 100,
+    "spAttack": 60,
+    "spDefence": 70,
+    "speed": 70
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false},{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["624", "625", "983"]
+}

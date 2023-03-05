@@ -1,0 +1,22 @@
+{
+  "no": 668,
+  "form": null,
+  "name": "カエンジシ",
+  "formName": null,
+  "status": {
+    "hp": 86,
+    "attack": 68,
+    "defence": 72,
+    "spAttack": 109,
+    "spDefence": 66,
+    "speed": 106
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "とうそうしん","abilityEffect": "相手が同性のときはわざの威力が1.25倍になり、異性のときは0.75倍になる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["667", "668"]
+}

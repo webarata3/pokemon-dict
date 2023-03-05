@@ -1,0 +1,22 @@
+{
+  "no": 710,
+  "form": "small",
+  "name": "バケッチャ",
+  "formName": "ちいさいサイズ",
+  "status": {
+    "hp": 44,
+    "attack": 66,
+    "defence": 70,
+    "spAttack": 44,
+    "spDefence": 55,
+    "speed": 56
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+,{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "ふみん","abilityEffect": "ねむりにならない。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["710-normal", "710-small", "710-large", "710-x-large", "711-normal", "711-small", "711-large", "711-x-large"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 261,
+  "form": null,
+  "name": "ポチエナ",
+  "formName": null,
+  "status": {
+    "hp": 35,
+    "attack": 55,
+    "defence": 35,
+    "spAttack": 30,
+    "spDefence": 30,
+    "speed": 35
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "はやあし","abilityEffect": "状態異常のとき、すばやさが1.5倍になる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["261", "262"]
+}

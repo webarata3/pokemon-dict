@@ -1,0 +1,20 @@
+{
+  "no": 98,
+  "form": null,
+  "name": "クラブ",
+  "formName": null,
+  "status": {
+    "hp": 30,
+    "attack": 105,
+    "defence": 90,
+    "spAttack": 25,
+    "spDefence": 25,
+    "speed": 50
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["98", "99"]
+}

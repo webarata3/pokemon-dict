@@ -1,0 +1,22 @@
+{
+  "no": 622,
+  "form": null,
+  "name": "ゴビット",
+  "formName": null,
+  "status": {
+    "hp": 59,
+    "attack": 74,
+    "defence": 50,
+    "spAttack": 35,
+    "spDefence": 50,
+    "speed": 35
+  },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": false},{ "abilityName": "ノーガード","abilityEffect": "自分と相手のわざが必中になる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["622", "623"]
+}

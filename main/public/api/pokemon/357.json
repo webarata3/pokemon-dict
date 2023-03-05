@@ -1,0 +1,22 @@
+{
+  "no": 357,
+  "form": null,
+  "name": "トロピウス",
+  "formName": null,
+  "status": {
+    "hp": 99,
+    "attack": 68,
+    "defence": 83,
+    "spAttack": 72,
+    "spDefence": 87,
+    "speed": 51
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "サンパワー","abilityEffect": "にほんばれのとき、毎ターンHPが1/8減り、とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "しゅうかく","abilityEffect": "消費したきのみを復活させることがある。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["357"]
+}

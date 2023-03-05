@@ -1,0 +1,22 @@
+{
+  "no": 165,
+  "form": null,
+  "name": "レディバ",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 20,
+    "defence": 30,
+    "spAttack": 40,
+    "spDefence": 80,
+    "speed": 55
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "はやおき","abilityEffect": "ねむりのターンの消費量が2倍になる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["165", "166"]
+}

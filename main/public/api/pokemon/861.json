@@ -1,0 +1,22 @@
+{
+  "no": 861,
+  "form": null,
+  "name": "オーロンゲ",
+  "formName": null,
+  "status": {
+    "hp": 95,
+    "attack": 120,
+    "defence": 65,
+    "spAttack": 95,
+    "spDefence": 75,
+    "speed": 60
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "わるいてぐせ","abilityEffect": "直接攻撃を受けたとき、相手の道具を奪う。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["859", "860", "861"]
+}

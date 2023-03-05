@@ -1,0 +1,20 @@
+{
+  "no": 674,
+  "form": null,
+  "name": "ヤンチャム",
+  "formName": null,
+  "status": {
+    "hp": 67,
+    "attack": 82,
+    "defence": 62,
+    "spAttack": 46,
+    "spDefence": 48,
+    "speed": 43
+  },
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false},{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": false},{ "abilityName": "きもったま","abilityEffect": "ゴーストタイプにノーマル・かくとうわざが当たるようになる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["674", "675"]
+}

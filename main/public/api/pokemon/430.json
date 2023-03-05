@@ -1,0 +1,22 @@
+{
+  "no": 430,
+  "form": null,
+  "name": "ドンカラス",
+  "formName": null,
+  "status": {
+    "hp": 100,
+    "attack": 125,
+    "defence": 52,
+    "spAttack": 105,
+    "spDefence": 52,
+    "speed": 71
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "ふみん","abilityEffect": "ねむりにならない。", "hidden": false},{ "abilityName": "きょううん","abilityEffect": "急所ランクが1段階上がる。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["198", "430"]
+}

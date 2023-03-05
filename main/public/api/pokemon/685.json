@@ -1,0 +1,20 @@
+{
+  "no": 685,
+  "form": null,
+  "name": "ペロリーム",
+  "formName": null,
+  "status": {
+    "hp": 82,
+    "attack": 80,
+    "defence": 86,
+    "spAttack": 85,
+    "spDefence": 75,
+    "speed": 72
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "スイートベール","abilityEffect": "自分と味方がねむりにならなくなる。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["684", "685"]
+}

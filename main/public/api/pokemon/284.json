@@ -1,0 +1,22 @@
+{
+  "no": 284,
+  "form": null,
+  "name": "アメモース",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 62,
+    "spAttack": 100,
+    "spDefence": 82,
+    "speed": 80
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["283", "284"]
+}

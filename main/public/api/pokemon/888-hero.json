@@ -1,0 +1,20 @@
+{
+  "no": 888,
+  "form": "hero",
+  "name": "ザシアン",
+  "formName": "れきせんのゆうしゃ",
+  "status": {
+    "hp": 92,
+    "attack": 130,
+    "defence": 115,
+    "spAttack": 80,
+    "spDefence": 115,
+    "speed": 138
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "ふとうのけん","abilityEffect": "場に出たときこうげきが1段階上がる。", "hidden": false}],
+  "regionId": 8,
+  "evolution": ["888-hero", "888-crownedsword"]
+}

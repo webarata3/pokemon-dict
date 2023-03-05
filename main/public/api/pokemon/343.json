@@ -1,0 +1,22 @@
+{
+  "no": 343,
+  "form": null,
+  "name": "ヤジロン",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 55,
+    "spAttack": 40,
+    "spDefence": 70,
+    "speed": 55
+  },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 3,
+  "evolution": ["343", "344"]
+}

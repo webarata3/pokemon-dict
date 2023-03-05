@@ -1,0 +1,22 @@
+{
+  "no": 211,
+  "form": "hisui",
+  "name": "ハリーセン",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 65,
+    "attack": 95,
+    "defence": 85,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 85
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [],
+  "regionId": 9,
+  "evolution": ["211-hisui", "904"]
+}

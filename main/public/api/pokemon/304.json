@@ -1,0 +1,22 @@
+{
+  "no": 304,
+  "form": null,
+  "name": "ココドラ",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 100,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 30
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "いしあたま","abilityEffect": "反動技を使用してもダメージを受けない。", "hidden": false},{ "abilityName": "ヘヴィメタル","abilityEffect": "重さが2倍になる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["304", "305", "306"]
+}

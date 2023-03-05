@@ -1,0 +1,20 @@
+{
+  "no": 217,
+  "form": null,
+  "name": "リングマ",
+  "formName": null,
+  "status": {
+    "hp": 90,
+    "attack": 130,
+    "defence": 75,
+    "spAttack": 75,
+    "spDefence": 75,
+    "speed": 55
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "はやあし","abilityEffect": "状態異常のとき、すばやさが1.5倍になる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["216", "217", "901"]
+}

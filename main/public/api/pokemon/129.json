@@ -1,0 +1,20 @@
+{
+  "no": 129,
+  "form": null,
+  "name": "コイキング",
+  "formName": null,
+  "status": {
+    "hp": 20,
+    "attack": 10,
+    "defence": 55,
+    "spAttack": 15,
+    "spDefence": 20,
+    "speed": 80
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["129", "130"]
+}

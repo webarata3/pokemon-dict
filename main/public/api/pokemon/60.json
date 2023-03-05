@@ -1,0 +1,20 @@
+{
+  "no": 60,
+  "form": null,
+  "name": "ニョロモ",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 40,
+    "spAttack": 40,
+    "spDefence": 40,
+    "speed": 90
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": false},{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["60", "61", "62", "186"]
+}

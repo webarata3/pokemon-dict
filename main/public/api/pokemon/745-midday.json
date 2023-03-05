@@ -1,0 +1,20 @@
+{
+  "no": 745,
+  "form": "midday",
+  "name": "ルガルガン",
+  "formName": "まひるのすがた",
+  "status": {
+    "hp": 75,
+    "attack": 115,
+    "defence": 65,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 112
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [{ "abilityName": "するどいめ","abilityEffect": "命中率を下げられず、相手の回避率を無視できる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "すなかき","abilityEffect": "すなあらしのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "ふくつのこころ","abilityEffect": "ひるむとすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["744", "745-midday", "745-midnight", "745-dusk"]
+}

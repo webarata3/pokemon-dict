@@ -1,0 +1,20 @@
+{
+  "no": 36,
+  "form": null,
+  "name": "ピクシー",
+  "formName": null,
+  "status": {
+    "hp": 95,
+    "attack": 70,
+    "defence": 73,
+    "spAttack": 95,
+    "spDefence": 90,
+    "speed": 60
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "メロメロボディ","abilityEffect": "直接攻撃を受けたとき、相手をメロメロにすることがある。 自分と逆の性別のポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "マジックガード","abilityEffect": "攻撃以外でのダメージを受けない。", "hidden": false},{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["173", "35", "36"]
+}

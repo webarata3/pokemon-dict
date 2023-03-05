@@ -1,0 +1,20 @@
+{
+  "no": 562,
+  "form": null,
+  "name": "デスマス",
+  "formName": null,
+  "status": {
+    "hp": 38,
+    "attack": 30,
+    "defence": 85,
+    "spAttack": 55,
+    "spDefence": 65,
+    "speed": 30
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "ミイラ","abilityEffect": "直接攻撃を受けたとき、相手の特性もミイラにする。", "hidden": false}],
+  "regionId": 5,
+  "evolution": ["562", "563"]
+}

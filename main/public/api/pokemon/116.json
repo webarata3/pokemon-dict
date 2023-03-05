@@ -1,0 +1,20 @@
+{
+  "no": 116,
+  "form": null,
+  "name": "タッツー",
+  "formName": null,
+  "status": {
+    "hp": 30,
+    "attack": 40,
+    "defence": 70,
+    "spAttack": 70,
+    "spDefence": 25,
+    "speed": 60
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "スナイパー","abilityEffect": "急所に当てたときのダメージが2.25倍になる。", "hidden": false},{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["116", "117", "230"]
+}

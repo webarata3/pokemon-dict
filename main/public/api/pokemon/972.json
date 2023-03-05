@@ -1,0 +1,20 @@
+{
+  "no": 972,
+  "form": null,
+  "name": "ハカドッグ",
+  "formName": null,
+  "status": {
+    "hp": 72,
+    "attack": 101,
+    "defence": 100,
+    "spAttack": 50,
+    "spDefence": 97,
+    "speed": 68
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "すなかき","abilityEffect": "すなあらしのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "もふもふ","abilityEffect": "受ける直接攻撃のダメージが0.5倍、ほのおわざのダメージが2倍になる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["971", "972"]
+}

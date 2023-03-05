@@ -1,0 +1,22 @@
+{
+  "no": 227,
+  "form": null,
+  "name": "エアームド",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 140,
+    "spAttack": 40,
+    "spDefence": 70,
+    "speed": 70
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "するどいめ","abilityEffect": "命中率を下げられず、相手の回避率を無視できる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["227"]
+}

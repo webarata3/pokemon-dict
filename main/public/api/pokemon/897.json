@@ -1,0 +1,20 @@
+{
+  "no": 897,
+  "form": null,
+  "name": "レイスポス",
+  "formName": null,
+  "status": {
+    "hp": 100,
+    "attack": 65,
+    "defence": 60,
+    "spAttack": 145,
+    "spDefence": 80,
+    "speed": 130
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "くろのいななき","abilityEffect": "ポケモンを倒すととくこうが1段階上がる。", "hidden": false}],
+  "regionId": 8,
+  "evolution": ["897"]
+}

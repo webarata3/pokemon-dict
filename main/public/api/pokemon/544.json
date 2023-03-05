@@ -1,0 +1,22 @@
+{
+  "no": 544,
+  "form": null,
+  "name": "ホイーガ",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 99,
+    "spAttack": 40,
+    "spDefence": 79,
+    "speed": 47
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "どくのトゲ","abilityEffect": "直接攻撃を受けたとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "かそく","abilityEffect": "毎ターンすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["543", "544", "545"]
+}

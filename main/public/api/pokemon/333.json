@@ -1,0 +1,22 @@
+{
+  "no": 333,
+  "form": null,
+  "name": "チルット",
+  "formName": null,
+  "status": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 60,
+    "spAttack": 40,
+    "spDefence": 75,
+    "speed": 50
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "ノーてんき","abilityEffect": "天気の影響が無くなる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["333", "334"]
+}

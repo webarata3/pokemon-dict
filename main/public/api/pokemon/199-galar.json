@@ -1,0 +1,22 @@
+{
+  "no": 199,
+  "form": "galar",
+  "name": "ヤドキング",
+  "formName": "ガラルのすがた",
+  "status": {
+    "hp": 95,
+    "attack": 65,
+    "defence": 80,
+    "spAttack": 110,
+    "spDefence": 110,
+    "speed": 30
+  },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "きみょうなくすり","abilityEffect": "場に出たとき、味方のランク補正を元に戻す。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["79-galar", "80-galar", "199-galar"]
+}

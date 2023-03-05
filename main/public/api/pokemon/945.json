@@ -1,0 +1,22 @@
+{
+  "no": 945,
+  "form": null,
+  "name": "タギングル",
+  "formName": null,
+  "status": {
+    "hp": 63,
+    "attack": 95,
+    "defence": 65,
+    "spAttack": 80,
+    "spDefence": 72,
+    "speed": 110
+  },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+,{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": false},{ "abilityName": "どくしゅ","abilityEffect": "直接攻撃を使ったとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["944", "945"]
+}

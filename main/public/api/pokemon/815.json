@@ -1,0 +1,20 @@
+{
+  "no": 815,
+  "form": null,
+  "name": "エースバーン",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 116,
+    "defence": 75,
+    "spAttack": 65,
+    "spDefence": 75,
+    "speed": 119
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "リベロ","abilityEffect": "わざを出す直前にそのわざのタイプになる。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["813", "814", "815"]
+}

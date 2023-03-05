@@ -1,0 +1,20 @@
+{
+  "no": 555,
+  "form": null,
+  "name": "ヒヒダルマ",
+  "formName": null,
+  "status": {
+    "hp": 105,
+    "attack": 140,
+    "defence": 55,
+    "spAttack": 30,
+    "spDefence": 55,
+    "speed": 95
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": false},{ "abilityName": "ダルマモード","abilityEffect": "HPが半分以下になるとヒヒダルマのフォルムが変化する。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["554", "555"]
+}

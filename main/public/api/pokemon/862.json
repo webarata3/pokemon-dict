@@ -1,0 +1,22 @@
+{
+  "no": 862,
+  "form": null,
+  "name": "タチフサグマ",
+  "formName": null,
+  "status": {
+    "hp": 93,
+    "attack": 90,
+    "defence": 101,
+    "spAttack": 60,
+    "spDefence": 81,
+    "speed": 95
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": false},{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["263-galar", "264-galar", "862"]
+}

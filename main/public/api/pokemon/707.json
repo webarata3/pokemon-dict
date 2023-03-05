@@ -1,0 +1,22 @@
+{
+  "no": 707,
+  "form": null,
+  "name": "クレッフィ",
+  "formName": null,
+  "status": {
+    "hp": 57,
+    "attack": 80,
+    "defence": 91,
+    "spAttack": 80,
+    "spDefence": 87,
+    "speed": 75
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": false},{ "abilityName": "マジシャン","abilityEffect": "攻撃を当てたとき、相手の持ち物を奪う。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["707"]
+}

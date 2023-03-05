@@ -1,0 +1,22 @@
+{
+  "no": 618,
+  "form": null,
+  "name": "マッギョ",
+  "formName": null,
+  "status": {
+    "hp": 109,
+    "attack": 66,
+    "defence": 84,
+    "spAttack": 81,
+    "spDefence": 99,
+    "speed": 32
+  },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "せいでんき","abilityEffect": "直接攻撃を受けたとき、相手をまひにすることがある。 でんきタイプの野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["618"]
+}

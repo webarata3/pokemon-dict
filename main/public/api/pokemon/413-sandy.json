@@ -1,0 +1,22 @@
+{
+  "no": 413,
+  "form": "sandy",
+  "name": "ミノマダム",
+  "formName": "すなちのミノ",
+  "status": {
+    "hp": 60,
+    "attack": 79,
+    "defence": 105,
+    "spAttack": 59,
+    "spDefence": 85,
+    "speed": 36
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "きけんよち","abilityEffect": "相手が自分に効果抜群のわざを持っているかわかる。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["412", "413-plant", "413-sandy", "413-trash", "414"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 811,
+  "form": null,
+  "name": "バチンキー",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 70,
+    "spAttack": 55,
+    "spDefence": 60,
+    "speed": 80
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "グラスメイカー","abilityEffect": "場の状態をグラスフィールドにする。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["810", "811", "812"]
+}

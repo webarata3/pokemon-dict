@@ -1,0 +1,22 @@
+{
+  "no": 703,
+  "form": null,
+  "name": "メレシー",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 150,
+    "spAttack": 50,
+    "spDefence": 150,
+    "speed": 50
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["703"]
+}

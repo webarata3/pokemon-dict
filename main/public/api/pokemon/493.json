@@ -1,0 +1,20 @@
+{
+  "no": 493,
+  "form": null,
+  "name": "アルセウス",
+  "formName": null,
+  "status": {
+    "hp": 120,
+    "attack": 120,
+    "defence": 120,
+    "spAttack": 120,
+    "spDefence": 120,
+    "speed": 120
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "マルチタイプ","abilityEffect": "持たせたプレート・Zクリスタルによってタイプが変化する。", "hidden": false}],
+  "regionId": 4,
+  "evolution": ["493"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 337,
+  "form": null,
+  "name": "ルナトーン",
+  "formName": null,
+  "status": {
+    "hp": 90,
+    "attack": 55,
+    "defence": 65,
+    "spAttack": 95,
+    "spDefence": 85,
+    "speed": 70
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 3,
+  "evolution": ["337"]
+}

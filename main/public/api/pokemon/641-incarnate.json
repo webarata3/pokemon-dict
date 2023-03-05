@@ -1,0 +1,20 @@
+{
+  "no": 641,
+  "form": "incarnate",
+  "name": "トルネロス",
+  "formName": "けしんフォルム",
+  "status": {
+    "hp": 79,
+    "attack": 115,
+    "defence": 70,
+    "spAttack": 125,
+    "spDefence": 80,
+    "speed": 111
+  },
+  "type": [{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": false},{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["641-incarnate", "641-therian"]
+}

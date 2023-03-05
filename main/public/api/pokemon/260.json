@@ -1,0 +1,22 @@
+{
+  "no": 260,
+  "form": null,
+  "name": "ラグラージ",
+  "formName": null,
+  "status": {
+    "hp": 100,
+    "attack": 110,
+    "defence": 90,
+    "spAttack": 85,
+    "spDefence": 90,
+    "speed": 60
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["258", "259", "260"]
+}

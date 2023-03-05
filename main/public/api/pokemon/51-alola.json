@@ -1,0 +1,22 @@
+{
+  "no": 51,
+  "form": "alola",
+  "name": "ダグトリオ",
+  "formName": "アローラのすがた",
+  "status": {
+    "hp": 35,
+    "attack": 100,
+    "defence": 60,
+    "spAttack": 50,
+    "spDefence": 70,
+    "speed": 110
+  },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": false},{ "abilityName": "カーリーヘアー","abilityEffect": "直接攻撃を受けたとき、相手のすばやさを1段階下げる。", "hidden": false},{ "abilityName": "すなのちから","abilityEffect": "すなあらしのとき、いわ・じめん・はがねの威力が1.3倍になる。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["50-alola", "51-alola"]
+}

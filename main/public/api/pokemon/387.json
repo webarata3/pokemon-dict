@@ -1,0 +1,20 @@
+{
+  "no": 387,
+  "form": null,
+  "name": "ナエトル",
+  "formName": null,
+  "status": {
+    "hp": 55,
+    "attack": 68,
+    "defence": 64,
+    "spAttack": 45,
+    "spDefence": 55,
+    "speed": 31
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["387", "388", "389"]
+}

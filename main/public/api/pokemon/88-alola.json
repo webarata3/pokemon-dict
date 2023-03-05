@@ -1,0 +1,22 @@
+{
+  "no": 88,
+  "form": "alola",
+  "name": "ベトベター",
+  "formName": "アローラのすがた",
+  "status": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 50,
+    "spAttack": 40,
+    "spDefence": 50,
+    "speed": 25
+  },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+,{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [{ "abilityName": "どくしゅ","abilityEffect": "直接攻撃を使ったとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "かがくのちから","abilityEffect": "味方がひんしになったとき、そのポケモンと同じ特性になる。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["88-alola", "89-alola"]
+}

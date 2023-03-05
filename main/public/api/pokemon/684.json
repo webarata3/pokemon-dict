@@ -1,0 +1,20 @@
+{
+  "no": 684,
+  "form": null,
+  "name": "ペロッパフ",
+  "formName": null,
+  "status": {
+    "hp": 62,
+    "attack": 48,
+    "defence": 66,
+    "spAttack": 59,
+    "spDefence": 57,
+    "speed": 49
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "スイートベール","abilityEffect": "自分と味方がねむりにならなくなる。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["684", "685"]
+}

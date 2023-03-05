@@ -1,0 +1,20 @@
+{
+  "no": 132,
+  "form": null,
+  "name": "メタモン",
+  "formName": null,
+  "status": {
+    "hp": 48,
+    "attack": 48,
+    "defence": 48,
+    "spAttack": 48,
+    "spDefence": 48,
+    "speed": 48
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "じゅうなん","abilityEffect": "まひにならない。", "hidden": false},{ "abilityName": "かわりもの","abilityEffect": "場に出た直後に相手にへんしんする。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["132"]
+}

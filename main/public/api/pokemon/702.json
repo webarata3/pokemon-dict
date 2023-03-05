@@ -1,0 +1,22 @@
+{
+  "no": 702,
+  "form": null,
+  "name": "デデンネ",
+  "formName": null,
+  "status": {
+    "hp": 67,
+    "attack": 58,
+    "defence": 57,
+    "spAttack": 81,
+    "spDefence": 67,
+    "speed": 101
+  },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "ほおぶくろ","abilityEffect": "きのみを食べたとき、通常の効果に加えてHPが1/3回復する。", "hidden": false},{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "プラス","abilityEffect": "味方の場にプラスかマイナスのポケモンがいる時、とくこうが1.5倍になる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["702"]
+}

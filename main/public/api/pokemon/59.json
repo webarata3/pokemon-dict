@@ -1,0 +1,20 @@
+{
+  "no": 59,
+  "form": null,
+  "name": "ウインディ",
+  "formName": null,
+  "status": {
+    "hp": 90,
+    "attack": 110,
+    "defence": 80,
+    "spAttack": 100,
+    "spDefence": 80,
+    "speed": 95
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化し、その後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "せいぎのこころ","abilityEffect": "あくタイプの攻撃を受けるとこうげきが1段階上がる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["58", "59"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 470,
+  "form": null,
+  "name": "リーフィア",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 110,
+    "defence": 130,
+    "spAttack": 60,
+    "spDefence": 65,
+    "speed": 95
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false},{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["133", "134", "135", "136", "196", "197", "470", "471", "700"]
+}

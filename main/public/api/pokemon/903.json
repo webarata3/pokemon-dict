@@ -1,0 +1,22 @@
+{
+  "no": 903,
+  "form": null,
+  "name": "オオニューラ",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 130,
+    "defence": 60,
+    "spAttack": 40,
+    "spDefence": 80,
+    "speed": 120
+  },
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "プレッシャー","abilityEffect": "使われる技のPPが1多く減少する。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "かるわざ","abilityEffect": "道具を持っていないとすばやさが2倍になる。", "hidden": false},{ "abilityName": "どくしゅ","abilityEffect": "直接攻撃を使ったとき、相手をどくにすることがある。", "hidden": true}],
+  "regionId": 9,
+  "evolution": ["215-hisui", "903"]
+}

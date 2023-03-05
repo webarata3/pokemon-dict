@@ -1,0 +1,22 @@
+{
+  "no": 885,
+  "form": null,
+  "name": "ドラメシヤ",
+  "formName": null,
+  "status": {
+    "hp": 28,
+    "attack": 60,
+    "defence": 30,
+    "spAttack": 40,
+    "spDefence": 30,
+    "speed": 82
+  },
+  "type": [{ "typeId": 15,
+  "typeName": "ドラゴン"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": false},{ "abilityName": "のろわれボディ","abilityEffect": "攻撃技を受けると相手をかなしばりにすることがある。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["885", "886", "887"]
+}

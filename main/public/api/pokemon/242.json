@@ -1,0 +1,20 @@
+{
+  "no": 242,
+  "form": null,
+  "name": "ハピナス",
+  "formName": null,
+  "status": {
+    "hp": 255,
+    "attack": 10,
+    "defence": 10,
+    "spAttack": 75,
+    "spDefence": 135,
+    "speed": 55
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "てんのめぐみ","abilityEffect": "追加効果の出る確率が2倍になる。", "hidden": false},{ "abilityName": "いやしのこころ","abilityEffect": "味方の状態異常を治すことがある。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["440", "113", "242"]
+}

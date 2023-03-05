@@ -1,0 +1,20 @@
+{
+  "no": 37,
+  "form": "alola",
+  "name": "ロコン",
+  "formName": "アローラのすがた",
+  "status": {
+    "hp": 38,
+    "attack": 41,
+    "defence": 40,
+    "spAttack": 50,
+    "spDefence": 65,
+    "speed": 65
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+],
+  "ability": [{ "abilityName": "ゆきがくれ","abilityEffect": "あられ/ゆきのとき、回避率が1.25倍になる。 雪が降っている場所でのポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "ゆきふらし","abilityEffect": "場をあられ4-8/9にする。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["37-alola", "38-alola"]
+}

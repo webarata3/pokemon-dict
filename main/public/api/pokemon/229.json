@@ -1,0 +1,22 @@
+{
+  "no": 229,
+  "form": null,
+  "name": "ヘルガー",
+  "formName": null,
+  "status": {
+    "hp": 75,
+    "attack": 90,
+    "defence": 50,
+    "spAttack": 110,
+    "spDefence": 80,
+    "speed": 95
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "はやおき","abilityEffect": "ねむりのターンの消費量が2倍になる。", "hidden": false},{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化し、その後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["228", "229"]
+}

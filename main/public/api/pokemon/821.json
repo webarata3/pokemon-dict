@@ -1,0 +1,20 @@
+{
+  "no": 821,
+  "form": null,
+  "name": "ココガラ",
+  "formName": null,
+  "status": {
+    "hp": 38,
+    "attack": 47,
+    "defence": 35,
+    "spAttack": 33,
+    "spDefence": 35,
+    "speed": 57
+  },
+  "type": [{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "するどいめ","abilityEffect": "命中率を下げられず、相手の回避率を無視できる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": false},{ "abilityName": "はとむね","abilityEffect": "相手からぼうぎょを下げられない。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["821", "822", "823"]
+}

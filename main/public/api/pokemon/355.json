@@ -1,0 +1,20 @@
+{
+  "no": 355,
+  "form": null,
+  "name": "ヨマワル",
+  "formName": null,
+  "status": {
+    "hp": 20,
+    "attack": 40,
+    "defence": 90,
+    "spAttack": 30,
+    "spDefence": 90,
+    "speed": 25
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["355", "356", "477"]
+}

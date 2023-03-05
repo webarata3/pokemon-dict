@@ -1,0 +1,22 @@
+{
+  "no": 42,
+  "form": null,
+  "name": "ゴルバット",
+  "formName": null,
+  "status": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 75,
+    "speed": 90
+  },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["41", "42", "169"]
+}

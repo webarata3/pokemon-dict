@@ -1,0 +1,22 @@
+{
+  "no": 681,
+  "form": "shield",
+  "name": "ギルガルド",
+  "formName": "シールドフォルム",
+  "status": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 140,
+    "spAttack": 50,
+    "spDefence": 140,
+    "speed": 60
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "バトルスイッチ","abilityEffect": "使う技に応じてギルガルドのフォルムを変化させる。", "hidden": false}],
+  "regionId": 6,
+  "evolution": ["679", "680", "681-shield", "681-blade"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 248,
+  "form": null,
+  "name": "バンギラス",
+  "formName": null,
+  "status": {
+    "hp": 100,
+    "attack": 134,
+    "defence": 110,
+    "spAttack": 95,
+    "spDefence": 100,
+    "speed": 61
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [{ "abilityName": "すなおこし","abilityEffect": "場に出たとき、すなあらしにする。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["246", "247", "248"]
+}

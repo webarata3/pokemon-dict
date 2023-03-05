@@ -1,0 +1,20 @@
+{
+  "no": 496,
+  "form": null,
+  "name": "ジャノビー",
+  "formName": null,
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 75,
+    "spAttack": 60,
+    "spDefence": 75,
+    "speed": 83
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "あまのじゃく","abilityEffect": "自分にかかるランク補正を逆にする。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["495", "496", "497"]
+}

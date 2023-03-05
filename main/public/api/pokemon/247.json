@@ -1,0 +1,22 @@
+{
+  "no": 247,
+  "form": null,
+  "name": "サナギラス",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 84,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 70,
+    "speed": 51
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false}],
+  "regionId": 2,
+  "evolution": ["246", "247", "248"]
+}

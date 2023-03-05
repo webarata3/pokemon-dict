@@ -1,0 +1,22 @@
+{
+  "no": 381,
+  "form": null,
+  "name": "ラティオス",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 90,
+    "defence": 80,
+    "spAttack": 130,
+    "spDefence": 110,
+    "speed": 110
+  },
+  "type": [{ "typeId": 15,
+  "typeName": "ドラゴン"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 3,
+  "evolution": ["381"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 562,
+  "form": "galar",
+  "name": "デスマス",
+  "formName": "ガラルのすがた",
+  "status": {
+    "hp": 38,
+    "attack": 55,
+    "defence": 85,
+    "spAttack": 30,
+    "spDefence": 65,
+    "speed": 30
+  },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "さまようたましい","abilityEffect": "直接攻撃を受けたとき、相手と特性を入れ替える。", "hidden": false}],
+  "regionId": 8,
+  "evolution": ["562-galar", "867"]
+}

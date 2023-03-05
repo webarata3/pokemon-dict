@@ -1,0 +1,22 @@
+{
+  "no": 94,
+  "form": null,
+  "name": "ゲンガー",
+  "formName": null,
+  "status": {
+    "hp": 60,
+    "attack": 65,
+    "defence": 60,
+    "spAttack": 130,
+    "spDefence": 75,
+    "speed": 110
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "のろわれボディ","abilityEffect": "攻撃技を受けると相手をかなしばりにすることがある。", "hidden": false}],
+  "regionId": 1,
+  "evolution": ["92", "93", "94"]
+}

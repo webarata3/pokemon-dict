@@ -1,0 +1,20 @@
+{
+  "no": 152,
+  "form": null,
+  "name": "チコリータ",
+  "formName": null,
+  "status": {
+    "hp": 45,
+    "attack": 49,
+    "defence": 65,
+    "spAttack": 49,
+    "spDefence": 65,
+    "speed": 45
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["152", "153", "154"]
+}

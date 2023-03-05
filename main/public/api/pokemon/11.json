@@ -1,0 +1,20 @@
+{
+  "no": 11,
+  "form": null,
+  "name": "トランセル",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 20,
+    "defence": 55,
+    "spAttack": 25,
+    "spDefence": 25,
+    "speed": 30
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false}],
+  "regionId": 1,
+  "evolution": ["10", "11", "12"]
+}

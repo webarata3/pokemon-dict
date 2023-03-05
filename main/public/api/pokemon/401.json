@@ -1,0 +1,20 @@
+{
+  "no": 401,
+  "form": null,
+  "name": "コロボーシ",
+  "formName": null,
+  "status": {
+    "hp": 37,
+    "attack": 25,
+    "defence": 41,
+    "spAttack": 25,
+    "spDefence": 41,
+    "speed": 25
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["401", "402"]
+}

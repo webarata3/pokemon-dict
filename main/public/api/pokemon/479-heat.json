@@ -1,0 +1,22 @@
+{
+  "no": 479,
+  "form": "heat",
+  "name": "ロトム",
+  "formName": "ヒートロトム",
+  "status": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 107,
+    "spAttack": 105,
+    "spDefence": 107,
+    "speed": 86
+  },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+,{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 4,
+  "evolution": ["479", "479-heat", "479-wash", "479-frost", "479-spin", "479-cut"]
+}

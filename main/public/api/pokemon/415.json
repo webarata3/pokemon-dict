@@ -1,0 +1,22 @@
+{
+  "no": 415,
+  "form": null,
+  "name": "ミツハニー",
+  "formName": null,
+  "status": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 42,
+    "spAttack": 30,
+    "spDefence": 42,
+    "speed": 70
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "みつあつめ","abilityEffect": "バトル終了後、あまいミツを拾ってくることがある。", "hidden": false},{ "abilityName": "はりきり","abilityEffect": "こうげきが1.5倍になるが、命中率が0.8倍になる。 レベルの高いポケモンの出現率が上がる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["415", "416"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 255,
+  "form": null,
+  "name": "アチャモ",
+  "formName": null,
+  "status": {
+    "hp": 45,
+    "attack": 60,
+    "defence": 40,
+    "spAttack": 70,
+    "spDefence": 50,
+    "speed": 45
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "かそく","abilityEffect": "毎ターンすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["255", "256", "257"]
+}

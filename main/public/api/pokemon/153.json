@@ -1,0 +1,20 @@
+{
+  "no": 153,
+  "form": null,
+  "name": "ベイリーフ",
+  "formName": null,
+  "status": {
+    "hp": 60,
+    "attack": 62,
+    "defence": 80,
+    "spAttack": 63,
+    "spDefence": 80,
+    "speed": 60
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["152", "153", "154"]
+}

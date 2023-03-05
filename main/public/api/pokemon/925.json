@@ -1,0 +1,20 @@
+{
+  "no": 925,
+  "form": null,
+  "name": "イッカネズミ",
+  "formName": null,
+  "status": {
+    "hp": 74,
+    "attack": 75,
+    "defence": 70,
+    "spAttack": 65,
+    "spDefence": 75,
+    "speed": 111
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "フレンドガード","abilityEffect": "味方へのダメージが0.75倍になる。", "hidden": false},{ "abilityName": "ほおぶくろ","abilityEffect": "きのみを食べたとき、通常の効果に加えてHPが1/3回復する。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["924", "925"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 500,
+  "form": null,
+  "name": "エンブオー",
+  "formName": null,
+  "status": {
+    "hp": 110,
+    "attack": 123,
+    "defence": 65,
+    "spAttack": 100,
+    "spDefence": 65,
+    "speed": 65
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["498", "499", "500"]
+}

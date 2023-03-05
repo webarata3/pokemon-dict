@@ -1,0 +1,22 @@
+{
+  "no": 825,
+  "form": null,
+  "name": "レドームシ",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 80,
+    "spAttack": 50,
+    "spDefence": 90,
+    "speed": 30
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ふくがん","abilityEffect": "命中率が1.3倍に上がる。 もちものを持った野生ポケモンが出やすくなる。", "hidden": false},{ "abilityName": "テレパシー","abilityEffect": "味方からの攻撃を無効化する。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["824", "825", "826"]
+}

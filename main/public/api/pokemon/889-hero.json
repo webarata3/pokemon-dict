@@ -1,0 +1,20 @@
+{
+  "no": 889,
+  "form": "hero",
+  "name": "ザマゼンタ",
+  "formName": "れきせんのゆうしゃ",
+  "status": {
+    "hp": 92,
+    "attack": 130,
+    "defence": 115,
+    "spAttack": 80,
+    "spDefence": 115,
+    "speed": 138
+  },
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "ふくつのたて","abilityEffect": "場に出たときぼうぎょが1段階上がる。", "hidden": false}],
+  "regionId": 8,
+  "evolution": ["889-hero", "889-crownedshield"]
+}

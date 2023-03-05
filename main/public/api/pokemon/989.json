@@ -1,0 +1,22 @@
+{
+  "no": 989,
+  "form": null,
+  "name": "スナノケガワ",
+  "formName": null,
+  "status": {
+    "hp": 85,
+    "attack": 81,
+    "defence": 97,
+    "spAttack": 121,
+    "spDefence": 85,
+    "speed": 101
+  },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "こだいかっせい","abilityEffect": "場がにほんばれ状態か、ブーストエナジーを持っているとき、自分の最も高い能力が上がる。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["989"]
+}

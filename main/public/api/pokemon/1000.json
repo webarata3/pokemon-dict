@@ -1,0 +1,22 @@
+{
+  "no": 1000,
+  "form": null,
+  "name": "サーフゴー",
+  "formName": null,
+  "status": {
+    "hp": 87,
+    "attack": 60,
+    "defence": 95,
+    "spAttack": 133,
+    "spDefence": 91,
+    "speed": 84
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "おうごんのからだ","abilityEffect": "他のポケモンから受ける変化技を無効化する。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["999", "1000"]
+}

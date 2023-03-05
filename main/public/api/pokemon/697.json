@@ -1,0 +1,22 @@
+{
+  "no": 697,
+  "form": null,
+  "name": "ガチゴラス",
+  "formName": null,
+  "status": {
+    "hp": 82,
+    "attack": 121,
+    "defence": 119,
+    "spAttack": 69,
+    "spDefence": 59,
+    "speed": 71
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
+  "ability": [{ "abilityName": "がんじょうあご","abilityEffect": "かみつきわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "いしあたま","abilityEffect": "反動技を使用してもダメージを受けない。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["696", "697"]
+}

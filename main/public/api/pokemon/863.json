@@ -1,0 +1,20 @@
+{
+  "no": 863,
+  "form": null,
+  "name": "ニャイキング",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 100,
+    "spAttack": 50,
+    "spDefence": 60,
+    "speed": 50
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "カブトアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "かたいツメ","abilityEffect": "使用する直接攻撃の威力が1.3倍になる。", "hidden": false},{ "abilityName": "はがねのせいしん","abilityEffect": "自分・味方のはがねタイプの技の威力が1.5倍になる。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["52-galar", "863"]
+}

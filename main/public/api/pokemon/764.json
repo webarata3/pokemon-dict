@@ -1,0 +1,20 @@
+{
+  "no": 764,
+  "form": null,
+  "name": "キュワワー",
+  "formName": null,
+  "status": {
+    "hp": 51,
+    "attack": 52,
+    "defence": 90,
+    "spAttack": 82,
+    "spDefence": 110,
+    "speed": 100
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "フラワーベール","abilityEffect": "味方の場のくさタイプのポケモンは、相手からランク補正を下げられなくなり、状態異常にもならない。", "hidden": false},{ "abilityName": "ヒーリングシフト","abilityEffect": "HPを回復するわざの優先度を3高くして出せる。", "hidden": false},{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["764"]
+}

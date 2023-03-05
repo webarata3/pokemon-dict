@@ -1,0 +1,22 @@
+{
+  "no": 519,
+  "form": null,
+  "name": "マメパト",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 55,
+    "defence": 50,
+    "spAttack": 36,
+    "spDefence": 30,
+    "speed": 43
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "はとむね","abilityEffect": "相手からぼうぎょを下げられない。", "hidden": false},{ "abilityName": "きょううん","abilityEffect": "急所ランクが1段階上がる。", "hidden": false},{ "abilityName": "とうそうしん","abilityEffect": "相手が同性のときはわざの威力が1.25倍になり、異性のときは0.75倍になる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["519", "520", "521"]
+}

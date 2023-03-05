@@ -1,0 +1,20 @@
+{
+  "no": 906,
+  "form": null,
+  "name": "ニャオハ",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 61,
+    "defence": 54,
+    "spAttack": 45,
+    "spDefence": 45,
+    "speed": 65
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "へんげんじざい","abilityEffect": "わざを出す直前にそのわざのタイプになる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["906", "907", "908"]
+}

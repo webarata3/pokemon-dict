@@ -1,0 +1,20 @@
+{
+  "no": 497,
+  "form": null,
+  "name": "ジャローダ",
+  "formName": null,
+  "status": {
+    "hp": 75,
+    "attack": 75,
+    "defence": 95,
+    "spAttack": 75,
+    "spDefence": 95,
+    "speed": 113
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "あまのじゃく","abilityEffect": "自分にかかるランク補正を逆にする。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["495", "496", "497"]
+}

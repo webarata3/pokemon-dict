@@ -1,0 +1,22 @@
+{
+  "no": 774,
+  "form": null,
+  "name": "メテノ",
+  "formName": "りゅうせいのすがた",
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 100,
+    "spAttack": 60,
+    "spDefence": 100,
+    "speed": 60
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "リミットシールド","abilityEffect": "HPが半分より多いとメテノのフォルムが変わる。", "hidden": false}],
+  "regionId": 7,
+  "evolution": ["774"]
+}

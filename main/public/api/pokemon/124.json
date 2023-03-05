@@ -1,0 +1,22 @@
+{
+  "no": 124,
+  "form": null,
+  "name": "ルージュラ",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 35,
+    "spAttack": 115,
+    "spDefence": 95,
+    "speed": 95
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": false},{ "abilityName": "よちむ","abilityEffect": "相手の持つわざが1つ分かる。", "hidden": false},{ "abilityName": "かんそうはだ","abilityEffect": "みずわざを受けるとHPが1/4回復し、ほのおわざを受けた時の威力は1.25倍になる。 あめのときはHPを1/8回復し、にほんばれのときは1/8のダメージを受ける。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["238", "124"]
+}

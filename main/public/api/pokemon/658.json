@@ -1,0 +1,22 @@
+{
+  "no": 658,
+  "form": null,
+  "name": "ゲッコウガ",
+  "formName": null,
+  "status": {
+    "hp": 72,
+    "attack": 95,
+    "defence": 67,
+    "spAttack": 103,
+    "spDefence": 71,
+    "speed": 122
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "へんげんじざい","abilityEffect": "わざを出す直前にそのわざのタイプになる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["656", "657", "658"]
+}

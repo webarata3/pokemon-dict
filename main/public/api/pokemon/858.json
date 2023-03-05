@@ -1,0 +1,22 @@
+{
+  "no": 858,
+  "form": null,
+  "name": "ブリムオン",
+  "formName": null,
+  "status": {
+    "hp": 57,
+    "attack": 90,
+    "defence": 95,
+    "spAttack": 136,
+    "spDefence": 103,
+    "speed": 29
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "いやしのこころ","abilityEffect": "味方の状態異常を治すことがある。", "hidden": false},{ "abilityName": "きけんよち","abilityEffect": "相手が自分に効果抜群のわざを持っているかわかる。", "hidden": false},{ "abilityName": "マジックミラー","abilityEffect": "常にマジックコート状態になる。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["856", "857", "858"]
+}
