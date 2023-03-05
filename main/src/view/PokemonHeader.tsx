@@ -52,14 +52,14 @@ const PokemonHeader = ({ pokemon, pokemonTocs }: Params): JSX.Element => {
     <div className="pokemon__toc">
       {arrowToc(true)}
       <div className="pokemon__title">
-        <h1>{`no.${pokemon.no}`}</h1>
-        <h1>{pokemon.name}</h1>
+        <h1 className="pokemon__name">{`no.${pokemon.no}`}</h1>
+        <h1 className="pokemon__name">{pokemon.name}</h1>
         {
           pokemon.formName === null
             ? <></>
             : <>
               <div></div>
-              <h1>{pokemon.formName}</h1>
+              <h1 className="pokemon__name">{pokemon.formName}</h1>
             </>
         }
       </div>
