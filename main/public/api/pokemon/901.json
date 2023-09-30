@@ -18,5 +18,5 @@
 ],
   "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
   "regionId": 9,
-  "evolution": ["216", "217", "901"]
+  "evolution": ["216", "217", "901", "901-akatsuki"]
 }

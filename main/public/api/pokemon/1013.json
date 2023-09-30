@@ -1,0 +1,22 @@
+{
+  "no": 1013,
+  "form": null,
+  "name": "ヤバソチャ",
+  "formName": null,
+  "status": {
+    "hp": 71,
+    "attack": 60,
+    "defence": 106,
+    "spAttack": 121,
+    "spDefence": 80,
+    "speed": 70
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "おもてなし","abilityEffect": "戦闘に出た時に、自分を除く味方全体のhpをそれぞれ最大hpの1/4ずつ回復する。(ダブルバトル用)", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["1013"]
+}

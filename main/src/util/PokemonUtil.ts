@@ -7,7 +7,7 @@ const getPokemonUrl = (no: number, form: string | null): string =>
   `?no=${no}${form === null ? '' : '&form=' + form}`
 
 const getPokemonImgUrl = (no: number, form: string | null): string =>
-  `image/pokemon/${getPokemonId(no, form)}.webp`;
+  `image/pokemon/${String(no).padStart(4, '0')}${form == null ? '' : '-' + form}.webp`;
 
 const getTypeImage = (typeId: number): string =>
   `image/type/${typeId}.svg`;

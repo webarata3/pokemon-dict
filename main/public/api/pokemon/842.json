@@ -18,5 +18,5 @@
 ],
   "ability": [{ "abilityName": "じゅくせい","abilityEffect": "きのみの効果が2倍になる。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": true}],
   "regionId": 8,
-  "evolution": ["840", "841", "842"]
+  "evolution": ["840", "841", "842", "1011"]
 }

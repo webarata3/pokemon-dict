@@ -16,5 +16,5 @@
 ],
   "ability": [{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "はやあし","abilityEffect": "状態異常のとき、すばやさが1.5倍になる。", "hidden": false},{ "abilityName": "みつあつめ","abilityEffect": "バトル終了後、あまいミツを拾ってくることがある。", "hidden": true}],
   "regionId": 2,
-  "evolution": ["216", "217", "901"]
+  "evolution": ["216", "217", "901", "901-akatsuki"]
 }

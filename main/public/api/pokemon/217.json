@@ -16,5 +16,5 @@
 ],
   "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "はやあし","abilityEffect": "状態異常のとき、すばやさが1.5倍になる。", "hidden": false},{ "abilityName": "きんちょうかん","abilityEffect": "相手のきのみを使えなくする。", "hidden": true}],
   "regionId": 2,
-  "evolution": ["216", "217", "901"]
+  "evolution": ["216", "217", "901", "901-akatsuki"]
 }

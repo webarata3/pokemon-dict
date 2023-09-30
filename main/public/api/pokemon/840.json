@@ -18,5 +18,5 @@
 ],
   "ability": [{ "abilityName": "じゅくせい","abilityEffect": "きのみの効果が2倍になる。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": true}],
   "regionId": 8,
-  "evolution": ["840", "841", "842"]
+  "evolution": ["840", "841", "842", "1011"]
 }
