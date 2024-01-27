@@ -1,0 +1,20 @@
+{
+  "no": 127,
+  "form": null,
+  "name": "カイロス",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 125,
+    "defence": 100,
+    "spAttack": 55,
+    "spDefence": 70,
+    "speed": 85
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["127"]
+}

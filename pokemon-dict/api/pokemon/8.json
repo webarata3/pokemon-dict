@@ -1,0 +1,20 @@
+{
+  "no": 8,
+  "form": null,
+  "name": "カメール",
+  "formName": null,
+  "status": {
+    "hp": 59,
+    "attack": 63,
+    "defence": 80,
+    "spAttack": 65,
+    "spDefence": 80,
+    "speed": 58
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "あめうけざら","abilityEffect": "あめのとき、HPが1/16回復する。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["7", "8", "9"]
+}

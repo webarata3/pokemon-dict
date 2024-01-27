@@ -1,0 +1,20 @@
+{
+  "no": 446,
+  "form": null,
+  "name": "ゴンベ",
+  "formName": null,
+  "status": {
+    "hp": 135,
+    "attack": 85,
+    "defence": 40,
+    "spAttack": 40,
+    "spDefence": 85,
+    "speed": 5
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["446", "143"]
+}

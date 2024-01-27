@@ -1,0 +1,20 @@
+{
+  "no": 968,
+  "form": null,
+  "name": "ミミズズ",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 145,
+    "spAttack": 60,
+    "spDefence": 55,
+    "speed": 65
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "どしょく","abilityEffect": "じめんタイプの技を無効化し、最大HPの1/4を回復する。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["968"]
+}

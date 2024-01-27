@@ -1,0 +1,21 @@
+{
+  "no": 648,
+  "form": "suteppu",
+  "name": "メロエッタ",
+  "formName": "ステップフォルム",
+  "status": {
+    "hp": 100,
+    "attack": 128,
+    "defence": 90,
+    "spAttack": 77,
+    "spDefence": 77,
+    "speed": 128
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "てんのめぐみ","abilityEffect": "追加効果の出る確率が2倍になる。", "hidden": false}],
+  "evolution": ["648-boisu", "648-suteppu"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 326,
+  "form": null,
+  "name": "ブーピッグ",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 45,
+    "defence": 65,
+    "spAttack": 90,
+    "spDefence": 110,
+    "speed": 80
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["325", "326"]
+}

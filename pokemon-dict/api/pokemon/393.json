@@ -1,0 +1,20 @@
+{
+  "no": 393,
+  "form": null,
+  "name": "ポッチャマ",
+  "formName": null,
+  "status": {
+    "hp": 53,
+    "attack": 51,
+    "defence": 53,
+    "spAttack": 61,
+    "spDefence": 56,
+    "speed": 40
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "まけんき","abilityEffect": "敵から能力を下げられたとき、こうげきが2段階上がる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["393", "394", "395"]
+}

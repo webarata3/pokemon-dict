@@ -1,0 +1,20 @@
+{
+  "no": 1025,
+  "form": null,
+  "name": "モモワロウ",
+  "formName": null,
+  "status": {
+    "hp": 88,
+    "attack": 88,
+    "defence": 160,
+    "spAttack": 88,
+    "spDefence": 88,
+    "speed": 88
+  },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "どくくぐつ","abilityEffect": "『モモワロウ』の技で相手を『どく』状態にした時、同時に相手を『こんらん』状態にする。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["1025"]
+}

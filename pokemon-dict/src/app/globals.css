@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer components {
+  .headline-name {
+    @apply grid grid-cols-[100px_1fr] text-2xl mx-2 py-1 px-8 bg-main text-white rounded-[2em];
+  }
+  .headline {
+    @apply text-xl mb-2 py-1 px-2 bg-main text-white rounded-[25px_0_0_25px] before:content-['●'] before:text-white before:mr-2 before:inline-block;
+  }
+  .button-link {
+    @apply py-1 px-2 rounded-[10px] bg-white text-main border border-main ml-2 hover:bg-main hover:text-white;
+  }
+  .table-cell {
+    @apply py-2 px-1;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
+    rgb(var(--background-start-rgb));
+}
+
+@keyframes slidein {
+  from {
+    transform: scale(0, 1);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}

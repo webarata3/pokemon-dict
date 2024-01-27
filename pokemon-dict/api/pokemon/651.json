@@ -1,0 +1,20 @@
+{
+  "no": 651,
+  "form": null,
+  "name": "ハリボーグ",
+  "formName": null,
+  "status": {
+    "hp": 61,
+    "attack": 78,
+    "defence": 95,
+    "spAttack": 56,
+    "spDefence": 58,
+    "speed": 57
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["650", "651", "652"]
+}

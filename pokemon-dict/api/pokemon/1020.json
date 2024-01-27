@@ -1,0 +1,22 @@
+{
+  "no": 1020,
+  "form": null,
+  "name": "ウガツホムラ",
+  "formName": null,
+  "status": {
+    "hp": 105,
+    "attack": 115,
+    "defence": 121,
+    "spAttack": 65,
+    "spDefence": 93,
+    "speed": 91
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
+  "ability": [{ "abilityName": "こだいかっせい","abilityEffect": "場がにほんばれ状態か、ブーストエナジーを持っているとき、自分の最も高い能力が上がる。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["1020"]
+}

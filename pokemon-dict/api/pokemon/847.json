@@ -1,0 +1,20 @@
+{
+  "no": 847,
+  "form": null,
+  "name": "カマスジョー",
+  "formName": null,
+  "status": {
+    "hp": 61,
+    "attack": 123,
+    "defence": 60,
+    "spAttack": 60,
+    "spDefence": 50,
+    "speed": 136
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "スクリューおびれ","abilityEffect": "攻撃を引き寄せる技や特性の効果を無視する。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["846", "847"]
+}

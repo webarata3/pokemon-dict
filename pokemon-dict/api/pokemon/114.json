@@ -1,0 +1,20 @@
+{
+  "no": 114,
+  "form": null,
+  "name": "モンジャラ",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 55,
+    "defence": 115,
+    "spAttack": 100,
+    "spDefence": 40,
+    "speed": 60
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["114", "465"]
+}

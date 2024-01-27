@@ -1,0 +1,22 @@
+{
+  "no": 635,
+  "form": null,
+  "name": "サザンドラ",
+  "formName": null,
+  "status": {
+    "hp": 92,
+    "attack": 105,
+    "defence": 90,
+    "spAttack": 125,
+    "spDefence": 90,
+    "speed": 98
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 5,
+  "evolution": ["633", "634", "635"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 691,
+  "form": null,
+  "name": "ドラミドロ",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 75,
+    "defence": 90,
+    "spAttack": 97,
+    "spDefence": 123,
+    "speed": 44
+  },
+  "type": [{ "typeId": 8,
+  "typeName": "どく"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
+  "ability": [{ "abilityName": "どくのトゲ","abilityEffect": "直接攻撃を受けたとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "どくしゅ","abilityEffect": "直接攻撃を使ったとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "てきおうりょく","abilityEffect": "タイプ一致のダメージ補正が1.5倍から2倍になる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["690", "691"]
+}

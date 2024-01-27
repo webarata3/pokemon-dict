@@ -1,0 +1,20 @@
+{
+  "no": 266,
+  "form": null,
+  "name": "カラサリス",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 55,
+    "spAttack": 25,
+    "spDefence": 25,
+    "speed": 15
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false}],
+  "regionId": 3,
+  "evolution": ["265", "266", "267", "268", "269"]
+}

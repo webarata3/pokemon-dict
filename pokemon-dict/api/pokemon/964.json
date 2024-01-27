@@ -1,0 +1,19 @@
+{
+  "no": 964,
+  "form": null,
+  "name": "イルカマン",
+  "formName": ナイーブフォルム,
+  "status": {
+    "hp": 100,
+    "attack": 70,
+    "defence": 72,
+    "spAttack": 53,
+    "spDefence": 62,
+    "speed": 100
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "マイティチェンジ","abilityEffect": "手持ちに戻ったとき、マイティフォルムにフォルムチェンジする。", "hidden": false}],
+  "evolution": ["963", "964"]
+}

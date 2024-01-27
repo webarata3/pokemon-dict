@@ -1,0 +1,20 @@
+{
+  "no": 869,
+  "form": null,
+  "name": "マホイップ",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 75,
+    "spAttack": 110,
+    "spDefence": 121,
+    "speed": 64
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "スイートベール","abilityEffect": "自分と味方がねむりにならなくなる。", "hidden": false},{ "abilityName": "アロマベール","abilityEffect": "自分と味方がメンタル系の状態変化にならない。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["868", "869"]
+}

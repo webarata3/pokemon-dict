@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style>
+   div {
+    position: relative;
+    height: 1rem;
+   }
+
+   .num>span {
+    position: absolute;
+    display: block;
+    top: 0;
+    transition: all 0.05s ease-in-out 0s;
+   }
+
+   .anim {
+    top: -0.75rem !important;
+   }
+  </style>
+ </head>
+ <body>
+  <div>
+   <div class="num">1</div>
+  </div>
+  <button type="button">+</button>
+  <script>
+   const button = document.querySelector('button');
+
+   let value = 1;
+
+   const num = document.querySelector('.num');
+   button.addEventListener('click', () => {
+    value++;
+    const nums = [];
+    let current = value;
+    if (current >= 100) {
+     nums.push(parseInt(current / 100));
+     current = current % 100;
+    }
+    if (current >= 10) {
+     nums.push(parseInt(current / 10));
+     current = current % 10;
+    }
+    nums.push(current);
+    num.innerHTML = nums.map(v => `<span>${v}</span>`).join('');
+
+    const spans = num.querySelectorAll('span');
+    spans.forEach(s => {
+     s.addEventListener('transitionend', () => {
+      s.classList.remove('anim');
+     });
+     s.classList.add('anim');
+    });
+   });
+
+  </script>
+ </body>
+</html>

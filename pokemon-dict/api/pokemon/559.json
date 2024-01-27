@@ -1,0 +1,22 @@
+{
+  "no": 559,
+  "form": null,
+  "name": "ズルッグ",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 70,
+    "spAttack": 35,
+    "spDefence": 70,
+    "speed": 48
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "だっぴ","abilityEffect": "状態異常を治すことがある。", "hidden": false},{ "abilityName": "じしんかじょう","abilityEffect": "ポケモンを倒すとこうげきが1段階上がる。", "hidden": false},{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["559", "560"]
+}

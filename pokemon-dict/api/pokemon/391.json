@@ -1,0 +1,22 @@
+{
+  "no": 391,
+  "form": null,
+  "name": "モウカザル",
+  "formName": null,
+  "status": {
+    "hp": 64,
+    "attack": 78,
+    "defence": 52,
+    "spAttack": 78,
+    "spDefence": 52,
+    "speed": 81
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["390", "391", "392"]
+}

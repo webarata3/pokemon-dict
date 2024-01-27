@@ -1,0 +1,22 @@
+{
+  "no": 468,
+  "form": null,
+  "name": "トゲキッス",
+  "formName": null,
+  "status": {
+    "hp": 85,
+    "attack": 50,
+    "defence": 95,
+    "spAttack": 120,
+    "spDefence": 115,
+    "speed": 80
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "はりきり","abilityEffect": "こうげきが1.5倍になるが、命中率が0.8倍になる。 レベルの高いポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "てんのめぐみ","abilityEffect": "追加効果の出る確率が2倍になる。", "hidden": false},{ "abilityName": "きょううん","abilityEffect": "急所ランクが1段階上がる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["175", "176", "468"]
+}

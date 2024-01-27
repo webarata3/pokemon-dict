@@ -1,0 +1,20 @@
+{
+  "no": 771,
+  "form": null,
+  "name": "ナマコブシ",
+  "formName": null,
+  "status": {
+    "hp": 55,
+    "attack": 60,
+    "defence": 130,
+    "spAttack": 30,
+    "spDefence": 130,
+    "speed": 5
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "とびだすなかみ","abilityEffect": "ひんしになったとき、直前のHP分だけ相手にダメージを与える。", "hidden": false},{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["771"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 78,
+  "form": null,
+  "name": "ギャロップ",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 70,
+    "spAttack": 80,
+    "spDefence": 80,
+    "speed": 105
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化し、その後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ほのおのからだ","abilityEffect": "直接攻撃を受けたとき、相手をやけどにすることがある。 タマゴの孵化に必要な歩数が半減する。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["77", "78"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 988,
+  "form": null,
+  "name": "チヲハウハネ",
+  "formName": null,
+  "status": {
+    "hp": 85,
+    "attack": 135,
+    "defence": 79,
+    "spAttack": 85,
+    "spDefence": 105,
+    "speed": 81
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "こだいかっせい","abilityEffect": "場がにほんばれ状態か、ブーストエナジーを持っているとき、自分の最も高い能力が上がる。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["988"]
+}

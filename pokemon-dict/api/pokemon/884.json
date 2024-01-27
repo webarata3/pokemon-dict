@@ -1,0 +1,22 @@
+{
+  "no": 884,
+  "form": null,
+  "name": "ジュラルドン",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 95,
+    "defence": 115,
+    "spAttack": 120,
+    "spDefence": 50,
+    "speed": 85
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 15,
+  "typeName": "ドラゴン"}
+],
+  "ability": [{ "abilityName": "ライトメタル","abilityEffect": "重さが半分になる。", "hidden": false},{ "abilityName": "ヘヴィメタル","abilityEffect": "重さが2倍になる。", "hidden": false},{ "abilityName": "すじがねいり","abilityEffect": "攻撃を引き寄せる技や特性の効果を無視する。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["884", "1018"]
+}

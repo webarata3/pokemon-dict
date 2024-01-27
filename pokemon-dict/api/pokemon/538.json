@@ -1,0 +1,20 @@
+{
+  "no": 538,
+  "form": null,
+  "name": "ナゲキ",
+  "formName": null,
+  "status": {
+    "hp": 120,
+    "attack": 100,
+    "defence": 85,
+    "spAttack": 30,
+    "spDefence": 85,
+    "speed": 45
+  },
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "こんじょう","abilityEffect": "状態異常のとき、こうげきが1.5倍になる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false},{ "abilityName": "かたやぶり","abilityEffect": "特性の影響を受けずに技を出せる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["538"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 298,
+  "form": null,
+  "name": "ルリリ",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 20,
+    "defence": 40,
+    "spAttack": 20,
+    "spDefence": 40,
+    "speed": 20
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "ちからもち","abilityEffect": "こうげきが2倍になる。", "hidden": false},{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["298", "183", "184"]
+}

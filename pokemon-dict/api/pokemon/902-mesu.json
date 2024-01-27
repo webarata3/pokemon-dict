@@ -1,0 +1,21 @@
+{
+  "no": 902,
+  "form": "mesu",
+  "name": "イダイトウ",
+  "formName": "メスのすがた",
+  "status": {
+    "hp": 120,
+    "attack": 90,
+    "defence": 65,
+    "spAttack": 100,
+    "spDefence": 75,
+    "speed": 78
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [],
+  "evolution": ["550", "902-osu", "902-mesu"]
+}

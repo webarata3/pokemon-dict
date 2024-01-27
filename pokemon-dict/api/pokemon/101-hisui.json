@@ -1,0 +1,22 @@
+{
+  "no": 101,
+  "form": "hisui",
+  "name": "マルマイン",
+  "formName": "ヒスイのすがた",
+  "status": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 70,
+    "spAttack": 80,
+    "spDefence": 80,
+    "speed": 150
+  },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+,{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [],
+  "regionId": 9,
+  "evolution": ["100-hisui", "101-hisui"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 378,
+  "form": null,
+  "name": "レジアイス",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 100,
+    "spAttack": 100,
+    "spDefence": 200,
+    "speed": 50
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+],
+  "ability": [{ "abilityName": "クリアボディ","abilityEffect": "相手からランク補正を下げられない。", "hidden": false},{ "abilityName": "アイスボディ","abilityEffect": "あられ/ゆきのとき、HPが1/16回復する。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["378"]
+}

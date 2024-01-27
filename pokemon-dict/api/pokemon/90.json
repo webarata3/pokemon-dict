@@ -1,0 +1,20 @@
+{
+  "no": 90,
+  "form": null,
+  "name": "シェルダー",
+  "formName": null,
+  "status": {
+    "hp": 30,
+    "attack": 65,
+    "defence": 100,
+    "spAttack": 45,
+    "spDefence": 25,
+    "speed": 40
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "スキルリンク","abilityEffect": "連続攻撃技を常に最大回数出せる。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["90", "91"]
+}

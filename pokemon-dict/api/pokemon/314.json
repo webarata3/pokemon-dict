@@ -1,0 +1,20 @@
+{
+  "no": 314,
+  "form": null,
+  "name": "イルミーゼ",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 47,
+    "defence": 75,
+    "spAttack": 73,
+    "spDefence": 85,
+    "speed": 85
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": false},{ "abilityName": "いろめがね","abilityEffect": "与える「こうかはいまひとつ」のダメージが2倍になる。", "hidden": false},{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["314"]
+}

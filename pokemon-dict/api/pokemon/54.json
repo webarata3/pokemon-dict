@@ -1,0 +1,20 @@
+{
+  "no": 54,
+  "form": null,
+  "name": "コダック",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 52,
+    "defence": 48,
+    "spAttack": 65,
+    "spDefence": 50,
+    "speed": 55
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": false},{ "abilityName": "ノーてんき","abilityEffect": "天気の影響が無くなる。", "hidden": false},{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["54", "55"]
+}

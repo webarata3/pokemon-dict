@@ -1,0 +1,20 @@
+{
+  "no": 956,
+  "form": null,
+  "name": "クエスパトラ",
+  "formName": null,
+  "status": {
+    "hp": 95,
+    "attack": 60,
+    "defence": 60,
+    "spAttack": 101,
+    "spDefence": 60,
+    "speed": 105
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "びんじょう","abilityEffect": "相手のランク補正が上昇したとき、自分も同じだけランクを上げる。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "かそく","abilityEffect": "毎ターンすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["955", "956"]
+}

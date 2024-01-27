@@ -1,0 +1,20 @@
+{
+  "no": 614,
+  "form": null,
+  "name": "ツンベアー",
+  "formName": null,
+  "status": {
+    "hp": 95,
+    "attack": 130,
+    "defence": 80,
+    "spAttack": 70,
+    "spDefence": 80,
+    "speed": 50
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+],
+  "ability": [{ "abilityName": "ゆきがくれ","abilityEffect": "あられ/ゆきのとき、回避率が1.25倍になる。 雪が降っている場所でのポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "ゆきかき","abilityEffect": "あられ/ゆきのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["613", "614"]
+}

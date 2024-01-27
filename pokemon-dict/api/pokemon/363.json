@@ -1,0 +1,22 @@
+{
+  "no": 363,
+  "form": null,
+  "name": "タマザラシ",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 50,
+    "spAttack": 55,
+    "spDefence": 50,
+    "speed": 25
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+,{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "アイスボディ","abilityEffect": "あられ/ゆきのとき、HPが1/16回復する。", "hidden": false},{ "abilityName": "どんかん","abilityEffect": "メロメロ状態・ちょうはつ状態にならない。 ゆうわくを無効化する。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["363", "364", "365"]
+}

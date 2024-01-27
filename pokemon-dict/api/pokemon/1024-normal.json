@@ -1,0 +1,20 @@
+{
+  "no": 1024,
+  "form": "normal",
+  "name": "テラパゴス",
+  "formName": "ノーマルフォルム",
+  "status": {
+    "hp": 90,
+    "attack": 65,
+    "defence": 85,
+    "spAttack": 65,
+    "spDefence": 85,
+    "speed": 60
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "テラスチェンジ","abilityEffect": "戦闘に出ると、『テラパゴス』ノーマルフォルムからテラスフォルム『テラパゴス(テラスタル)』になる。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["1024-normal", "1024-terastal", "1024-stellar"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 370,
+  "form": null,
+  "name": "ラブカス",
+  "formName": null,
+  "status": {
+    "hp": 43,
+    "attack": 30,
+    "defence": 55,
+    "spAttack": 40,
+    "spDefence": 65,
+    "speed": 97
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["370"]
+}

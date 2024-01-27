@@ -1,0 +1,22 @@
+{
+  "no": 541,
+  "form": null,
+  "name": "クルマユ",
+  "formName": null,
+  "status": {
+    "hp": 55,
+    "attack": 63,
+    "defence": 90,
+    "spAttack": 50,
+    "spDefence": 80,
+    "speed": 42
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false},{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["540", "541", "542"]
+}

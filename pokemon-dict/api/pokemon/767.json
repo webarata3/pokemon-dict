@@ -1,0 +1,22 @@
+{
+  "no": 767,
+  "form": null,
+  "name": "コソクムシ",
+  "formName": null,
+  "status": {
+    "hp": 25,
+    "attack": 35,
+    "defence": 40,
+    "spAttack": 20,
+    "spDefence": 30,
+    "speed": 80
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "にげごし","abilityEffect": "HPが半分以下になると交代する。", "hidden": false}],
+  "regionId": 7,
+  "evolution": ["767", "768"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 121,
+  "form": null,
+  "name": "スターミー",
+  "formName": null,
+  "status": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 85,
+    "spAttack": 100,
+    "spDefence": 85,
+    "speed": 115
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "はっこう","abilityEffect": "野生ポケモンが出現しやすくなる。", "hidden": false},{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "アナライズ","abilityEffect": "最後にわざを出すと威力が1.3倍になる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["120", "121"]
+}

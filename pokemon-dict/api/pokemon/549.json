@@ -1,0 +1,20 @@
+{
+  "no": 549,
+  "form": null,
+  "name": "ドレディア",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 75,
+    "spAttack": 110,
+    "spDefence": 75,
+    "speed": 90
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["548", "549", "549-hisui"]
+}

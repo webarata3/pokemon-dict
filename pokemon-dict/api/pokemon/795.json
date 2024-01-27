@@ -1,0 +1,22 @@
+{
+  "no": 795,
+  "form": null,
+  "name": "フェローチェ",
+  "formName": null,
+  "status": {
+    "hp": 71,
+    "attack": 137,
+    "defence": 37,
+    "spAttack": 137,
+    "spDefence": 37,
+    "speed": 151
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "ビーストブースト","abilityEffect": "ポケモンを倒すと、自分の最も高い能力が1段階上がる。", "hidden": false}],
+  "regionId": 7,
+  "evolution": ["795"]
+}

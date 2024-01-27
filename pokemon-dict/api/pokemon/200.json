@@ -1,0 +1,20 @@
+{
+  "no": 200,
+  "form": null,
+  "name": "ムウマ",
+  "formName": null,
+  "status": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 60,
+    "spAttack": 85,
+    "spDefence": 85,
+    "speed": 85
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 2,
+  "evolution": ["200", "429"]
+}

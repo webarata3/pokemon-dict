@@ -1,0 +1,22 @@
+{
+  "no": 251,
+  "form": null,
+  "name": "セレビィ",
+  "formName": null,
+  "status": {
+    "hp": 100,
+    "attack": 100,
+    "defence": 100,
+    "spAttack": 100,
+    "spDefence": 100,
+    "speed": 100
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+,{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false}],
+  "regionId": 2,
+  "evolution": ["251"]
+}

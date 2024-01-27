@@ -1,0 +1,22 @@
+{
+  "no": 27,
+  "form": "alola",
+  "name": "サンド",
+  "formName": "アローラのすがた",
+  "status": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 90,
+    "spAttack": 10,
+    "spDefence": 35,
+    "speed": 40
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "ゆきがくれ","abilityEffect": "あられ/ゆきのとき、回避率が1.25倍になる。 雪が降っている場所でのポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "ゆきかき","abilityEffect": "あられ/ゆきのとき、すばやさが2倍になる。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["27-alola", "28-alola"]
+}

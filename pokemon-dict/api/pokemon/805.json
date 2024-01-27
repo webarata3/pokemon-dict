@@ -1,0 +1,22 @@
+{
+  "no": 805,
+  "form": null,
+  "name": "ツンデツンデ",
+  "formName": null,
+  "status": {
+    "hp": 61,
+    "attack": 131,
+    "defence": 211,
+    "spAttack": 53,
+    "spDefence": 101,
+    "speed": 13
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "ビーストブースト","abilityEffect": "ポケモンを倒すと、自分の最も高い能力が1段階上がる。", "hidden": false}],
+  "regionId": 7,
+  "evolution": ["805"]
+}

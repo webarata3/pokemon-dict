@@ -1,0 +1,20 @@
+{
+  "no": 503,
+  "form": null,
+  "name": "ダイケンキ",
+  "formName": null,
+  "status": {
+    "hp": 95,
+    "attack": 100,
+    "defence": 85,
+    "spAttack": 108,
+    "spDefence": 70,
+    "speed": 70
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "げきりゅう","abilityEffect": "HPが1/3以下になると、みずタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "きれあじ","abilityEffect": "切る技の威力が1.5倍になる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["501", "502", "503", "503-hisui"]
+}

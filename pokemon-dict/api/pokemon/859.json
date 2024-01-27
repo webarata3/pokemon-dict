@@ -1,0 +1,22 @@
+{
+  "no": 859,
+  "form": null,
+  "name": "ベロバー",
+  "formName": null,
+  "status": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 30,
+    "spAttack": 55,
+    "spDefence": 40,
+    "speed": 50
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": false},{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "わるいてぐせ","abilityEffect": "直接攻撃を受けたとき、相手の道具を奪う。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["859", "860", "861"]
+}

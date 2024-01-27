@@ -1,0 +1,22 @@
+{
+  "no": 607,
+  "form": null,
+  "name": "ヒトモシ",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 30,
+    "defence": 55,
+    "spAttack": 65,
+    "spDefence": 55,
+    "speed": 20
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+,{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化し、その後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ほのおのからだ","abilityEffect": "直接攻撃を受けたとき、相手をやけどにすることがある。 タマゴの孵化に必要な歩数が半減する。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["607", "608", "609"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 814,
+  "form": null,
+  "name": "ラビフット",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 86,
+    "defence": 60,
+    "spAttack": 55,
+    "spDefence": 60,
+    "speed": 94
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "リベロ","abilityEffect": "わざを出す直前にそのわざのタイプになる。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["813", "814", "815"]
+}

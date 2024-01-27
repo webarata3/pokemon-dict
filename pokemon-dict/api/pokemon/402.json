@@ -1,0 +1,20 @@
+{
+  "no": 402,
+  "form": null,
+  "name": "コロトック",
+  "formName": null,
+  "status": {
+    "hp": 77,
+    "attack": 85,
+    "defence": 51,
+    "spAttack": 55,
+    "spDefence": 51,
+    "speed": 65
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["401", "402"]
+}

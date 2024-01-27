@@ -1,0 +1,22 @@
+{
+  "no": 786,
+  "form": null,
+  "name": "カプ・テテフ",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 75,
+    "spAttack": 130,
+    "spDefence": 115,
+    "speed": 95
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "サイコメイカー","abilityEffect": "場の状態をサイコフィールドにする。", "hidden": false},{ "abilityName": "テレパシー","abilityEffect": "味方からの攻撃を無効化する。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["786"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 926,
+  "form": null,
+  "name": "パピモッチ",
+  "formName": null,
+  "status": {
+    "hp": 37,
+    "attack": 55,
+    "defence": 70,
+    "spAttack": 30,
+    "spDefence": 55,
+    "speed": 65
+  },
+  "type": [{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "ぶきよう","abilityEffect": "自分の持ち物の効果がなくなる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["926", "927"]
+}

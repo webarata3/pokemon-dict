@@ -1,0 +1,21 @@
+{
+  "no": 741,
+  "form": "maimai",
+  "name": "オドリドリ",
+  "formName": "まいまいスタイル",
+  "status": {
+    "hp": 75,
+    "attack": 70,
+    "defence": 70,
+    "spAttack": 98,
+    "spDefence": 70,
+    "speed": 93
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "おどりこ","abilityEffect": "他のポケモンが踊り系のわざを使った直後に同じ技をだす。", "hidden": false}],
+  "evolution": ["741-meramera", "741-pachipachi", "741-furafura", "741-maimai"]
+}

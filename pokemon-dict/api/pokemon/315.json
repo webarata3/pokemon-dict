@@ -1,0 +1,22 @@
+{
+  "no": 315,
+  "form": null,
+  "name": "ロゼリア",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 45,
+    "spAttack": 100,
+    "spDefence": 80,
+    "speed": 65
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "しぜんかいふく","abilityEffect": "手持ちに戻ると状態異常が回復する。", "hidden": false},{ "abilityName": "どくのトゲ","abilityEffect": "直接攻撃を受けたとき、相手をどくにすることがある。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["406", "315", "407"]
+}

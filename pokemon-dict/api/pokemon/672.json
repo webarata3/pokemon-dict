@@ -1,0 +1,20 @@
+{
+  "no": 672,
+  "form": null,
+  "name": "メェークル",
+  "formName": null,
+  "status": {
+    "hp": 66,
+    "attack": 65,
+    "defence": 48,
+    "spAttack": 62,
+    "spDefence": 57,
+    "speed": 52
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "そうしょく","abilityEffect": "くさタイプのわざを無効化し、こうげきが1段階上がる。", "hidden": false},{ "abilityName": "くさのけがわ","abilityEffect": "グラスフィールドのとき、ぼうぎょが1.5倍になる。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["672", "673"]
+}

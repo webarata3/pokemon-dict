@@ -1,0 +1,22 @@
+{
+  "no": 3,
+  "form": null,
+  "name": "フシギバナ",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 82,
+    "defence": 83,
+    "spAttack": 100,
+    "spDefence": 100,
+    "speed": 80
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "しんりょく","abilityEffect": "HPが1/3以下になると、くさタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["1", "2", "3"]
+}

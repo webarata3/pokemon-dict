@@ -1,0 +1,22 @@
+{
+  "no": 6,
+  "form": null,
+  "name": "リザードン",
+  "formName": null,
+  "status": {
+    "hp": 78,
+    "attack": 84,
+    "defence": 78,
+    "spAttack": 109,
+    "spDefence": 85,
+    "speed": 100
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "サンパワー","abilityEffect": "にほんばれのとき、毎ターンHPが1/8減り、とくこうが1.5倍になる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["4", "5", "6"]
+}

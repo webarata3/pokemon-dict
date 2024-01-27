@@ -1,0 +1,20 @@
+{
+  "no": 52,
+  "form": "alola",
+  "name": "ニャース",
+  "formName": "アローラのすがた",
+  "status": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 35,
+    "spAttack": 50,
+    "spDefence": 40,
+    "speed": 90
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+],
+  "ability": [{ "abilityName": "ものひろい","abilityEffect": "相手の使ったアイテムを拾う。 バトル終了後アイテムを拾うことがある。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["52-alola", "53-alola"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 1024,
+  "form": "terastal",
+  "name": "テラパゴス",
+  "formName": "テラスタルフォルム",
+  "status": {
+    "hp": 95,
+    "attack": 95,
+    "defence": 110,
+    "spAttack": 105,
+    "spDefence": 110,
+    "speed": 85
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "テラスシェル","abilityEffect": "自分の残りHPが最大値の時、タイプ相性のある技を受けると、効果がいまひとつになる。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["1024-normal", "1024-terastal", "1024-stellar"]
+}

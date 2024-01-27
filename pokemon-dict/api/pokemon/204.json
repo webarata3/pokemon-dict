@@ -1,0 +1,20 @@
+{
+  "no": 204,
+  "form": null,
+  "name": "クヌギダマ",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 90,
+    "spAttack": 35,
+    "spDefence": 35,
+    "speed": 15
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+],
+  "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["204", "205"]
+}

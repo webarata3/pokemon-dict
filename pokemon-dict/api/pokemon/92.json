@@ -1,0 +1,22 @@
+{
+  "no": 92,
+  "form": null,
+  "name": "ゴース",
+  "formName": null,
+  "status": {
+    "hp": 30,
+    "attack": 35,
+    "defence": 30,
+    "spAttack": 100,
+    "spDefence": 35,
+    "speed": 80
+  },
+  "type": [{ "typeId": 14,
+  "typeName": "ゴースト"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 1,
+  "evolution": ["92", "93", "94"]
+}

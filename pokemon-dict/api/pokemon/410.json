@@ -1,0 +1,22 @@
+{
+  "no": 410,
+  "form": null,
+  "name": "タテトプス",
+  "formName": null,
+  "status": {
+    "hp": 30,
+    "attack": 42,
+    "defence": 118,
+    "spAttack": 42,
+    "spDefence": 88,
+    "speed": 30
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "ぼうおん","abilityEffect": "音のわざを無効化する。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["410", "411"]
+}

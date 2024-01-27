@@ -1,0 +1,20 @@
+{
+  "no": 288,
+  "form": null,
+  "name": "ヤルキモノ",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 80,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 90
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "やるき","abilityEffect": "ねむりにならない。 レベルの高いポケモンの出現率が上がる。", "hidden": false}],
+  "regionId": 3,
+  "evolution": ["287", "288", "289"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 75,
+  "form": "alola",
+  "name": "ゴローン",
+  "formName": "アローラのすがた",
+  "status": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 115,
+    "spAttack": 45,
+    "spDefence": 45,
+    "speed": 35
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 5,
+  "typeName": "でんき"}
+],
+  "ability": [{ "abilityName": "じりょく","abilityEffect": "はがねタイプのポケモンを逃げられなくする。 はがねタイプのポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "エレキスキン","abilityEffect": "ノーマルタイプのわざがでんきタイプになり、威力が1.2倍になる。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["74-alola", "75-alola", "76-alola"]
+}

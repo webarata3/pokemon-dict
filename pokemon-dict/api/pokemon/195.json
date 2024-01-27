@@ -1,0 +1,22 @@
+{
+  "no": 195,
+  "form": null,
+  "name": "ヌオー",
+  "formName": null,
+  "status": {
+    "hp": 95,
+    "attack": 85,
+    "defence": 85,
+    "spAttack": 65,
+    "spDefence": 65,
+    "speed": 35
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "しめりけ","abilityEffect": "じばく、だいばくはつ、ビックリヘッド、ミストバースト、ゆうばくが使えなくなる。", "hidden": false},{ "abilityName": "ちょすい","abilityEffect": "みずタイプのわざを無効化しHPを1/4回復する。", "hidden": false},{ "abilityName": "てんねん","abilityEffect": "相手のランク補正を無視する。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["194", "195"]
+}

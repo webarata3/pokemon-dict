@@ -1,0 +1,15 @@
+{
+  "no": 800,
+  "form": "ultra",
+  "name": "ネクロズマ",
+  "formName": "ウルトラネクロズマ",
+  "status": {
+    "hp": 97,
+    "attack": 167,
+    "defence": 97,
+    "spAttack": 167,
+    "spDefence": 97,
+    "speed": 129
+  },
+  "evolution": [800-ultra]
+}

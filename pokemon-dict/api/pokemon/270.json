@@ -1,0 +1,22 @@
+{
+  "no": 270,
+  "form": null,
+  "name": "ハスボー",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 30,
+    "spAttack": 40,
+    "spDefence": 50,
+    "speed": 30
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "あめうけざら","abilityEffect": "あめのとき、HPが1/16回復する。", "hidden": false},{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["270", "271", "272"]
+}

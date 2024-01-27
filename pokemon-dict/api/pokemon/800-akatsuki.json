@@ -1,0 +1,15 @@
+{
+  "no": 800,
+  "form": "akatsuki",
+  "name": "ネクロズマ",
+  "formName": "あかつきのつばさ(月食)",
+  "status": {
+    "hp": 97,
+    "attack": 113,
+    "defence": 109,
+    "spAttack": 157,
+    "spDefence": 127,
+    "speed": 77
+  },
+  "evolution": [800-akatsuki]
+}

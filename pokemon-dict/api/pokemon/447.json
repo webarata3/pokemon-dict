@@ -1,0 +1,20 @@
+{
+  "no": 447,
+  "form": null,
+  "name": "リオル",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 70,
+    "defence": 40,
+    "spAttack": 35,
+    "spDefence": 40,
+    "speed": 60
+  },
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+],
+  "ability": [{ "abilityName": "ふくつのこころ","abilityEffect": "ひるむとすばやさが1段階上がる。", "hidden": false},{ "abilityName": "せいしんりょく","abilityEffect": "ひるみ状態にならない。", "hidden": false},{ "abilityName": "いたずらごころ","abilityEffect": "変化技の優先度を1高くして出せる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["447", "448"]
+}

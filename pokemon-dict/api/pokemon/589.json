@@ -1,0 +1,22 @@
+{
+  "no": 589,
+  "form": null,
+  "name": "シュバルゴ",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 135,
+    "defence": 105,
+    "spAttack": 60,
+    "spDefence": 105,
+    "speed": 20
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "ぼうじん","abilityEffect": "すなあらし・あられや粉のわざを無効化する。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["588", "589"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 187,
+  "form": null,
+  "name": "ハネッコ",
+  "formName": null,
+  "status": {
+    "hp": 35,
+    "attack": 35,
+    "defence": 40,
+    "spAttack": 35,
+    "spDefence": 55,
+    "speed": 50
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 10,
+  "typeName": "ひこう"}
+],
+  "ability": [{ "abilityName": "ようりょくそ","abilityEffect": "にほんばれのとき、すばやさが2倍になる。", "hidden": false},{ "abilityName": "リーフガード","abilityEffect": "にほんばれのときに状態異常にならない。", "hidden": false},{ "abilityName": "すりぬけ","abilityEffect": "壁系のわざやみがわりを無視して攻撃できる。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["187", "188", "189"]
+}

@@ -1,0 +1,21 @@
+{
+  "no": 720,
+  "form": "imashime",
+  "name": "フーパ",
+  "formName": "いましめられしフーパ",
+  "status": {
+    "hp": 80,
+    "attack": 110,
+    "defence": 60,
+    "spAttack": 150,
+    "spDefence": 130,
+    "speed": 70
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "マジシャン","abilityEffect": "攻撃を当てたとき、相手の持ち物を奪う。", "hidden": false}],
+  "evolution": ["720-imashime", "720-tokihanatare"]
+}

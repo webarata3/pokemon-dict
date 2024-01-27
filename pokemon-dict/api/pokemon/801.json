@@ -1,0 +1,22 @@
+{
+  "no": 801,
+  "form": null,
+  "name": "マギアナ",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 95,
+    "defence": 115,
+    "spAttack": 130,
+    "spDefence": 115,
+    "speed": 65
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "ソウルハート","abilityEffect": "場のポケモンがひんしになるととくこうが1段階上がる。", "hidden": false}],
+  "regionId": 7,
+  "evolution": ["801"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 301,
+  "form": null,
+  "name": "エネコロロ",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 65,
+    "defence": 65,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 90
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "メロメロボディ","abilityEffect": "直接攻撃を受けたとき、相手をメロメロにすることがある。 自分と逆の性別のポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "ノーマルスキン","abilityEffect": "全てのわざがノーマルタイプとなり、タイプを変えた技の威力が1.2倍になる。", "hidden": false},{ "abilityName": "ミラクルスキン","abilityEffect": "相手の変化技の命中率が50%以上の場合は50%になる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["300", "301"]
+}

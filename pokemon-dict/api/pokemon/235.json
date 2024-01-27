@@ -1,0 +1,20 @@
+{
+  "no": 235,
+  "form": null,
+  "name": "ドーブル",
+  "formName": null,
+  "status": {
+    "hp": 55,
+    "attack": 20,
+    "defence": 35,
+    "spAttack": 20,
+    "spDefence": 45,
+    "speed": 75
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "マイペース","abilityEffect": "こんらんにならない。", "hidden": false},{ "abilityName": "テクニシャン","abilityEffect": "威力が低いわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "ムラっけ","abilityEffect": "毎ターンいずれかのステータスが1段階下がり、2段階上がる。", "hidden": true}],
+  "regionId": 2,
+  "evolution": ["235"]
+}

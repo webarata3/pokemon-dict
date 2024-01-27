@@ -1,0 +1,22 @@
+{
+  "no": 39,
+  "form": null,
+  "name": "プリン",
+  "formName": null,
+  "status": {
+    "hp": 115,
+    "attack": 45,
+    "defence": 20,
+    "spAttack": 45,
+    "spDefence": 25,
+    "speed": 20
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "メロメロボディ","abilityEffect": "直接攻撃を受けたとき、相手をメロメロにすることがある。 自分と逆の性別のポケモンの出現率が上がる。", "hidden": false},{ "abilityName": "かちき","abilityEffect": "敵から能力を下げられたとき、とくこうが2段階上がる。", "hidden": false},{ "abilityName": "フレンドガード","abilityEffect": "味方へのダメージが0.75倍になる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["174", "39", "40"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 514,
+  "form": null,
+  "name": "バオッキー",
+  "formName": null,
+  "status": {
+    "hp": 75,
+    "attack": 98,
+    "defence": 63,
+    "spAttack": 98,
+    "spDefence": 63,
+    "speed": 101
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "くいしんぼう","abilityEffect": "きのみを通常より早いタイミングで使う。", "hidden": false},{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["513", "514"]
+}

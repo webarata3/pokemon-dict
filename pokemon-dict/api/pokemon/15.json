@@ -1,0 +1,22 @@
+{
+  "no": 15,
+  "form": null,
+  "name": "スピアー",
+  "formName": null,
+  "status": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 40,
+    "spAttack": 45,
+    "spDefence": 80,
+    "speed": 75
+  },
+  "type": [{ "typeId": 12,
+  "typeName": "むし"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "むしのしらせ","abilityEffect": "HPが1/3以下になると、むしタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "スナイパー","abilityEffect": "急所に当てたときのダメージが2.25倍になる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["13", "14", "15"]
+}

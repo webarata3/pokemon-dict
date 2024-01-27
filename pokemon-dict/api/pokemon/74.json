@@ -1,0 +1,22 @@
+{
+  "no": 74,
+  "form": null,
+  "name": "イシツブテ",
+  "formName": null,
+  "status": {
+    "hp": 40,
+    "attack": 80,
+    "defence": 100,
+    "spAttack": 30,
+    "spDefence": 30,
+    "speed": 20
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "いしあたま","abilityEffect": "反動技を使用してもダメージを受けない。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "すながくれ","abilityEffect": "すなあらし状態なら回避率が1.25倍になる。 すなあらしのフィールドで野生ポケモンと出会いにくくなる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["74", "75", "76"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 590,
+  "form": null,
+  "name": "タマゲタケ",
+  "formName": null,
+  "status": {
+    "hp": 69,
+    "attack": 55,
+    "defence": 45,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 15
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+,{ "typeId": 8,
+  "typeName": "どく"}
+],
+  "ability": [{ "abilityName": "ほうし","abilityEffect": "直接攻撃を受けたとき、相手をどく・まひ・ねむり状態にすることがある。", "hidden": false},{ "abilityName": "さいせいりょく","abilityEffect": "手持ちに戻るとHPが1/3回復する。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["590", "591"]
+}

@@ -1,0 +1,20 @@
+{
+  "no": 982,
+  "form": null,
+  "name": "ノココッチ",
+  "formName": null,
+  "status": {
+    "hp": 125,
+    "attack": 100,
+    "defence": 80,
+    "spAttack": 85,
+    "spDefence": 75,
+    "speed": 55
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "てんのめぐみ","abilityEffect": "追加効果の出る確率が2倍になる。", "hidden": false},{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "びびり","abilityEffect": "ゴースト・むし・あくタイプの攻撃を受けるとすばやさが1段階上がる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["206", "982"]
+}

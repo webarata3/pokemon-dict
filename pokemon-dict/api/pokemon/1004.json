@@ -1,0 +1,22 @@
+{
+  "no": 1004,
+  "form": null,
+  "name": "イーユイ",
+  "formName": null,
+  "status": {
+    "hp": 55,
+    "attack": 80,
+    "defence": 80,
+    "spAttack": 135,
+    "spDefence": 120,
+    "speed": 100
+  },
+  "type": [{ "typeId": 16,
+  "typeName": "あく"}
+,{ "typeId": 2,
+  "typeName": "ほのお"}
+],
+  "ability": [{ "abilityName": "わざわいのたま","abilityEffect": "この特性のポケモン以外全員のとくぼうが3/4倍になる。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["1004"]
+}

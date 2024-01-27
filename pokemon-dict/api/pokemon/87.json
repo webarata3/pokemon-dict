@@ -1,0 +1,22 @@
+{
+  "no": 87,
+  "form": null,
+  "name": "ジュゴン",
+  "formName": null,
+  "status": {
+    "hp": 90,
+    "attack": 70,
+    "defence": 80,
+    "spAttack": 70,
+    "spDefence": 95,
+    "speed": 70
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 6,
+  "typeName": "こおり"}
+],
+  "ability": [{ "abilityName": "あついしぼう","abilityEffect": "自分がほのお・こおりわざを受ける時の相手のこうげき・とくこうを半減させる。", "hidden": false},{ "abilityName": "うるおいボディ","abilityEffect": "あめのとき、状態異常を治す。", "hidden": false},{ "abilityName": "アイスボディ","abilityEffect": "あられ/ゆきのとき、HPが1/16回復する。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["86", "87"]
+}

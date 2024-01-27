@@ -1,0 +1,22 @@
+{
+  "no": 792,
+  "form": null,
+  "name": "ルナアーラ",
+  "formName": null,
+  "status": {
+    "hp": 137,
+    "attack": 113,
+    "defence": 89,
+    "spAttack": 137,
+    "spDefence": 107,
+    "speed": 97
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "ファントムガード","abilityEffect": "HPが満タンのとき、受けるダメージが半減する。", "hidden": false}],
+  "regionId": 7,
+  "evolution": ["789", "790", "791", "792"]
+}

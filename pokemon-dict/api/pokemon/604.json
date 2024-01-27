@@ -1,0 +1,20 @@
+{
+  "no": 604,
+  "form": null,
+  "name": "シビルドン",
+  "formName": null,
+  "status": {
+    "hp": 85,
+    "attack": 115,
+    "defence": 80,
+    "spAttack": 105,
+    "spDefence": 80,
+    "speed": 50
+  },
+  "type": [{ "typeId": 5,
+  "typeName": "でんき"}
+],
+  "ability": [{ "abilityName": "ふゆう","abilityEffect": "地面にいない状態になる。", "hidden": false}],
+  "regionId": 5,
+  "evolution": ["602", "603", "604"]
+}

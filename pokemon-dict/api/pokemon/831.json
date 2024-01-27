@@ -1,0 +1,20 @@
+{
+  "no": 831,
+  "form": null,
+  "name": "ウールー",
+  "formName": null,
+  "status": {
+    "hp": 42,
+    "attack": 40,
+    "defence": 55,
+    "spAttack": 40,
+    "spDefence": 45,
+    "speed": 48
+  },
+  "type": [{ "typeId": 1,
+  "typeName": "ノーマル"}
+],
+  "ability": [{ "abilityName": "もふもふ","abilityEffect": "受ける直接攻撃のダメージが0.5倍、ほのおわざのダメージが2倍になる。", "hidden": false},{ "abilityName": "にげあし","abilityEffect": "野生ポケモンから必ず逃げられる。", "hidden": false},{ "abilityName": "ぼうだん","abilityEffect": "砲弾系のわざを無効化する。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["831", "832"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 949,
+  "form": null,
+  "name": "リククラゲ",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 65,
+    "spAttack": 80,
+    "spDefence": 120,
+    "speed": 100
+  },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "きんしのちから","abilityEffect": "変化技を使用するとき、同じ優先度の中で最後に行動するが、相手の特性を無視する。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["948", "949"]
+}

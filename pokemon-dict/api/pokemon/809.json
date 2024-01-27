@@ -1,0 +1,20 @@
+{
+  "no": 809,
+  "form": null,
+  "name": "メルメタル",
+  "formName": null,
+  "status": {
+    "hp": 135,
+    "attack": 143,
+    "defence": 143,
+    "spAttack": 80,
+    "spDefence": 65,
+    "speed": 34
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false}],
+  "regionId": 8,
+  "evolution": ["808", "809"]
+}

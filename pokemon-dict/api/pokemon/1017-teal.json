@@ -1,0 +1,20 @@
+{
+  "no": 1017,
+  "form": "teal",
+  "name": "オーガポン",
+  "formName": "みどりのめん",
+  "status": {
+    "hp": 80,
+    "attack": 120,
+    "defence": 84,
+    "spAttack": 60,
+    "spDefence": 96,
+    "speed": 110
+  },
+  "type": [{ "typeId": 4,
+  "typeName": "くさ"}
+],
+  "ability": [{ "abilityName": "おもかげやどし","abilityEffect": "『みどりのめん』の時は『すばやさ』ランク、『かまどのめん』の時は『こうげき』ランク、『いどのめん』の時は『とくぼう』ランク、『いしずえのめん』の時は『ぼうぎょ』ランクが1段階上がる。(『へんしん』状態ではテラスタルできず、テラスタル状態のオーガポンを『へんしん』することはできない。また「おめん」を持たせると、道具の効果によりすべての技の威力が1.2倍になる)", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["1017-teal", "1017-wellspring", "1017-hearthflame", "1017-cornerstone"]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "regionId": 1,
+    "regionName": "カントー",
+    "softwareMain": "赤緑",
+    "softwareSub": "青黃"
+  },
+  {
+    "regionId": 2,
+    "regionName": "ジョウト",
+    "softwareMain": "金銀",
+    "softwareSub": "クリスタル"
+  },
+  {
+    "regionId": 3,
+    "regionName": "ホウエン",
+    "softwareMain": "RS",
+    "softwareSub": "E"
+  },
+  {
+    "regionId": 4,
+    "regionName": "シンオウ",
+    "softwareMain": "DP",
+    "softwareSub": "Pt"
+  },
+  {
+    "regionId": 5,
+    "regionName": "イッシュ",
+    "softwareMain": "BW",
+    "softwareSub": "B2W2"
+  },
+  {
+    "regionId": 6,
+    "regionName": "カロス",
+    "softwareMain": "XY"
+  },
+  {
+    "regionId": 7,
+    "regionName": "アローラ",
+    "softwareMain": "SM",
+    "softwareSub": "USUM"
+  },
+  {
+    "regionId": 8,
+    "regionName": "ガラル",
+    "softwareMain": "剣盾",
+    "softwareSub": null
+  },
+  {
+    "regionId": 9,
+    "regionName": "ヒスイ",
+    "softwareMain": "アルセウス",
+    "softwareSub": null
+  },
+  {
+    "regionId": 10,
+    "regionName": "パルデア",
+    "softwareMain": "SV",
+    "softwareSub": null
+  }
+]

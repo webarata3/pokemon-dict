@@ -1,0 +1,22 @@
+{
+  "no": 303,
+  "form": null,
+  "name": "クチート",
+  "formName": null,
+  "status": {
+    "hp": 50,
+    "attack": 85,
+    "defence": 85,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 50
+  },
+  "type": [{ "typeId": 17,
+  "typeName": "はがね"}
+,{ "typeId": 18,
+  "typeName": "フェアリー"}
+],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "いかく","abilityEffect": "場に出たときに、相手のこうげきを1段階下げる。 レベルの低いポケモンの出現率が下がる。", "hidden": false},{ "abilityName": "ちからずく","abilityEffect": "わざの追加効果が出なくなり、そのわざの威力が1.3倍に上がる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["303"]
+}

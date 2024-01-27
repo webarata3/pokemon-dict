@@ -1,0 +1,22 @@
+{
+  "no": 866,
+  "form": null,
+  "name": "バリコオル",
+  "formName": null,
+  "status": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 75,
+    "spAttack": 110,
+    "spDefence": 100,
+    "speed": 70
+  },
+  "type": [{ "typeId": 6,
+  "typeName": "こおり"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "ちどりあし","abilityEffect": "こんらんのとき、回避率が2倍になる。", "hidden": false},{ "abilityName": "バリアフリー","abilityEffect": "場に出たときお互いの壁を解除する。", "hidden": false},{ "abilityName": "アイスボディ","abilityEffect": "あられ/ゆきのとき、HPが1/16回復する。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["122-galar", "866"]
+}

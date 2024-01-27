@@ -1,0 +1,22 @@
+{
+  "no": 834,
+  "form": null,
+  "name": "カジリガメ",
+  "formName": null,
+  "status": {
+    "hp": 90,
+    "attack": 115,
+    "defence": 90,
+    "spAttack": 48,
+    "spDefence": 68,
+    "speed": 74
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+,{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [{ "abilityName": "がんじょうあご","abilityEffect": "かみつきわざの威力が1.5倍になる。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "すいすい","abilityEffect": "あめのとき、すばやさが2倍になる。", "hidden": true}],
+  "regionId": 8,
+  "evolution": ["833", "834"]
+}

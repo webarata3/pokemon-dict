@@ -1,0 +1,22 @@
+{
+  "no": 95,
+  "form": null,
+  "name": "イワーク",
+  "formName": null,
+  "status": {
+    "hp": 35,
+    "attack": 45,
+    "defence": 160,
+    "spAttack": 30,
+    "spDefence": 45,
+    "speed": 70
+  },
+  "type": [{ "typeId": 13,
+  "typeName": "いわ"}
+,{ "typeId": 9,
+  "typeName": "じめん"}
+],
+  "ability": [{ "abilityName": "いしあたま","abilityEffect": "反動技を使用してもダメージを受けない。", "hidden": false},{ "abilityName": "がんじょう","abilityEffect": "一撃必殺技が効かない。 HPが満タンならば一撃でひんしになるダメージでもHP1で持ちこたえる。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": true}],
+  "regionId": 1,
+  "evolution": ["95", "208"]
+}

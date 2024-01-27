@@ -1,0 +1,20 @@
+{
+  "no": 341,
+  "form": null,
+  "name": "ヘイガニ",
+  "formName": null,
+  "status": {
+    "hp": 43,
+    "attack": 80,
+    "defence": 65,
+    "spAttack": 50,
+    "spDefence": 35,
+    "speed": 35
+  },
+  "type": [{ "typeId": 3,
+  "typeName": "みず"}
+],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "シェルアーマー","abilityEffect": "相手の攻撃が急所に当たらない。", "hidden": false},{ "abilityName": "てきおうりょく","abilityEffect": "タイプ一致のダメージ補正が1.5倍から2倍になる。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["341", "342"]
+}

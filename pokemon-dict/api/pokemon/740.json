@@ -1,0 +1,22 @@
+{
+  "no": 740,
+  "form": null,
+  "name": "ケケンカニ",
+  "formName": null,
+  "status": {
+    "hp": 97,
+    "attack": 132,
+    "defence": 77,
+    "spAttack": 62,
+    "spDefence": 67,
+    "speed": 43
+  },
+  "type": [{ "typeId": 7,
+  "typeName": "かくとう"}
+,{ "typeId": 6,
+  "typeName": "こおり"}
+],
+  "ability": [{ "abilityName": "かいりきバサミ","abilityEffect": "相手からこうげきを下げられない。", "hidden": false},{ "abilityName": "てつのこぶし","abilityEffect": "パンチわざの威力が1.2倍になる。", "hidden": false},{ "abilityName": "いかりのつぼ","abilityEffect": "急所に当たると、攻撃が最大まで上がる。", "hidden": true}],
+  "regionId": 7,
+  "evolution": ["739", "740"]
+}

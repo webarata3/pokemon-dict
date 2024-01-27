@@ -1,0 +1,22 @@
+{
+  "no": 990,
+  "form": null,
+  "name": "テツノワダチ",
+  "formName": null,
+  "status": {
+    "hp": 90,
+    "attack": 112,
+    "defence": 120,
+    "spAttack": 72,
+    "spDefence": 70,
+    "speed": 106
+  },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 17,
+  "typeName": "はがね"}
+],
+  "ability": [{ "abilityName": "クォークチャージ","abilityEffect": "場がエレキフィールド状態か、ブーストエナジーを持っているとき、自分の最も高い能力が上がる。", "hidden": false}],
+  "regionId": 10,
+  "evolution": ["990"]
+}

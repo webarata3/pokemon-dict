@@ -1,0 +1,22 @@
+{
+  "no": 655,
+  "form": null,
+  "name": "マフォクシー",
+  "formName": null,
+  "status": {
+    "hp": 75,
+    "attack": 69,
+    "defence": 72,
+    "spAttack": 114,
+    "spDefence": 100,
+    "speed": 104
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "もうか","abilityEffect": "HPが1/3以下になると、ほのおタイプのわざで攻撃するときのこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "マジシャン","abilityEffect": "攻撃を当てたとき、相手の持ち物を奪う。", "hidden": true}],
+  "regionId": 6,
+  "evolution": ["653", "654", "655"]
+}

@@ -1,0 +1,22 @@
+{
+  "no": 464,
+  "form": null,
+  "name": "ドサイドン",
+  "formName": null,
+  "status": {
+    "hp": 115,
+    "attack": 140,
+    "defence": 130,
+    "spAttack": 55,
+    "spDefence": 55,
+    "speed": 40
+  },
+  "type": [{ "typeId": 9,
+  "typeName": "じめん"}
+,{ "typeId": 13,
+  "typeName": "いわ"}
+],
+  "ability": [{ "abilityName": "ひらいしん","abilityEffect": "でんきわざの対象を自分にし、無効化してとくこうを1段階上げる。", "hidden": false},{ "abilityName": "ハードロック","abilityEffect": "受ける効果抜群のわざのダメージが0.75倍になる。", "hidden": false},{ "abilityName": "すてみ","abilityEffect": "反動を受けるわざなどの威力が1.2倍になる。", "hidden": true}],
+  "regionId": 4,
+  "evolution": ["111", "112", "464"]
+}

@@ -1,0 +1,15 @@
+{
+  "no": 646,
+  "form": "black",
+  "name": "キュレム",
+  "formName": "ブラックキュレム",
+  "status": {
+    "hp": 125,
+    "attack": 170,
+    "defence": 100,
+    "spAttack": 120,
+    "spDefence": 90,
+    "speed": 95
+  },
+  "evolution": [646-black]
+}

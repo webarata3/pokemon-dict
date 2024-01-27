@@ -1,0 +1,20 @@
+{
+  "no": 360,
+  "form": null,
+  "name": "ソーナノ",
+  "formName": null,
+  "status": {
+    "hp": 95,
+    "attack": 23,
+    "defence": 48,
+    "spAttack": 23,
+    "spDefence": 48,
+    "speed": 23
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "かげふみ","abilityEffect": "相手を逃げられなくする。", "hidden": false},{ "abilityName": "テレパシー","abilityEffect": "味方からの攻撃を無効化する。", "hidden": true}],
+  "regionId": 3,
+  "evolution": ["360", "202"]
+}

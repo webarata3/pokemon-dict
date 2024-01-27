@@ -1,0 +1,22 @@
+{
+  "no": 937,
+  "form": null,
+  "name": "ソウブレイズ",
+  "formName": null,
+  "status": {
+    "hp": 75,
+    "attack": 125,
+    "defence": 80,
+    "spAttack": 60,
+    "spDefence": 100,
+    "speed": 85
+  },
+  "type": [{ "typeId": 2,
+  "typeName": "ほのお"}
+,{ "typeId": 14,
+  "typeName": "ゴースト"}
+],
+  "ability": [{ "abilityName": "もらいび","abilityEffect": "ほのおタイプのわざを無効化し、その後自分がほのおわざを使う時のこうげき・とくこうが1.5倍になる。", "hidden": false},{ "abilityName": "くだけるよろい","abilityEffect": "物理技を受けると、ぼうぎょが1段階下がりすばやさが2段階上がる。", "hidden": true}],
+  "regionId": 10,
+  "evolution": ["935", "936", "937"]
+}

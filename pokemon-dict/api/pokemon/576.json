@@ -1,0 +1,20 @@
+{
+  "no": 576,
+  "form": null,
+  "name": "ゴチルゼル",
+  "formName": null,
+  "status": {
+    "hp": 70,
+    "attack": 55,
+    "defence": 95,
+    "spAttack": 95,
+    "spDefence": 110,
+    "speed": 65
+  },
+  "type": [{ "typeId": 11,
+  "typeName": "エスパー"}
+],
+  "ability": [{ "abilityName": "おみとおし","abilityEffect": "相手の持ち物が分かる。", "hidden": false},{ "abilityName": "かちき","abilityEffect": "敵から能力を下げられたとき、とくこうが2段階上がる。", "hidden": false},{ "abilityName": "かげふみ","abilityEffect": "相手を逃げられなくする。", "hidden": true}],
+  "regionId": 5,
+  "evolution": ["574", "575", "576"]
+}
