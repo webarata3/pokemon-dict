@@ -1,5 +1,3 @@
-/public/image/pokemon/
-/public/image/thumbs/
-/public/image/type/
-/main/public/image/pokemon/
-/node_modules/
+/pokemon-dict/public/image/pokemon/
+/pokemon-dict/public/image/type/
+node_modules/
