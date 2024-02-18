@@ -46,6 +46,10 @@ const Home = ({
         className={`grid grid-cols-[290px_500px_600px] grid-rows-[160px_240px_440px] gap-2 ${kosugiMaru.className}`}
       >
         <Toc pokemonTocs={param.pokemonTocs} regions={param.regions} no={null} form={null} />
+        <section className="p-2 text-2xl">
+          <p>見たいポケモンを選ぶロト！</p>
+          <p>ポケモンの地方を選択したり、名前で検索もできるロト！</p>
+        </section>
       </main>
     </>
   );
