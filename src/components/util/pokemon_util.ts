@@ -1,3 +1,4 @@
+import { getPublicPath } from './get-public-path';
 import { NatureCorrection, ThreeStats } from './type';
 
 const getPokemonId = (no: number, form: string | null): string =>
@@ -7,9 +8,11 @@ const getPokemonUrl = (no: number, form: string | null): string =>
   `/${String(no).padStart(4, '0')}${form === null ? '' : '/' + form}`;
 
 const getPokemonImgUrl = (no: number, form: string | null): string =>
-  `/image/pokemon/${String(no).padStart(4, '0')}${form == null ? '' : '-' + form}.webp`;
+  getPublicPath(
+    `/image/pokemon/${String(no).padStart(4, '0')}${form == null ? '' : '-' + form}.webp`,
+  );
 
-const getTypeImage = (typeId: number): string => `/image/type/${typeId}.svg`;
+const getTypeImage = (typeId: number): string => getPublicPath(`/image/type/${typeId}.svg`);
 
 const natureCorrectionMap = new Map<NatureCorrection, number>();
 natureCorrectionMap.set(NatureCorrection.Good, 1.1);

@@ -4,6 +4,7 @@ import { PokemonToc, Region } from '@/components/util/type';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react';
+import { getPublicPath } from './util/get-public-path';
 import { getPokemonImgUrl } from './util/pokemon_util';
 import { normalizeKana } from './util/string_util';
 
@@ -95,7 +96,12 @@ const Toc = ({ pokemonTocs, regions, no, form }: Props): React.ReactElement => {
   return (
     <div className="m-0 col-start-1 col-end-2 row-start-1 row-end-4 flex flex-col border border-nutral-300">
       <Link href="/">
-        <Image src="/image/zukan.webp" alt="図鑑のイメージ" width={364} height={233} />
+        <Image
+          src={`${getPublicPath('/image/zukan.webp')}`}
+          alt="図鑑のイメージ"
+          width={364}
+          height={233}
+        />
       </Link>
       {viewRegions()}
       <div className="pokemon__search-input">
