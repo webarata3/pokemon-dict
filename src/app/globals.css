@@ -31,6 +31,10 @@
   }
 }
 
+.speech-bubble {
+  @apply relative inline-block my-1 ml-[15px] p-2 text-black border-2 border-bluemin bg-bluemin rounded-2xl before:content-[''] before:absolute before:border-[12px] before:border-transparent before:border-r-bluemin before:top-[calc(50%_-_0.5rem)] before:left-[-24px];
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
